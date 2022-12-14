@@ -1,0 +1,162 @@
+body{    
+    margin: 0px;
+}
+header{
+    margin:auto;
+    height: 200px;
+    background-color: rgb(205, 234, 244); 
+}
+.cabecera{
+    width: 720px;
+    margin:auto;
+}
+#logo_congreso{
+    padding-top: 60px;
+    transform: rotate(-20deg);
+    width: 140px;
+}
+.titulos{
+    float:right;
+    width: 500px;
+    height: 200px;
+    text-align: right;
+}
+h1{
+    color: gray;
+    font-size: 35px;
+}
+h2{
+    color: black;
+    font-size: 15px;
+}
+nav{
+    background-color: rgb(20, 67, 87);
+    height: 30px;
+    text-align: center;
+}
+.barra_nav{
+    padding-top: 4px;
+    margin:auto;
+    width: 720px;
+    list-style: none;
+}
+.element_barra_nav{
+    display: inline;
+    padding-left: 10px;
+}
+.href_barra_nav{
+    color: rgb(226,188,54);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: fantasy;
+}
+.href_barra_nav_select{
+    color: rgb(226,188,54);
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: fantasy;
+}
+.href_barra_nav:hover, .href_barra_nav_select:hover{
+    background-color:grey;
+}
+main{
+    margin:0;   
+}
+h3.index{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+h3.prog{
+    padding-top: 20px;
+    font-size: 40px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bg_blanco1{
+    margin:auto;
+    width: 720px;
+    height:250px;
+}
+.texto{
+    padding-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 340px;
+}
+.avif{
+    float:right;
+    width: 340px;
+}
+.bg_azul{
+    height: 300px;
+    background-color: rgb(102, 141, 159);
+}
+.div_azul{
+    margin:auto;
+    width: 720px;
+}
+.div_azul_izq{
+    float:left;
+    width: 340px;
+}
+.div_azul_der{
+    float: right;
+    width: 340px;
+}
+h4.index{
+    border-bottom:dotted yellow;
+    font-size: 25px;
+    font-style: italic;
+}
+h5.index{
+    font-size: 18px;
+}
+.bg_blanco2{
+    margin:auto;
+    width: 720px;
+    height:450px;
+}
+.div_eventos{
+    margin:auto;
+    float:left;
+    width: 240px;
+    text-align: center;
+}
+.evento{
+    width: 230px;
+    height: 130px;
+}
+div.prog{
+    margin:auto;
+    width: 800px;
+}
+ul.dias{
+    list-style: none;
+    padding: 0px;
+}
+li.dia{
+    display: inline-block;
+    padding-right: 85px;
+    font-family: fantasy;
+}
+ol.horas{
+    padding: 0px;
+    list-style: none;
+}
+li.hora{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0;
+}
+.negrita{
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    margin:auto;
+    padding-top: 18px;
+    color: white;
+    width: 720px;
+    height: 100px;
+}
