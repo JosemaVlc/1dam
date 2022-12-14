@@ -1,130 +1,115 @@
 body{    
     margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, 'Courier New';
 }
 header{
-    margin:auto;
-    height: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(205, 234, 244); 
 }
-.cabecera{
-    width: 720px;
-    margin:auto;
-}
 #logo_congreso{
-    padding-top: 60px;
     transform: rotate(-20deg);
-    width: 140px;
+    width: 150px;
 }
 .titulos{
-    float:right;
-    width: 500px;
-    height: 200px;
+    width: 550px;
     text-align: right;
 }
 h1{
+    font-family:serif;
     color: gray;
     font-size: 35px;
 }
-h2{
-    color: black;
-    font-size: 15px;
+.titulos > p{
+    font-size: 10px;
+    font-weight: bold;
 }
 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(20, 67, 87);
-    height: 30px;
-    text-align: center;
 }
-.barra_nav{
-    padding-top: 4px;
-    margin:auto;
-    width: 720px;
+nav > ul{
     list-style: none;
 }
-.element_barra_nav{
+nav > ul > li{
     display: inline;
     padding-left: 10px;
 }
-.href_barra_nav{
+nav > ul > li > a{
     color: rgb(226,188,54);
     text-decoration: none;
     font-size: 18px;
     font-family: fantasy;
 }
-.href_barra_nav_select{
+.a_select{
     color: rgb(226,188,54);
     text-decoration: underline;
     font-size: 18px;
     font-family: fantasy;
 }
-.href_barra_nav:hover, .href_barra_nav_select:hover{
+nav > ul > li > a:hover, .a_select:hover{
     background-color:grey;
 }
-main{
-    margin:0;   
-}
-h3.index{
-    font-size: 25px;
+h2.index{
+    padding-top: 20px;
+    font-size: 22px;
     font-style: italic;
     text-align: center;
 }
-h3.prog{
-    padding-top: 20px;
-    font-size: 40px; 
-    font-family:Arial, Helvetica, sans-serif;
+.bg_blanco > div{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.bg_blanco1{
-    margin:auto;
-    width: 720px;
-    height:250px;
-}
-.texto{
-    padding-top: 10px;
+.bg_blanco > div > p{
+    padding-right: 20px;
+    width: 400px;
     text-align: justify;
     text-justify: inter-word;
-    width: 340px;
 }
 .avif{
-    float:right;
-    width: 340px;
+    width: 300px;
 }
 .bg_azul{
-    height: 300px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(102, 141, 159);
+    font-size: 11px;
+    line-height: 25px;
 }
-.div_azul{
-    margin:auto;
-    width: 720px;
+.bg_azul > div{
+    width: 350px;
+    padding: 10px;
 }
-.div_azul_izq{
-    float:left;
-    width: 340px;
-}
-.div_azul_der{
-    float: right;
-    width: 340px;
-}
-h4.index{
+h3.index{
     border-bottom:dotted yellow;
-    font-size: 25px;
+    font-size: 21px;
     font-style: italic;
 }
-h5.index{
-    font-size: 18px;
-}
-.bg_blanco2{
-    margin:auto;
-    width: 720px;
-    height:450px;
+h4.index{
+    font-size: 15px;
 }
 .div_eventos{
-    margin:auto;
-    float:left;
-    width: 240px;
     text-align: center;
+}
+.div_eventos > div{
+    padding-left: 15px;
+}
+.div_eventos > div > p{
+    width: 230px;
+    height: 20px;
+    font-size: 11px;
+
 }
 .evento{
     width: 230px;
-    height: 130px;
+    height: 100px;
 }
 div.prog{
     margin:auto;
@@ -151,12 +136,14 @@ li.hora{
     font-weight: bold;
 }
 footer{
+    display: flex;
+    justify-content: center;
     background-color: black;
-}
-.footer{
-    margin:auto;
-    padding-top: 18px;
     color: white;
-    width: 720px;
-    height: 100px;
+    font-size: 10px;
+}
+footer > p{
+    width: 700px;
+    text-align: left;
+    line-height: 25px;
 }
