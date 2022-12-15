@@ -61,6 +61,38 @@ h2.index{
     font-style: italic;
     text-align: center;
 }
+h2.prog{
+    text-align: center; 
+}
+.tabla > div{
+    margin: auto;
+    width: 1070px;
+}
+.tabla > div > p{
+    color: white;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(12, 49, 66);
+}
+#programa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+tr:nth-child(even){
+    background: white;
+}
+tr:nth-child(odd){
+    background: rgb(239, 122, 123);
+}
+#ultima_linea{
+    text-align: center;
+    background-color: rgb(252, 62, 70);
+}
+th{
+    text-align: left;
+    background-color: rgb(252, 62, 70);
+}
 .bg_blanco > div{
     padding-bottom: 20px;
     display: flex;
