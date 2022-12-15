@@ -61,12 +61,21 @@ h2.index{
     font-style: italic;
     text-align: center;
 }
-h2.prog{
-    text-align: center; 
+.tabla > h2{
+    text-align: center;
+    padding-top: 20px; 
+    font-size: 22px;
+}
+.prog > h2{
+    font-size: 22px;
+}
+.table{
+    text-align: center;
 }
 .tabla > div{
+    padding-bottom: 50px;
     margin: auto;
-    width: 1070px;
+    width: 780px;
 }
 .tabla > div > p{
     color: white;
@@ -74,10 +83,12 @@ h2.prog{
     text-align: center;
     background-color: rgb(12, 49, 66);
 }
-#programa{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+tr{
+    font-size: 11px;
+}
+td{
+    padding: 5px;
+    font-size: 11px;
 }
 tr:nth-child(even){
     background: white;
@@ -86,6 +97,7 @@ tr:nth-child(odd){
     background: rgb(239, 122, 123);
 }
 #ultima_linea{
+    font-size: 12px;
     text-align: center;
     background-color: rgb(252, 62, 70);
 }
@@ -152,17 +164,18 @@ ul.dias{
     padding: 0px;
 }
 li.dia{
+    padding-right: 70px;
+    font-size: 18px;
     display: inline-block;
-    padding-right: 85px;
     font-family: fantasy;
 }
 ol.horas{
-    padding: 0px;
+    padding-left: 0px;
     list-style: none;
 }
 li.hora{
+    font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 10px 0;
 }
 .negrita{
     font-weight: bold;
@@ -175,7 +188,7 @@ footer{
     font-size: 10px;
 }
 footer > p{
-    width: 700px;
+    width: 750px;
     text-align: left;
     line-height: 25px;
 }
