@@ -30,11 +30,45 @@
     <main>
         <section class="tabla">
             <form action="GET">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre"><br>
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido"><br>
-                
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    <label for="mail">Correo electronico</label>
+                    <input type="email" id="mail" name="email"><br>
+                    <label for="tlf">Telefono</label>
+                    <input type="tel" id="tlf" name="tlf"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Perfil de usuario</legend>
+                    <textarea name="motivos" rows="10" cols="30">Escribe una breve explicación de los motivos por los cuales estás interesado en participar en las jornadas.</textarea><br>
+                    <label for="sector">Actividad profesional</label>
+                    <select name="sector" id="sector" size="1">
+                        <option value="bachiller">Estudiante bachillerato</option>
+                        <option value="universitario">Estudiante universitario</option>
+                        <option value="doctorado">Doctorado</option>
+                        <option value="informatico">Profesional informatico</option>
+                        <option value="profesor">Profesor</option>
+                        <option value="otro">Otros</option>
+                    </select>
+                    <p>Selecciona el taller o talleres en los que estás interesado en participar:</p>
+                    <p>11 de Marzo</p>
+                    <input type="checkbox" name="inaugural" id="inaugural">
+                    <label for="inaugural">Conferencia inaugural por Pepa Bueno</label><br>
+                    <input type="checkbox" name="periodismodesenfocado" id="periodismodesenfocado">
+                    <label for="periodismo">Mesa de debate: "Enfocar en la era del periodismo desenfocado" por Jordi Évole</label><br>
+                    <input type="checkbox" name="periodismosocial" id="periodismosocial">
+                    <label for="periodismosocial">De la más dura realidad a la ficción. Periodismo social y literatura por Antonio García Ferreras</label><br>
+                    <input type="checkbox" name="fotoperiodismo" id="fotoperiodismo">
+                    <label for="fotoperiodismo">Los retos del fotoperiodismo en el mundo actual por Gervasio Fernández</label><br>
+                    <p>12 de Marzo</p>
+                    <input type="checkbox" name="corresponsal" id="corresponsal">
+                    <label for="corresponsal">Historias de un corresponsal por Lorenzo Milá</label><br>
+                    <input type="checkbox" name="informativos" id="informativos">
+                    <label for="informativos">Informativos en TV: ¿reinvención o extinción? por Matías Prats</label><br>
+                </fieldset>
 
             </form>
         </section>
