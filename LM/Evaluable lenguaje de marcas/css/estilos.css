@@ -15,13 +15,13 @@ header{
     width: 150px;
 }
 .titulos{
-    width: 550px;
+    width: 600px;
     text-align: right;
 }
 h1{
     font-family:serif;
     color: gray;
-    font-size: 35px;
+    font-size: 40px;
 }
 .titulos > p{
     font-size: 10px;
@@ -53,7 +53,8 @@ nav > ul > li > a{
     font-family: fantasy;
 }
 nav > ul > li > a:hover, .a_select:hover{
-    background-color:grey;
+    background-color:black;
+    color:white;
 }
 h2.index{
     padding-top: 20px;
@@ -73,9 +74,8 @@ h2.index{
     text-align: center;
 }
 .tabla > div{
-    padding-bottom: 50px;
-    margin: auto;
-    width: 780px;
+    margin: 20px auto;
+    width: 850px;
 }
 .tabla > div > p{
     color: white;
@@ -83,11 +83,14 @@ h2.index{
     text-align: center;
     background-color: rgb(12, 49, 66);
 }
+.tabla > div > table{
+    margin: auto;
+}
 tr{
     font-size: 11px;
 }
 td{
-    padding: 5px;
+    padding-right: 23px;
     font-size: 11px;
 }
 tr:nth-child(even){
@@ -113,22 +116,23 @@ th{
 }
 .bg_blanco > div > p{
     padding-right: 20px;
-    width: 400px;
+    width: 420px;
     text-align: justify;
     text-justify: inter-word;
+    line-height: 20px;
 }
 .avif{
-    width: 300px;
+    width: 380px;
 }
 .bg_azul{
     display: flex;
     justify-content: center;
     background-color: rgb(102, 141, 159);
     font-size: 11px;
-    line-height: 25px;
+    line-height: 20px;
 }
 .bg_azul > div{
-    width: 350px;
+    width: 400px;
     padding: 10px;
 }
 h3.index{
@@ -142,22 +146,19 @@ h4.index{
 .div_eventos{
     text-align: center;
 }
-.div_eventos > div{
-    padding-left: 15px;
-}
 .div_eventos > div > p{
-    width: 230px;
+    width: 275px;
     height: 20px;
-    font-size: 11px;
+    font-size: 13px;
 
 }
 .evento{
-    width: 230px;
-    height: 100px;
+    width: 240px;
+    height: 120px;
 }
 div.prog{
     margin:auto;
-    width: 800px;
+    width: 850px;
 }
 ul.dias{
     list-style: none;
@@ -165,7 +166,7 @@ ul.dias{
 }
 li.dia{
     padding-right: 70px;
-    font-size: 18px;
+    font-size: 20px;
     display: inline-block;
     font-family: fantasy;
 }
@@ -174,11 +175,64 @@ ol.horas{
     list-style: none;
 }
 li.hora{
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
 }
 .negrita{
     font-weight: bold;
+}
+.ins_taller{
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+}
+.ins_taller > li{
+    margin: 0 5px;
+    width: 250px;
+}
+input{
+    margin: 8px 0;
+}
+.ins_taller > li > label{
+    width: 220px;
+    display: inline-flex;
+    justify-items: top;
+    font-weight: 1;
+}
+form{
+    margin: auto;
+    width: 850px;
+}
+form > div{
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    background-color: rgb(205, 234, 244);
+    margin-bottom: 30px;
+}
+div > fieldset{
+    width: 800px;
+    height: 50px;
+}
+legend{
+    color: white;
+    background-color: rgb(20, 67, 87);
+    font-size: 18px;
+}
+button{
+    height: 70px;
+    background-color:rgb(12, 49, 66);
+    color: rgb(226,188,54);
+    font-family: fantasy;
+    font-size: 40px;
+}
+button:hover{
+    background-color:black;
+    color: white;
+}
+.inscripcion{
+    padding: 20px;
 }
 footer{
     display: flex;
@@ -188,7 +242,7 @@ footer{
     font-size: 10px;
 }
 footer > p{
-    width: 750px;
+    width: 800px;
     text-align: left;
     line-height: 25px;
 }
