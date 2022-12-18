@@ -3,6 +3,25 @@ body{
     padding: 0px;
     font-family:Verdana, Geneva, 'Courier New';
 }
+h1{
+    font-family:serif;
+    color: gray;
+    font-size: 40px;
+}
+h2.index{
+    padding-top: 20px;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+}
+h3.index{
+    border-bottom:dotted yellow;
+    font-size: 21px;
+    font-style: italic;
+}
+h4.index{
+    font-size: 15px;
+}
 header{
     padding: 20px;
     display: flex;
@@ -10,20 +29,15 @@ header{
     justify-content: center;
     background-color: rgb(205, 234, 244); 
 }
-#logo_congreso{
+header > img{
     transform: rotate(-20deg);
     width: 150px;
 }
-.titulos{
+header > div{
     width: 600px;
     text-align: right;
 }
-h1{
-    font-family:serif;
-    color: gray;
-    font-size: 40px;
-}
-.titulos > p{
+header > div > p{
     font-size: 10px;
     font-weight: bold;
 }
@@ -55,12 +69,6 @@ nav > ul > li > a{
 nav > ul > li > a:hover, .a_select:hover{
     background-color:black;
     color:white;
-}
-h2.index{
-    padding-top: 20px;
-    font-size: 22px;
-    font-style: italic;
-    text-align: center;
 }
 .tabla > h2{
     text-align: center;
@@ -99,7 +107,7 @@ tr:nth-child(even){
 tr:nth-child(odd){
     background: rgb(239, 122, 123);
 }
-#ultima_linea{
+.ultima_linea{
     font-size: 12px;
     text-align: center;
     background-color: rgb(252, 62, 70);
@@ -125,23 +133,25 @@ th{
     width: 380px;
 }
 .bg_azul{
-    display: flex;
-    justify-content: center;
     background-color: rgb(102, 141, 159);
     font-size: 11px;
     line-height: 20px;
 }
-.bg_azul > div{
+.bg_azul > ul{
+    list-style: none;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+.bg_azul > ul > li{
+    display: inline;
+    padding: 0 10px;
     width: 400px;
-    padding: 10px;
+    font-size: 12px;
 }
-h3.index{
-    border-bottom:dotted yellow;
-    font-size: 21px;
-    font-style: italic;
-}
-h4.index{
-    font-size: 15px;
+.bg_azul > ul > li > ul{
+    padding: 0;
+    list-style: none;
 }
 .div_eventos{
     text-align: center;
@@ -150,13 +160,13 @@ h4.index{
     width: 275px;
     height: 20px;
     font-size: 13px;
-
 }
 .evento{
     width: 240px;
     height: 120px;
 }
 div.prog{
+    padding: 30px 0;
     margin:auto;
     width: 850px;
 }
@@ -171,11 +181,12 @@ li.dia{
     font-family: fantasy;
 }
 ol.horas{
-    padding-left: 0px;
+    padding: 15px 0px;
     list-style: none;
 }
 li.hora{
-    font-size: 14px;
+    font-size: 14px;    
+    padding: 5px 0px;
     font-family: 'Times New Roman', Times, serif;
 }
 .negrita{
