@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:ital,wght@1,700&family=Libre+Baskerville:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+/*
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+*/
 body{    
     margin: 0px;
     padding: 0px;
-    font-family:Verdana, Geneva, 'Courier New';
+    font-family: 'Open Sans', sans-serif, 20px;
 }
 h1{
     font-family:serif;
@@ -198,17 +205,21 @@ li.hora{
     display: inline-flex;
 }
 .ins_taller > li{
-    margin: 0 5px;
+    margin: 0px 10px;
     width: 250px;
 }
 input{
-    margin: 8px 0;
+    margin: 10px 0;
 }
 .ins_taller > li > label{
     width: 220px;
-    display: inline;
-    justify-items: top;
     font-weight: 1;
+}
+input:invalid, textarea:invalid{
+    background-color: rgb(255, 233, 233);
+}
+input:valid, textarea:valid{
+    background-color: rgb(222, 255, 233);
 }
 form{
     margin: auto;
