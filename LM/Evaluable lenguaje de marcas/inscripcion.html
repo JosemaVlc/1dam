@@ -34,9 +34,9 @@
                     <legend>Datos personales</legend>
                     <div>
                         <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="50" size="25" required pattern="[A-Z a-z]">
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="50" size="25" required pattern="[A-Za-z ]+">
                         <label for="apellido">Apellidos</label>
-                        <input type="text" id="apellidos" name="apellidos" minlength="2" maxlength="128" size="50" required><br>
+                        <input type="text" id="apellidos" name="apellidos" minlength="2" maxlength="128" size="50" required pattern="[A-Za-z ]+"><br>
                     </div>
                     <label for="mail">Correo electronico</label>
                     <input type="email" id="mail" name="email" pattern="[a-z0-9._-]+@[a-z0-9._-]+[.a-z]" size="50" required><br>
@@ -56,38 +56,71 @@
                         <option value="profesor">Profesor</option>
                         <option value="otro">Otros</option>
                     </select>
-                    <p>Selecciona el taller o talleres en los que estás interesado en participar:</p>
+                    <p>Marca los talleres a los que asistirás durante las jornadas:</p>
                     <ul class="ins_taller" aria-required="true">
                         <li><span class=negrita>11 de Marzo:</span><br>
-                            <input type="checkbox" name="inaugural" id="inaugural" >
                             <label for="inaugural">Conferencia inaugural por Pepa Bueno</label><br>
-                            <input type="checkbox" name="enfocado" id="enfocado">
+                            <input type="radio" name="inaugural" id="inauguralSI">
+                            <label for="inaugural">Si</label>
+                            <input type="radio" name="inaugural" id="inauguralNo" checked>
+                            <label for="inaugural">No</label><br><br>
+
                             <label for="enfocado">Mesa de debate: "Enfocar en la era del periodismo desenfocado" por Jordi Évole</label><br>
-                            <input type="checkbox" name="social" id="social">
+                            <input type="radio" name="enfocado" id="enfocadoSI">
+                            <label for="enfocado">Si</label>
+                            <input type="radio" name="enfocado" id="enfocadoNo" checked>
+                            <label for="enfocado">No</label><br><br>
+
                             <label for="social">De la más dura realidad a la ficción. Periodismo social y literatura por Antonio García Ferreras</label><br>
-                            <input type="checkbox" name="fotoperiodismo" id="fotoperiodismo">
+                            <input type="radio" name="social" id="socialSI">
+                            <label for="social">Si</label>
+                            <input type="radio" name="social" id="socialNo" checked>
+                            <label for="social">No</label><br><br>
+
                             <label for="fotoperiodismo">Los retos del fotoperiodismo en el mundo actual por Gervasio Fernández</label><br>
+                            <input type="radio" name="fotoperiodismo" id="fotoperiodismoSI">
+                            <label for="fotoperiodismo">Si</label>
+                            <input type="radio" name="fotoperiodismo" id="fotoperiodismoNo" checked>
+                            <label for="fotoperiodismo">No</label>
                         </li>
                         <li><span class=negrita>12 de Marzo:</span><br>
-                            <input type="checkbox" name="corresponsal" id="corresponsal">
                             <label for="corresponsal">Historias de un corresponsal por Lorenzo Milá</label><br>
-                            <input type="checkbox" name="informativos" id="informativos">
+                            <input type="radio" name="corresponsal" id="corresponsalSI">
+                            <label for="corresponsal">Si</label>
+                            <input type="radio" name="corresponsal" id="corresponsalNo" checked>
+                            <label for="corresponsal">No</label><br><br>
+
                             <label for="informativos">Informativos en TV: ¿reinvención o extinción? por Matías Prats</label><br>
+                            <input type="radio" name="informativos" id="informativosSI">
+                            <label for="informativos">Si</label>
+                            <input type="radio" name="informativos" id="informativosNo" checked>
+                            <label for="informativos">No</label>
                         </li>
                         <li><span class=negrita>13 de Marzo:</span><br>
-                            <input type="checkbox" name="territorio" id="territorio">
                             <label for="territorio">El periodismo del territorio por Pedro Piqueras</label><br>
-                            <input type="checkbox" name="guiso" id="guiso">
+                            <input type="radio" name="territorio" id="territorioSI">
+                            <label for="territorio">Si</label>
+                            <input type="radio" name="territorio" id="territorioNo" checked>
+                            <label for="territorio">No</label><br><br>
+
                             <label for="guiso">Yo me lo guiso, yo me lo como por Xavier Agulló</label><br>
-                            <input type="checkbox" name="rico" id="rico">
+                            <input type="radio" name="guiso" id="guisoSI">
+                            <label for="guiso">Si</label>
+                            <input type="radio" name="guiso" id="guisoNo" checked>
+                            <label for="guiso">No</label><br><br>
+
                             <label for="rico">Rico, rico y bien contado por López Iturriaga</label><br>
+                            <input type="radio" name="rico" id="ricoSI">
+                            <label for="rico">Si</label>
+                            <input type="radio" name="rico" id="ricoNo" checked>
+                            <label for="rico">No</label>
                         </li>
                     </ul>
                     <p>Selecciona el día que asistirás:</p>
                     <input type="radio" name="asistencia" id="dia11" checked>
-                    <label for="asistencia">Dia 11 de Marzo</label><br>
+                    <label for="asistencia">Dia 11 de Marzo</label>
                     <input type="radio" name="asistencia" id="dia12">
-                    <label for="asistencia">Dia 12 de Marzo</label><br>
+                    <label for="asistencia">Dia 12 de Marzo</label>
                     <input type="radio" name="asistencia" id="dia13">
                     <label for="asistencia">Dia 13 de Marzo</label>
                 </fieldset>

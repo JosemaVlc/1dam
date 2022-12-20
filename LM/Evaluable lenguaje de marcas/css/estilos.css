@@ -206,7 +206,7 @@ input{
 }
 .ins_taller > li > label{
     width: 220px;
-    display: inline-flex;
+    display: inline;
     justify-items: top;
     font-weight: 1;
 }
