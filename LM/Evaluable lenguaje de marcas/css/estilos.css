@@ -5,50 +5,63 @@ font-family: 'Lato', sans-serif;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Open Sans', sans-serif;
 */
-body{    
-    margin: 0px;
-    padding: 0px;
+
+/* CSS Generico */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
     font-family: 'Open Sans', sans-serif, 20px;
 }
 h1{
-    font-family:serif;
+    font-family: 'Libre Baskerville', serif;
     color: gray;
-    font-size: 40px;
 }
-h2.index{
+h2{
+    font-family: 'Lato', sans-serif;
+}
+h3{
+    font-family: 'Lato', sans-serif, 16px;
+    border-bottom:dotted yellow;
+}
+h2.centrados{
     padding-top: 20px;
-    font-size: 22px;
-    font-style: italic;
     text-align: center;
 }
-h3.index{
-    border-bottom:dotted yellow;
-    font-size: 21px;
-    font-style: italic;
-}
+
 h4.index{
-    font-size: 15px;
 }
+/* CSS Header */
 header{
+    width: 100%;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(205, 234, 244); 
 }
-header > img{
+header img{
     transform: rotate(-20deg);
-    width: 150px;
+    width: 130px;
+    margin-right: 50px;
 }
-header > div{
-    width: 600px;
+header div{
+    width: 500px;
     text-align: right;
 }
-header > div > p{
-    font-size: 10px;
-    font-weight: bold;
+header p{
+    margin-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
 }
+.subtitulo_programa{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #6a7fc4;
+}
+/* CSS Nav */
 nav{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,26 +77,21 @@ nav > ul > li{
 nav > ul > li > a{
     color: rgb(226,188,54);
     text-decoration: none;
-    font-size: 18px;
-    font-family: fantasy;
-}
-.a_select{
-    color: rgb(226,188,54);
-    text-decoration: underline;
-    font-size: 18px;
-    font-family: fantasy;
 }
 nav > ul > li > a:hover, .a_select:hover{
     background-color:black;
     color:white;
 }
-.tabla > h2{
+.a_select{
+    color: rgb(226,188,54);
+    text-decoration: underline;
+}
+/* CSS Section */
+.tabla h2{
     text-align: center;
     padding-top: 20px; 
-    font-size: 22px;
 }
-.prog > h2{
-    font-size: 22px;
+.prog h2{
 }
 .table{
     text-align: center;
@@ -102,11 +110,9 @@ nav > ul > li > a:hover, .a_select:hover{
     margin: auto;
 }
 tr{
-    font-size: 11px;
 }
 td{
     padding-right: 23px;
-    font-size: 11px;
 }
 tr:nth-child(even){
     background: white;
@@ -115,7 +121,6 @@ tr:nth-child(odd){
     background: rgb(239, 122, 123);
 }
 .ultima_linea{
-    font-size: 12px;
     text-align: center;
     background-color: rgb(252, 62, 70);
 }
@@ -141,7 +146,6 @@ th{
 }
 .bg_azul{
     background-color: rgb(102, 141, 159);
-    font-size: 11px;
     line-height: 20px;
 }
 .bg_azul > ul{
@@ -154,7 +158,6 @@ th{
     display: inline;
     padding: 0 10px;
     width: 400px;
-    font-size: 12px;
 }
 .bg_azul > ul > li > ul{
     padding: 0;
@@ -166,7 +169,6 @@ th{
 .div_eventos > div > p{
     width: 275px;
     height: 20px;
-    font-size: 13px;
 }
 .evento{
     width: 240px;
@@ -183,16 +185,13 @@ ul.dias{
 }
 li.dia{
     padding-right: 70px;
-    font-size: 20px;
     display: inline-block;
-    font-family: fantasy;
 }
 ol.horas{
     padding: 15px 0px;
     list-style: none;
 }
-li.hora{
-    font-size: 14px;    
+li.hora{  
     padding: 5px 0px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -240,14 +239,11 @@ div > fieldset{
 legend{
     color: white;
     background-color: rgb(20, 67, 87);
-    font-size: 18px;
 }
 button{
     height: 70px;
     background-color:rgb(12, 49, 66);
     color: rgb(226,188,54);
-    font-family: fantasy;
-    font-size: 40px;
 }
 button:hover{
     background-color:black;
@@ -261,7 +257,6 @@ footer{
     justify-content: center;
     background-color: black;
     color: white;
-    font-size: 10px;
 }
 footer > p{
     width: 800px;
