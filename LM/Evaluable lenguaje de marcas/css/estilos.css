@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:ital,wght@1,700&family=Libre+Baskerville:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-/*
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Open Sans', sans-serif;
-*/
 
 /* CSS Generico */
 * {
@@ -26,6 +20,7 @@ h3{
     font-family: 'Lato', sans-serif;
     border-bottom:dotted yellow;
 }
+
 /* CSS Header */
 header{
     width: 100%;
@@ -48,6 +43,7 @@ header p{
     margin-top: 10px;
     font-family: 'Fjalla One', sans-serif;
 }
+
 /* CSS Nav */
 nav{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -75,6 +71,7 @@ nav a:hover, .a_select:hover{
 .a_select{
     text-decoration: underline;
 }
+
 /* CSS Article Jornadas */
 article {
     padding: 20px 0px;
@@ -99,6 +96,7 @@ article p{
 article video{
     width: 300px;
 }
+
 /* CSS Section Donde y cuando */
 .donde_y_cuando{
     background-color: #648da0;
@@ -120,6 +118,10 @@ article video{
     padding-top: 15px;
     font-size: 16px;
 }
+.donde_y_cuando .sub{
+    border-bottom:dotted yellow 1px;
+}
+
 /* CSS Section Eventos */
 .eventos{
     padding: 20px 0px;
@@ -141,6 +143,7 @@ article video{
     width: 200px;
     height: 100px;
 }
+
 /* CSS Section Tabla */
 .tabla{
     padding: 20px 0px;
@@ -150,27 +153,30 @@ article video{
     padding: 20px 0px;
 }
 .tabla div{
-    margin: auto;
     width: 750px;
+    margin: auto;
 }
 .tabla p{
     color: white;
     text-align: center;
     background-color: #0A3143;
 }
+table{
+    margin: auto;
+}
 th{
     text-align: left;
     background-color: #FF3B3F;
 }
 td{
-    padding: 0px 5px;
+    padding: 0px 4px;
     font-size: 13px;
+}
+table .sub {
+    border-bottom:solid black 2px;
 }
 .ubicacion{
     border: #CCEAF4 solid 2px;    
-}
-tr:nth-child(even){
-    background: white;
 }
 tr:nth-child(odd){
     background: rgb(241, 121, 121);
@@ -181,6 +187,7 @@ tr:nth-child(odd){
     text-align: center;
     background-color: #FF3B3F;
 }
+
 /* CSS Section Programa */
 .programa{
     padding: 20px 0px;
@@ -217,6 +224,7 @@ tr:nth-child(odd){
 .negrita{
     font-weight: bold;
 }
+
 /* CSS Section inscripcion*/
 .inscripcion{
     padding: 20px 0px;
@@ -252,10 +260,6 @@ legend{
 input{
     margin: 10px 0;
 }
-.ins_taller label{
-    width: 220px;
-    font-weight: 1;
-}
 form{
     margin: auto;
     width: 850px;
@@ -263,6 +267,14 @@ form{
 form > div{
     display: flex;
     justify-content: center;
+}
+.asistencia{
+    list-style: none;
+    display: inline-flex;
+}
+.asistencia li{
+    width: 250px;
+    padding-right: 20px;
 }
 button{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -281,6 +293,7 @@ input:invalid, textarea:invalid{
 input:valid, textarea:valid{
     background-color: rgb(222, 255, 233);
 }
+
 /* CSS Footer */
 footer{
     display: flex;
