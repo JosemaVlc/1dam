@@ -27,8 +27,6 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     }
     public static void crear_tauler(){
         char tauler[][] = new char [10][10];
-        char letra[]={'A','B','C','D','E','F','G','H','I','J'};
-        System.out.println("  0 1 2 3 4 5 6 7 8 9");
         for (int i = 0; i < tauler.length; i++) {
             System.out.print(letra[i]+" ");
             for (int j = 0; j < tauler[i].length; j++) {
