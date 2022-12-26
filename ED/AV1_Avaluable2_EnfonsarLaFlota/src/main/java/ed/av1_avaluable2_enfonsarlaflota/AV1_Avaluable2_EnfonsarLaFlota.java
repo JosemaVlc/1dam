@@ -10,12 +10,11 @@ import java.util.Scanner;
  * @author Jose Manuel Moreno
  */
 public class AV1_Avaluable2_EnfonsarLaFlota {
-
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int files=10, columnes=10, min=1, max=3, llanxes=0, vaixells=0, cuirassats=0, portaavions=0, max_intents=0;
         String text;
-        System.out.println("""
+        System.out.print("""
                            ===== BENVINGUTS A AFONAR LA FLOTA =====
                            
                            Nivells de dificultat:
@@ -51,13 +50,33 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         jugar_partida(files, columnes, llanxes, vaixells, cuirassats, portaavions, max_intents);
     }
     public static void jugar_partida(int files, int columnes, int llanxes, int vaixells, int cuirassats, int portaavions, int max_intents){
-        char tauler[][]=new char[0][0];
+        boolean veureTot=false;
+        char tauler[][]=new char[files][columnes];
         System.out.println("""
                            ===== BENVINGUTS A AFONAR LA FLOTA =====
                            
                            Preparat perque escomençem!""");
-        crear_tauler(files, columnes);
-        inserir_barcos(tauler, llanxes, vaixells, cuirassats, portaavions);   
+        tauler = crear_tauler(files, columnes);
+        inserir_barcos(tauler, llanxes, vaixells, cuirassats, portaavions);
+        int i=0;
+        while(i < max_intents && queden_barcos(tauler) == true){
+            int f = 0, c = 0, tret[]={0,0};
+            mostra_tauler(tauler,veureTot);
+            System.out.println("Tret numero: "+i+"/"+max_intents);
+            tret = demanar_coordenades_tret(tauler);
+            f = tret[0];
+            c = tret[1];
+            processa_tret(tauler, f, c);
+            i+=1;
+        }
+        veureTot=true;
+        mostra_tauler(tauler,veureTot);
+        if (queden_barcos(tauler)==false){
+            System.out.println("===== HAS GUANYAT =====");
+        }else{
+            System.out.println("===== HAS PERDUT =====");
+        }
+        System.out.println("Torna quan vulgues");
     }
     // FUNCIÓ: Crear tauler buit amb "-" en totes les posicions
     public static char[][] crear_tauler(int files, int columnes) {
@@ -71,57 +90,190 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     }
     // PROCEDIMENT: Mostra per pantalla el tauler
     public static void mostra_tauler(char[][] tauler, boolean veureTot) {
+        int letra = 65;
+        if (veureTot == false){
+            System.out.println("  0 1 2 3 4 5 6 7 8 9");
+            for (int i = 0; i < tauler.length; i++) {
+                System.out.print((char)letra);
+                for (int j = 0; j < tauler[i].length; j++) {
+                    switch (tauler[i][j]) {
+                        case 'A':
+                            System.out.print(" A");
+                            break;
+                        case 'X':
+                            System.out.print(" X");
+                            break;
+                        case '-', 'L', 'B', 'C', 'P':
+                            System.out.print(" -");
+                            break;
+                        default:
+                            System.out.print(" ");
+                            break;
+                    }
+                }
+                letra+=1;
+                System.out.println("");
+            }
+        }else{
+            System.out.println("  0 1 2 3 4 5 6 7 8 9");
+            for (int i = 0; i < tauler.length; i++) {
+                System.out.print((char)letra);
+                for (int j = 0; j < tauler[i].length; j++) {
+                    switch (tauler[i][j]) {
+                        case 'A':
+                            System.out.print(" A");
+                            break;
+                        case 'X':
+                            System.out.print(" X");
+                            break;
+                        case '-':
+                            System.out.print(" -");
+                            break;
+                        case 'L':
+                            System.out.print(" L");
+                            break;
+                        case 'B':
+                            System.out.print(" B");
+                            break;
+                        case 'C':
+                            System.out.print(" C");
+                            break;
+                        case 'P':
+                            System.out.print(" P");
+                            break;
+                        default:
+                            System.out.print(" ");
+                            break;
+                    }
+                }
+                letra+=1;
+                System.out.println("");
+            }
+        }
     } 
     // PROCEDIMENT: Inserir els barcos en posicions aleatòries 
     public static void inserir_barcos (char[][] tauler, int llanxes, int vaixells, int cuirassats, int portaavions) {
         int coordenada[]={0,0}, mida;
         for (int i = 0; i < portaavions; i++){
             mida=5;
-            coordenada_aleatoria(tauler, mida);
-            for(int j = 1; j < mida; j++){
-                tauler[coordenada[0]][coordenada[1]]='P';                
+            coordenada = coordenada_aleatoria(tauler, mida);             
+            if (coordenada[0] == 0 && coordenada[1] == 0){
+                System.out.println("ERROR: No s\'ha pogut inserir el portaavions");
+            }else{
+                for(int j = 0; j < mida; j++){
+                    tauler[coordenada[0]][coordenada[1]]='P';
+                    coordenada[1]+=1;
+                }
             }
         }
         for (int i = 0; i < cuirassats; i++){
             mida=4;
-            coordenada_aleatoria(tauler, mida);
-            for(int j = 1; j < mida; j++){
-                tauler[coordenada[0]][coordenada[1]]='C';                
+            coordenada = coordenada_aleatoria(tauler, mida);
+            if (coordenada[0] == 0 && coordenada[1] == 0){
+                System.out.println("ERROR: No s\'ha pogut inserir el cuirasat");
+            }else{
+                for(int j = 0; j < mida; j++){
+                    tauler[coordenada[0]][coordenada[1]]='C';
+                    coordenada[1]+=1;
+                }
             }
         }
         for (int i = 0; i < vaixells; i++){
             mida=3;
-            coordenada_aleatoria(tauler, mida);
-            for(int j = 1; j < mida; j++){
-                tauler[coordenada[0]][coordenada[1]]='B';                
+            coordenada = coordenada_aleatoria(tauler, mida);
+            if (coordenada[0] == 0 && coordenada[1] == 0){
+                System.out.println("ERROR: No s\'ha pogut inserir el vaisell");
+            }else{
+                for(int j = 0; j < mida; j++){
+                    tauler[coordenada[0]][coordenada[1]]='B';
+                    coordenada[1]+=1;
+                }
             }
         }
         for (int i = 0; i < llanxes; i++){
             mida=1;
-            coordenada_aleatoria(tauler, mida);
-            tauler[coordenada[0]][coordenada[1]]='L';
-        }
-        
+            coordenada = coordenada_aleatoria(tauler, mida);
+            if (coordenada[0] == 0 && coordenada[1] == 0){
+                System.out.println("ERROR: No s\'ha pogut inserir la llanxa");
+            }else{
+                tauler[coordenada[0]][coordenada[1]]='L';
+            }          
+        }  
     }
     // FUNCIÓ: Demana coordenades de tret
-    public static int[] demana_coordenades_tret(char[][] tauler) {
+    public static int[] demanar_coordenades_tret(char[][] tauler) {
+        Scanner entrada = new Scanner(System.in);
+        int tret[]={0,0}, min=0, max=0;
+        String c; 
+        char f;
+        min = 65;
+        max = 74;
+        System.out.print("Indica la fila del seguent tret(A-J)\n-> ");
+        f = entrada.next().charAt(0);
+        int f_entero = (int)f;
+        String f_cadena = String.valueOf(f_entero);
+        tret[0] = demana_dades_entre_max_i_min(f_cadena, min, max)-65;
+        min = 0;
+        max = 9;
+        System.out.print("Indica la columna del seguent tret (0-9)\n-> ");
+        c = entrada.nextLine();
+        tret[1] = demana_dades_entre_max_i_min(c, min, max);
+        return tret;
     }
     // PROCEDIMENT: Processem el tret amb les coordenades indicades 
     public static void processa_tret(char[][] tauler, int f, int c) {
+        switch (tauler[f][c]) {
+            case '-':
+                System.out.println("Aigua!");
+                tauler[f][c]='A';
+                break;
+            case 'L':
+            case 'B':
+            case 'C':
+            case 'P':
+                System.out.println("Tocat!");
+                tauler[f][c]='X';
+                break;
+            default:
+                System.out.println("Error! ja hi havies fet un tret açí");
+                break;
+        }
     }
     // FUNCIÓ: Rep el tauler i dimensions de l'objecte i ens retorna una posició aleatòria 
     public static int[] coordenada_aleatoria(char[][] tauler, int mida) {
-        int fila = 0, columna = 0, min = 0,max = 0;
-        max=10-mida;
-        fila = (int)(Math.random()*(max+1));
-        columna = (int)(Math.random()*(9+1));
-        
+        int coordenada[]={0,0};
+        for (int i = 0; i<100; i++){
+            int fila, columna, max, verif;
+            verif = 0;
+            max = 10-mida;
+            fila = (int)(Math.random()*(9+1));
+            columna = (int)(Math.random()*(max+1));
+            for (int j = 0; j<mida; j++){
+                if (tauler[fila][columna+j]=='-'){
+                    verif += 1;
+                }
+            }
+            if (verif == mida){
+                coordenada[0] = fila;
+                coordenada[1] = columna;
+                break;
+            }
+        }
         return coordenada;
     }
     // FUNCIÓ: Comprovar si quede barcos en el tauler 
     public static boolean queden_barcos(char[][] tauler) {
+        boolean verif = false;
+        for (int i = 0; i < tauler.length; i++) {
+            for (int j = 0; j < tauler[i].length; j++) {
+                if (tauler[i][j] == 'P' || tauler[i][j] == 'C' || tauler[i][j] == 'B' || tauler[i][j] == 'L'){
+                    verif=true;
+                }
+            }
+        }
+        return verif;
     }
-    // FUNCIÓ: Demana el valor indicat del menú a l'usuari i valida que siga correcte.
+    // FUNCIÓ: Verifica el valor indicat del menú y del tret de l'usuari siga correcte.
     public static int demana_dades_entre_max_i_min (String text, int min, int max) {
         Scanner entrada = new Scanner(System.in);
         int i=0, opc=0;
@@ -136,6 +288,4 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         return opc;
     }
-
-
 }
