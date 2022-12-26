@@ -91,8 +91,8 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     // PROCEDIMENT: Mostra per pantalla el tauler
     public static void mostra_tauler(char[][] tauler, boolean veureTot) {
         int letra = 65;
+        System.out.println("  0 1 2 3 4 5 6 7 8 9");
         if (veureTot == false){
-            System.out.println("  0 1 2 3 4 5 6 7 8 9");
             for (int i = 0; i < tauler.length; i++) {
                 System.out.print((char)letra);
                 for (int j = 0; j < tauler[i].length; j++) {
@@ -115,7 +115,6 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
                 System.out.println("");
             }
         }else{
-            System.out.println("  0 1 2 3 4 5 6 7 8 9");
             for (int i = 0; i < tauler.length; i++) {
                 System.out.print((char)letra);
                 for (int j = 0; j < tauler[i].length; j++) {
@@ -157,7 +156,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         for (int i = 0; i < portaavions; i++){
             mida=5;
             coordenada = coordenada_aleatoria(tauler, mida);             
-            if (coordenada[0] == 0 && coordenada[1] == 0){
+            if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir el portaavions");
             }else{
                 for(int j = 0; j < mida; j++){
@@ -169,7 +168,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         for (int i = 0; i < cuirassats; i++){
             mida=4;
             coordenada = coordenada_aleatoria(tauler, mida);
-            if (coordenada[0] == 0 && coordenada[1] == 0){
+            if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir el cuirasat");
             }else{
                 for(int j = 0; j < mida; j++){
@@ -181,7 +180,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         for (int i = 0; i < vaixells; i++){
             mida=3;
             coordenada = coordenada_aleatoria(tauler, mida);
-            if (coordenada[0] == 0 && coordenada[1] == 0){
+            if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir el vaisell");
             }else{
                 for(int j = 0; j < mida; j++){
@@ -193,7 +192,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         for (int i = 0; i < llanxes; i++){
             mida=1;
             coordenada = coordenada_aleatoria(tauler, mida);
-            if (coordenada[0] == 0 && coordenada[1] == 0){
+            if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir la llanxa");
             }else{
                 tauler[coordenada[0]][coordenada[1]]='L';
@@ -204,15 +203,16 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     public static int[] demanar_coordenades_tret(char[][] tauler) {
         Scanner entrada = new Scanner(System.in);
         int tret[]={0,0}, min=0, max=0;
-        String c; 
-        char f;
+        String c;
+        int f;
         min = 65;
         max = 74;
         System.out.print("Indica la fila del seguent tret(A-J)\n-> ");
         f = entrada.next().charAt(0);
-        int f_entero = (int)f;
-        String f_cadena = String.valueOf(f_entero);
-        tret[0] = demana_dades_entre_max_i_min(f_cadena, min, max)-65;
+        int f_entero = f;
+        String f_text = String.valueOf(f_entero);
+        tret[0] = demana_dades_entre_max_i_min(f_text, min, max)-65;
+        String parada = entrada.nextLine();
         min = 0;
         max = 9;
         System.out.print("Indica la columna del seguent tret (0-9)\n-> ");
@@ -241,13 +241,13 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     }
     // FUNCIÓ: Rep el tauler i dimensions de l'objecte i ens retorna una posició aleatòria 
     public static int[] coordenada_aleatoria(char[][] tauler, int mida) {
-        int coordenada[]={0,0};
+        int coordenada[]={-1,-1};
         for (int i = 0; i<100; i++){
             int fila, columna, max, verif;
             verif = 0;
             max = 10-mida;
-            fila = (int)(Math.random()*(9+1));
-            columna = (int)(Math.random()*(max+1));
+            fila = (int)(Math.random()*(9));
+            columna = (int)(Math.random()*(max));
             for (int j = 0; j<mida; j++){
                 if (tauler[fila][columna+j]=='-'){
                     verif += 1;
