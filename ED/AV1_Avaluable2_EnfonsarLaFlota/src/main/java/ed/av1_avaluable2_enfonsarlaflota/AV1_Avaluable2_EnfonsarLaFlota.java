@@ -111,6 +111,11 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     }
     // FUNCIÓ: Rep el tauler i dimensions de l'objecte i ens retorna una posició aleatòria 
     public static int[] coordenada_aleatoria(char[][] tauler, int mida) {
+        int fila = 0, columna = 0, min = 0,max = 0;
+        max=10-mida;
+        fila = (int)(Math.random()*(max+1));
+        columna = (int)(Math.random()*(9+1));
+        
         return coordenada;
     }
     // FUNCIÓ: Comprovar si quede barcos en el tauler 
