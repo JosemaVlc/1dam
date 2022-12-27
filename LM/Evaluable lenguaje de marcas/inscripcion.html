@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo1.png" alt="logo congreso">
+        <img src="./media/logo1.png" alt="logo congreso">
         <div>
             <h1>
                 XXI CONGRESO DE PERIODISMO DEL CEEDCV
@@ -30,13 +30,13 @@
     <main>
         <section class="inscripcion">
             <h2>Registro a las XXI Congreso de Periodismo del CEEDCV</h2>
-            <form action="GET">
+            <form method="GET" action="">
                 <fieldset>
                     <legend>Datos personales</legend>
                     <div>
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" name="nombre" minlength="2" maxlength="50" size="25" required pattern="[A-Za-z ]+">
-                        <label for="apellido">Apellidos</label>
+                        <label for="apellidos">Apellidos</label>
                         <input type="text" id="apellidos" name="apellidos" minlength="2" maxlength="128" size="50" required pattern="[A-Za-z ]+"><br>
                     </div>
                     <label for="mail">Correo electronico</label>
@@ -48,10 +48,10 @@
                 </fieldset>
                 <fieldset>
                     <legend>Perfil de usuario</legend>
-                    <label for="motivos">Escribe una breve explicación de los motivos por los que estás interesado en participar.</label>
+                    <label>Escribe una breve explicación de los motivos por los que estás interesado en participar.</label>
                     <textarea name="motivos" rows="5" cols="100" required></textarea><br>
                     <label for="sector">Actividad profesional</label><br>
-                    <select name="sector" id="sector" size="1" required>
+                    <select name="sector" id="sector" size="1">
                         <option value="bachiller">Estudiante bachillerato</option>
                         <option value="universitario">Estudiante universitario</option>
                         <option value="doctorado">Doctorado</option>
@@ -60,78 +60,78 @@
                         <option value="otro">Otros</option>
                     </select>
                     <p>Marca los talleres a los que asistirás durante las jornadas:</p>
-                    <ul class="ins_taller" aria-required="true">
+                    <ul class="ins_taller">
                         <li><span class=negrita>11 de Marzo:</span><br>
-                            <label for="inaugural">Conferencia inaugural por Pepa Bueno</label><br>
+                            <label>Conferencia inaugural por Pepa Bueno</label><br>
                             <input type="radio" name="inaugural" id="inauguralSI">
-                            <label for="inaugural">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="inaugural" id="inauguralNo" checked>
-                            <label for="inaugural">No</label><br><br>
+                            <label>No</label><br><br>
 
-                            <label for="enfocado">Mesa de debate: "Enfocar en la era del periodismo desenfocado" por Jordi Évole</label><br>
+                            <label>Mesa de debate: "Enfocar en la era del periodismo desenfocado" por Jordi Évole</label><br>
                             <input type="radio" name="enfocado" id="enfocadoSI">
-                            <label for="enfocado">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="enfocado" id="enfocadoNo" checked>
-                            <label for="enfocado">No</label><br><br>
+                            <label>No</label><br><br>
 
-                            <label for="social">De la más dura realidad a la ficción. Periodismo social y literatura por Antonio García Ferreras</label><br>
+                            <label>De la más dura realidad a la ficción. Periodismo social y literatura por Antonio García Ferreras</label><br>
                             <input type="radio" name="social" id="socialSI">
-                            <label for="social">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="social" id="socialNo" checked>
-                            <label for="social">No</label><br><br>
+                            <label>No</label><br><br>
 
-                            <label for="fotoperiodismo">Los retos del fotoperiodismo en el mundo actual por Gervasio Fernández</label><br>
+                            <label>Los retos del fotoperiodismo en el mundo actual por Gervasio Fernández</label><br>
                             <input type="radio" name="fotoperiodismo" id="fotoperiodismoSI">
-                            <label for="fotoperiodismo">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="fotoperiodismo" id="fotoperiodismoNo" checked>
-                            <label for="fotoperiodismo">No</label>
+                            <label>No</label>
                         </li>
                         <li><span class=negrita>12 de Marzo:</span><br>
-                            <label for="corresponsal">Historias de un corresponsal por Lorenzo Milá</label><br>
+                            <label>Historias de un corresponsal por Lorenzo Milá</label><br>
                             <input type="radio" name="corresponsal" id="corresponsalSI">
-                            <label for="corresponsal">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="corresponsal" id="corresponsalNo" checked>
-                            <label for="corresponsal">No</label><br><br>
+                            <label>No</label><br><br>
 
-                            <label for="informativos">Informativos en TV: ¿reinvención o extinción? por Matías Prats</label><br>
+                            <label>Informativos en TV: ¿reinvención o extinción? por Matías Prats</label><br>
                             <input type="radio" name="informativos" id="informativosSI">
-                            <label for="informativos">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="informativos" id="informativosNo" checked>
-                            <label for="informativos">No</label>
+                            <label>No</label>
                         </li>
                         <li><span class=negrita>13 de Marzo:</span><br>
-                            <label for="territorio">El periodismo del territorio por Pedro Piqueras</label><br>
+                            <label>El periodismo del territorio por Pedro Piqueras</label><br>
                             <input type="radio" name="territorio" id="territorioSI">
-                            <label for="territorio">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="territorio" id="territorioNo" checked>
-                            <label for="territorio">No</label><br><br>
+                            <label>No</label><br><br>
 
-                            <label for="guiso">Yo me lo guiso, yo me lo como por Xavier Agulló</label><br>
+                            <label>Yo me lo guiso, yo me lo como por Xavier Agulló</label><br>
                             <input type="radio" name="guiso" id="guisoSI">
-                            <label for="guiso">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="guiso" id="guisoNo" checked>
-                            <label for="guiso">No</label><br><br>
+                            <label>No</label><br><br>
 
-                            <label for="rico">Rico, rico y bien contado por López Iturriaga</label><br>
+                            <label>Rico, rico y bien contado por López Iturriaga</label><br>
                             <input type="radio" name="rico" id="ricoSI">
-                            <label for="rico">Si</label>
+                            <label>Si</label>
                             <input type="radio" name="rico" id="ricoNo" checked>
-                            <label for="rico">No</label>
+                            <label>No</label>
                         </li>
                     </ul>
                     <p>Selecciona el día que asistirás:</p>
                     <ul class="asistencia">
                         <li>
                             <input type="radio" name="asistencia" id="dia11" checked>    
-                            <label for="asistencia">Dia 11 de Marzo</label>
+                            <label>Dia 11 de Marzo</label>
                         </li>
                         <li>
                             <input type="radio" name="asistencia" id="dia12">
-                            <label for="asistencia">Dia 12 de Marzo</label>
+                            <label>Dia 12 de Marzo</label>
                         </li>
                         <li>
                             <input type="radio" name="asistencia" id="dia13">
-                            <label for="asistencia">Dia 13 de Marzo</label>
+                            <label>Dia 13 de Marzo</label>
                         </li>
                     </ul>
                 </fieldset>

@@ -88,7 +88,11 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         return tauler;
     }
-    // PROCEDIMENT: Mostra per pantalla el tauler
+    /**
+     * PROCEDIMENT: Mostra per pantalla el tauler
+     * @param tauler
+     * @param veureTot 
+     */
     public static void mostra_tauler(char[][] tauler, boolean veureTot) {
         int letra = 65;
         System.out.println("  0 1 2 3 4 5 6 7 8 9");
