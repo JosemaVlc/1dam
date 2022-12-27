@@ -107,7 +107,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
                             System.out.print(" -");
                             break;
                         default:
-                            System.out.print(" ");
+                            System.out.println(" ");
                             break;
                     }
                 }
@@ -203,16 +203,12 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     public static int[] demanar_coordenades_tret(char[][] tauler) {
         Scanner entrada = new Scanner(System.in);
         int tret[]={0,0}, min=0, max=0;
-        String c;
-        int f;
+        String c, f;
         min = 65;
         max = 74;
         System.out.print("Indica la fila del seguent tret(A-J)\n-> ");
-        f = entrada.next().charAt(0);
-        int f_entero = f;
-        String f_text = String.valueOf(f_entero);
-        tret[0] = demana_dades_entre_max_i_min(f_text, min, max)-65;
-        String parada = entrada.nextLine();
+        f = entrada.nextLine();
+        tret[0] = demana_dades_entre_max_i_min(f, min, max)-65;
         min = 0;
         max = 9;
         System.out.print("Indica la columna del seguent tret (0-9)\n-> ");
@@ -276,16 +272,24 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
     // FUNCIÓ: Verifica el valor indicat del menú y del tret de l'usuari siga correcte.
     public static int demana_dades_entre_max_i_min (String text, int min, int max) {
         Scanner entrada = new Scanner(System.in);
-        int i=0, opc=0;
-        while(i<1){
-            opc = Integer.parseInt(text);
+        boolean opc_verif=false;
+        int opc=0;
+        do{
+            //Try se utiliza para probar si funciona algo y sinó hace el catch para solucionarlo.
+            try{
+                opc = Integer.parseInt(text);
+            }catch(NumberFormatException e){
+                String text_mayus = text.toUpperCase();
+                char text_char = text_mayus.charAt(0);
+                opc = text_char;
+            }
             if (opc>=min && opc<=max){
-                break;
+                opc_verif=true;
             }else{
                 System.out.println("Escribe opción valida");
                 text = entrada.nextLine();
             }    
-        }
+        }while (opc_verif==false);
         return opc;
     }
 }
