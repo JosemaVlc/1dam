@@ -234,10 +234,6 @@ tr:nth-child(odd){
     text-align: center;
     padding: 20px 0px;
 }
-.inscripcion p{
-    font-size: 20px;
-    padding: 20px 0px;
-}
 .inscripcion label{
     font-size: 16px;
 }
@@ -260,6 +256,13 @@ legend{
 }
 .ins_taller li{
     width: 250px;
+    padding: 10px 0px;
+}
+.ins_taller ol{
+    list-style: none;
+}
+.ins_taller ol > li{
+    padding: 10px 0px;
     padding-right: 20px;
 }
 input{
