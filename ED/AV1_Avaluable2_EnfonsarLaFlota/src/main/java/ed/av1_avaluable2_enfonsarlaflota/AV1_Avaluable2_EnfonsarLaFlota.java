@@ -5,11 +5,21 @@
 
 package ed.av1_avaluable2_enfonsarlaflota;
 import java.util.Scanner;
+
 /**
- *
- * @author Jose Manuel Moreno
+ * Versió simplificada del joc "Afonar la flota" on només hi haurà un jugador humà(usuari) i l'objetiu es
+ * afonar tots els barcos de l'ordinador en un nombre determinat d'intents. L'ordinador tindrà un tauler 
+ * barcos i l'usuari dispararà per a intentar afonar-los.
+ * @version 28/12/22
+ * @author Jose Manuel Moreno Bolivar
+ * @author <br><a href="mailTo:j.moreno.bolivar@gmail.com">j.moreno.bolivar@gmail.com</a>
  */
 public class AV1_Avaluable2_EnfonsarLaFlota {
+    
+    /**
+     * FUNCIÓ: Menú del joc on el jugador diu la dificultat que vol
+     * @param args 
+     */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int files=10, columnes=10, min=1, max=3, llanxes=0, vaixells=0, cuirassats=0, portaavions=0, max_intents=0;
@@ -49,21 +59,32 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         jugar_partida(files, columnes, llanxes, vaixells, cuirassats, portaavions, max_intents);
     }
+    
+    /**
+     * FUNCIÓ: Escomença, desarrolla i finalitza la partida.
+     * @param files nombre de files del tauler
+     * @param columnes nombre de columnes del tauler
+     * @param llanxes nombre de llanxes a enfonsar
+     * @param vaixells nombre de vaixells a a enfonsar
+     * @param cuirassats nombre de cuirassts a enfonsar
+     * @param portaavions nombre de portaavions a enfonsar
+     * @param max_intents maxim de intents per enfonsar tots els barcos
+     */
     public static void jugar_partida(int files, int columnes, int llanxes, int vaixells, int cuirassats, int portaavions, int max_intents){
-        boolean veureTot=false;
+        boolean veureTot=true;
         char tauler[][]=new char[files][columnes];
         System.out.println("""
                            ===== BENVINGUTS A AFONAR LA FLOTA =====
                            
                            Preparat perque escomençem!""");
         tauler = crear_tauler(files, columnes);
-        inserir_barcos(tauler, llanxes, vaixells, cuirassats, portaavions);
+        inserir_barcos(tauler, llanxes, vaixells, cuirassats, portaavions, files, columnes);
         int i=0;
         while(i < max_intents && queden_barcos(tauler) == true){
             int f = 0, c = 0, tret[]={0,0};
             mostra_tauler(tauler,veureTot);
             System.out.println("Tret numero: "+i+"/"+max_intents);
-            tret = demanar_coordenades_tret(tauler);
+            tret = demanar_coordenades_tret(tauler, files, columnes);
             f = tret[0];
             c = tret[1];
             processa_tret(tauler, f, c);
@@ -78,7 +99,13 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         System.out.println("Torna quan vulgues");
     }
-    // FUNCIÓ: Crear tauler buit amb "-" en totes les posicions
+    
+    /**
+     * FUNCIÓ: Crear un tauler buit
+     * @param files nombre de files del tauler
+     * @param columnes nombre de columnes del tauler
+     * @return retorna el tauler (files x columnes) amb "-" en totes les posicions
+     */
     public static char[][] crear_tauler(int files, int columnes) {
         char tauler[][]=new char[files][columnes];
         for (int i = 0; i < tauler.length; i++) {
@@ -88,10 +115,11 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         return tauler;
     }
+    
     /**
      * PROCEDIMENT: Mostra per pantalla el tauler
-     * @param tauler
-     * @param veureTot 
+     * @param tauler tauler de la partida
+     * @param veureTot parametre per visualitzar el tauler del jugador o el complet.
      */
     public static void mostra_tauler(char[][] tauler, boolean veureTot) {
         int letra = 65;
@@ -154,12 +182,22 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
             }
         }
     } 
-    // PROCEDIMENT: Inserir els barcos en posicions aleatòries 
-    public static void inserir_barcos (char[][] tauler, int llanxes, int vaixells, int cuirassats, int portaavions) {
+    
+    /**
+     * PROCEDIMENT: Inserir els barcos en posicions aleatòries
+     * @param tauler tauler buit
+     * @param llanxes nombre de llanxes a inserir al tauler
+     * @param vaixells nombre de vaixells a inserir al tauler
+     * @param cuirassats nombre de cuirassats a inserir al tauler
+     * @param portaavions nombre de portaavions a inserir al tauler
+     * @param files files del tauler
+     * @param columnes columnes del tauler
+     */
+    public static void inserir_barcos (char[][] tauler, int llanxes, int vaixells, int cuirassats, int portaavions, int files, int columnes) {
         int coordenada[]={0,0}, mida;
         for (int i = 0; i < portaavions; i++){
             mida=5;
-            coordenada = coordenada_aleatoria(tauler, mida);             
+            coordenada = coordenada_aleatoria(tauler, mida, files, columnes);             
             if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir el portaavions");
             }else{
@@ -171,7 +209,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         for (int i = 0; i < cuirassats; i++){
             mida=4;
-            coordenada = coordenada_aleatoria(tauler, mida);
+            coordenada = coordenada_aleatoria(tauler, mida, files, columnes);
             if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir el cuirasat");
             }else{
@@ -183,7 +221,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         for (int i = 0; i < vaixells; i++){
             mida=3;
-            coordenada = coordenada_aleatoria(tauler, mida);
+            coordenada = coordenada_aleatoria(tauler, mida, files, columnes);
             if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir el vaisell");
             }else{
@@ -195,7 +233,7 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         for (int i = 0; i < llanxes; i++){
             mida=1;
-            coordenada = coordenada_aleatoria(tauler, mida);
+            coordenada = coordenada_aleatoria(tauler, mida, files, columnes);
             if (coordenada[0] == -1 && coordenada[1] == -1){
                 System.out.println("ERROR: No s\'ha pogut inserir la llanxa");
             }else{
@@ -203,24 +241,37 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
             }          
         }  
     }
-    // FUNCIÓ: Demana coordenades de tret
-    public static int[] demanar_coordenades_tret(char[][] tauler) {
+    
+    /**
+     * FUNCIÓ: Demana coordenades de tret
+     * @param tauler tauler en barcos a enfonsar
+     * @param files files del tauler
+     * @param columnes columnes del tauler
+     * @return retorna les coordenades verificades del tret donat per el jugador
+     */
+    public static int[] demanar_coordenades_tret(char[][] tauler, int files, int columnes) {
         Scanner entrada = new Scanner(System.in);
         int tret[]={0,0}, min=0, max=0;
         String c, f;
         min = 65;
-        max = 74;
+        max = 65+(files-1);
         System.out.print("Indica la fila del seguent tret(A-J)\n-> ");
         f = entrada.nextLine();
         tret[0] = demana_dades_entre_max_i_min(f, min, max)-65;
         min = 0;
-        max = 9;
+        max = columnes-1;
         System.out.print("Indica la columna del seguent tret (0-9)\n-> ");
         c = entrada.nextLine();
         tret[1] = demana_dades_entre_max_i_min(c, min, max);
         return tret;
     }
-    // PROCEDIMENT: Processem el tret amb les coordenades indicades 
+    
+    /**
+     * PROCEDIMENT: Processem el tret amb les coordenades indicades
+     * @param tauler tauler a procesar el tret
+     * @param f fila de la coordenada verificada a procesar
+     * @param c columna de la coordenada verificada a procesar
+     */
     public static void processa_tret(char[][] tauler, int f, int c) {
         switch (tauler[f][c]) {
             case '-':
@@ -239,29 +290,42 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
                 break;
         }
     }
-    // FUNCIÓ: Rep el tauler i dimensions de l'objecte i ens retorna una posició aleatòria 
-    public static int[] coordenada_aleatoria(char[][] tauler, int mida) {
+    
+    /**
+     * FUNCIÓ: genera un coordenades de forma aleatoria i revisa que estiguen buides
+     * @param tauler tauler a comprobar que siga "-" les posicions aleatores 
+     * @param mida dimensions del barco
+     * @param columnes columnes de tauler
+     * @param files files del tauler
+     * @return retorna una posició aleatoria on colocar els barcos
+     */
+    public static int[] coordenada_aleatoria(char[][] tauler, int mida, int columnes, int files) {
         int coordenada[]={-1,-1};
         for (int i = 0; i<100; i++){
-            int fila, columna, max, verif;
+            int coordFila, coordColumna, max, verif;
             verif = 0;
-            max = 10-mida;
-            fila = (int)(Math.random()*(9));
-            columna = (int)(Math.random()*(max));
+            max = columnes-mida;
+            coordFila = (int)(Math.random()*(files));
+            coordColumna = (int)(Math.random()*(max+1));
             for (int j = 0; j<mida; j++){
-                if (tauler[fila][columna+j]=='-'){
+                if (tauler[coordFila][coordColumna+j]=='-'){
                     verif += 1;
                 }
             }
             if (verif == mida){
-                coordenada[0] = fila;
-                coordenada[1] = columna;
+                coordenada[0] = coordFila;
+                coordenada[1] = coordColumna;
                 break;
             }
         }
         return coordenada;
     }
-    // FUNCIÓ: Comprovar si quede barcos en el tauler 
+    
+    /**
+     * FUNCIÓ: Comprovar si quede barcos en el tauler
+     * @param tauler tauler a comprovar
+     * @return retorna si al tauler queden barcos o no
+     */
     public static boolean queden_barcos(char[][] tauler) {
         boolean verif = false;
         for (int i = 0; i < tauler.length; i++) {
@@ -273,7 +337,14 @@ public class AV1_Avaluable2_EnfonsarLaFlota {
         }
         return verif;
     }
-    // FUNCIÓ: Verifica el valor indicat del menú y del tret de l'usuari siga correcte.
+    
+    /**
+     * FUNCIÓ: Verifica que el valor indicat al menú y el valor indicat al tret donat per el jugador siguen correctes.
+     * @param text linea de text introduit per el jugador a verificar
+     * @param min valor minim correcte
+     * @param max valor maxim correcte
+     * @return retorna el valor correcte a procesar
+     */
     public static int demana_dades_entre_max_i_min (String text, int min, int max) {
         Scanner entrada = new Scanner(System.in);
         boolean opc_verif=false;

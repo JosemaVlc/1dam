@@ -7,6 +7,7 @@
     margin: 0;
 }
 body{
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
@@ -21,10 +22,12 @@ h3{
     font-family: 'Lato', sans-serif;
     border-bottom:dotted yellow;
 }
+.negrita{
+    font-weight: bold;
+}
 
 /* CSS Header */
 header{
-    width: 100%;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -222,9 +225,6 @@ tr:nth-child(odd){
     padding: 5px 0px;
     font-family: 'Times New Roman', Times, serif;
 }
-.negrita{
-    font-weight: bold;
-}
 
 /* CSS Section inscripcion*/
 .inscripcion{
@@ -235,7 +235,7 @@ tr:nth-child(odd){
     padding: 20px 0px;
 }
 .inscripcion label{
-    font-size: 16px;
+    font-size: 15px;
 }
 fieldset{
     background-color: rgb(205, 234, 244);
@@ -264,6 +264,11 @@ legend{
 .ins_taller ol > li{
     padding: 10px 0px;
     padding-right: 20px;
+}
+.ins_taller h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border-bottom: none;
 }
 input{
     margin: 10px 0;
