@@ -149,32 +149,7 @@ public class AV1_AA2_EnfonsarLaFlota {
             for (int i = 0; i < tauler.length; i++) {
                 System.out.print((char)letra);
                 for (int j = 0; j < tauler[i].length; j++) {
-                    switch (tauler[i][j]) {
-                        case 'A':
-                            System.out.print(" A");
-                            break;
-                        case 'X':
-                            System.out.print(" X");
-                            break;
-                        case '-':
-                            System.out.print(" -");
-                            break;
-                        case 'L':
-                            System.out.print(" L");
-                            break;
-                        case 'B':
-                            System.out.print(" B");
-                            break;
-                        case 'C':
-                            System.out.print(" C");
-                            break;
-                        case 'P':
-                            System.out.print(" P");
-                            break;
-                        default:
-                            System.out.print(" ");
-                            break;
-                    }
+                    System.out.print(" "+tauler[i][j]);                   
                 }
                 letra+=1;
                 System.out.println("");
