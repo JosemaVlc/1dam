@@ -1,0 +1,185 @@
+[33mcommit 4dfa39ef0fd05489d06f01f71d2e93b1c5fc8e58[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Mon Jan 2 20:33:28 2023 +0100
+
+    finalizado de momento
+
+[33mcommit 3eca7f1897cb15f17ddc41c8413c8136bf1e9a55[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Sat Dec 31 15:09:21 2022 +0100
+
+    conceptos de bbdd terminados
+
+[33mcommit 87cf380fe381dc2c7708a33475c9d87fc8292843[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Fri Dec 30 18:29:42 2022 +0100
+
+    terminado SI, comienzo BBDD
+
+[33mcommit e6505f72fdea6be607899013ebd33dc03733a494[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Thu Dec 29 22:00:41 2022 +0100
+
+    trabajo si
+
+[33mcommit 35b8782aeee79094f2b842f52464e3afe3a26972[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Wed Dec 28 22:03:18 2022 +0100
+
+    memoria y exportar programacion a otra carpeta
+
+[33mcommit e893cab0c7ca19d5c0b5811d36805183ef4c0bf6[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Wed Dec 28 13:51:50 2022 +0100
+
+    docu lm
+
+[33mcommit 2789a0710ac99fdf8032d1ab7cacd5a7874c0f71[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Wed Dec 28 07:11:56 2022 +0100
+
+    sigo con la memoria de LM
+
+[33mcommit 0e0eb2302d7afb2118266c441edf8db66051b68e[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Tue Dec 27 18:01:16 2022 +0100
+
+    inicio documentacion LM
+
+[33mcommit 9ea35df56e5b1ea4c37b942916f2de8ca4453460[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Tue Dec 27 07:05:08 2022 +0100
+
+    terminada evaluable programacion
+
+[33mcommit e747578b27eb08bc734779ea65d59e3229df576a[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Mon Dec 26 21:39:35 2022 +0100
+
+    -1 en coordenadas
+
+[33mcommit 3a97c69068d396d899a313dc68d62d6f1942c5d4[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Mon Dec 26 17:46:28 2022 +0100
+
+    casi terminado, falta el char
+
+[33mcommit 5c6745cd31deb7b7845844341174ee313ea36abd[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Mon Dec 26 07:03:17 2022 +0100
+
+    coordenada
+
+[33mcommit 5cfcc4030d6bb614a366a32f9df4403282944c3f[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Sun Dec 25 13:30:54 2022 +0100
+
+    rehecho hundir la flota
+
+[33mcommit 5460c05091d38fcf81a8a7503cceef3ec7e2e7a3[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Fri Dec 23 20:40:28 2022 +0100
+
+    bibilio
+
+[33mcommit 38be195a210deb1bb95755d9a840983cfab06146[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Fri Dec 23 06:51:39 2022 +0100
+
+    mejoro LM y empiezo con crear_tauler
+
+[33mcommit 52835017954e0e01c91db2dd7f864b73af7871e6[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Thu Dec 22 20:31:46 2022 +0100
+
+    biblioteca
+
+[33mcommit 3dda8d5260d043497a05cba03fb371ffda297764[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Thu Dec 22 16:55:20 2022 +0100
+
+    mas cosas de lm
+
+[33mcommit 2c7238ee27e8c5ee71756865ded422e4b806e85f[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Thu Dec 22 07:00:45 2022 +0100
+
+    tipos de letras en html y css
+
+[33mcommit d18c5a7d0789a96cb48a2afcb01163681c05cbc2[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Tue Dec 20 22:23:03 2022 +0100
+
+    cambios en form y fuentes googlefont
+
+[33mcommit e6f2677b66dffab79bb78da82e7ff16294ad0581[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Tue Dec 20 06:57:06 2022 +0100
+
+    sustituyo checkbox por radio
+
+[33mcommit 92254727f5f4c1b39dc28204303d7fed852e66bc[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Mon Dec 19 07:27:34 2022 +0100
+
+    mañana de hoy
+
+[33mcommit 663552fe149beccdcfa5143d563aebbc1ded7124[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Sun Dec 18 11:23:50 2022 +0100
+
+    ingles, lm cambio de div a lista en index
+
+[33mcommit 5b7aaf46d734ee54ef97549bd6eaf66e03e3a9c7[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Sat Dec 17 13:33:41 2022 +0100
+
+    ingles
+
+[33mcommit 831202ace2bff079e112c2c66d4b427db5f7e8d0[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Sat Dec 17 11:15:59 2022 +0100
+
+    se reorganizan las carpetas y se le pone autoplay al video
+
+[33mcommit 61a7eb9a21f1ad2ed73ee290e4c65eae074d7628[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Fri Dec 16 17:05:19 2022 +0100
+
+    formulario terminado, falta verificacion checkbox
+
+[33mcommit aebae38a09b9e754f999fcbcdd6c9efe5b134f30[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Fri Dec 16 07:04:44 2022 +0100
+
+    Continuación del formulario en casa 5.50
+
+[33mcommit e62c1b1090fd1563bb918507ee834e0bb95109da[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Thu Dec 15 22:01:24 2022 +0100
+
+    se comienza el form en casa
+
+[33mcommit 404e4178ffcb82503d00bfd866af85168f12f18b[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Thu Dec 15 17:56:58 2022 +0100
+
+    trabajo de tablas lm
+
+[33mcommit aaf7f44f4a9f3348fe0ad76a46198a441605f921[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Wed Dec 14 22:22:28 2022 +0100
+
+    actualizacion de la noche
+
+[33mcommit 5bc26270f8835e57d0a475df6c1faac37a25c2fd[m
+Author: Josema Moreno <j.moreno.bolivar@gmail.com>
+Date:   Wed Dec 14 16:11:16 2022 +0100
+
+    actualizacion con lo de casa
+
+[33mcommit 7e4453c9e3ae258797fe071731d3af20ab0fd6f7[m
+Author: josema <j.moreno.bolivar@gmail.com>
+Date:   Wed Dec 14 13:38:39 2022 +0100
+
+    inicial
