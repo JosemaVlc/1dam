@@ -26,12 +26,7 @@ public class ejercicio09 {
         System.out.println("El mayor dels enters introduits es: "+b);
     }
     public static int maxim(int a, int b){
-        int maxim;
-        if(a > b){
-            maxim = a;
-        }else{
-            maxim = b;
-        }
+        int maxim=Math.max(a, b);
         return maxim;
     }
 }

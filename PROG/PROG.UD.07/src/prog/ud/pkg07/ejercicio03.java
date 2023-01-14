@@ -12,10 +12,7 @@ import java.util.Scanner;
  */
 public class ejercicio03 {
     public static int minimo(int a, int b){
-        int min = a;
-        if (a>b){
-            min = b;
-        }
+        int min = Math.min(a, b);
         return min;
     }
     public static void main(String[] args){
@@ -24,7 +21,6 @@ public class ejercicio03 {
         int a = entrada.nextInt();
         System.out.print("Introduce otro numero entero: ");
         int b = entrada.nextInt();
-        int min = minimo(a,b);
-        System.out.println("El de valor mas bajo es: "+min);
+        System.out.println("El de valor mas bajo es: "+minimo(a,b));
     }
 }
