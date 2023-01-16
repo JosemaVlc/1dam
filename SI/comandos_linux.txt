@@ -1,0 +1,224 @@
+COMANDOS LINUX
+
+GENERALES
+
+whoami							PARA VER TU USUARIO
+
+id								MÁS INFORMACIÓN SOBRE EL USUARIO Y  SU ID
+
+id --group						GRUPO PRIMARIO
+
+id --groups						GRUPOS A LOS QUE PERTENECE (GID)
+
+id --groups --name				GRUPOS A LOS QUE PERTENECE (NOMBRES)
+
+su n_user						CAMBIAR DE USUARIO. SI NO SE ESPECIFICA NINGÚN NOMBRE DE USUARIO SE LOGEA CON EL ROOT Y TE PIDE LA CONTRASEÑA
+
+exit							LOGEAR CON EL USER PREVIO
+
+ls            					LISTAR LOS CONTENIDOS DE UN DIRECTORIO
+
+ls -l         					LISTA DETALLADA DE LOS CONECTENIDOS DE UN DIRECTORIO
+
+tree							VER EL ARBOL DE CONTENIDOS DE UNA CARPETA
+
+pwd           					VER LA CARPETA EN LA QUE ESTAMOS AHORA MISMO
+
+cd n_dir      					NAVEGAR POR LAS CARPETAS HACIA LA ESPECIFIDADA
+
+mv n_file n_dir					MOVER UN ARCHIVO DE SITIO O CAMBIARLE EL NOMBRE
+
+----------------------------------------------------------------------------------
+
+ARCHIVOS
+
+wc -l n_file  					SABER EL NÚMERO DE LINEAS DE UN ARCHIVO
+
+mkdir n_dir      				CREAR UN DIRECTORIO
+
+touch n_file   					CREAR UN ARCHIVO VACÍO
+
+cp n_file n_copy				COPIAR UN ARCHIVO
+
+cat n_file     					MOSTRAR LOS CONTENIDOS DE UN ARCHIVO   
+
+echo          					REPITE LO QUE SE LE DIGA ENTRE COMILLAS. SI REDIRIGES EL OUTPUT A UN ARCHIVO ESCRIBE EN ÉL LO QUE HAYAS INCLUÍDO ENTRE LAS COMILLAS
+
+less          					VER EL CONTENIDO DE UN ARCHIVO PERO SOLO UNA PÁGINA CADA VEZ
+
+grep          					HACER BÚSQUEDAS DENTRO DE UN ARCHIVO
+
+nano							PROGRAMA EDITOR DE TEXTOS
+
+rm n_file  	  					BORRAR UN ARCHIVO
+
+rm -r n_file 					BORRAR UN ARCHIVO Y TODO LO QUE CONTENGA
+
+rmdir n_dir  					BORRAR  UN DIRECTORIO VACÍO
+
+tail n_file	  					VER EL FINAL DE UN ARCHIVO
+
+head n_file	  					VER EL INICIO DE UN ARCHIVO
+
+ln n_origen n_destino			CREAR UN HARDLINK DEL ORIGEN EN EL DESTINO. HAY QUE PONER LA RUTA COMPLETA. NO SIRVE PARA CARPETAS.
+
+ln -s n_origen n_destino		CREAR UN SOFTLINK DEL ORIGEN EN EL DESTINO. SIRVE LA RUTA RELATIVA. SIRVE PARA DIRECTORIOS Y PARA ARCHIVOS
+
+--------------------------------------------------------------------------------
+
+PARTITIONS
+
+dmesg 		  					VER LOS MENSAJES DEL KERNEL
+
+fdisk -l  	  					VER LOS DISCOS QUE HAY EN EL ORDENADOR
+
+lsblk							VER TODOS LOS DISCOS Y SUS PARTICIONES
+
+lsblk -l						VER TODOS LOS DISCOS Y SUS PARTICIONES CON LOS DETALLES
+
+lsblk -f						VER LOS DISCOS Y TODOS LOS DATOS DE ESTOS
+
+df -h							VER LOS DISCOS MONTADOS
+
+fdisk n_particion				CREAR UNA PARTICION
+		p (primary)
+		1  (número de particiones)
+		First sector (valor por defecto)
+		Last sector  (valor por defecto)
+		w      (escribir todo lo anterior)
+
+gparted							PROGRAMA PARA CREAR Y ADMINISTRAR PARTICIONES Y TABLAS DE PARTICION
+
+mkfs.ext4 n_particion			FORMATEAR UNA PARTICION
+
+mount n_particion n_dir			MONTAR UNA PARTICION EN UN DIRECTORIO
+
+/etc/fstab						ARCHIVO PARA HACER UNA PARTICION PERMANENTE
+		n_particion  n_dir  formato  defaults  0    0
+		
+-------------------------------------------------------------------------------
+
+APLICACIONES
+
+dpkg							COMANDO PARA MANEJAR PACHAGES
+
+dpkg --info n_pack				VER LA INFO DE UN PAQUETE
+		depends --> dependencias que neceisto instalar previo al pachage
+		
+dpkg --instal n_pack			INSTALAR UN PAQUETE
+
+dpkg --list						VER TODOS LOS PAQUETES QUE TENEMOS INSTALADOS EN EL SISTEMA
+		1ª columna --> estado deseado
+		2ª columna --> estado actual
+		i=installed
+		u=estraído pero algo falla
+
+dpkg --list n_pack				VER SI TENEMOS INSTALADO UN PAQUETE CONCRETO
+ 
+dpkg --configure n_pack			LANZAR LA CONFIGURACION DE LA APLICACIONES
+		se detecta si tienes todas las librerías y puede terminar la instalación
+		
+dpkg --listfiles n_pack			VER TODOS LOS ARCHIVOS DEL PAQUETE
+
+dpkg --remove n_pack			PARA DESINSTALAR UN PAQUETE
+
+dpkg --purge n_pack				DESINSTALAR UN PAQUETE COMO SI NUNCA HUBIESE EXISTIDO
+
+------------------------------------------------------------------------------
+
+APT
+
+apt								COMANDO PRINCIPAL PARA APT
+
+apt-get							LO MISMO
+
+aptitude						LO MISMO
+
+apt update						REFRESCA EL REPOSITORIO DESDE INTERNET
+
+apt install n_app  				INSTALAR UNA APLICACIONES
+
+apt depends n_app				VER  LAS DEPENDENCIAS DE LA APLICACION Y LAS INCOMPATIBILIDADES
+
+apt show n_app					VER INFORMACIÓN DE LA APP O EL PAQUETE
+
+-----------------------------------------------------------------------------
+
+BOOT PROCESS
+
+POST --> UEFI --> EFI(EFI boot loader) --> GRUB(Grand Unified Bootloader) --> kernel --> Systemd --> Targets (llama al stado definido en default.target)
+
+-----------------------------------------------------------------------------
+
+USUARIOS
+
+cat /etc/passwd					VER EL DOCUMENTO EN EL QUE APARECEN TODOS LOS USERS
+		username|pass|uid|gid|text_info|home_dir|shell
+
+less /etc/group					VER EL DOCUMENTO EN EL QUE APARECEN TODOS LOS GRUPOS
+		username|pass|uid|gid|text_info|home_dir|shell
+
+adduser n_user					CREAR UN USUARIO NO INTEREACTIVO
+
+useradd --create-home n_user	CREAR UN USUARIO CON EL HOME AUTOMÁTICO
+
+useradd -g root n_user			CREAR UN USUARIO CUYO GRUPO PRIMARIO ES ROOT
+
+useradd --system				CREA UN SYSTEM USER
+
+usermod -g n_user				MODIFICAR EL GRUPO PRIMARIO DE UN USUARIO
+
+usermod -G n_grupo1, n_grupo2...MODIFICAR LOS GRUPOS A LOS QUE PERTENECE EL USUARIO
+
+useradd --home dir_home n_user	ESPECIFICA EL DIRECTORIO HOME DEL USUARIO
+
+usermod -d n_dir n_user			MODIFICAR EL HOME DEL USER
+
+usermod -l n_nuevo n_viejo		CAMBIAR EL NOMBRE DE UN USUARIO
+
+usermod -aG n_user				AÑADIR UN USUARIO A UN GRUPO
+
+adduser n_user n_grupo			AÑADIR USUARIOS AL GRUPO
+
+deluser n_user n_grupo			QUITAR A UN USUARIO DE UN GRUPO. INTERACTIVO
+
+deluser n_user					ELIMINAR UN USUARIO. INTERACTIVO
+
+deluser --remove-home n_user	ELIMINA EL HOME DEL USUARIO
+
+userdel n_user 					ELIMINAR UN USUARIO. NO INTERACTIVO
+
+userdel --remove-all-files		ELIMINA EL USUARIO Y TODOSL LOS ARCHIVOS RELACIONADOS CON ÉL
+
+gpasswd -d n_user n_grupo		ELIMINAR A UN USUARIO DE UN GRUPO
+
+groupadd n_grupo				CREAR UN GRUPO
+
+groupmod -n n_nuevo n_viejo		CAMBIER AL NOMBRE DE UN GRUPO
+
+chown n_owner n_fichero			CAMBIAR EL DUEÑO DE UN ARCHIVO O CARPETA
+
+chgrp n_grupo n_fichero			CAMBIAR EL GRUPO DE UN ARCHIVO O CARPETA
+
+chgrp -R n_fichero				CAMBIAR EL GRUPO DE UNA CARPETA Y TODOS SUS CONTENIDOS
+
+chown n_owner:n_grupo n_fichero	CAMBIAR DUEÑO Y GRUPO DE UN ARCHIVO O CARPETA
+
+sg n_grupo touch n_file			CREAR UN ARCHIVO DIRECTAMENTE EN UN GRUPO AL QUE PERTENEZCA
+
+--------------------------------------------------------------------------------
+
+PERMISOS
+
+ll								LISTAR CONTENIDOS DE UNA CARPETA VIENDO LOS PERMISOS
+
+tree -pugfd						VER EL ARBOL DE CONTENIDOS CON TODOS LOS PERMISOS
+
+chmod numeros n_fichero			CAMBIAR PERMISOS DE UN  FICHERO
+
+umask numeros n_fichero			CAMBIAR LA UMASK DE UN FICHERO. PONER 1 DONDE QUIERES QUITAR UN PERMISO. SE PARTE DE 777 PARA DIRECTORIOS Y DE 666 PARA ARCHIVOS
+
+PERMISOS ESPECIALES 100 --> S para el owner --> cualquier usuario tiene los mismos permisos que el owner u+s
+					010 --> S para el grupo --> cualquier usuario tiene los mismos permisos que el grupo g+s
+					001 --> Sticky bit --> Solo el owner de un archivo puede modificarlo --> +t
+
