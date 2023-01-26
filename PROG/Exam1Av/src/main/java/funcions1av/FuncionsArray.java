@@ -14,41 +14,22 @@ public class FuncionsArray {
     
     public static void mostrarMatriu(int[][] matriu){
         for (int i = 0; i < 4; i++) {
-            System.out.print("[ ");
-            for (int j = 0; j < 4; j++) {
-                if (j==3){
-                    System.out.print(matriu[i][j]);
-                }else{
-                    System.out.print(matriu[i][j]+", ");
-                }
-            }
-            System.out.println("]");
+            System.out.println(Arrays.toString(matriu[i]));
         }
     }
-    public static int[][] ordenarFiles(int[][]matriu){
-        int t[][]=new int[matriu[0].length][matriu.length];
-        
+    public static void ordenarFiles(int[][]matriu){       
         for (int i = 0; i < 4; i++) {
             Arrays.sort(matriu[i]);
         }
-        for (int i = 0; i < 4; i++) {
-            int contador=3;
-            for (int j = 0; j < 4; j++) {
-                t[i][j]= matriu[i][contador];
-                contador--;
-            }
-        }
-        return t;
     }
-    public static int[][] traspostaMatriu(int[][]matriu){
+    public static void traspostaMatriu(int[][]matriu){
         int i, j;
-        int t[][]=new int[matriu[0].length][matriu.length];
+        int trasposta[][]=new int[matriu[0].length][matriu.length];
         
         for(i = 0; i < matriu[0].length; i++) {
             for(j = 0; j <  matriu.length; j++) {
-                t[i][j] = matriu[j][i];
+                trasposta[i][j] = matriu[j][i];
             }
         }
-    return t;
     }
 }

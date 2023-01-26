@@ -46,14 +46,14 @@ public class Examen1av {
                     System.out.println("\nExemple Abans:\n");
                     FuncionsArray.mostrarMatriu(matriu);
                     System.out.println("\nExemple Despres:\n");
-                    matriu = FuncionsArray.ordenarFiles(matriu);
+                    FuncionsArray.ordenarFiles(matriu);
                     FuncionsArray.mostrarMatriu(matriu);
                     break;
                 case 3:
                     System.out.println("\nExemple Abans:\n");
                     FuncionsArray.mostrarMatriu(matriu);
                     System.out.println("\nExemple Despres:\n");
-                    matriu = FuncionsArray.traspostaMatriu(matriu);
+                    FuncionsArray.traspostaMatriu(matriu);
                     FuncionsArray.mostrarMatriu(matriu);
                     break;
             }
