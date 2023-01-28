@@ -14,14 +14,26 @@ public class EjercicioPunt {
         Punt coordenadas2 = new Punt(10,10);
         Punt coordenadas3 = new Punt(-3,7);
         
-        System.out.println("Les coordenades 1 son: x="+coordenadas1.x+" y="+coordenadas1.y);
-        System.out.println("Les coordenades 1 son: x="+coordenadas2.x+" y="+coordenadas2.y);
-        System.out.println("Les coordenades 1 son: x="+coordenadas3.x+" y="+coordenadas3.y);
         
-        coordenadas2.x = coordenadas1.x * 3;
-        System.out.println("Les coordenades 1 son: x="+coordenadas2.x+" y="+coordenadas2.y);
+        System.out.println("Les coordenades 1 son: x="+coordenadas1.getX()+" y="+coordenadas1.getY());
+        System.out.println("Les coordenades 2 son: x="+coordenadas2.getX()+" y="+coordenadas2.getY());
+        System.out.println("Les coordenades 3 son: x="+coordenadas3.getX()+" y="+coordenadas3.getY());
         
+        coordenadas2.setX(coordenadas2.getX()*3);
         
+        System.out.println("Coordenades2");
+        coordenadas2.imprimeix();
+        
+        coordenadas3.setXY(4, 9);
+        System.out.println("Coordenades3");
+        coordenadas3.imprimeix();
+        
+        coordenadas1.desplaza(3, 4);
+        System.out.println("Coordenades1");
+        coordenadas1.imprimeix();
+        
+        int distancia = coordenadas2.distancia(coordenadas3);
+        System.out.println("La distancia entre las coordenadas introducidas, son: "+distancia);
     }
 
 

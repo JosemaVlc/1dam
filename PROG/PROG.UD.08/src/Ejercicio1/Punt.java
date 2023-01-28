@@ -9,9 +9,50 @@ package Ejercicio1;
  * @author jmore
  */
 public class Punt {
-    int x, y;
+    private int x, y;
+    
     public Punt(int x, int y){
         this.x = x;
         this.y = y;
+    }
+    
+    public void setX(int x){
+        this.x = x;
+    }
+    
+    public void setY(int y){
+        this.y = y;
+    }
+    
+    public int getX(){
+        return x;
+    }
+    
+    public int getY(){
+        return y;
+    }
+    
+    public void imprimeix(){
+        System.out.println("Les coordenades son: ("+this.x+", "+this.y+")");
+    }
+    
+    public void setXY(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+    
+    public void desplaza(int dx, int dy){
+        this.x = this.x+dx;
+        this.y = this.y+dy;
+    }
+    
+    public int distancia(Punt p){
+        int p1 = p.getX()-this.x;
+        int p2 = p.getY()-this.y;
+        p1 = (int) Math.pow(p1, 2);
+        p2 = (int) Math.pow(p2, 2);
+        int suma = p1+p2;
+        int distancia = (int) Math.sqrt(suma);
+        return distancia;
     }
 }
