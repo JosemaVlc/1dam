@@ -13,14 +13,22 @@ public class EjercicioPunt {
         Punt coordenadas1 = new Punt(5,0);
         Punt coordenadas2 = new Punt(10,10);
         Punt coordenadas3 = new Punt(-3,7);
-        
+        Punt coordenadas4 = Punt.creaPuntoAleatorio();
+        Punt coordenadas5 = Punt.creaPuntoAleatorio();
+        Punt coordenadas6 = Punt.creaPuntoAleatorio();
+        System.out.println("Coordenades4");
+        coordenadas4.imprimeix();
+        System.out.println("Coordenades5");
+        coordenadas5.imprimeix();
+        System.out.println("Coordenades6");
+        coordenadas6.imprimeix();
         
         System.out.println("Les coordenades 1 son: x="+coordenadas1.getX()+" y="+coordenadas1.getY());
         System.out.println("Les coordenades 2 son: x="+coordenadas2.getX()+" y="+coordenadas2.getY());
         System.out.println("Les coordenades 3 son: x="+coordenadas3.getX()+" y="+coordenadas3.getY());
         
         coordenadas2.setX(coordenadas2.getX()*3);
-        
+                
         System.out.println("Coordenades2");
         coordenadas2.imprimeix();
         

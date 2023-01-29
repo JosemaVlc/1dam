@@ -17,12 +17,12 @@ public class Rectangle {
             this.y1 = y1;
             this.y2 = y2;
         }else{
-            System.out.println("ERROR al instanciar rectangle");
+            System.err.println("ERROR al instanciar rectangle");
         }
     }
     
     public void imprimeix(){
-        System.out.println("La primera coordenada es ("+this.x1+", "+this.y1+") y la segona es ("+this.x2+", "+this.y2+")");
+        System.out.println("La primera coordenada es ("+this.x1+", "+this.y1+") y la segona es ("+this.x2+", "+this.y2+")"+getPerimetre());
     }
     
     public void setX1Y1(int x1, int y1){
@@ -35,7 +35,7 @@ public class Rectangle {
             this.x2 = x2;
             this.y2 = y2;
         }else{
-            System.out.println("\nERROR al introduir coordenada, es quedara el anterior valor");   
+            System.err.println("\nERROR al introduir coordenada, es quedara el anterior valor");   
         }
     }
     
@@ -46,7 +46,7 @@ public class Rectangle {
             this.x2 = x2;
             this.y2 = y2;
         }else{
-            System.out.println("\nERROR al introduir coordenada, es quedara el anterior valor");    
+            System.err.println("\nERROR al introduir coordenada, es quedara el anterior valor");    
         }
     }
     
@@ -62,7 +62,7 @@ public class Rectangle {
         if(x2 > this.x1){
             this.x2 = x2;
         }else{
-            System.out.println("\nERROR al introduir coordenada, es quedara el anterior valor");
+            System.err.println("\nERROR al introduir coordenada, es quedara el anterior valor");
         }
     }
     
@@ -70,7 +70,7 @@ public class Rectangle {
         if(y2 > this.y1){
             this.y2 = y2;
         }else{
-            System.out.println("\nERROR al introduir coordenada, es quedara el anterior valor");
+            System.err.println("\nERROR al introduir coordenada, es quedara el anterior valor");
         }
     }
     

@@ -13,9 +13,10 @@ public class EjercicioPersona {
         Scanner entrada = new Scanner(System.in);
         String dni, nom, cognoms;
         int edad;
-        
-        System.out.print("Inserir DNI de la primera persona: ");
-        dni = entrada.nextLine();
+        do{
+            System.out.print("Inserir DNI de la primera persona valid: ");
+            dni = entrada.nextLine();
+        }while(Persona.validarDNI(dni)==false);
         System.out.print("Inserir Nom de la primera persona: ");
         nom = entrada.nextLine();
         System.out.print("Inserir Cognom de la primera persona: ");
@@ -26,8 +27,10 @@ public class EjercicioPersona {
         
         entrada.nextLine();
         
-        System.out.print("\nInserir DNI de la segona persona: ");
-        dni = entrada.nextLine();
+        do{
+            System.out.print("Inserir DNI de la segona persona valid: ");
+            dni = entrada.nextLine();
+        }while(Persona.validarDNI(dni)==false);
         System.out.print("Inserir Nom de la segona persona: ");
         nom = entrada.nextLine();
         System.out.print("Inserir Cognoms de la segona persona: ");
@@ -50,8 +53,6 @@ public class EjercicioPersona {
             System.out.printf("%s %s amb DNI %s no es major d'edat \n", persona2.getNom(), persona2.getCognoms(), persona2.getDNI());
         }
         
-        System.out.print("Inserir DNI de la primera persona: ");
-        dni = entrada.nextLine();
         System.out.print("Inserir Nom de la primera persona: ");
         nom = entrada.nextLine();
         System.out.print("Inserir Cognom de la primera persona: ");
@@ -60,13 +61,10 @@ public class EjercicioPersona {
         edad = entrada.nextInt();
         persona1.setNom(nom);
         persona1.setCognoms(cognoms);
-        persona1.setDNI(dni);
         persona1.setEdad(edad);    
         
         entrada.nextLine();
         
-        System.out.print("\nInserir DNI de la segona persona: ");
-        dni = entrada.nextLine();
         System.out.print("Inserir Nom de la segona persona: ");
         nom = entrada.nextLine();
         System.out.print("Inserir Cognoms de la segona persona: ");
@@ -75,7 +73,6 @@ public class EjercicioPersona {
         edad = entrada.nextInt();
         persona2.setNom(nom);
         persona2.setCognoms(cognoms);
-        persona2.setDNI(dni);
         persona2.setEdad(edad);   
         
         entrada.nextLine();
@@ -101,6 +98,10 @@ public class EjercicioPersona {
         }else{
             System.out.println("Es major de edat");
         } 
+        
+        System.out.print("Inserir DNI de la primera persona valid: ");
+        dni = entrada.nextLine();
+        System.out.println("Verificacio del dni diu que es "+Persona.validarDNI(dni));
         
         System.out.println("La diferencia entre els dos es de "+persona1.diferenciaEdat(persona2)+" anys de edat");
     }

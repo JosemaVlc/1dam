@@ -55,4 +55,9 @@ public class Punt {
         int distancia = (int) Math.sqrt(suma);
         return distancia;
     }
+    
+    public static Punt creaPuntoAleatorio(){
+        Punt p = new Punt((int)(Math.random()*10),(int)(Math.random()*10));
+        return p;
+    }
 }

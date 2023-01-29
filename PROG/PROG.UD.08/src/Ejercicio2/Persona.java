@@ -3,14 +3,32 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Ejercicio2;
+import java.util.Arrays;
 
 /**
  *
  * @author jmore
  */
 public class Persona {
-    private String dni, nom, cognoms;
+    private String nom, cognoms;
     private int edad;
+    final String dni;
+    final static int majoriaEdad = 18;
+    
+    static boolean validarDNI(String dni){
+        boolean validacio = false;
+        
+        if (dni.length() == 9 && Character.isLetter(dni.charAt(8)) == true){
+            if (dni.substring(0,7).matches("[0-9]*")){
+                validacio = true;
+            }else{
+                System.out.println("DNI incorrecte");
+            }
+        }else{
+            System.out.println("DNI incorrecte");
+        }
+        return validacio;
+    }
     
     public Persona(String dni, String nom, String cognoms, int edad){
         this.dni = dni;
@@ -25,7 +43,7 @@ public class Persona {
     
     public boolean esMajorEdat(){
         boolean major = false;
-        if (this.edad > 17){
+        if (this.edad >= Persona.majoriaEdad){
             major = true;
         }
         return major;
@@ -42,10 +60,6 @@ public class Persona {
     public int diferenciaEdat(Persona p){
         int diferencia = this.edad - p.getEdad();
         return diferencia;
-    }
-    
-    public void setDNI(String dni){
-        this.dni = dni;
     }
     
     public void setNom(String nom){
