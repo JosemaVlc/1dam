@@ -60,7 +60,7 @@ public class EjercicioRectangle {
         System.out.println(rectangle2.getArea());
         System.out.println(rectangle2.getPerimetre());
         
-        
+        Rectangle.
         
     }
 }
