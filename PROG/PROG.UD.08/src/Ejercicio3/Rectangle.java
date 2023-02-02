@@ -26,11 +26,15 @@ public class Rectangle {
             System.err.println("ERROR al instanciar rectangle");
         }
     }
-    public void rectangleAleatori(){
-        x1 = (int) (Math.random()*100+1);
-        y1 = (int) (Math.random()*100+1);
-        x2 = (int) (Math.random()*(100-x1)+(x1+1));
-        y2 = (int) (Math.random()*(100-y1)+(y1+1));
+    public static Rectangle rectangleAleatori(){
+        int x1 = (int) (Math.random()*100+1);
+        int y1 = (int) (Math.random()*100+1);
+        int x2 = (int) (Math.random()*(100-x1)+(x1+1));
+        int y2 = (int) (Math.random()*(100-y1)+(y1+1));
+        
+        Rectangle aleatorio = new Rectangle(x1, y1, x2, y2);
+        
+        return aleatorio;
     }
     public void imprimeix(){
         System.out.println("La primera coordenada es ("+this.x1+", "+this.y1+") y la segona es ("+this.x2+", "+this.y2+")"+getPerimetre());

@@ -14,17 +14,31 @@ public class Article {
     private double iva = 1.21;
     private int cuantsQueden;     
     
-    public Article(String nom, double preu, double iva, int stock){
+    public static final double ivaSuperReducido = 0.04;
+    public static final double ivaReducido = 0.10;
+    public static final double ivaGeneral = 0.21;
+    
+    public Article(String nom, double preu, int iva, int stock){
         this.nom = nom;
         if (preu > 0){ //preu deu ser major a 0€
             this.preu = preu;
         }else{
             System.out.println("El preu no pot ser negatiu ni de 0€");
         }
-        if (iva == 4 || iva == 10 || iva == 21){ //el iva pot ser super reduit 4%, reduit 10% o general 21%
-            this.iva = (iva/100)+1;
-        }else{
-            System.out.println("El iva no correspon al normalitzat a Espanya, se aplicará el 21%");
+        switch(iva){
+            case 21:
+                this.iva=1.21;
+                break;
+            case 10:
+                this.iva=1.10;
+                break;
+            case 4:
+                this.iva=1.04;
+                break;
+            default:
+                System.out.println("Error, IVA no valido. Se establecera el 21%");
+                this.iva=1.21;
+                break;   
         }
         if (stock >= 0){ //no pot ser stock negatiu
             this.cuantsQueden = stock;
@@ -101,10 +115,10 @@ public class Article {
     }
     
     public void setIva(double iva){
-        if (iva == 4 || iva == 10 || iva == 21){
-            this.iva = (iva/100)+1;
-        }else{
+        if (iva != Article.ivaReducido && iva != Article.ivaGeneral && iva != Article.ivaSuperReducido){
             System.out.println("El iva pot ser 4%, 10% o 21%, el iva es mantindra en "+((this.iva*100)-100)+"%");
+        }else{
+            this.iva = (iva/100)+1;
         }
     }
     
