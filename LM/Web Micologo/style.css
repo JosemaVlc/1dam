@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     position: relative;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 #logo {
@@ -49,7 +49,7 @@ nav li{
 }
 
 [href="#Muscaria"], [href="#Lactarius"]{
-    color:lightcoral;
+    color:rgb(144, 107, 153);
 }
 
 .centralContent {
@@ -61,6 +61,7 @@ aside {
     width: 20%;
     line-height: 20px;
     padding: 40px 0px 0px 30px;
+    border-right: 1px solid black;
 }
 
 aside ul {
@@ -75,8 +76,9 @@ h2 {
 
 main{
     width: 80%;
-    padding: 0px 0px 0px 20px;
-    background-color: lightpink;
+    padding: 0px 0px 100px 20px;
+    background-color:rgba(240, 181, 255, 0.847);
+
 }
 
 footer{
@@ -104,12 +106,52 @@ main img {
     width: 100px;
 }
 
-main  {
-    
-    
-}
-
 section {
     padding-top: 10px;
     line-height: 30px;
+}
+
+main .seccion1::first-letter {
+    color: red;
+    font-size: 15px;
+    background-color: lightpink;
+}
+
+#Lactarius .seccion1::first-line {
+    color:red;
+}
+
+table {
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+th {
+    background-color:green;
+    color:white;
+    font-size: 10px;
+    padding: 0px 20px 0px 20px;
+    line-height: 12px;
+}
+
+tr:nth-child(odd){
+    background-color: lightgreen;
+}
+
+tr:nth-child(even){
+    background-color: rgb(213, 193, 218);
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+td {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.dinero::after{
+    content:'€';
 }
