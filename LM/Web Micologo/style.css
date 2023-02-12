@@ -1,0 +1,115 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 10px;
+}
+
+#logo {
+    position: absolute;
+    right: 20px;
+    width: 70px;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: grey;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 50px;
+}
+
+nav{
+    background-color: wheat;
+    margin-top: 2px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px 0px 10px 0px;
+
+}
+
+.menu{
+    text-decoration-line: none;
+    color:black;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+[href="#Muscaria"], [href="#Lactarius"]{
+    color:lightcoral;
+}
+
+.centralContent {
+    display: flex;
+}
+
+aside {
+    background-color:lightgreen;
+    width: 20%;
+    line-height: 20px;
+    padding: 40px 0px 0px 30px;
+}
+
+aside ul {
+    padding-left: 40px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 15px;
+}
+
+main{
+    width: 80%;
+    padding: 0px 0px 0px 20px;
+    background-color: lightpink;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: grey;
+    color:white;
+    height: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+main img {
+    transform: rotate(20deg);
+    border-radius: 20px;
+    right: 20px;
+    position: absolute;
+    width: 100px;
+}
+
+main  {
+    
+    
+}
+
+section {
+    padding-top: 10px;
+    line-height: 30px;
+}
