@@ -1,0 +1,43 @@
+article h2{
+    color:green;
+}
+
+p > span {
+    text-shadow: 1px 1px 1px black;
+}
+
+aside > p+div {
+    border-radius: 5px;
+    background-color: red;
+}
+
+[type="email"]:valid{
+    background-color: lightgreen;
+}
+
+[type="email"]:invalid{
+    background-color: lightcoral;
+}
+
+nav a:hover{
+    background-color: white;
+    color:black;
+}
+nav{
+    top: 0px;
+    position: sticky;
+}
+:root {
+    background-color: black;
+    color:white;
+}
+
+article p::first-letter{
+    color:green;
+    font-size: 2em;
+    font-family: 'Gill Sans';
+}
+
+article p::first-line{
+    color:magenta;
+}
