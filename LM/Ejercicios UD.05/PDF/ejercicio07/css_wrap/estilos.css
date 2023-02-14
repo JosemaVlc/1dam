@@ -9,33 +9,55 @@ h2{
 }
 
 p{
-    padding: 0px 25px 0px 25px;
+    padding: 0px 15px 0px 15px;
+}
+
+.total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 1200px;
 }
 
 .tipo{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: baseline;
     background:linear-gradient(0deg, lightblue, white, lightblue);
     box-shadow: 1px 1px 5px black;
     border: 2px solid black;
     border-radius: 20px;
-    width: 40%;
+    width: 45%;
+    height: 45%;
 }
 
 .direction{
     background-color: yellow;
     border: 2px solid black;
     border-radius: 20px;
-    width: 40%;
-    margin: 20px;
+    width: 45%;
+    margin-bottom: 20px;
+    height: 200px;
     box-shadow: 1px 1px 5px black;
 }
 
 .uno, .dos, .tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 0px;
     border: 2px dotted black;
-    text-align: center;
+    background-color: greenyellow;
+}
+
+.cuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    width: 70px;
+    border: 2px dotted black;
     background-color: greenyellow;
 }
 
@@ -45,7 +67,6 @@ p{
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
 }
 
 .row-reverse{
@@ -54,7 +75,6 @@ p{
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
 }
 
 .column{
@@ -63,7 +83,6 @@ p{
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
 }
 
 .column-reverse{
@@ -72,7 +91,6 @@ p{
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
 }
 
 .start{
@@ -81,7 +99,6 @@ p{
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
 }
 
 .end{
@@ -90,7 +107,6 @@ p{
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
 }
 
 .center{
@@ -99,14 +115,83 @@ p{
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
 }
 
 .space_around{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     background-color: orange;
     margin: 10px;
-    font-size: 30px;
+}
+
+.a_start{
+    display:flex;
+    align-content: center;
+    align-items: start;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
+}
+
+.a_end{
+    display:flex;
+    align-content: center;
+    align-items: end;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
+}
+
+.a_center{
+    display:flex;
+    align-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
+}
+
+.stretch_baseline{
+    display:flex;
+    align-items: stretch;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
+}
+
+.c_start{
+    display:flex;
+    align-content: start;
+    flex-wrap: wrap;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
+}
+
+.c_end{
+    display:flex;
+    align-content: end;
+    flex-wrap: wrap;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
+}
+
+.c_center{
+    display:flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
+}
+
+.space_ac{
+    display:flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background-color: orange;
+    margin: 10px;
+    height: 50%;
 }
