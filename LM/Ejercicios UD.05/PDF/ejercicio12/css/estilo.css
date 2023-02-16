@@ -1,0 +1,18 @@
+@keyframes rotar{
+    0% {
+        transform: rotateY(0deg);   
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+img {
+    position: absolute;
+    width: 500px;
+    animation: rotar 10s infinite linear;
+}
+

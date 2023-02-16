@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 800px;
+}
+
+body div {
+    background-image: url(../img/ceed.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.uno {
+    background-position: left center;
+}
+
+.dos {
+    background-position: center center;
+}
+
+.tres {
+    background-position: center right;
+}
+
+.cuatro {
+    background-position: bottom left;
+}
+
+.cinco {
+    background-position: bottom center;
+}
+
+.seis {
+    background-position: bottom right;
+}
