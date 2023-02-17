@@ -1,0 +1,96 @@
+*{
+    font-size: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color:blueviolet;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 200px 50px 700px 50px;
+}
+
+header{
+    display: grid;
+    justify-content: center;
+}
+
+[alt="logosushito"]{
+    position: relative;
+    width: 300px;
+}
+
+nav{
+    background-color: lightgreen;
+
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    padding-right: 50px;
+    display: inline;
+}
+
+.socialvar{
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: 50% 50%;
+}
+
+.socialvar > p {
+    display: flex;
+    justify-content: right;
+}
+
+section{
+    margin: 50px 0px 0px 0px;
+    display: grid;
+    grid-template-rows: 50px 50px 20px;
+    align-items:flex-end
+}
+
+section:nth-child(odd) p:nth-child(odd){
+    text-align: left;
+    border-left: 5px solid grey;
+    margin-left: 10%;
+    padding-left: 50px;
+}
+
+section:nth-child(odd) p:nth-child(even){
+    text-align: right;
+    color: grey; 
+}
+
+section:nth-child(even) p:nth-child(even){
+    color: grey;
+    text-align: left;
+}
+section:nth-child(even) p:nth-child(odd){
+    text-align: right;
+    border-right: 5px solid grey;
+    margin-right: 10%;
+    padding-right: 50px;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    width: 25%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+span{
+    font-size: 70%;
+    vertical-align: bottom;
+}
