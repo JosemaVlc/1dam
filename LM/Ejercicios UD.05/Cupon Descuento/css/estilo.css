@@ -1,5 +1,6 @@
 *{
     font-size: 10px;
+    margin: 0px;
 }
 
 h1{
@@ -14,18 +15,51 @@ body{
 }
 
 header{
-    display: grid;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+.banner{
+    border-top-left-radius: 10px 25px;
+    border-bottom-left-radius: 15px 50px;
+    border: 1px solid black;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 20px;
+    background: linear-gradient(orange, white, orange);
+}
+
+.banner:hover{
+    width: 50px;
+}
+
+header > .banner:active{
+    background-image: url(../img/cuponDescuento.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 150px;
+}
+
+[alt="cupondescuento"]{
+    width: 100px;
+}
+
 [alt="logosushito"]{
-    position: relative;
     width: 300px;
 }
 
 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightgreen;
+}
 
+p::first-letter{
+    font-size: 15px;
 }
 
 ul{
@@ -38,14 +72,21 @@ li{
 }
 
 .socialvar{
+    height: 100px;
     display: grid;
     align-items: baseline;
     grid-template-columns: 50% 50%;
 }
 
+
 .socialvar > p {
     display: flex;
     justify-content: right;
+    color: orangered;
+}
+
+.socialvar > a{
+    height: 100px;
 }
 
 section{
@@ -93,4 +134,18 @@ footer{
 span{
     font-size: 70%;
     vertical-align: bottom;
+}
+
+.oculto{
+    display: none;
+    position: absolute;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    right: 0px;
+    background: bisque;
+}
+
+.oculto:hover{
+    display: block;
 }
