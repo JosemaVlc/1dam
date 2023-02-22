@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     font-size: 10px;
     margin: 0px;
 }
@@ -31,8 +32,37 @@ header{
     background: linear-gradient(orange, white, orange);
 }
 
-.banner:hover{
+.banner:hover {
     width: 50px;
+}
+.banner:hover .oculto{
+    display: flex;
+}
+
+.oculto{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    top: 30px;
+    right: 60px;
+    background: black;
+    color:white;
+    border-radius: 15px;
+}
+
+.oculto::before{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    top: 20px;
+    right: -5px;
+    transform:rotate(-45deg);
+    background-color: black;
+    z-index: -1;
 }
 
 header > .banner:active{
@@ -41,6 +71,10 @@ header > .banner:active{
     background-repeat:no-repeat;
     background-size: cover;
     width: 150px;
+}
+
+.banner:active .oculto{
+    display: none;
 }
 
 [alt="cupondescuento"]{
@@ -134,18 +168,4 @@ footer{
 span{
     font-size: 70%;
     vertical-align: bottom;
-}
-
-.oculto{
-    display: none;
-    position: absolute;
-    align-items: center;
-    width: 200px;
-    height: 100px;
-    right: 0px;
-    background: bisque;
-}
-
-.oculto:hover{
-    display: block;
 }
