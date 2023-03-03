@@ -16,26 +16,19 @@ import java.util.Scanner;
  */
 public class Ejercicio01 {
     public static void main (String[] args) throws InputMismatchException {
-        //variables
+        //inicialitse variables
         int A;
-        
-        //inicialitse els excepts
-        InputMismatchException e = new InputMismatchException("Valor introduit incorrecte");
-        
         //inicialitse el escaner
         Scanner sc = new Scanner(System.in);
         
-        //si el valor introduit es un int continua el programa sino imprimeix la excepcio
-        if (sc.hasNextInt()){
-            A = sc.nextInt();
-        }else{
-            throw e;
-        }  
-        
-        //imprimeix el valor A
-        System.out.println("Valor introduit: "+A);
-    }
-
-    
-    
+        try{
+            //si el valor introduit es un int continua el programa sino imprimeix la excepcio
+            A = sc.nextInt(); 
+            //imprimeix el valor A
+            System.out.println("Valor introduit: "+A);
+        }
+        catch(InputMismatchException e){
+            System.out.println("No has escrito un entero valido");
+        }
+    } 
 }

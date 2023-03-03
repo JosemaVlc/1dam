@@ -17,32 +17,27 @@ mostrant en cada cas un missatge d'error diferent.
  */
 public class Ejercicio02 {
     public static void main(String[] args) throws InputMismatchException, ArithmeticException{
-        
+        //inicialitse variables
         int A, B;
-                
+        //inicialitse scanner        
         Scanner entrada = new Scanner(System.in);
         
-        InputMismatchException e = new InputMismatchException("Valor introduit incorrecte");
-        ArithmeticException e1 = new ArithmeticException("Valor aritmetic erroni, no pot ser 0");
-        
-        System.out.println("Escribe un entero");
-        if (entrada.hasNextInt()){
+        try{
+            System.out.println("Escribe un entero");
             A = entrada.nextInt();
-        }else{
-            throw e;
-        }
-        
-        System.out.println("Escribe otro entero");
-        if (entrada.hasNextInt()){
+
+            System.out.println("Escribe otro entero");
             B = entrada.nextInt();
-        }else{
-            throw e;
+            
+            System.out.printf("A / B = %d",A/B);
         }
-        
-        if (B == 0){
-            throw e1;
+        catch(ArithmeticException e){
+            System.out.println("El divisor no puede ser 0");
         }
+        catch(InputMismatchException e){
+            System.out.println("No has escrito un entero valido");
+        }
+
         
-        System.out.println("A / B = "+A/B);
     }
 }
