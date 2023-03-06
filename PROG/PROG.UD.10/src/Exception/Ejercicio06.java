@@ -55,6 +55,8 @@ public class Ejercicio06 {
             System.out.println(e);
         }
         
+        Gat callejero5 = new Gat("Patatita",2);
+        
         //IMPRIMEIX INFO
         System.out.println("- Lista con "+llistaGats.size()+" elementos");
         Iterator iter = llistaGats.listIterator();
@@ -63,8 +65,30 @@ public class Ejercicio06 {
             callejero.imprimir();
         }
         
-        
-        
         //UTILITZACIO DE SETTERS
+        //prueba de setNom
+        try{
+            callejero5.setNom("Pi");
+        }catch (InputMismatchException e){
+            System.out.println(e);
+        }
+        try{
+            callejero5.setNom("Pino");
+        }catch (InputMismatchException e){
+            System.out.println(e);
+        }
+        //prueba de setEdat
+        try{
+            callejero5.setEdat(-3);
+        }catch (InputMismatchException e){
+            System.out.println(e);
+        }
+        try{
+            callejero5.setEdat(7);
+        }catch (InputMismatchException e){
+            System.out.println(e);
+        }
+        
+        callejero5.imprimir();
     }
 }

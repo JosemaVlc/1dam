@@ -42,6 +42,7 @@ public class Gat {
         if (nom.length()<3){
             throw(nomCorto);
         }
+        System.out.println("S'ha cambiat el gat "+this.nom+" a "+nom+" sense problemes");
         this.nom = nom;
     }
 
@@ -54,6 +55,7 @@ public class Gat {
         if (edat<0){
             throw(edatNegativa);
         }
+        System.out.println("S'ha cambiat del gat "+this.nom+" la edat de "+this.edat+" a "+edat+" anys sense problemes");
         this.edat = edat;
     }
     

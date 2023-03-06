@@ -19,7 +19,7 @@ public class EJERCICIOPRODUCTE {
         PRODUCTE cinco = new PRODUCTE ("altavoces", 1);
         
         //Crea un ArrayList        
-        ArrayList llista = new ArrayList();
+        ArrayList<PRODUCTE> llista = new ArrayList();
         
         //Afig les 5 instancies de producte al arraylist
         llista.add(uno);
