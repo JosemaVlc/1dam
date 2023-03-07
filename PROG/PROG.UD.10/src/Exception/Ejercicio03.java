@@ -19,7 +19,8 @@ vector.
  * 
  */
 public class Ejercicio03 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+        
         Scanner entrada = new Scanner(System.in);
         double vector[] = new double[5];
         int i = 0;
@@ -29,8 +30,9 @@ public class Ejercicio03 {
                 vector[i] = entrada.nextDouble();
                 i++;
             }
-            catch (InputMismatchException e){
+            catch (InputMismatchException a){
                 System.out.println("Intentes asignar un valor incompatible.");
+                a.printStackTrace();
                 entrada.nextLine();
             }
         }

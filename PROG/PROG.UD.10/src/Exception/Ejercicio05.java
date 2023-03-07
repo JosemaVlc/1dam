@@ -28,26 +28,30 @@ public class Ejercicio05 {
         num=7;
         try{
             imprimeixPositiu(num);
-        }catch(InputMismatchException e){
+        }catch(Exception e){
             System.out.println(e);
+            e.printStackTrace();
         }
         try{
             imprimeixNegatiu(num);
         }catch(InputMismatchException e){
             System.out.println(e);
+            e.printStackTrace();
         }
         
         //Proba en el -3
         num=-3;
         try{
             imprimeixPositiu(num);
-        }catch(InputMismatchException e){
+        }catch(Exception e){
             System.out.println(e);
+            e.printStackTrace();
         }
         try{
             imprimeixNegatiu(num);
         }catch(InputMismatchException e){
             System.out.println(e);
+            e.printStackTrace();
         }
         
         //bucle per a introduir numero
@@ -63,8 +67,9 @@ public class Ejercicio05 {
                 try{
                     imprimeixPositiu(num);
                 //si falla imprimeix la falla
-                }catch(InputMismatchException e){
+                }catch(Exception e){
                     System.out.println(e);
+                    e.printStackTrace();
                 }
                 //proba anb la funcio imprimeix negatiu
                 try{
@@ -72,11 +77,13 @@ public class Ejercicio05 {
                 //si falla imprimeix la falla
                 }catch(InputMismatchException e){
                     System.out.println(e);
+                    e.printStackTrace();
                 }
             //si num no es un valor valid imprimeix el error i borra cache
             }catch(InputMismatchException e){
                 System.out.println("Valor erroneo");
                 entrada.nextLine();
+                e.printStackTrace();
             }
             //si dona exception impriura que es negatiu y llamara la funcio
 
@@ -85,10 +92,9 @@ public class Ejercicio05 {
         
         
     }
-    static void imprimeixPositiu(int p) throws InputMismatchException{
-        InputMismatchException e1 = new InputMismatchException("El numero es negatiu");
+    static void imprimeixPositiu(int p) throws Exception{
         if (p < 0){
-            throw (e1);
+            throw new Exception("numero no valido");
         }
         System.out.println("El valor positiu es: "+p);
     }

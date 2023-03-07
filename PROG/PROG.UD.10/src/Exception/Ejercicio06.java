@@ -26,13 +26,9 @@ public class Ejercicio06 {
         //inicialitze la arraylist
         ArrayList llistaGats = new ArrayList();      
             
-        //CREACIO DE GATS    
-        try{
-            Gat callejero1 = new Gat("Pedro",7);
+        //CREACIO DE GATS 
+            Gat callejero1 = new Gat("Pe",7);
             llistaGats.add(callejero1);
-        }catch (InputMismatchException e){
-            System.out.println(e);
-        }
         
         try{
             Gat callejero2 = new Gat("Pi",45);
