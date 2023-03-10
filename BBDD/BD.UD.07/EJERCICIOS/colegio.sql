@@ -1,0 +1,17 @@
+DROP DATABASE IF EXISTS alumnado;
+DROP DATABASE IF EXISTS profesorado;
+DROP DATABASE IF EXISTS sistema;
+CREATE DATABASE alumnado;
+CREATE DATABASE profesorado;
+CREATE DATABASE sistema;
+USE alumnado;
+CREATE TABLE estudiantes (id INT PRIMARY KEY, nombre VARCHAR(50));
+CREATE TABLE materias (id INT PRIMARY KEY, nombre VARCHAR(50));
+CREATE TABLE notas (id INT PRIMARY KEY, nombre VARCHAR(50));
+USE profesorado;
+CREATE TABLE docentes (id INT PRIMARY KEY, nombre VARCHAR(50));
+CREATE TABLE documentos (id INT PRIMARY KEY, nombre VARCHAR(50));
+USE sistema;
+CREATE TABLE eventos (id INT PRIMARY KEY, nombre VARCHAR(50));
+CREATE TABLE matriculas (id INT PRIMARY KEY, nombre VARCHAR(50));
+CREATE TABLE estudios (id INT PRIMARY KEY, nombre VARCHAR(50));
