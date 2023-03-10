@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 15px;
     margin: 0px;
 }
 
@@ -12,7 +12,7 @@ h1{
 
 body{
     display: grid;
-    grid-template-rows: 200px 50px 700px 50px;
+    grid-template-rows: 0px 300px 60px 1300px 50px;
 }
 
 header{
@@ -20,20 +20,33 @@ header{
     align-items: center;
     justify-content: center;
 }
-
+.flotante{
+    position: sticky;
+    top: 0px;
+}
 .banner{
     border-top-left-radius: 10px 25px;
     border-bottom-left-radius: 15px 50px;
     border: 1px solid black;
     position: absolute;
-    right: 0;
+    top: 100px;
+    right: 0px;
     height: 100px;
     width: 20px;
     background: linear-gradient(orange, white, orange);
 }
-
+@keyframes amplia {
+    from{
+        width: 20px;
+    }
+    to{
+        width: 40px;
+    }   
+}
 .banner:hover {
-    width: 50px;
+    animation-name: amplia;
+    animation-duration: 0s;
+    width: 40px;
 }
 .banner:hover .oculto{
     display: flex;
@@ -51,6 +64,7 @@ header{
     background: black;
     color:white;
     border-radius: 15px;
+    text-align: center;
 }
 
 .oculto::before{
@@ -64,8 +78,7 @@ header{
     background-color: black;
     z-index: -1;
 }
-
-header > .banner:active{
+.banner:active{
     background-image: url(../img/cuponDescuento.jpg);
     background-position: center;
     background-repeat:no-repeat;
@@ -83,6 +96,27 @@ header > .banner:active{
 
 [alt="logosushito"]{
     width: 300px;
+}
+
+@keyframes girar {
+    from{
+        rotate: 0deg;
+        width: 300px;
+        opacity: 100%;
+    }
+    to{
+        width: 400px;
+        rotate: -10deg;
+        opacity: 60%;
+    }
+    
+}
+
+[alt="logosushito"]:hover{
+    width: 300px;
+    animation-name: girar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 nav{
@@ -105,6 +139,18 @@ li{
     display: inline;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a:hover{
+    font-size: 22px;
+    color: red;
+}
+
+
 .socialvar{
     height: 100px;
     display: grid;
@@ -117,10 +163,6 @@ li{
     display: flex;
     justify-content: right;
     color: orangered;
-}
-
-.socialvar > a{
-    height: 100px;
 }
 
 section{
@@ -153,8 +195,13 @@ section:nth-child(even) p:nth-child(odd){
     padding-right: 50px;
 }
 
+main > section > div {
+    display: flex;
+    justify-content: center;
+}
+
 hr {
-    height: 1px;
+    height: 5px;
     background-color: black;
     width: 25%;
 }
@@ -168,4 +215,39 @@ footer{
 span{
     font-size: 70%;
     vertical-align: bottom;
+}
+
+i {
+    height: 40px;
+    width: 40px;
+}
+
+article{
+    display:flex;
+    margin-top: 20px;
+    justify-content: center;
+    height: 900px;
+    height: 100%;
+    align-self: ;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    border: 1px grey solid;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border: 1px grey solid;
+    border-radius: 25px;
+
 }
