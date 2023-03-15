@@ -1,8 +1,8 @@
--------------
+/*-------------
 -- METADATOS
--------------
+-------------*/
 
-DROP DATABASE acadjediDB;
+DROP DATABASE IF EXISTS acadjediDB;
 CREATE DATABASE acadjediDB CHARACTER SET utf8 COLLATE utf8_spanish_ci;
 
 USE acadjediDB;

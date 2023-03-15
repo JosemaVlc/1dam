@@ -61,24 +61,25 @@ WHERE c.codacad = a.codacad AND c.importe >= ALL(select importe from coste);
 
 /* EJERCICIO 5B1 */
 
-DROP VIEW IF EXISTS todo;
+DROP VIEW IF EXISTS Cursos_con_alumnos;
 
 CREATE VIEW 
 Cursos_con_alumnos AS 
-SELECT  c.nombre, c.descripcion, a.idalumno, o.fechaini, o.fechafin
-FROM curso c, alumno a, ofertar o
-WHERE  o.codcurso = a.codcurso 
-and o.codcurso = c.codcurso 
-and c.codcurso in (select distinct c.codcurso from curso c, alumno a where c.codcurso = a.codcurso)
+SELECT c.nombre,  c.descripcion, a.idalumno, o.fechaini, o.fechafin
+FROM curso c, ofertar o, alumno a
+WHERE a.codcurso = o.codcurso
+AND c.codcurso = o.codcurso
+AND a.codacad = c.codacad
+AND c.codacad = o.codacad
 ORDER BY c.nombre, c.descripcion;
 
-SELECT nombre, descripcion, idalumno
+/* EJERCICIO 5B2 */
+
+SELECT nombre, descripcion, COUNT(*) AS n_alumnos
 FROM Cursos_con_alumnos
-WHERE fechaini between 2022-09-01 and 2023-06-30;
+WHERE fechaini BETWEEN '2022-09-01' AND '2023-06-30'
+GROUP BY nombre, descripcion
+having n_alumnos > 1;
 
-select * from Cursos_con_alumnos;
 
-
-SELECT distinct c.codcurso
-FROM curso c;
 
