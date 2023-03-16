@@ -5,7 +5,7 @@ FROM Maestro m, Curso c, Alumno a
 WHERE concat(m.nombre, m.apellidos) = concat(a.nombre, a.apellidos) 
 AND m.idmaestro = c.idmaestro;
 
-/* EJERCICIO BB2 */
+/* EJERCICIO 1B2 */
 
 SELECT DISTINCT CONCAT('Maestro: ', m.nombre, ' ', m.apellidos) AS 'Nombre Completo', m.fechagrado AS 'Fecha de grado'
 FROM Maestro m JOIN Curso c JOIN Alumno a 
