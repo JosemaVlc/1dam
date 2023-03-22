@@ -10,50 +10,41 @@ AND m.idmaestro = c.idmaestro;
 /* EJERCICIO 1B2 */
 
 SELECT DISTINCT CONCAT('Maestro: ', m.nombre, ' ', m.apellidos) AS 'Nombre Completo', m.fechagrado AS 'Fecha de grado'
-FROM Maestro m 
-JOIN Curso c 
-JOIN Alumno a 
+FROM Maestro m JOIN Curso c JOIN Alumno a 
 ON concat(m.nombre, m.apellidos) = concat(a.nombre, a.apellidos) 
 AND m.idmaestro = c.idmaestro;
 
 /* EJERCICIO 2B1 */
 
 SELECT concepto, SUM(importe) as importeTotal FROM coste
-WHERE concepto LIKE 'Alquiler %'
-OR concepto LIKE 'Seguro %'
+WHERE concepto like 'Alquiler %'
+OR concepto like 'Seguro %'
 GROUP BY concepto
 ORDER BY importeTotal DESC, concepto;
 
 /* EJERCICIO 2B2 */
 
-SELECT c.concepto, (SELECT SUM(importe) 
-					FROM coste 
-					WHERE c.concepto = concepto) AS importeTotal 
-FROM (	SELECT DISTINCT concepto 
-		FROM coste 
-        WHERE concepto LIKE 'Alquiler %' 
-        OR concepto LIKE 'Seguro %') AS c
+SELECT c.concepto, (select SUM(importe) from coste where c.concepto = concepto) as importeTotal 
+FROM (select distinct concepto from coste WHERE concepto like 'Alquiler %' OR concepto like 'Seguro %') as c
 ORDER BY importeTotal DESC, concepto;
 
 /* EJERCICIO 3B1 */
 
-SELECT CONCAT(a.apellidos, ', ', a.nombre) AS alumno 
-FROM alumno a
+SELECT CONCAT(a.apellidos, ', ', a.nombre) AS alumno FROM alumno a
 WHERE  EXISTS (	SELECT s.idalumno 
 				FROM senior s 	
-                WHERE s.idalumno = a.idalumno) 
-AND EXISTS (SELECT p.idalumno
-			FROM padawan p
-			WHERE p.idalumno = a.idalumno)
+                WHERE s.idalumno = a.idalumno AND EXISTS (SELECT p.idalumno
+								FROM padawan p
+								WHERE p.idalumno = a.idalumno))
 ORDER BY a.apellidos DESC;
 
 /* EJERCICIO 3B2 */
 
 SELECT CONCAT(a.apellidos, ', ', a.nombre) AS alumno FROM alumno a
-WHERE  idalumno IN (SELECT s.idalumno 
-					FROM senior s)
-AND idalumno IN (	SELECT p.idalumno 
-					FROM padawan p)
+WHERE  idalumno IN (	SELECT s.idalumno 
+				FROM senior s 	
+                WHERE idalumno IN (SELECT p.idalumno
+								FROM padawan p))
 ORDER BY a.apellidos DESC;
 
 /* EJERCICIO 4B1 */
@@ -68,15 +59,7 @@ ORDER BY Total;
 
 SELECT a.nombre, c.concepto, c.importe
 FROM academia a, coste c
-WHERE c.codacad = a.codacad 
-AND c.importe >= ALL(	select importe 
-						from coste);
-
-SELECT a.nombre, c.concepto, c.importe
-FROM academia a, coste c
-WHERE c.codacad = a.codacad
-AND c.importe = (	select max(c.importe) 
-					from coste c);
+WHERE c.codacad = a.codacad AND c.importe >= ALL(select importe from coste);
 
 /* EJERCICIO 5B1 */
 
@@ -96,7 +79,9 @@ ORDER BY c.nombre, c.descripcion;
 
 SELECT nombre, descripcion, COUNT(*) AS n_alumnos
 FROM Cursos_con_alumnos
-WHERE fechaini 	BETWEEN '2022-09-01' 
-				AND '2023-06-30'
+WHERE fechaini BETWEEN '2022-09-01' AND '2023-06-30'
 GROUP BY nombre, descripcion
-HAVING n_alumnos > 1;
+having n_alumnos > 1;
+
+
+

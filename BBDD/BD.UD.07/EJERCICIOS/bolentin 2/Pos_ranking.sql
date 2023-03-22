@@ -14,6 +14,7 @@ begin
 		select 'Error, el producto tiene mas de una referencia' as 'Error';
     elseif  (select count(nombre) from productos where nombre = producto) < 1 then
 		select 'Error, el producto no tiene referencias' as 'Error';
+        /**SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'NO SE ENCUENTRA PRODUCTO';**/
 	else
 		select producto, count(*)+1 as posicion_por_precio from productos
 		where precio > (select precio from productos where nombre = producto);
@@ -21,5 +22,5 @@ begin
 end€€
 DELIMITER ;
 
-CALL p_ranking_por_precio('Fresas');
+CALL p_ranking_por_precio('Fress');
 
