@@ -1,3 +1,6 @@
+
+import java.util.Random;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -7,6 +10,44 @@
  *
  * @author jmore
  */
-public class Esser {
+abstract class Esser {
+    private static int totalEssers = 0;
+    private static int consecutiu = 1;
     
+    private int pes;
+    private final String nom;
+             
+
+    public Esser(String nom, int pes) {
+        consecutiu++;
+        this.nom = nom+consecutiu;
+        this.pes = pes;
+        totalEssers++;
+    }
+    
+    public final String dirNom(){
+        return this.nom;
+    }
+    
+    public final int dirPes(){
+        return this.pes;
+    }
+    
+    public final void canviaPes(int pes){
+        this.pes += pes;
+    }
+    
+    public static int generaAleatori(int inicial, int quantitat){
+        Random aleatori = new Random();
+        int valorAleatori =aleatori.nextInt(quantitat) + inicial;
+        return valorAleatori;
+    }
+    
+    public static final int dirPoblacio() {
+        return totalEssers;
+    }
+    
+    public abstract String mostrarEstat();
+
+    public abstract String mostrarDetall();
 }

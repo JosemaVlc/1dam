@@ -7,6 +7,30 @@
  *
  * @author jmore
  */
-public class Ameba {
+public class Ameba extends Esser {
+    private static int totalAmebes = 0;
+    private String estat;
+    private String detall;
+    private String aliment = "Tot";
+    private boolean reproduccio = true;
+
+    public Ameba(String nom, int pes, String aliment, boolean reproduccio) {
+        super(nom, pes);
+        
+        totalAmebes++;   
+    }
     
+    public static final int dirPoblacio(){
+        return totalAmebes;
+    }
+    
+    
+    @Override
+    public String mostrarEstat(){
+     return "@"+ nom + " => PES: :"+ pes;   
+    }
+    @Override
+    public String mostrarDetall(){
+        return detall;
+    };
 }
