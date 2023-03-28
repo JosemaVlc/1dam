@@ -20,14 +20,14 @@ public class Ameba extends Esser {
         totalAmebes++;   
     }
     
-    public static final int dirPoblacio(){
+    public static int dirPoblacio(){
         return totalAmebes;
     }
     
     
     @Override
     public String mostrarEstat(){
-     return "@"+ nom + " => PES: :"+ pes;   
+     return "@"+ this.dirNom() + " => PES: :"+ this.dirPes();   
     }
     @Override
     public String mostrarDetall(){

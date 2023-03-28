@@ -25,15 +25,15 @@ abstract class Esser {
         totalEssers++;
     }
     
-    public final String dirNom(){
+    public String dirNom(){
         return this.nom;
     }
     
-    public final int dirPes(){
+    public int dirPes(){
         return this.pes;
     }
     
-    public final void canviaPes(int pes){
+    public void canviaPes(int pes){
         this.pes += pes;
     }
     
@@ -43,7 +43,7 @@ abstract class Esser {
         return valorAleatori;
     }
     
-    public static final int dirPoblacio() {
+    public static int dirPoblacio() {
         return totalEssers;
     }
     
