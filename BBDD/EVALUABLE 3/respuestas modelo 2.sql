@@ -1,6 +1,6 @@
 USE acadjedidb;
 
-/**
+/*
 SCRIPT 1B: ACADEMIAS Y CURSOS POR COSTES ASOCIADOS (2 PUNTOS)
 
 Crea una función para obtener, dado el código de academia y código de curso, el número de costes
@@ -11,7 +11,7 @@ asociados tienen y otro listado para los 2 cursos que más dinero han costado.
 Se pide:
 • Crea la función fNumcostesAcadCurso
 • Crea la función fTotalCostesAcadCurso
-**/
+*/
 
 DROP FUNCTION IF EXISTS fNumcostesAcadCurso;
 DELIMITER $$
@@ -44,6 +44,7 @@ BEGIN
 END$$
 DELIMITER ;
 
+/* Prueba de los SELECTS */
 SELECT distinct codcurso, codacad, fNumcostesAcadCurso(codcurso, codacad) AS Coste_Total 
 FROM coste 
 ORDER BY Coste_Total DESC LIMIT 2;
@@ -52,7 +53,7 @@ SELECT distinct codcurso, codacad, fTotalCostesAcadCurso(codcurso, codacad) AS C
 FROM coste 
 ORDER BY Coste_Total DESC LIMIT 2;
 
-/**
+/*
 SCRIPT 2B: LISTAR ALUMNOS POR LETRA Y TIPO (2 PUNTOS)
 
 Crea un procedimiento almacenado para obtener el nombre completo y la descripción del curso en
@@ -65,7 +66,7 @@ Se pide:
 • Crea el procedimiento pListarAlumnos_porLetrayTipo
 • Muestra un mensaje de error si no se recibe una ‘P’ o una ‘S’ como 2º parámetro.
 • Para el nombre completo usa la función CONCAT.
-**/
+*/
 
 DROP PROCEDURE IF EXISTS pListarAlumnos_porLetrayTipo;
 DELIMITER $$
@@ -112,10 +113,11 @@ BEGIN
 END$$
 DELIMITER ;
 
+/* Ejemplo para el CALL y @resultados */
 CALL pListarAlumnos_porLetrayTipo('A','S',@resultados);
 SELECT @resultados AS 'Numero de resultados';
 
-/**
+/*
 SCRIPT 3B: PÉRDIDA SEMÁNTICA EN ALUMNOS (T+D) (2 PUNTOS)
 
 Al traducir del diseño conceptual al modelo relacional, existía una pérdida semántica en las
@@ -132,7 +134,7 @@ el trigger servirá a partir de ahora)
 Se pide:
 • Crea el trigger necesario para prevenir inserciones incorrectas en PADAWAN
 • Crea el trigger necesario para prevenir inserciones incorrectas en SENIOR
-**/
+*/
 
 DROP TRIGGER IF EXISTS insercionDisjuntaPadawan;
 DELIMITER $$
@@ -156,7 +158,7 @@ BEGIN
 END$$
 DELIMITER ;
 
-/** Prueba de insercion en la tabla PADAWAN **/
+/* Prueba de insercion en la tabla PADAWAN */
 INSERT INTO padawan VALUES('ALU006',current_date()); /** Alumno senior **/
 INSERT INTO padawan VALUES('ALU016',current_date()); /** No Alumno **/
 
@@ -182,11 +184,11 @@ BEGIN
 END$$
 DELIMITER ;
 
-/** Prueba de insercion en la tabla SENIOR **/
+/* Prueba de insercion en la tabla SENIOR */
 INSERT INTO senior VALUES('ALU009','sable láser',current_date()); /** Alumno padawan **/
 INSERT INTO senior VALUES('ALU016','sable láser',current_date()); /** No Alumno **/
 
-/**
+/*
 SCRIPT 4B: TRIGGERS PARA LAS PARTICIPACIONES 1:N (2 PUNTOS)
 
 Al traducir del diseño conceptual al modelo relacional, existía una pérdida semántica en las
@@ -202,7 +204,7 @@ Se pide:
 1:N en la relación de CURSO con ALUMNO.
 • Crea el trigger necesario para prevenir actualizaciones del campo CODCURSO de la tabla
 ALUMNO que rompan la participación 1:N en la relación de CURSO con ALUMNO.
-**/
+*/
 
 DROP TRIGGER IF EXISTS borradoAlumno;
 DELIMITER $$
@@ -220,7 +222,7 @@ BEGIN
 END$$
 DELIMITER ;
 
-/** Prueba de borrado del ultimo alumno asociado a un curso **/
+/* Prueba de borrado del ultimo alumno asociado a un curso */
 DELETE FROM Alumno WHERE idalumno = 'ALU003';
 
 DROP TRIGGER IF EXISTS actualizacionAlumno;
@@ -242,10 +244,10 @@ BEGIN
 END$$
 DELIMITER ;
 
-/** Prueba de borrado del ultimo alumno asociado a un curso **/
+/* Prueba de borrado del ultimo alumno asociado a un curso */
 UPDATE Alumno SET codcurso = 8050 WHERE idalumno = 'ALU003';
 
-/**
+/*
 SCRIPT 5B: LÍNEAS DE COSTES CONSECUTIVAS (2 PUNTOS)
 
 Crea los triggers necesarios para asegurar que los números de línea de un mismo coste son
@@ -261,12 +263,40 @@ Se pide:
 		manera que, si por ejemplo insertamos la línea 6 del coste del curso ‘6050’ y academia
 		‘GLEE’, debe existir antes el 5. Si no existe esa línea 5, debe cancelarse la operación con
 		un mensaje de error.
-**/
-select * from coste;
+*/
+
 DROP TRIGGER IF EXISTS tAntesActualizarLineasCoste;
 DELIMITER $$
 CREATE TRIGGER tAntesActualizarLineasCoste	
 BEFORE UPDATE ON coste
 FOR EACH ROW
 BEGIN
-	select count(linea) from coste where codcurso = new.codcurso and codacad = new.codacad;
+    IF 
+		NEW.linea <> OLD.linea
+    THEN
+		SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'No se puede actualizar el campo LINEA de la tabla Coste';
+	END IF;
+END$$
+DELIMITER ;
+
+/* Prueba update linea */
+UPDATE coste SET linea = 8 WHERE codacad = 'CRAIT' AND codcurso = 5050 AND linea = 3;
+
+DROP TRIGGER IF EXISTS tAntesActualizarLineasCoste;
+DELIMITER $$
+CREATE TRIGGER tAntesActualizarLineasCoste	
+BEFORE INSERT ON coste
+FOR EACH ROW
+BEGIN
+	IF (NEW.linea <> (	SELECT COUNT(*) 
+						FROM coste 
+						WHERE codcurso = NEW.codcurso 
+                        AND codacad = NEW.codacad)+1)
+	THEN
+		SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'El numero de linea debe ser consecutivo';
+	END IF;
+END$$
+DELIMITER ;
+
+/* Prueba de INPUT erroneo */
+INSERT INTO coste VALUES(6, 5050, 'CRAIT', 'Alquiler de sables láser', 5.5);
