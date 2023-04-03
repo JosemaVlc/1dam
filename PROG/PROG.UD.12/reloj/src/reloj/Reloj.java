@@ -46,13 +46,6 @@ public class Reloj extends Application {
         public int getMinuto() {
             return this.minuto;
         }
-    
-        /**
-        * @param args the command line arguments
-        */
-        public static void main(String[] args) {
-            launch(args);
-        }
         
         public int getSegundo() {
             return this.segundo;
@@ -116,5 +109,12 @@ public class Reloj extends Application {
             this.hora =calendario.get(Calendar.HOUR_OF_DAY);
             this.minuto = calendario.get(Calendar.MINUTE);
             this.segundo = calendario.get(Calendar.SECOND);
+        }
+    
+        /**
+        * @param args the command line arguments
+        */
+        public static void main(String[] args) {
+            launch(args);
         }
     }

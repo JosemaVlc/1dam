@@ -10,9 +10,9 @@ import java.util.Random;
  *
  * @author jmore
  */
-abstract class Esser {
+abstract class Esser implements Alimentacio, Poblacio{
     private static int totalEssers = 0;
-    private static int consecutiu = 1;
+    private static int consecutiu = 0;
     
     private int pes;
     private final String nom;
@@ -37,7 +37,7 @@ abstract class Esser {
         this.pes += pes;
     }
     
-    public static int generaAleatori(int inicial, int quantitat){
+    public final static int generaAleatori(int inicial, int quantitat){
         Random aleatori = new Random();
         int valorAleatori =aleatori.nextInt(quantitat) + inicial;
         return valorAleatori;
@@ -45,6 +45,11 @@ abstract class Esser {
     
     public static int dirPoblacio() {
         return totalEssers;
+    }
+     
+    @Override
+    public void reduirPoblacio(){
+        --totalEssers;
     }
     
     public abstract String mostrarEstat();
