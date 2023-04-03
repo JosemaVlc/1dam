@@ -50,7 +50,7 @@ public class Alga extends Esser {
     @Override
     public void reproduir(ArrayList essers){
         try{
-            while(1==1){
+            while(true){
                 if (this.dirPes() >= pesAlga * pesReproduccio){
                     essers.add(new Alga());
                     Esser esserHijo = (Esser) essers.get(essers.size()-1);
