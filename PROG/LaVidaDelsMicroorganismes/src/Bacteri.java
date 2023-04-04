@@ -40,6 +40,16 @@ public class Bacteri extends Esser {
     public String mostrarDetall(){
         return "/ " + this.dirNom() + " => PES " + this.dirPes() + " - ALIMENTACIÓ: " + this.aliment + " - REPRODUCCIÓ: " + this.reproduccio;
     }
+    
+    public static int dirPoblacio(){
+        return totalBacteris;
+    }
+    
+    @Override
+    public void reduirPoblacio(){
+        --totalBacteris;
+        super.reduirPoblacio();
+    }
 
     @Override
     public void menjar(ArrayList essers){

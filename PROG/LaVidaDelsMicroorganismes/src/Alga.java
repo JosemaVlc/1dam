@@ -21,10 +21,17 @@ public class Alga extends Esser {
         super("ALGA", pesAlga);
         aliment = aliment.Nutrient;
         reproduccio = true;
+        totalAlgues++;
     }
     
     public static int dirPoblacio(){
         return totalAlgues;
+    }
+    
+    @Override
+    public void reduirPoblacio(){
+        --totalAlgues;
+        super.reduirPoblacio();
     }
     
     @Override

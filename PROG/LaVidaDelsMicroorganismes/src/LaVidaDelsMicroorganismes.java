@@ -1,6 +1,7 @@
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.Iterator;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -28,9 +29,9 @@ public class LaVidaDelsMicroorganismes {
         
         crearEssers(nombreAmebes, nombreBacteris, nombreAlgues, essers);
         
-        procesaMenu();
+        procesaMenu(essers);
         
-        mostraLlistaEssers();
+        mostraLlistaEssers(essers);
         
         System.out.println("Torna quant vulgues");
     }
@@ -99,10 +100,10 @@ public class LaVidaDelsMicroorganismes {
         }
     }
     
-    private static void procesaMenu(){
+    private static void procesaMenu(ArrayList essers){
         int opc;
         do{
-            System.out.print("OPCIONS==> 1.-Una Interacció, 2.-Deu Interaccions, 3.-Llistat, 4-Detall 0.-Eixir: ");
+            System.out.print("OPCIONS==> 1.-Una Interaccio, 2.-Deu Interaccions, 3.-Llistat, 4-Detall 0.-Eixir: ");
             opc = llegirNumero(0,4);
             
             try{
@@ -110,13 +111,13 @@ public class LaVidaDelsMicroorganismes {
                     case 0:
                         break;
                     case 1:
-                        produeixInteraccio();
+                        produeixInteraccio(essers);
                         break;
                     case 2:
-                        produeixInteraccio();
+                        produeixInteraccio(essers);
                         break;
                     case 3:
-                        mostraLlistaEssers();
+                        mostraLlistaEssers(essers);
                         break;
                     case 4:
                         mostrarEsser();
@@ -131,11 +132,16 @@ public class LaVidaDelsMicroorganismes {
         }while(opc != 0);
     }
 
-    private static void mostraLlistaEssers() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    private static void mostraLlistaEssers(ArrayList essers) {
+        Iterator <Esser> it = essers.iterator();
+        while(it.hasNext()){
+            Esser esserInspeccionat = it.next();
+            System.out.println(esserInspeccionat.mostrarEstat());
+        }
+        System.out.println("POBLACIO: TOTAL ESSERS=>" + Esser.dirPoblacio() + ", AMEBES=>" + Ameba.dirPoblacio() + ", BACTERIES=>" + Bacteri.dirPoblacio() + ", ALGUES=>" + Alga.dirPoblacio());        
     }
 
-    private static void produeixInteraccio() {
+    private static void produeixInteraccio(ArrayList essers) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 

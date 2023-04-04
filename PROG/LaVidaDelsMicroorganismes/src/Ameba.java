@@ -31,7 +31,7 @@ public class Ameba extends Esser {
     
     @Override
     public String mostrarEstat(){
-     return "@"+ this.dirNom() + " => PES: :"+ this.dirPes();   
+     return "@ "+ this.dirNom() + " => PES: :"+ this.dirPes();   
     }
     
     @Override
