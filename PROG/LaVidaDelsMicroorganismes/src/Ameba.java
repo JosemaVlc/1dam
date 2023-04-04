@@ -52,7 +52,7 @@ public class Ameba extends Esser {
             int aleatori = Esser.generaAleatori(0,essers.size());
             Esser esserAleatori = (Esser)essers.get(aleatori);
             if (!esserAleatori.dirNom().equals(this.dirNom())){
-                super.canviaPes(esserAleatori.dirPes());
+                this.canviaPes(esserAleatori.dirPes());
                 System.out.println("ALIMENTACIÓ **** " + this.dirNom() + ": m'he menjat a " + esserAleatori.dirNom() + ". Ara pese " + esserAleatori.dirPes());
                 esserAleatori.reduirPoblacio();
                 essers.remove(aleatori);
@@ -62,20 +62,14 @@ public class Ameba extends Esser {
     }
     
     @Override
-    public void reproduir(ArrayList essers){
-        
-        try {
-            if (this.dirPes() >= pesAmeba * pesReproduccio){
-                essers.add(new Ameba());
-                canviaPes(-pesAmeba);  
-                Esser esserHijo = (Esser) essers.get(essers.size()-1);
-                System.out.println("REPRODUCCIÓ **** " + this.dirNom() + " m'he reproduït i he creat a " + esserHijo.dirNom() + ". Ara pese " + this.dirPes());
-            } else{
-                throw new Exception("REPRODUCCIÓ **** " + this.dirNom() + " amb un pes de " + this.dirPes() + " no em puc reproduir");
-            }
-        }
-        catch (Exception e){
-            System.err.println(e);
+    public void reproduir(ArrayList essers) throws Exception{
+        if (this.dirPes() >= pesAmeba * pesReproduccio){
+            essers.add(new Ameba());
+            canviaPes(-pesAmeba);  
+            Esser esserHijo = (Esser) essers.get(essers.size()-1);
+            System.out.println("REPRODUCCIÓ **** " + this.dirNom() + " m'he reproduït i he creat a " + esserHijo.dirNom() + ". Ara pese " + this.dirPes());
+        } else{
+            throw new Exception("REPRODUCCIÓ **** " + this.dirNom() + " amb un pes de " + this.dirPes() + " no em puc reproduir");
         }
     }
 }

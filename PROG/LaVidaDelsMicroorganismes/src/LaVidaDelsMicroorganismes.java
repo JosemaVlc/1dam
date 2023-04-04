@@ -105,7 +105,6 @@ public class LaVidaDelsMicroorganismes {
         do{
             System.out.print("OPCIONS==> 1.-Una Interaccio, 2.-Deu Interaccions, 3.-Llistat, 4-Detall 0.-Eixir: ");
             opc = llegirNumero(0,4);
-            
             try{
                 switch (opc){
                     case 0:
@@ -165,13 +164,16 @@ public class LaVidaDelsMicroorganismes {
     private static void produeixInteraccio(ArrayList essers) throws Exception {
         int indexAleatori = Esser.generaAleatori(0, essers.size()); 
         int accio = Esser.generaAleatori(0, 2);
-        
         Esser esserAleatori = (Esser) essers.get(indexAleatori);
-        if (accio == 0){
-            esserAleatori.reproduir(essers);
-        }else{
-            esserAleatori.menjar(essers);
+        try{
+            if (accio == 0){
+                esserAleatori.reproduir(essers);
+            }else{
+                esserAleatori.menjar(essers);
+            }   
+        }
+        catch (Exception e){
+            System.err.println(e);
         }
     }
-
 }   

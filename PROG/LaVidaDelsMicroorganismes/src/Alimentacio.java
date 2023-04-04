@@ -18,5 +18,5 @@ public interface Alimentacio {
     static final int pesAlga = 3;
     static final int pesNutrients = 5;
     
-    public void menjar(ArrayList essers);
+    public void menjar(ArrayList essers)throws Exception;
 }

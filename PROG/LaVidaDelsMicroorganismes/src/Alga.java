@@ -1,6 +1,5 @@
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -45,7 +44,7 @@ public class Alga extends Esser {
     }
     
     @Override
-    public void menjar(ArrayList essers){
+    public void menjar(ArrayList essers) throws Exception{
         this.canviaPes(pesNutrients);
         System.out.println("ALIMENTACIÓ **** " + this.dirNom() + ": m'he menjat a " + "un nutriente" +". Ara pese " + this.dirPes());
         if (this.dirPes() > (pesAlga * 2) * pesReproduccio){
@@ -53,23 +52,17 @@ public class Alga extends Esser {
         }
     }
     
-    // cuanto se resta del Alga cuando se reproduce y de cuanto es el alga que se genera //
     @Override
-    public void reproduir(ArrayList essers){
-        try{
+    public void reproduir(ArrayList essers) throws Exception{
+        if (this.dirPes() >= pesAlga * pesReproduccio){
             while(this.dirPes() >= pesAlga * pesReproduccio){
-                if (this.dirPes() >= pesAlga * pesReproduccio){
-                    essers.add(new Alga());
-                    Esser esserHijo = (Esser) essers.get(essers.size()-1);
-                    System.out.println("REPRODUCCIÓ **** " + this.dirNom() + " m'he reproduït i he creat a " + esserHijo.dirNom() + ". Ara pese " + this.dirPes());
-                    this.canviaPes(-esserHijo.dirPes());
-                } else {
-                    throw new Exception ("REPRODUCCIÓ **** " + this.dirNom() + " amb un pes de " + this.dirPes() + " no em puc reproduir");
-                }
+                essers.add(new Alga());
+                Esser esserHijo = (Esser) essers.get(essers.size()-1);
+                System.out.println("REPRODUCCIÓ **** " + this.dirNom() + " m'he reproduït i he creat a " + esserHijo.dirNom() + ". Ara pese " + this.dirPes());
+                this.canviaPes(-esserHijo.dirPes());
             }
-        }
-        catch(Exception e){
-            System.err.println(e);
+        } else {
+            throw new Exception ("REPRODUCCIÓ **** " + this.dirNom() + " amb un pes de " + this.dirPes() + " no em puc reproduir");
         }
     } 
     
