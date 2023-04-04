@@ -57,12 +57,12 @@ public class Alga extends Esser {
     @Override
     public void reproduir(ArrayList essers){
         try{
-            while(true){
+            while(this.dirPes() >= pesAlga * pesReproduccio){
                 if (this.dirPes() >= pesAlga * pesReproduccio){
                     essers.add(new Alga());
                     Esser esserHijo = (Esser) essers.get(essers.size()-1);
                     System.out.println("REPRODUCCIÓ **** " + this.dirNom() + " m'he reproduït i he creat a " + esserHijo.dirNom() + ". Ara pese " + this.dirPes());
-                    
+                    this.canviaPes(-esserHijo.dirPes());
                 } else {
                     throw new Exception ("REPRODUCCIÓ **** " + this.dirNom() + " amb un pes de " + this.dirPes() + " no em puc reproduir");
                 }

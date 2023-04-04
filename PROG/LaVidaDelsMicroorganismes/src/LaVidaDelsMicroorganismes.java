@@ -114,20 +114,22 @@ public class LaVidaDelsMicroorganismes {
                         produeixInteraccio(essers);
                         break;
                     case 2:
-                        produeixInteraccio(essers);
+                        for (int i = 0; i < 10; i++){
+                            produeixInteraccio(essers);
+                        }
                         break;
                     case 3:
                         mostraLlistaEssers(essers);
                         break;
                     case 4:
-                        mostrarEsser();
+                        mostrarEsser(essers);
                         break;
                     default:
                         throw new Exception ("No es una opcio valida");
                 }
             }
             catch (Exception e){
-                System.out.println(e);
+                System.err.println(e);
             }
         }while(opc != 0);
     }
@@ -141,12 +143,35 @@ public class LaVidaDelsMicroorganismes {
         System.out.println("POBLACIO: TOTAL ESSERS=>" + Esser.dirPoblacio() + ", AMEBES=>" + Ameba.dirPoblacio() + ", BACTERIES=>" + Bacteri.dirPoblacio() + ", ALGUES=>" + Alga.dirPoblacio());        
     }
 
-    private static void produeixInteraccio(ArrayList essers) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    private static void mostrarEsser(ArrayList essers) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        int contador = 0;
+        System.out.println("Introdueix el nom d'un esser");
+        String nom = sc.nextLine();
+        Iterator <Esser> it = essers.iterator();
+        while(it.hasNext()){
+            Esser esserInspeccionat = it.next();
+            if (esserInspeccionat.dirNom().equals(nom.toUpperCase())){
+                System.out.println(esserInspeccionat.mostrarDetall());
+                break;
+            }
+            contador++;
+            if (contador >= essers.size()){
+                throw new Exception ("ERROR: el microorganisme " + nom.toUpperCase() + " no apareix en la llista.");
+            }
+        }
     }
 
-    private static void mostrarEsser() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    private static void produeixInteraccio(ArrayList essers) throws Exception {
+        int indexAleatori = Esser.generaAleatori(0, essers.size()); 
+        int accio = Esser.generaAleatori(0, 2);
+        
+        Esser esserAleatori = (Esser) essers.get(indexAleatori);
+        if (accio == 0){
+            esserAleatori.reproduir(essers);
+        }else{
+            esserAleatori.menjar(essers);
+        }
     }
 
 }   

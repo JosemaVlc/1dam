@@ -16,5 +16,5 @@ public interface Poblacio {
     
     public void reduirPoblacio();
     
-    public void reproduir(ArrayList essers);
+    public void reproduir(ArrayList essers) throws Exception;
 }
