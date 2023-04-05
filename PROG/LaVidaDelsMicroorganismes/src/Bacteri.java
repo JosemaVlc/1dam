@@ -8,13 +8,28 @@ import java.util.Iterator;
  */
 
 /**
- *
+ * 
  * @author jmore
  */
 public class Bacteri extends Esser {
+    
+    // ATRIBUTS DE CLASE //
+    
+    /**
+     * Incrementa quan es cree un nou bacteri i es reduirà quan desaparega.
+     */
     private static int totalBacteris;
     
+    // ATRIBUTS D'INSTANCIA //
+    
+    /**
+     * Indica quin és el tipus d’alimentació que té
+     */
     private Aliment aliment;
+    
+    /**
+     * Indica si pot reproduir-se
+     */
     private boolean reproduccio;
     
     public Bacteri() {
