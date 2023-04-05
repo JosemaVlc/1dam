@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Iterator;
@@ -9,7 +8,7 @@ import java.util.Iterator;
  */
 import java.util.Scanner;
 /**
- *
+ * En aquest projecte anem a construir un ecosistema d’essers vius o microorganismes que interactuaran entre ells per a alimentar-se i per a reproduir-se. Tots els microorganismes pertanyen a un grup comú d’essers que estableix un conjunt d’elements comuns, que poden vindre definits o deixar en mans dels diferents grups d’esses la sua definició. Així doncs, el nostre ecosistema de microorganismes o Essers estarà format per Amebes, Bacteris i Algues. A més existiran uns nutrients dels que s’alimentarà la base de la cadena per anar fer engreixant al nostre ecosistema. Tota la gestió d’aquest ecosistema es farà des de un programa principal amb el que l’usuari interactuarà per consultar o provocar canvis en aquest.
  * @author jmore
  */
 public class LaVidaDelsMicroorganismes {
@@ -102,6 +101,7 @@ public class LaVidaDelsMicroorganismes {
     
     private static void procesaMenu(ArrayList essers){
         int opc;
+        int cont=0;
         do{
             System.out.print("OPCIONS==> 1.-Una Interaccio, 2.-Deu Interaccions, 3.-Llistat, 4-Detall 0.-Eixir: ");
             opc = llegirNumero(0,4);
@@ -113,7 +113,7 @@ public class LaVidaDelsMicroorganismes {
                         produeixInteraccio(essers);
                         break;
                     case 2:
-                        for (int i = 0; i < 10; i++){
+                        for (int i = 0; i < 10; i++){                           
                             produeixInteraccio(essers);
                         }
                         break;
@@ -125,6 +125,10 @@ public class LaVidaDelsMicroorganismes {
                         break;
                     default:
                         throw new Exception ("No es una opcio valida");
+                }
+                if (Esser.dirPoblacio()==1){
+                    System.out.println("Solamente queda un esser");
+                    break;
                 }
             }
             catch (Exception e){
