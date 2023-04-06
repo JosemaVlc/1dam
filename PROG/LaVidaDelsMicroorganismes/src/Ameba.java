@@ -7,6 +7,7 @@ import java.util.ArrayList;
  */
 
 /**
+ * Subclasse de Esser per crear y manipular les amebes 
  * 
  * @author jmore
  */
@@ -74,8 +75,10 @@ public class Ameba extends Esser {
      */
     @Override
     public String mostrarDetall(){
-        return "@ " + this.dirNom() + " => PES " + this.dirPes() + " - ALIMENTACIÓ: " + this.aliment + " - REPRODUCCIÓ: " + this.reproduccio;
-    };
+        return "@ " + this.dirNom() + " => PES " + this.dirPes() + " - ALIMENTACIO: " + this.aliment + " - REPRODUCCIO: " + this.reproduccio;
+    }
+    
+    // METODES D'INTERFICIE //
     
     /**
      * Tindrà com a finalitat que cada tipus d’esser quan siga menjat reduïsca el seu propi 
@@ -104,12 +107,12 @@ public class Ameba extends Esser {
             Esser esserAleatori = (Esser)essers.get(aleatori);
             if (!esserAleatori.dirNom().equals(this.dirNom())){
                 this.canviaPes(esserAleatori.dirPes());
-                System.out.println("ALIMENTACIÓ **** " + this.dirNom() + ": m'he menjat a " + esserAleatori.dirNom() + ". Ara pese " + esserAleatori.dirPes());
-                esserAleatori.reduirPoblacio();
+                System.out.println("ALIMENTACIO **** " + this.dirNom() + ": m'he menjat a " + esserAleatori.dirNom() + ". Ara pese " + esserAleatori.dirPes());
                 essers.remove(aleatori);
                 verif = true;
+                esserAleatori.reduirPoblacio();
             }
-        }while(verif=false);       
+        }while(verif == false);       
     }
     
     /**
@@ -127,9 +130,9 @@ public class Ameba extends Esser {
             essers.add(new Ameba());
             canviaPes(-pesAmeba);  
             Esser esserHijo = (Esser) essers.get(essers.size()-1);
-            System.out.println("REPRODUCCIÓ **** " + this.dirNom() + " m'he reproduït i he creat a " + esserHijo.dirNom() + ". Ara pese " + this.dirPes());
+            System.out.println("REPRODUCCIO **** " + this.dirNom() + " m'he reproduit i he creat a " + esserHijo.dirNom() + ". Ara pese " + this.dirPes());
         } else{
-            throw new Exception("REPRODUCCIÓ **** " + this.dirNom() + " amb un pes de " + this.dirPes() + " no em puc reproduir");
+            throw new Exception("REPRODUCCIO **** " + this.dirNom() + " amb un pes de " + this.dirPes() + " no em puc reproduir");
         }
     }
 }

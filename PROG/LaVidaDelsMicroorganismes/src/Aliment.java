@@ -4,9 +4,9 @@
  */
 
 /**
- * 
  * Enum que limitarà a que el projecte sols puga utilitzar els següents aliments: Tot, Ameba, Bacteri, Alga, Nutrient.
  * 
+ * @author jmore
  */
 enum Aliment{
     Tot, Ameba, Bacteri, Alga, Nutrient

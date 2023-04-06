@@ -8,7 +8,7 @@ import java.util.Random;
 
 /**
  *
- * Superclasse a partir de la qual es definirà la resta. Adoptarà els esquemes que s’hagen definit en el projecte, tant per a l’alimentació com per a la reproducció.
+ * Superclasse a partir de la qual es definirà la resta.
  * 
  * @param totalEssers Incrementarà quan es cree algun nou microorganisme i es reduirà quan desaparega.
  * @param consecutio Anirà incrementant a cada nou microorganisme que es cree i que s’utilitzarà per aque forme part del text que s’assignarà al nom.
@@ -31,7 +31,8 @@ abstract class Esser implements Alimentacio, Poblacio{
     // CONSTRUCTORS //
     
     /**
-     * Constructor de Esser
+     * Constructor de Esser.
+     * Ademes incrementara consecutiu y totalEssers.
      * 
      * @param nom Formarà per la concatenació d’un text que vindrà des de les subclasses més el consecutiu d’essers
      * @param pes Incrementara en la quantitat que vinga indicada segons el tipus d’esser que s’hajacreat.
@@ -98,7 +99,7 @@ abstract class Esser implements Alimentacio, Poblacio{
         return valorAleatori;
     }
     
-    // METODES HERETATS //
+    // METODES DE INTERFICIE //
     
     /**
      *  Te com a finalitat que cada tipus d’esser quan siga menjat reduïsca nombre total el general.

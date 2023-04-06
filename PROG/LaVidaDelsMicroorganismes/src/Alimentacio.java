@@ -7,9 +7,9 @@ import java.util.ArrayList;
  */
 
 /**
- * 
  * Interface per anotar les constants dels pesos que s’utilitzaran en el procés de creació dels diferents tipus d’essers
  * 
+ * @author jmore
  */
 public interface Alimentacio {
     // CONSTANTS //
