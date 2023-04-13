@@ -17,10 +17,10 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <TableView prefHeight="598.0" prefWidth="410.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-10.0" AnchorPane.topAnchor="0.0">
+                  <TableView fx:id="contact_table" prefHeight="598.0" prefWidth="410.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-10.0" AnchorPane.topAnchor="0.0">
                     <columns>
-                      <TableColumn prefWidth="75.0" text="Nom" />
-                      <TableColumn prefWidth="75.0" text="Cognoms" />
+                      <TableColumn fx:id="nom_column" prefWidth="75.0" text="Nom" />
+                      <TableColumn fx:id="cognoms_column" prefWidth="75.0" text="Cognoms" />
                     </columns>
                      <columnResizePolicy>
                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -28,7 +28,7 @@
                   </TableView>
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="437.0">
                <children>
                   <Label layoutX="14.0" layoutY="14.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
                   <GridPane layoutX="135.0" layoutY="219.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="40.0">
@@ -46,24 +46,24 @@
                     </rowConstraints>
                      <children>
                         <Label text="Nom" />
-                        <Label text="Label" GridPane.columnIndex="1" />
+                        <Label fx:id="nom_label" text="Label" GridPane.columnIndex="1" />
                         <Label text="Cognoms" GridPane.rowIndex="1" />
-                        <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="cognoms_label" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                         <Label text="Domicili" GridPane.rowIndex="2" />
-                        <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label fx:id="domicili_label" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                         <Label text="Ciutat" GridPane.rowIndex="3" />
-                        <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label fx:id="ciutat_label" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                         <Label text="Codi Postal" GridPane.rowIndex="4" />
-                        <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label fx:id="codi_postal_label" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                         <Label text="Data de Naixement" GridPane.rowIndex="5" />
-                        <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label fx:id="data_de_naixement_label" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                      </children>
                   </GridPane>
                   <HBox layoutX="375.0" layoutY="553.0" spacing="25.0" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">
                      <children>
                         <Button mnemonicParsing="false" text="Nou" />
                         <Button mnemonicParsing="false" text="Editar" />
-                        <Button mnemonicParsing="false" text="Eliminar" />
+                        <Button mnemonicParsing="false" onAction="#deleteContact" text="Eliminar" />
                      </children>
                   </HBox>
                </children>

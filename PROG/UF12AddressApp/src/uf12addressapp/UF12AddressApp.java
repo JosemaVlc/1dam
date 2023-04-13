@@ -88,6 +88,9 @@ public class UF12AddressApp extends Application {
                         getClass().getResource("views/Index.fxml"));
             AnchorPane index = (AnchorPane) loader.load();
             this.rootLayout.setCenter(index);
+            
+            IndexController controller = loader.getController();
+            controller.setAddressApp(this);
         } catch (IOException e) {
             e.printStackTrace();
         }
