@@ -1,0 +1,174 @@
+use imperialbaseMDB
+
+db.createCollection("pilotos")
+
+var piloto1 = {
+	_id:"pr01", 
+	nombre:"Lord", 
+	apellidos:"Darth Vader", 
+	transporte:[
+		{
+			transporte:"MA001", 
+			nave:"Crucero imperial nodriza", 
+			coste:5
+		},
+		{
+			transporte:"MI003", 
+			nave:"Crucero imperial nodriza", 
+			coste:7.16
+		},
+		{
+			transporte:"ME004", 
+			nave:"Tiefighter Mustafar", 
+			coste:2.33
+		}
+	],
+	abatidos:10
+}
+
+var piloto2 = {
+	_id:"pr02", 
+	nombre:"Moff", 
+	apellidos:"Tarkin"
+	}
+	
+var piloto3 = {_id:"pr03", 
+	nombre:"Almirante", 
+	apellidos:"Thrawn", 
+	transporte:[
+		{
+			transporte:"MT002",
+			nave:"Crucero logístico",
+			coste:6.58
+		}	
+	]
+}
+
+var piloto4 = {
+	_id:"pr04", 
+	nombre:"Biggs", 
+	apellidos:"Darklighter", 
+	transporte:[
+		{
+			transporte:"MI003",
+			nave:"Tiefighter",
+			coste:10.24
+		},
+		{
+			transporte:"ME004",
+			nave:"Crucero de transporte",
+			coste:7.89
+		}
+	], 
+	abatidos:5
+}
+
+var piloto5 = {
+	_id:"pr05", 
+	nombre:"Barón", 
+	apellidos:"Soontir Fel", 
+	transporte:[
+		{
+			transporte:"MA001",
+			nave:"Tiefighter",
+			coste:3.25
+		},
+		{
+			transporte:"ME004",
+			nave:"Crucero de transporte",
+			coste:1.76
+		}
+	], 
+	abatidos:2
+}
+
+var piloto6 = {
+	_id:"pr06", 
+	nombre:"Maarek", 
+	apellidos:"Stele", 
+	transporte:[
+		{
+			transporte:"MA001",
+			nave:"Tiefighter",
+			coste:5.01
+		},
+		{
+			transporte:"ME004",
+			nave:"Crucero de transporte",
+			coste:2.43
+		}
+	], 
+	abatidos:3
+}
+
+var piloto7 = {
+	_id:"pr07", 
+	nombre:"Mulchive", 
+	apellidos:"Wermis", 
+	transporte:[
+		{
+			transporte:"MA001",
+			nave:"Tiefighter",
+			coste:4
+		},
+		{
+			transporte:"ME004",
+			nave:"Crucero de transporte",
+			coste:3
+		}
+	], 
+	abatidos:6
+}
+	
+var piloto8 = {
+	_id:"pr08", 
+	nombre:"Loka", 
+	apellidos:"Hask", 
+	transporte:[
+		{
+			transporte:"MA001",
+			nave:"Tiefighter",
+			coste:3.29
+		},
+		{
+			transporte:"ME004",
+			nave:"Crucero de transporte",
+			coste:4.05
+		}
+	], 
+	abatidos:7
+}
+
+var piloto9 = {
+	_id:"pr09", 
+	nombre:"Tycho", 
+	apellidos:"Celchu", 
+	transporte:[
+		{
+			transporte:"MA001",
+			nave:"Tiefighter",
+			coste:2.57
+		},
+		{
+			transporte:"ME004",
+			nave:"Crucero de transporte",
+			coste:1.65
+		}
+	], 
+	abatidos:4
+}
+var piloto10 = {
+	_id:"pr10", 
+	nombre:"PT001", 
+	apellidos:"Piloto DS-61-1", 
+	abatidos:3
+}
+
+var piloto11 = {
+	_id:"pr11", 
+	nombre:"Kylo", 
+	apellidos:"Ren", 
+	abatidos:0
+}
+
+db.pilotos.insertMany([piloto1, piloto2, piloto3, piloto4, piloto5, piloto6, piloto7, piloto8, piloto9, piloto10, piloto11])
