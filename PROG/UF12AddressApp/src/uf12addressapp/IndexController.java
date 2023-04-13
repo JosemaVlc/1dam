@@ -5,10 +5,13 @@
 package uf12addressapp;
 
 import java.net.URL;
+import java.util.Optional;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -84,26 +87,24 @@ public class IndexController implements Initializable {
     
     @FXML
     public void deleteContact(){
-        if (!contact_table.getItems().isEmpty()) {
-            int selected_index = contact_table.getSelectionModel().getSelectedIndex();
-            contact_table.getItems().remove(selected_index);
+        Alert alert;
+        int selected_index = contact_table.getSelectionModel().getSelectedIndex();
+                
+        if(!contact_table.getItems().isEmpty() && selected_index != -1){
+            alert = new Alert(Alert.AlertType.CONFIRMATION);
+            alert.setTitle("Confirmar l'esborrat");
+            alert.setHeaderText("Aquesta acció és irreversible");
+            alert.setContentText("Estàs segur que vols esborrar aquest contacte?");
+            Optional<ButtonType> result = alert.showAndWait();
+            if(result.get() == ButtonType.OK){
+                contact_table.getItems().remove(selected_index);
+            }
+        }else{
+            alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText("No hi ha cap element seleccionat");
+            alert.setContentText("Has de seleccionar un contacte abans d'esborrar");
+            alert.showAndWait();
         }
-    }
-    
-    
-    /**
-    
-    @FXML
-    private Label label;
-    
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
-    
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    } **/   
-    
+    }    
 }
