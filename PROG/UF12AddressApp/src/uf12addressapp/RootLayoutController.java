@@ -6,9 +6,12 @@ package uf12addressapp;
 
 import java.io.File;
 import java.net.URL;
+import java.util.Optional;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.stage.FileChooser;
 
 /**
@@ -76,6 +79,20 @@ public class RootLayoutController implements Initializable {
             arxiu = new File (arxiu.getPath()+".txt");
         }
         this.address_app.saveContactDataToFile(arxiu);
+    }
+    
+    /**
+     * Assignara a l'opcio del menu "sobre mi" la funció cridar
+     */      
+    @FXML
+    public void sobreMi(){
+        Alert alert;
+
+        alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Sobre mi");
+        alert.setHeaderText("Informació del Autor");
+        alert.setContentText("Nom i Cognom: Jose Manuel Moreno");
+        alert.showAndWait();
     }
     
     private File mostraDialeg(String tipus){
