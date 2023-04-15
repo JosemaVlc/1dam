@@ -20,6 +20,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 
@@ -66,13 +67,6 @@ public class UF12AddressApp extends Application {
         //La funcio showIndex inicialitza la Scene interna.
         showIndex();
     }
-        /**Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
-        Scene scene = new Scene(root);
-        
-        stage.setScene(scene);
-        stage.show();
-    }   **/
     
     private void initRootLayout(){
         try {
@@ -180,6 +174,72 @@ public class UF12AddressApp extends Application {
         } catch (Exception ex) {
             System.err.println("No s'ha trobal l'arxiu: " + arxiu.getName());
         }
+    }
+    
+    /**
+     * Carrega la vista i crea un nou Stage.
+     * 
+     * Comprova si el nom del contacte rebut buit i en cas de serlo posará el titol
+     * de "Nou contacte" mentres que si no es buit posara el titol de "Editar" 
+     * seguit del nom i cognoms del contacte.
+     * 
+     * Utilizant les funsions initModality(Modality.WINDOW_MODAL) e initOwner(primaryStage)
+     * del nou Stage indica que tipus de quadre i l'enlaza en el Stage primari.
+     * 
+     * Crea la nova escena a la qual li passa el AnchorPane de la vista.
+     * 
+     * Utiliza el metode setScenne() per a passar-li l'escena que s'ha creat.
+     * 
+     * Crea una instancia de ContactEditDialogController amb el loader.getControlloer()
+     * i li passa al controller el dialogStage en el metode setDialogStage i el contacte
+     * en el metode loadContacte().
+     * 
+     * Obri i espera la vista
+     * 
+     * Per ultim retorna el valor booleà que obté en la funció getOkClicked() 
+     * del controllador
+     * 
+     * @param contacte
+     * @return 
+     */
+    public boolean showContactEditDialog(Contact contacte){
+        boolean okClicked = false;
+        
+        try {
+            //Carreguem el FXML
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("views/ContactEditDialog.fxml"));
+            Stage dialogStage = new Stage();
+            
+            if (!"".equals(contacte.getNom().get())){
+                dialogStage.setTitle("Editar "+contacte.getNom().get()+" "+contacte.getCognoms().get());
+            }else{
+                dialogStage.setTitle("Nou contacte");
+            }
+            
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(primaryStage);
+            
+            AnchorPane contactEditDialog = (AnchorPane) loader.load();
+            
+            Scene scene = new Scene(contactEditDialog);
+            
+            dialogStage.setScene(scene);
+                        
+            ContactEditDialogController controller = loader.getController();
+            
+            controller.setDialogStage(dialogStage);
+            controller.loadContacte(contacte);
+            
+            dialogStage.showAndWait();
+            
+            okClicked = controller.getOkClicked();
+            
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }        
+        
+        return okClicked;
     }
     
     /**

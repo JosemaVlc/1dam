@@ -32,12 +32,12 @@
             <Label text="Ciutat" GridPane.rowIndex="3" />
             <Label text="Codi Postal" GridPane.rowIndex="4" />
             <Label text="Data de Naixement" GridPane.rowIndex="5" />
-            <TextField fx:id="text_nom" GridPane.columnIndex="1" />
-            <TextField fx:id="text_cognoms" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="text_domicili" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField fx:id="text_ciutat" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField fx:id="text_codi_postal" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <TextField fx:id="text_data_de_naixement" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="txt_nom" GridPane.columnIndex="1" />
+            <TextField fx:id="txt_cognoms" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txt_domicili" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txt_ciutat" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="txt_codi_postal" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="txt_data_de_naixement" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
       <Group layoutX="419.0" layoutY="346.0" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">

@@ -25,6 +25,7 @@ public class RootLayoutController implements Initializable {
     /**
      * S'obte, desde la clase principal
      * @param address_app
+     * 
      */
     public void setAddressApp(UF12AddressApp address_app){
         this.address_app = address_app;
@@ -82,8 +83,9 @@ public class RootLayoutController implements Initializable {
     }
     
     /**
-     * Assignara a l'opcio del menu "sobre mi" la funció cridar
-     */      
+     * Quadre de diàleg on mostra la informació de l'autor.
+     * 
+     */
     @FXML
     public void sobreMi(){
         Alert alert;
@@ -95,6 +97,9 @@ public class RootLayoutController implements Initializable {
         alert.showAndWait();
     }
     
+     /**
+     * Assignara a l'opcio del menu "sobre mi" la funció cridar
+     */      
     private File mostraDialeg(String tipus){
         File arxiu;
         //Classe per a poder seleccionar el arxiu desde el explorador
@@ -116,6 +121,8 @@ public class RootLayoutController implements Initializable {
     
     /**
      * Initializes the controller class.
+     * @param url
+     * @param rb
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {

@@ -22,7 +22,7 @@ import uf12addressapp.models.Contact;
  * @author jmore
  */
 public class IndexController implements Initializable {
-    //VAriables de la tabla
+    //Variables de la tabla
     @FXML
     private TableView<Contact> contact_table;
     @FXML
@@ -44,7 +44,7 @@ public class IndexController implements Initializable {
     private Label data_de_naixement_label;
     
     //Variable per a la clase principal
-    private UF12AddressApp uf12address_app;
+    private UF12AddressApp address_app;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -62,11 +62,79 @@ public class IndexController implements Initializable {
         );
     }
     
-    public void setAddressApp(UF12AddressApp uf12address_app){
-        this.uf12address_app = uf12address_app;
-        contact_table.setItems(uf12address_app.getContactes());
+    /**
+     * Crea una instància de contact de un contacte temporal.
+     * 
+     * Assigna el valor de la variable interna amb el nom okClicked utilitzant 
+     * el mètode showContactEditDialog() de address_app i li dona contacte 
+     * temporal com a argument.
+     * 
+     * Despres comprova si okCliked es true o false, i si es true, introduirá
+     * el contacte temporal a la ObservableList.
+     * 
+     */
+    public void newContact(){
+        Contact tempContact = new Contact();
+        
+        boolean okClicked = this.address_app.showContactEditDialog(tempContact);
+        
+        if (okClicked == true){
+            this.address_app.getContactes().add(tempContact);
+        }   
     }
     
+    /**
+     * Crea un objecte tipus Contact que obtindrà els seus parametres 
+     * mitjançant el mètode getSelectionModel().getSelectedItem() de 
+     * contact_table.
+     * 
+     * Comprova que selectedContact no es nul·la asignara els valors de
+     * la variable interna amb el nom okClicked utilitzant la instancia de
+     * address_app, per a cridar al metode showContactEditDialog() a la que li
+     * passarà la instància de contacte seleccionat anteriorment com a argument.
+     * 
+     * Comprova que okClicked té el valor true. Si es així cridarà a la finció 
+     * showContactDetalls() passant-li el contacte, perquè mostre els detalls
+     * del contacte.
+     * 
+     * A més, si es comprova que selectedContact és nul·la, es mostrarà un 
+     * missatge d'error amb un cuadre de diàleg.
+     * 
+     */
+    public void editContact(){
+        Alert alert;
+        Contact selectedContact = this.contact_table.getSelectionModel().getSelectedItem();
+                
+        if (selectedContact != null){
+            boolean okClicked = this.address_app.showContactEditDialog(selectedContact);
+            if (okClicked == true){
+                showContactDetails(selectedContact);
+            }              
+        }else{
+            alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText("No hi ha cap element seleccionat");
+            alert.setContentText("Has de seleccionar un contacte abans d'editar");
+            alert.showAndWait();
+        }
+    }
+    
+    /**
+     * S'obte, desde la clase principal
+     * @param address_app 
+     * 
+     */
+    public void setAddressApp(UF12AddressApp address_app){
+        this.address_app = address_app;
+        contact_table.setItems(address_app.getContactes());
+    }
+    /**
+     * Modificarà els valors dels TextFields amb els valors del contacte.
+     * 
+     * Si el contacte es null modificara els valors dels TextFields a buit.
+     * @param contacte 
+     * 
+     */
     public void showContactDetails(Contact contacte){
         if(contacte != null){
             this.nom_label.setText(contacte.getNom().get());
@@ -84,7 +152,20 @@ public class IndexController implements Initializable {
             this.data_de_naixement_label.setText("");
         }
     }
-    
+    /**
+     * Crea un objecte tipus Contact que obtindrà els seus parametres mitjançant 
+     * el mètode getSelectionModel().getSelectedIndex() de contact_table
+     * 
+     * Comprova que selected_index no siga -1 i que contact_table no siga buit, 
+     * i si es així mostrará un dialeg tipus confirmació en un avis de que 
+     * l'acció es irreversible una vegada confiramada. En cas de confirmar 
+     * borrará el contacte de ObservableLlist.
+     * 
+     * En cas de que selected_index siga -1 i contact_table siga buit es
+     * mostrara un dialeg tipus error en un avis de que te que seleccionar un
+     * dels contactes abans d'esborrar. 
+     * 
+     */
     @FXML
     public void deleteContact(){
         Alert alert;
