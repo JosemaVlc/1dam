@@ -140,7 +140,7 @@ public class ContactEditDialogController implements Initializable {
         if (txt_codi_postal.getText() == null || "".equals(txt_codi_postal.getText())){
             missatge += "Codi Postal no vàlid.\n";
         }
-        if (txt_data_de_naixement.getText() == null || "".equals(txt_data_de_naixement.getText())){
+        if (!DateUtil.validDate(txt_data_de_naixement.getText())){
             missatge += "Data de Naixement no vàlida.\n";
         }
         
