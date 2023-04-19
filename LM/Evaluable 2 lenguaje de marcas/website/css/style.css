@@ -84,7 +84,7 @@
                              "abajo"
                              "elmenu";
                              
-        height: 400px;
+        height: 420px;
     } 
 
     .headercentral{
@@ -108,8 +108,11 @@
         justify-self: center;
     }
 
-    .menu{
+    nav{
         grid-area: elmenu;
+    }
+
+    .menu{
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 1fr;
