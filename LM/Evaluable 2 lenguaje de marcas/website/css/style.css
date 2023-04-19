@@ -6,8 +6,208 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 767px){
-    header{
+body{
+    font-family: 'Droid Serif', serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+
+.anchoMaximo{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.headerizquierda, .headerderecha {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 187px;
+    margin: 20px 0 20px 0;
+}
+.headerizquierda p:first-child, .headerderecha p:first-child{
+    grid-column: 1/ span 2;
+}
+
+.headerizquierda a, .headerderecha a{
+    padding-left: 20px;
+}
+
+.headerizquierda{
+    grid-area: 1/1/2/2;
+    text-align: left;
+    justify-items: start;
+}
+
+.headerderecha{  
+    grid-area: 1/3/2/4;  
+    text-align: right;
+    justify-items: end;
+}
+
+.headercentral{
+    grid-area: 1/2/2/3;
+    text-align: center;
+}
+
+.logohotel{
+    height: 70px; 
+}
+
+.lifestyle{
+    font-family: 'Playfair Display', serif;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.link_promociones{
+    background-image: url(../media/img/iconos/ico-shop.png);
+    background-repeat: no-repeat;
+}
+
+.link_tienda{
+    background-image: url(../media/img/iconos/ico-shop.png);
+    background-repeat: no-repeat;
+}
+.link_idioma{
+    background-image: url(../media/img/iconos/ico-lang.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.link_localizacion{
+    background-image: url(../media/img/iconos/ico-loc.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid rgb(209, 209, 209);
+    text-align: center;
+}
+
+nav{
+    grid-area: 2/1/3/4;
+}
+
+nav li{
+    margin: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+  
+  ul li a:hover {
+    text-shadow: 1px 1px 3px gray;
+  }
+
+.select{
+    font-weight: bold;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+}
+
+.logoFooter{
+    grid-area: 1/1/2/3;
+    width: 200px;
+}
+
+.logoFooter img{
+    height: 70px;
+}
+
+.direccionFooter{
+    grid-area: 1/3/1/5;
+    padding-top: 10px ;
+}  
+
+.sellosFooter{
+    grid-area: 1/6/1/8;
+    display: flex;
+    justify-content: center;
+} 
+
+.sellosFooter img{
+    height: 75px;
+    padding: 10px;
+}
+
+.comoLlegarFooter{
+    grid-area: 2/1/2/2;
+    text-align: right;
+    font-weight: bold;
+}
+
+.RRSSFooter{
+    display: flex;
+    justify-content: right;
+    grid-area: 2/5/2/8;
+    padding-right: 50px;
+}
+
+.RRSSFooter img{
+    width: 40px;
+}
+
+footer a{
+    padding: 2px;
+}
+
+.actividadFooter{
+    grid-area: 3/1/3/8;
+    text-align: center;
+    border-top: 1px solid rgb(173, 173, 173);
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+/* ELEMENTOS DEL INDEX */
+
+main{
+    width: 100%;
+}
+
+.avisohorario{
+    width: 100%;
+    height: 450px;
+    background-image: url(../media/img/hotel.png);
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.bienvenida{
+    width: 100%;
+    height: 1500px;
+}
+
+
+
+
+@media (max-width: 768px){
+    .anchoMaximo{
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -19,7 +219,7 @@
     }
 
     .headerizquierda{
-        grid-area: 2/1/2/3;
+        grid-area: 2/1/2/2;
     }
 
     .headerderecha{
@@ -74,16 +274,15 @@
     }
 }
 
-@media (max-width: 424px){
-    header{
+@media (max-width: 425px){
+    .anchoMaximo{
         display: grid;
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: 1fr;
         grid-template-areas: "arriba"
                              "centro" 
                              "abajo"
-                             "elmenu";
-                             
+                             "elmenu";    
         height: 420px;
     } 
 
@@ -158,220 +357,4 @@
     .actividadFooter{
         grid-area: 6/1/7/2;
     }
-}
-
-@media (min-width: 768px){
-
-    header{
-        display: grid;
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 170px;
-    }
-    .headercentral{
-        grid-area: 1/2/2/3;
-    }
-
-    .headerizquierda{
-        grid-area: 1/1/2/2;
-    }
-
-    .headerderecha{  
-        grid-area: 1/3/2/4;  
-        text-align: right;
-        justify-items: end;
-    }
-
-    nav{
-        grid-area: 2/1/3/4;
-    }
-    .menu{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    footer{
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    } 
-
-    .logoFooter{
-        grid-area: 1/1/2/3;
-        width: 200px;
-    }
-
-    .direccionFooter{
-        grid-area: 1/3/1/5;
-        padding-top: 10px ;
-    }   
-
-    .RRSSFooter{
-        display: flex;
-        justify-content: right;
-        grid-area: 2/5/2/8;
-        padding-right: 50px;
-    }
-    
-    .actividadFooter{
-        grid-area: 3/1/3/8;
-    }
-
-    .comoLlegarFooter{
-        grid-area: 2/1/2/2;
-        text-align: right;
-    }
-
-    .sellosFooter{
-        grid-area: 1/6/1/8;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-
-body{
-    font-family: 'Droid Serif', serif;
-}
-
-header{
-    background-color: white;
-    font-family: 'Oswald', sans-serif;
-    width: 100%;
-    padding: 25px;
-    margin: 0 auto;
-    top: 0px;
-    position: sticky;
-    z-index: 1;
-}
-
-.headerizquierda, .headerderecha {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 20px;
-}
-
-.headerizquierda{
-    width: 220px;
-}
-
-.headerderecha{
-    width: 200px;
-}
-
-.headerizquierda p:first-child, .headerderecha p:first-child{
-    grid-column: 1/ span 2;
-}
-
-.headercentral{
-    text-align: center;
-
-}
-
-.logohotel{
-    height: 80px; 
-}
-
-.lifestyle{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-}
-
-a{
-    text-decoration: none;
-    color:black;
-    padding-left: 20px;
-}
-
-.link_promociones{
-    background-image: url(../media/img/iconos/ico-shop.png);
-    background-repeat: no-repeat;
-}
-
-.link_tienda{
-    background-image: url(../media/img/iconos/ico-shop.png);
-    background-repeat: no-repeat;
-}
-.link_idioma{
-    background-image: url(../media/img/iconos/ico-lang.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.link_localizacion{
-    background-image: url(../media/img/iconos/ico-loc.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.menu{
-    border-top: 1px solid rgb(209, 209, 209);
-    text-align: center;
-}
-nav li{
-    margin: 10px;
-    display: inline-block;
-    text-transform: uppercase;
-}
-  
-  ul li a:hover {
-    text-shadow: 1px 1px 3px gray;
-  }
-
-.select{
-    font-weight: bold;
-}
-
-footer{
-    width: 100%;
-    background-color: rgb(209, 209, 209);
-    padding: 20px;
-}
-
-.logoFooter img{
-    height: 70px;
-}
-
-.sellosFooter img{
-    height: 80px;
-    padding: 10px;
-}
-
-.comoLlegarFooter{
-    font-weight: bold;
-}
-
-.RRSSFooter img{
-    width: 40px;
-}
-
-footer a{
-    padding: 2px;
-}
-
-.actividadFooter{
-    text-align: center;
-    border-top: 1px solid rgb(173, 173, 173);
-    padding-top: 20px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-}
-
-/* ELEMENTOS DEL INDEX */
-
-main{
-    width: 100%;
-}
-
-.avisohorario{
-    width: 100%;
-    height: 450px;
-    background-image: url(../media/img/hotel.png);
-    background-position: center;
-    background-attachment:fixed;
-}
-
-.bienvenida{
-    width: 100%;
-    height: 1500px;
 }
