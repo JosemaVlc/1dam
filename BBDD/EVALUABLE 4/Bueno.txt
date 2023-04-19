@@ -209,4 +209,25 @@ var estudiante11 = {
 db.estudiantes.insertMany([estudiante01, estudiante02, estudiante03, estudiante04, 
 	estudiante05, estudiante06, estudiante07, estudiante08, estudiante09, estudiante10, estudiante11]);
 	
-db.estudiantes.find().sort({ apellidos: 1, nombre: 1});
+db.estudiantes.find().sort({ apellidos: 1, nombre: 1}).pretty();
+
+/*SCRIPT 2: ACTUALIZAR LA INFORMACIÓN (2 PUNTOS)
+Se requiere incluir un nuevo campo llamado “observaciones” para anotar comentarios sobre cada
+alumno.
+• Para los alumnos que tienen más de 5 tanto en la nota teórica (notat) como en la práctica
+(notap) escribirá en el campo observaciones:
+◦ “Aprobado”
+• Para los alumnos a los que les falta alguna nota (de las dos notas) escribirá en
+observaciones:
+◦ “Faltan pruebas por evaluar”
+• Para los alumnos con alguna nota suspendida (<5), escribirá en el campo observaciones:
+◦ “Prueba/s suspendidas”
+Crea el script en javascript necesario para (1º) actualizar el campo “categoria” en cada uno de los
+casos indicados y (2º) listar SOLO apellidos, nombre y observaciones de TODOS los documentos
+ordenados por apellidos y nombre. */
+
+
+db.estudiantes.updateMany(
+	{$and: [{notat:{$gte:5}}, {notap:{$gte:5}}]},
+	{$set:{observaciones:"Aprobado"}}
+);

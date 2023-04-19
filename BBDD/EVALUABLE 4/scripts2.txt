@@ -1,4 +1,4 @@
 db.estudiantes.updateMany(
 	{$and: [{notat: {$gte:5}}, {notap:{$gte:5}}]},
-	{$set:{observaciones:"Aprobado"})
+	{$set:{observaciones:"Aprobado"}}
 );
