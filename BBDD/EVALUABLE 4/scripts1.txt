@@ -6,8 +6,12 @@ adecuado. Una vez insertados, deberás (5º) listar TODOS los campos de todos lo
 ordenados por apellidos y nombre. */
 
 
-db = db.getSiblingDB("acadjediMDB");
-db.estudiantes.drop();
+use acadjediMDB;
+
+db.acadjediMDB.drop();
+
+use acadjediMDB;
+
 db.createCollection("estudiantes");
 
 var estudiante01 = {
@@ -210,3 +214,76 @@ db.estudiantes.insertMany([estudiante01, estudiante02, estudiante03, estudiante0
 	estudiante05, estudiante06, estudiante07, estudiante08, estudiante09, estudiante10, estudiante11]);
 	
 db.estudiantes.find().sort({ apellidos: 1, nombre: 1});
+
+
+
+/* SCRIPT 2: ACTUALIZAR LA INFORMACIÓN (2 PUNTOS)
+Se requiere incluir un nuevo campo llamado “observaciones” para anotar comentarios sobre cada
+alumno. 
+
+/*• Para los alumnos que tienen más de 5 tanto en la nota teórica (notat) como en la práctica
+(notap) escribirá en el campo observaciones:
+◦ “Aprobado” */
+
+var condicion = { $gte: 5 }
+var notat = { notat: condicion }
+var notap = { notap: condicion }
+var filtro = { $and: [ notat, notap]}
+var notaf = { observaciones : "Aprobado" }
+var accion = { $set: notaf }
+
+db.estudiantes.updateMany( filtro, accion );
+
+/*• Para los alumnos a los que les falta alguna nota (de las dos notas) escribirá en
+observaciones:
+◦ “Faltan pruebas por evaluar” */
+
+var condicion = { $exists: false }
+var notat = { notat: condicion }
+var notap = { notap: condicion }
+var filtro = { $or: [ notat, notap]}
+var notaf = { observaciones: "Faltan pruebas por evaluar" }
+var accion = { $set: notaf }
+
+db.estudiantes.updateMany( filtro, accion );
+
+/*• Para los alumnos con alguna nota suspendida (<5), escribirá en el campo observaciones:
+◦ “Prueba/s suspendidas” */
+
+var condicion1 = { $lt: 5 }
+var condicion2 = { $exists: true }
+var notat1 = { notat: condicion1 }
+var notap1 = { notap: condicion1 }
+var notat2 = { notat: condicion2 }
+var notap2 = { notap: condicion2 }
+var filtro = { $or: [ notat1, notap1], $and:[ notat2, notap2]}
+var notaf = { observaciones : "Prueba/\s suspendidas" }
+var accion = { $set: notaf }
+
+db.estudiantes.updateMany( filtro, accion );
+
+/* Crea el script en javascript necesario para (1º) actualizar el campo “categoria” en cada uno de los
+casos indicados y (2º) listar SOLO apellidos, nombre y observaciones de TODOS los documentos
+ordenados por apellidos y nombre. */
+
+db.estudiantes.find({}, {apellidos: 1, nombre: 1, observaciones: 1, _id: 0}).sort({apellidos: 1, nombre: 1}).pretty();
+
+
+
+/* SCRIPT 3: MINERÍA DE DATOS (3 PUNTOS)
+a) Se requiere listar los datos de las asignaturas (nombre y apellidos del alumno, asignatura,
+maestro y coste) con coste superior a 5, ordenados por nombre y apellidos del alumno. Crea el
+script necesario. */
+
+
+
+/*b) Se requiere listar el nombre, apellidos y coste total del alumno que más ha costado en todas las
+asignaturas. Crea el script necesario. */
+
+var filtro = {"asignatura": {$exists:true}}
+var stage_filtro = {$match:filtro}
+var proy = {_id: 0, nombre: 1, apellidos: 1, costeTotal:{$sum: "$asignatura.nota"}}
+var stage_proy = {$project: proy}
+
+db.estudiantes.aggregate([stage_filtro, stage_proy]).sort({costeTotal: -1}).limit(1);
+

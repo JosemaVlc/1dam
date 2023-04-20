@@ -6,8 +6,12 @@ adecuado. Una vez insertados, deberás (5º) listar TODOS los campos de todos lo
 ordenados por apellidos y nombre. */
 
 
-db = db.getSiblingDB("acadjediMDB");
-db.estudiantes.drop();
+use acadjediMDB;
+
+db.dropDataBase();
+
+use acadjediMDB;
+
 db.createCollection("estudiantes");
 
 var estudiante01 = {
@@ -210,3 +214,4 @@ db.estudiantes.insertMany([estudiante01, estudiante02, estudiante03, estudiante0
 	estudiante05, estudiante06, estudiante07, estudiante08, estudiante09, estudiante10, estudiante11]);
 	
 db.estudiantes.find().sort({ apellidos: 1, nombre: 1});
+
