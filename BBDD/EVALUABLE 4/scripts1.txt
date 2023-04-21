@@ -275,15 +275,24 @@ a) Se requiere listar los datos de las asignaturas (nombre y apellidos del alumn
 maestro y coste) con coste superior a 5, ordenados por nombre y apellidos del alumno. Crea el
 script necesario. */
 
+var filtro = {"asignatura": {$exists:true}}
+var stage_filtro = {$match:filtro}
+var proy = {_id: 0, nombre:1, apellidos:1, asignatura:1, "asignatura.maestro":1, "asignatura.coste":1}
+var stage_proy = {$project: proy}
+var orden = {nombre:1, apellidos:1}
+var stage_sort = {$sort: orden}
 
+db.estudiantes.aggregate([stage_filtro, stage_sort, stage_proy]).pretty();
 
 /*b) Se requiere listar el nombre, apellidos y coste total del alumno que más ha costado en todas las
 asignaturas. Crea el script necesario. */
 
-var filtro = {"asignatura": {$exists:true}}
+var filtro = {"asignatura.coste": {$exists:true}}
 var stage_filtro = {$match:filtro}
-var proy = {_id: 0, nombre: 1, apellidos: 1, costeTotal:{$sum: "$asignatura.nota"}}
+var proy = {_id: 0, nombre: 1, apellidos: 1, costeTotal: {$sum: "$asignatura.coste"}}
 var stage_proy = {$project: proy}
+var orden = {costeTotal: -1}
+var stage_sort = {$sort: orden}
 
-db.estudiantes.aggregate([stage_filtro, stage_proy]).sort({costeTotal: -1}).limit(1);
+db.estudiantes.aggregate([stage_filtro, stage_sort, stage_proy, {$limit: 1}]);
 
