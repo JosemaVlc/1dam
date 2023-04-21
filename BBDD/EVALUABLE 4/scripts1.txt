@@ -291,7 +291,7 @@ var filtro = {"asignatura.coste": {$exists:true}}
 var stage_filtro = {$match:filtro}
 var proy = {_id: 0, nombre: 1, apellidos: 1, costeTotal: {$sum: "$asignatura.coste"}}
 var stage_proy = {$project: proy}
-var orden = {costeTotal: -1}
+var orden = {"asignatura.coste": -1}
 var stage_sort = {$sort: orden}
 
 db.estudiantes.aggregate([stage_filtro, stage_sort, stage_proy, {$limit: 1}]);
