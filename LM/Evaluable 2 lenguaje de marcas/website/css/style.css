@@ -20,11 +20,12 @@ header{
     top: 0px;
     position: sticky;
     z-index: 2;
+    box-shadow: 0px 0px 10px lightgray;
 }
 
 .anchoMaximo{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -135,7 +136,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     padding: 20px;
 }
@@ -218,6 +219,10 @@ h3{
     font-weight: 300;
 }
 
+.sombra{
+    box-shadow: 0px -5px 5px lightgray;
+}
+
 /* ELEMENTOS DEL INDEX */
 
 main{
@@ -225,7 +230,7 @@ main{
     width: 100%;
 }
 
-.top{
+.topIndex{
     width: 100%;
     background-image: url(../media/img/hotel.png);
     background-position: center;
@@ -255,16 +260,24 @@ main{
     height: 200px;
 }
 
-.mid{
+.midIndex{
     margin: auto;
-    max-width: 700px;
     width: 100%;
-    padding: 150px 20px 20px 20px;
     text-align: center;
+    z-index: 0;
+}
+
+.contenedorMidIndex{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 170px 20px 100px 20px;
+    text-align: center;
+    z-index: 0;
 }
 
 .cuerpo{
-    font-size: 12px;
+    font-size: 18px;
     padding: 20px;
     line-height: 1.5;
 }
@@ -274,29 +287,29 @@ main{
     font-weight: bold;
 }
 
-.bottom{
+.bottomIndex{
     display: flex;
     justify-content: center;
     width: 100%;
-    align-items: center;
     margin-bottom: 150px;
+    z-index: 1;
 }
 
 .seccionesOrdi{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 50px;
     text-align: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     background-color: white;
 }
 
 .seccionesOrdi > div{
     position: relative;
-    width: 350px;
-    height: 240px;
+    width: 450px;
+    height: 300px;
     justify-content: center;
     overflow: hidden;
     border: 1px solid black;
@@ -307,13 +320,13 @@ main{
     position: absolute;
     background-color: white;
     bottom: 0;
-    font-size: 10px;
+    font-size: 14px;
     height: 50%;
     z-index: 1;
 }
 
 .contenedorTextoIndex p{
-    padding: 5px;
+    padding: 10px;
 }
 
 .contenedorTextoIndex a{
@@ -321,6 +334,10 @@ main{
     position: absolute;
     bottom: 10px;
     left: 0px;
+}
+
+.contenedorTextoIndex a:hover {
+    text-decoration: underline;
 }
 
 .seccionesOrdi img{
@@ -331,6 +348,100 @@ main{
     mask-image: none;
     z-index: 0;
 }
+
+/* ELEMENTOS DE HABITACIONES */
+
+.topHabitaciones{    
+    width: 100%;
+    background-image: url(../media/img/habitaciones.jpg);
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 460px;
+}
+
+.midHabitaciones{
+    width: 100%;
+}
+
+.contenedorMidHabitaciones{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 170px 20px 100px 20px;
+    text-align: center;
+}
+
+.cuerpoHabitaciones{
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.contenedorVideoHabitaciones{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid black;
+    height: 250px;
+}
+
+.contenedorVideoHabitaciones video{
+    float: left;
+    width: 45%;
+    height: 250px;
+}
+
+.contenedorVideoHabitaciones div{
+    padding: 40px 0 0 0;
+    float: right;
+    text-align: center;
+    width: 55%;
+    height: 250px;
+}
+
+.contenedorVideoHabitaciones div p{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.linkFotos{
+    text-align: center;
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+.cuadroInterior{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.cuadroInterior ul{
+    list-style:  none;
+}
+
+.cuadroInterior > ul > li{
+    display: inline-block;
+}
+
+.sub_lista{
+    margin: 0 45px 0 45px;
+}
+
+.galerias{
+    font-family: 'Playfair Display', serif;
+}
+
+.nombregaleria{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* MEDIA QUERY'S */
 
 @media (max-width: 768px){
     .anchoMaximo{
