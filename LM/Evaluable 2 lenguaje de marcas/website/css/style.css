@@ -6,6 +6,32 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size:4rem;
+    font-weight: 300;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
 body{
     font-family: 'Droid Serif', serif;
 }
@@ -35,7 +61,7 @@ header{
 .headerizquierda, .headerderecha {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 .headerizquierda p:first-child, .headerderecha p:first-child{
     grid-column: 1/ span 2;
@@ -46,14 +72,14 @@ header{
 }
 
 .headerizquierda{
-    width: 187px;
+    width: 210px;
     grid-area: 1/1/2/2;
     text-align: left;
     justify-items: start;
 }
 
 .headerderecha{  
-    width: 161px;
+    width: 185px;
     grid-area: 1/3/2/4;  
     text-align: right;
     justify-self: end;
@@ -201,24 +227,6 @@ footer a{
     font-weight: bold;
 }
 
-h1{
-    font-family: 'Oswald', sans-serif;
-    font-size:60px;
-    font-weight: 300;
-}
-
-h2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    font-weight: 300;
-}
-
 .sombra{
     box-shadow: 0px -5px 5px lightgray;
 }
@@ -277,13 +285,12 @@ main{
 }
 
 .cuerpo{
-    font-size: 18px;
     padding: 20px;
     line-height: 1.5;
 }
 
 .avisoVacaciones p:first-child{
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -374,46 +381,52 @@ main{
 }
 
 .cuerpoHabitaciones{
-    font-size: 18px;
     padding: 20px;
     line-height: 1.5;
 }
 
-.contenedorVideoHabitaciones{
+.contenedorHabitaciones{
     margin: auto;
     width: 100%;
     max-width: 1000px;
     border: 1px solid black;
-    height: 250px;
+    overflow: hidden;
 }
 
-.contenedorVideoHabitaciones video{
+.contenedorHabitaciones video, .contenedorHabitaciones img{
+    margin: auto;
     float: left;
-    width: 45%;
-    height: 250px;
+    min-height: 200px;
+    width: 33%;
 }
 
-.contenedorVideoHabitaciones div{
-    padding: 40px 0 0 0;
+.contenedorHabitaciones div{
+    margin: auto;
     float: right;
     text-align: center;
-    width: 55%;
-    height: 250px;
+    padding: 10px 50px;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
 }
 
-.contenedorVideoHabitaciones div p{
-    margin: auto;
-    width: 75%;
+.contenedorHabitaciones > div > h2{
+    font-size: 1rem;
+}
+
+.contenedorHabitaciones div p{
     padding: 10px;
 }
 
-.linkFotos{
-    text-align: center;
+.menuCentral{
     width: 100%;
-    margin: 50px 0 50px 0;
+    padding: 50px 0;
 }
 
 .cuadroInterior{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
     margin: auto;
     width: 100%;
     max-width: 1000px;
@@ -421,26 +434,104 @@ main{
     border-bottom: 1px solid lightgray;
 }
 
-.cuadroInterior ul{
-    list-style:  none;
+.cuadroInterior a{
+    text-align: center;
+    padding: 0 10px;
 }
-
-.cuadroInterior > ul > li{
-    display: inline-block;
-}
-
-.sub_lista{
-    margin: 0 45px 0 45px;
-}
-
 .galerias{
     font-family: 'Playfair Display', serif;
 }
 
 .nombregaleria{
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
+
+.imgYoga {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 50px;
+}
+
+.imgYoga img{
+    width: 100%;
+}
+
+.actividades{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.actividades > div {
+    display: grid;
+    grid-template-areas: "uno uno dos dos tres"
+                         "cuatro cuatro dos dos cinco";    
+    gap: 5px;
+}
+
+.actividades h4{
+    padding: 50px;
+}
+
+.imagenactividad{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px gray;
+    overflow: hidden;
+}
+
+.pequeñas img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.grande img{
+    width: 100%;
+    position: relative;
+}
+
+.uno{
+    grid-area: uno;
+}
+
+.uno img{
+    filter: sepia();
+}
+
+.uno:hover{
+    transform: scale(0.5);
+}
+
+.dos{
+    grid-area: dos;
+}
+
+.dos{
+    filter: blur(3px);
+}
+
+.dos:hover{
+    transform: rotate(20deg) scale(0.5);
+    filter: none;
+}
+
+.tres{
+    grid-area: tres;
+}
+
+.cuatro{
+    grid-area: cuatro;
+}
+
+.cinco{
+    grid-area: cinco;
+}
+
+
 /* MEDIA QUERY'S */
 
 @media (max-width: 768px){
@@ -513,6 +604,21 @@ main{
     .actividadFooter{
         margin-top: 10px;
         grid-area: 4/1/5/3;
+    }
+
+    /*Posiciona el video de habitaciones
+    el centro y baja el texto abajo y le 
+    pone el tamaño al 100% del elemento
+    padre */
+
+    .contenedorHabitaciones video, .contenedorHabitaciones img{
+        float: none;
+        width: 100%;
+    }
+    
+    .contenedorHabitaciones div{
+        float: none;
+        width: 100%;
     }
 }
 
