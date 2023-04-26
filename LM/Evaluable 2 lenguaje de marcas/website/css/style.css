@@ -459,8 +459,7 @@ main{
 }
 
 .actividades{
-    width: 100%;
-    max-width: 80%;
+    width: 80%;
     margin: auto;
     padding: 50px 0;
     text-align: center;
@@ -470,6 +469,7 @@ main{
     display: grid;
     grid-template-areas: "uno uno dos dos tres"
                          "cuatro cuatro dos dos cinco";    
+    grid-template-rows: 200px 200px;
     gap: 5px;
 }
 
@@ -478,58 +478,79 @@ main{
 }
 
 .imagenactividad{
-    border-radius: 10px;
     box-shadow: 2px 2px 3px gray;
-    overflow: hidden;
-}
-
-.pequeñas img{
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-
 }
 
-.grande img{
+.imagenactividad img{
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 10px;
     width: 100%;
-    position: relative;
+    height: 100%;
 }
 
 .uno{
     grid-area: uno;
 }
 
-.uno img{
-    filter: sepia();
+.uno:hover .actividad1{
+    transform: scale(0.5);
 }
 
-.uno:hover{
-    transform: scale(0.5);
+.actividad1{
+    filter: sepia();
+    transition: 1s;
 }
 
 .dos{
     grid-area: dos;
 }
 
-.dos{
-    filter: blur(3px);
-}
-
-.dos:hover{
-    transform: rotate(20deg) scale(0.5);
+.dos:hover .actividad2{
+    transform: rotate(20deg) scale(0.6);
     filter: none;
 }
 
+.actividad2{
+    filter: blur(3px);
+    transition: 1s;
+}
+
 .tres{
+    position: relative; 
     grid-area: tres;
+    filter: grayscale();
+    transition: 5s;
+}
+
+.tres:hover{  
+    left: -4em;
 }
 
 .cuatro{
     grid-area: cuatro;
 }
 
+.cuatro:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
 .cinco{
     grid-area: cinco;
+    filter: sepia();
+    transition: 1s;
 }
+
+.cinco:hover{
+    transform: scale(1.5), skewY(15deg);
+    transition: 1s;
+    
+}
+
+
 
 
 /* MEDIA QUERY'S */
