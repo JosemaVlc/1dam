@@ -305,3 +305,36 @@ db.estudiantes.aggregate([
   {$project: {_id: 1, nombre: 1, apellidos: 1, coste_total: '$suma_total'}}
 ]);
 
+
+/*SCRIPT 4: CONTADORES (2 PUNTOS)
+Se requiere (1º) contar el número de estudiantes que tienen las dos notas y, o bien han aprobado
+las dos partes teórica y práctica, o bien han suspendido las dos partes. Crea el script necesario.*/
+
+var condicion1 = {notat: {$exists: true}};
+var condicion2 = {notap: {$exists: true}};
+var condicion3 = {notat: {$gte: 5}};
+var condicion4 = {notap: {$gte: 5}};
+var condicion5 = {notat: {$lt: 5}};
+var condicion6 = {notap: {$lt: 5}};
+var filtro1 = {$and: [condicion1, condicion2]};
+var filtro2 = {$and: [condicion3, condicion4]};
+var filtro3 = {$and: [condicion5, condicion6]};
+var aprobado = {$match: {$and:[filtro1,filtro2]}};
+var suspendido = {$match: {$and:[filtro1,filtro3]}};
+var cuenta_aprobado =  {$group: {_id:"",todo_aprobado: {$sum: 1}}};
+var cuenta_suspendido = {$group: {_id:"",todo_suspendido: {$sum: 1}}}; 
+
+db.estudiantes.aggregate([aprobado, cuenta_aprobado]);
+db.estudiantes.aggregate([suspendido, cuenta_suspendido]);
+
+/*SCRIPT 5: BORRADO (1 PUNTO)
+Se requiere (1º) listar los nombres y apellidos de los estudiantes a los que, o bien les falta alguna
+nota, o bien han suspendido la parte práctica (<5) y luego (2º) borrarlos. Crea el script necesario. */
+
+var filtro1 = {$or: [{notat: {$exists: false}},{notap: {$exists: false}}]};
+var filtro2 = {notap: {$lt: 5}};
+var stage_filtro = {$match:{$or: [filtro1, filtro2]}};
+var stage_proy = {$project: {_id:0, nombre: 1, apellidos: 1}};
+db.estudiantes.aggregate(stage_filtro,stage_proy);
+
+db.estudiantes.deleteMany({$or:[filtro1,filtro2]});
