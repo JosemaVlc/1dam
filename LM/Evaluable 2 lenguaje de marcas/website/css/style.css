@@ -175,11 +175,11 @@ a{
     text-align: center;
 }
 
-nav{
+header nav{
     grid-area: 2/1/3/4;
 }
 
-nav li{
+header nav li{
     margin: 10px;
     display: inline-block;
     text-transform: uppercase;
@@ -340,7 +340,8 @@ main{
     height: 200px;
 }
 
-.avisoVacaciones p:first-child{
+.avisoVacaciones h4{
+    font-variant: normal;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -718,7 +719,7 @@ main{
     padding: 64px 32px;
     display: grid;
     grid-template-areas: "topizquierda topderecha"
-                         "botizquierda botderecha"
+                         "botizquierda topderecha"
                          "inferior inferior";
     grid-template-columns: 2fr 1fr;
     gap: 64px;
@@ -748,7 +749,8 @@ main{
     grid-area: botizquierda;
 }
 
-.topderecha h1, .botderecha h1{
+.topderecha h1{
+    margin: 25px 0 10px 0;
     text-align: center;
     font-size: 1rem;
 }
@@ -761,10 +763,6 @@ main{
     margin: 20px 0;
     width: 100%;
     max-width: 640px;
-}
-
-.botderecha{
-    grid-area: botderecha;
 }
 
 .inferior{
@@ -1101,7 +1099,6 @@ td, th {
         grid-template-areas: "topizquierda"
                              "botizquierda"
                              "topderecha" 
-                             "botderecha"
                              "inferior";
         grid-template-columns: 100%;
         gap: 15px;
@@ -1114,7 +1111,7 @@ td, th {
         border-right: none;
     }
     
-    .topderecha, .botderecha{
+    .topderecha{
         text-align: center;
         font-size: 1rem;
     }
