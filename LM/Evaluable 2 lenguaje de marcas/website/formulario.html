@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://es.allfont.net/allfont.css?fonts=droid-serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ORDI - The Energy House</title>
+    </head>
+<body>
+    <header class="cabecera">
+        <div class="anchoMaximo">
+            <div class="headerizquierda">
+                <p class="lifestyle">Life Style Exclusive Hotel</p>
+                <a href="#" class="link_promociones">Promociones</a>
+                <a href="#" class="link_tienda">Tienda Online</a>
+            </div>
+            <div class="headercentral">  
+                <img src="./media/img/Logo.png" alt="logo hotel" class="logohotel">
+            </div>
+            <div class="headerderecha">
+                <p class="ntelefono">654 321 698 - 961 478 523</p>
+                <a href="#" class="link_idioma">English</a>
+                <a href="localizacion.html" class="link_localizacion">Localización</a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="habitaciones.html">Habitaciones</a></li>
+                    <li><a href="formulario.html" class="select">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article class="mid">
+            <div class="contenedorMid">
+                <h3 class="play">Para más información</h3>
+                <h1 class="oswald">CONTÁCTANOS</h1>
+                <p class="cuerpo">Para ampliar información sobre alguno de nuestros servicios, pedir alguna cita o reservar en nuestro restaurante, no dudes en ponerte en contacto con nosotros. </p>
+                <p>¡Te esperamos!</p>
+            </div>
+        </article>
+        <section class="contenedor_general">
+            <div class="topizquierda">
+                <form action method="get">
+                    <div class="nombre">
+                        <label for="nombre">Nombre</label><br>
+                        <input type="text" id="nombre" name="nombre" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+$" required>
+                    </div>
+                    <div class="ciudad">
+                        <label for="ciudad">Ciudad <span class="italic grey">Opcional</span></label><br>
+                        <input type="text" id="ciudad" name="ciudad" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+$" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    </div>
+                    <div class="telefono">
+                        <label for="telefono">Telefono</label><br>
+                        <input type="tel" id="telefono" name="telefono" pattern="^\d{9}$" required>
+                    </div>
+                    <div class="asunto">
+                        <label for="asunto">Asunto</label><br>
+                        <input type="text" id="asunto" name="asunto" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+$" required>
+                    </div>
+                    <div class="consulta">
+                        <label for="consulta">Consulta</label><br>
+                        <textarea name="consulta" id="consulta" cols="30" rows="10" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+$" required></textarea>
+                    </div>
+                    <div class="terminos">
+                        <input type="checkbox" name="terminos" id="terminos" required><label for="terminos">He leído y acepto la política de privacidad y los términos legales.</label>
+                    </div>
+                    <div class="enviar">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="topderecha">
+                <h1>CONTÁCTANOS EN:</h1>
+                <ul>
+                    <li>+(34) 665485699</li>
+                    <li>+(34) 949539499</li>
+                    <li>info@ordi.es</li>
+                    <li><img src="./media/img/solo-adultos_es.png" alt="sello solo adultos"></li>
+                </ul>
+                <h1>HORARIO DE RECEPCIÓN:</h1>
+                <ul>
+                    <li>Lunes a Jueves</li>
+                    <li>de 9:30 a 22:30h</li>
+                    <li>Viernes a Domingo</li>
+                    <li>de 8:30 a 22:30h</li>
+                </ul>
+            </div>
+            <div class="botizquierda">
+                <table>
+                    <th colspan="2">
+                        Información Básica sobre Protección de datos
+                    </th>
+                    <tr>
+                        <td>Responsable: </td>
+                        <td>Ordi, A Better Life, S.L</td>
+                    </tr>
+                    <tr>
+                        <td>Finalidad: </td>
+                        <td>Atender su solicitud.</td>
+                    </tr>
+                    <tr>
+                        <td>Legitimación:</td>
+                        <td>Ejecución de un contrato.</td>
+                    </tr>
+                    <tr>
+                        <td>Destinatarios:</td>
+                        <td>No se cederán datos a terceros, salvo obligación legal.</td>
+                    </tr>
+                    <tr>
+                        <td>Derechos:</td>
+                        <td>Tienen derecho a acceder, rectificar y suprimir los datos, así como otros derechos, indicados en la información adicional, que puede ejercer dirigiéndose a Les Molines, 2 - 03450 Banyeres de Mariola</td>
+                    </tr>
+                </table>
+                <div>
+                    <p>Más información en nuestra política de privacidad.</p>
+                </div> 
+            </div>
+            <div class="botderecha">
+                <h1>SÍGUENOS EN:</h1>
+                <ul class="form_rrss">
+                    <li><a href="http://www.facebook.com" target="_blank"><img src="./media/img/ico-facebook.png" alt="icono facebook"></a></li>
+                    <li><a href="http://www.instagram.com" target="_blank"><img src="./media/img/ico-instagram.png" alt="icono instagram"></a></li>
+                    <li><a href="http://www.youtube.com" target="_blank"><img src="./media/img/ico-youtube.png" alt="icono youtube" ></a></li>
+                </ul>
+                <h1>INFORMACIÓN DE INTERÉS:</h1>
+                <ul>
+                    <li><a href="localizacion.html">¿Cómo llegar?</a></li>
+                    <li><a href="habitaciones.html">Ver actividades</a></li>
+                    <li><a href="https://www.tripadvisor.es/FAQ-g60999-d12235309-Yellowstone_National_Park.html" target="_blank">Preguntas frecuentes</a></li>
+                    <li><a href="https://www.tripadvisor.com/Attraction_Review-g60999-d12235309-Reviews-Yellowstone_National_Park-Yellowstone_National_Park_Wyoming.html" target="_blank">Ver testimonios</a> </li>
+                </ul>
+            </div>
+            <div class="inferior">
+                <p class="ordiInferior negrita">ORDI, THE ENERGY HOUSE</p>
+                <p class="yellowInferior">Yellowstone, Wyoming 82190, EE.UU.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="anchoTotalFooter">
+            <div class="logoFooter">
+                <img src="./media/img/Logo_trans.png" alt="logo hotel">
+            </div>
+            <div class="direccionFooter">
+                <p>Yellowstone, Wyoming 82190, EE.UU.</p>
+                <p>T. (+34) 669 558 447 T. (+34) 963 852 741</p>
+                <p>info@ordi.es</p>
+                <img src="./media/img/solo-adultos_es.png" alt="sello solo adultos">
+            </div>
+            <div class="sellosFooter">
+                <img src="./media/img/sello-traveller-footer.png" alt="sello traveller 2020">
+                <img src="./media/img/logo-hotelero-ruralka.png" alt="sello ruralka">
+            </div>
+            <div class="comoLlegarFooter">
+                <a href="localizacion.html">¿Como llegar?</a>
+            </div>
+            <div class="RRSSFooter">
+                <a href="http://www.facebook.com" target="_blank"><img src="./media/img/ico-facebook.png" alt="icono facebook"></a>
+                <a href="http://www.instagram.com" target="_blank"><img src="./media/img/ico-instagram.png" alt="icono instagram"></a>
+                <a href="http://www.youtube.com" target="_blank"><img src="./media/img/ico-youtube.png" alt="icono youtube" ></a>
+            </div>
+            <div class="actividadFooter">
+                <p>Actividad realizada para el modulo de lenguajes de marcas. Curso 2022-2023. Jose Manuel Moreno Bolivar</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
