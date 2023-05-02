@@ -542,7 +542,7 @@ main{
 }
 
 .actividad1{
-    filter: sepia();
+    filter: sepia(100%);
     transition: 1s;
 }
 
@@ -570,7 +570,7 @@ main{
 }
 
 .actividad3{
-    filter: grayscale();
+    filter: grayscale(100%);
     transition: 1s;
 }
 
@@ -588,7 +588,7 @@ main{
 
 .cinco{
     grid-area: cinco;
-    filter: sepia();
+    filter: sepia(100%);
     transition: 2s;
 }
 
@@ -958,7 +958,7 @@ td, th {
         justify-self: end;
     }
 
-    nav {
+    header nav {
         grid-area: 3/1/4/3;
     }
 
@@ -1172,7 +1172,7 @@ td, th {
         width: 130px;
     }
 
-    nav{
+    header nav{
         grid-area: elmenu;
     }
 
