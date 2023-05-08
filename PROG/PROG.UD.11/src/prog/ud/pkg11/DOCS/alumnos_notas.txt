@@ -1,4 +1,4 @@
-Joanna Rogers 10 0 8 6 2 9
+Joanna Rogers 10 10 10 10 10
 Michele Poole 5 9 8 5 4 9 8 2
 Toni Harper 10 10 3 4 10
 Troy Walters 5 10 1 4 10 10 9 2 3 6

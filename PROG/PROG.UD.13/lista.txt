@@ -1,0 +1,5 @@
+P001 | Ropa | Camiseta | 9.99 | España | 2023-05-06 | 
+P002 | Electrónica | Smartphone | 599.99 | Francia | 2023-05-06 | 
+P003 | Deportes | Raqueta | 852.0 | Alemania | 2023-05-06 | 
+P004 | Juguetes | Peluche | 14.99 | Italia | 2023-05-06 | 
+P005 | Hogar | Lámpara | 39.99 | Reino Unido | 2023-05-06 | 
