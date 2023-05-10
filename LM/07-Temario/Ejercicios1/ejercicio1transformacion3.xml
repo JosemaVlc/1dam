@@ -1,5 +1,5 @@
-﻿<xml version="1.0" encoding="UTF-8">
-<xml-stylesheet type="text/xsl" href="ejercicio1transformacion3.xsl"/>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio1transformacion3.xsl"?>
 <ies nombre="CEEDCV" web="http://www.iesabastos.org/" >
  <ciclos>
  <ciclo id="ASIR">

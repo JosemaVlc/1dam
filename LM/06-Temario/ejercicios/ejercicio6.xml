@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<vehiculos>
+    <vehiculo>
+        <marca>Ford</marca>
+        <modelo>Focus</modelo>
+        <motor>1.6</motor>
+        <matricula>1234ABC</matricula>
+        <kilometros>78000</kilometros>
+        <precioOriginal>13000</precioOriginal>
+        <precioOferta>11500</precioOferta>
+        <extras>
+            <extra>direccion asistida</extra>
+            <extra>cierre centralizado</extra>
+            <extra>climatizador</extra>
+        </extras>
+        <fotos>
+            <foto name="exterior">./fotoexteriorfordfocus.jpg</foto>
+            <foto name="interior">./fotointeriorfordfocus.jpg</foto>
+        </fotos>
+    </vehiculo>
+    <vehiculo>
+        <marca>Renault</marca>
+        <modelo>coupe</modelo>
+        <motor>1.3</motor>
+        <matricula>4324CCC</matricula>
+        <kilometros>183000</kilometros>
+        <precioOriginal>9000</precioOriginal>
+        <precioOferta>6500</precioOferta>
+        <extras>
+            <extra>direccion asistida</extra>
+            <extra>cierre centralizado</extra>
+            <extra>climatizador</extra>
+        </extras>
+        <fotos>
+            <foto name="exterior">./fotoexteriorcoupe.jpg</foto>
+            <foto name="interior">./fotointeriorcoupe.jpg</foto>
+        </fotos>
+    </vehiculo>
+</vehiculos>
