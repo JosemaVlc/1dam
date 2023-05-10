@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio2transformacion4.xsl"?>
+<museos>
+    <museo nombre="Museo del Prado" ciudad="Madrid" pais="España" />
+    <museo nombre="British Museum" ciudad="Londres" pais="Reino Unido" />
+    <museo nombre="National Gallery" ciudad="Londres" pais="Reino Unido" />
+</museos>

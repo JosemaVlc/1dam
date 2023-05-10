@@ -6,12 +6,10 @@
         </ciudades>
     </xsl:template>       
     <xsl:template match="museo">
-        <ciudad>
-            <nombre>
-                <xsl:attribute name="nombre"><xsl:value-of select="ciudad"/></xsl:attribute>
-                <xsl:attribute name="pais"><xsl:value-of select="pais"/></xsl:attribute>
-            </nombre>
-            <museo><xsl:value-of select="nombre"/></museo>
-        </ciudad>
+            <ciudad>
+            <xsl:attribute name="nombre"><xsl:value-of select="@ciudad"/></xsl:attribute>
+                <pais><xsl:value-of select="@pais"/></pais>
+                <museo><xsl:value-of select="@nombre"/></museo>
+            </ciudad>
     </xsl:template>
 </xsl:stylesheet>
