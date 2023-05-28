@@ -1,0 +1,42 @@
+{
+    "oferta": [
+        {
+            "vehiculo": {
+                "marca": "ford",
+                "modelo": "focus",
+                "motor": "duratorc 1.4",
+                "matricula": "1234AAAA",
+                "kilometros": 12500,
+                "precio_inicial": 12000,
+                "precio_oferta": 10000,
+                "extra": [
+                    "pintura metalizada",
+                    "llantas"
+                ],
+                "foto": [
+                    "11325.jpg",
+                    "11326.jpg"
+                ]
+            }
+        },
+        {
+            "vehiculo": {
+                "marca": "ford",
+                "modelo": "focus",
+                "motor": "duratorc 2.0",
+                "matricula": "1235AAA",
+                "kilometros": 125000,
+                "precio_inicial": 10000,
+                "precio_oferta": 9000,
+                "extra": [
+                    "pintura metalizada",
+                    "spoile trasera"
+                ],
+                "foto": [
+                    "11327.jpg",
+                    "12328.jpg"
+                ]
+            }
+        }
+    ]
+}

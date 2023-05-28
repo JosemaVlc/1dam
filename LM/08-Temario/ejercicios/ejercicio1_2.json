@@ -1,0 +1,8 @@
+{
+    "pedido": {
+        "destinatario": "Juan Delgado Martínez",
+        "articulo": "bicicleta A2023",
+        "direccion": "C/ Barco 4, tercer piso, letra A",
+        "fecha_entrega": "19.05.2000"
+    }
+}

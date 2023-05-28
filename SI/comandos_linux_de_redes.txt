@@ -1,0 +1,310 @@
+
+COMANDOS DE LINUX PARA REDES
+
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+IFCONGIF
+
+ifconfig --> El comando básico
+
+ifconfig <interface> --> Obtener detalles sobre una interfaz determinada
+
+ifconfig <interface> <address> netmask <address> --> Asignar una ip y una subred a una interfaz
+
+ifconfig <interface> up --> Habilitar una interfaz concreta
+
+ifconfig <interface> down --> Inhabilitar una interfaz concreta
+
+ifconfig <interface> mtu <number> --> Establecer un número máximo de transmisioners a una interfaz concreta. (Por defecto 1500)
+
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+
+IP
+
+VER Y MANIPULAR DIRECCIONES
+
+ip a --> Mostrar una lista de las ip's asociadas a todas las interfaces
+
+ip addr --> Mostrar una lista de las ip's asociadas a todas las interfaces
+
+ip -4  a --> Mostrar las ip's en versión 4
+
+ip -6 a --> Mostrar las ip's en versión 6
+
+ip a show <interface> --> Mostrar las ip's de una interfaz concreta
+
+ip a add <address|mask> dev <interface> --> Asignar una ip a una interfaz concreta
+
+ip a del <address> dev <interface> --> Eliminar la ip de una interfaz concreta
+
+VER Y MANIPULAR DISPOSITIVOS EN UNA INTERFAZ
+
+ip link set dev <interface> up --> Cambiar el estado a encendido de un dispositivo en una interfaz concreta
+
+ip link set dev <interface> down --> Cambiar el estado a apagado de un dispositivo en una interfaz concreta
+
+ip link set mtu <number> dev <interface> --> Cambiar el MTU de un dispositivo en una interfaz concreta
+
+PROTOCOLO ARP(mapea direcciones ip a las direcciones MAC de los dispositivos)
+
+ip n show --> Ver el cache del vecino
+
+ip neigh show --> Ver el cache del vecino
+
+ip neigh add <IP> lladdr <MAC> dev <interface> nud <state> --> Añadir un nuevo vecino
+
+						STATE --> permanent --> Válido para siempre y solo lo puede eliminar el administrador
+								  noarp --> El vecino es valido. No se puede valiar. Será eliminado cuando expire su tiempo de vida
+								  stale --> El vecino es válido pero sospechoso. No cambia el estado del vecino si es válido y la dirección es cambiada por este comando
+								  reachable --> El vecino es válido hasta que expira el tiempo de reachability
+
+ip neigh del <IP> dev <interface> --> Invalidar un ARP
+
+ip neigh chg <IP> dev <interface> nud <state> --> Cambiar el estado de un ARP
+
+
+MOSTRAR EL CONTENIDO DE LAS ROUTING TABLES----||
+                                              ||
+ip r                                          ||
+                                              ||
+ip f list                                     ||
+                                              ||
+ip route list                                 ||
+                                              ||
+ip r list [options] ip route                  ||
+                                              ||
+ip r list <IP>                                ||
+-----------------------------------------------
+
+ip route add <ip/mask> via <gatewayIP> --> Añadir una nueva ruta por una gateway
+
+ip route add <ip/mask> dev <interface> --> Añadir una ruta para una interfaz
+
+ip route del default --> Para liminar la gateway por defecto
+
+ip route del <ip/mask> dev <interface> --> Para borrar una ruta
+
+ss -t --> Mostrar los sockets de TCP que están abiertos en el sistema
+
+ss -u --> Mostrar los sockets de UDP que están abiertos en el sistema
+
+ss -l --> Mostrar los sockets que están escuchando conexiones
+
+ss -p --> Mostrar los procesos que están utilizando los sockets
+
+ss -s --> Mostrar las estadísticas de red
+
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+COMANDOS PARA EL PING (usar Ctrl+C para detener el funcionamiento de este comando)
+
+ping <destino> --> Ver el ping de una conexión
+
+ping -c <number> <destino> --> Limitar el numero de paquetes que se incluyen en el comando
+
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+SSH
+
+sudo apt-get update
+sudo apt-get install ssh --> Intalar SSH Server
+
+CAMBIAR EL PUERTO SSH--------------------------------------------------------------------------------------
+1.- nano /etc/ssh/sshd_config --> Cambiar el ssh_config                                                   ||
+2.- Ir a la linea donde pone "#Port 22", quitar el # y cambiar el número de puerto por el que tu quieras  ||
+3.- Guardar los cambios Ctrl+X                                                                            ||
+4.- /etc/init.d/sshd restart --> Reiniciar el servicio SSH                                                ||
+----------------------------------------------------------------------------------------------------------- 
+
+ssh <user>@<IP o dominio> --> Logearse en un ordenador usando SSH
+ 
+scp <direccion del archivo> <user>@<IP o dominio>:<direccion de destino> --> Mover y copiar archivos entre ordenadores con encriptacion SSH
+
+scp -r <direccion del archivo> <user>@<IP o dominio>:<direccion de destino> --> Copiar o Mover un directorio completo
+
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+SFTP
+
+sftp <user>@<IP> --> Establecer una sesión SFTP
+
+help --> Acceder al sumario de ayuda de SFTP
+
+? --> Acceder al sumario de ayuda de SFTP
+
+get remoteFile --> Descargar archivos desde nuetro Host remoto
+
+get remoteFile localFile --> Descargar un archivo del Host remoto pero cambiándole el nombre
+
+get -r someDirectory --> Copiar un directorio y todo su contenido desde el Host remoto
+
+get -Pr someDirectory --> Decirle a SFTP que mantenga los perisos y los tiempos de acceso
+
+put localFile --> Subir un archivo local al Host remoto
+
+put -r localDirectory --> Subir un directorrio local y todo su contenido al Host remoto
+
+df -h --> Checkear si hay suficiente espacio para completar la transferencia que se quiere hacer
+
+exit --> Retornar a tu sesion de SFTP
+
+chown userID file --> Cambiar el dueño de un archivo de Host remoto
+
+get /etc/passwd --> Para poder ver los UID que corresponden con cada usuario
+
+chmod 777 publicFile --> Para dar permisos. Del mismo modo que en una interfaz linux normal
+
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
+SAMBA (sirve para conectar sistemas Linux con sistemas Windows y poder ver losa archivos de Linux como en una red Windows)
+
+apt-get install samba --> Para instalar Samba
+
+Una vez instalado hay que configurarlo para acceder a las carpetas de linux desde Windows------
+                                                                                              ||
+;[profiles]                                                                                   ||
+;comment = Users profiles                                                                     ||
+;path = /home/samba/profiles                                                                  ||
+;guest ok = no                                                                                ||
+;browseable = no                                                                              ||
+;create mask = 0600                                                                           ||
+;directory mask = 0700                                                                        ||
+                                                                                              ||
+-----------------------------------------------------------------------------------------------
+
+Cambgiamos la contraseña para el usuario-------------------------------------------
+sudo smbpasswd -L -a username  -->Se crea un nuevo usuario                        ||
+# we put a password                                                               ||
+sudo smbpasswd -L -e username  --> Se habilita el nuevo usuario                   ||
+-----------------------------------------------------------------------------------
+
+sudo /etc/init.d/smbd restart --> Habilitar al usuario y reiniciar Samba
+
+Si vamos a Windows y en el explorer del sistema ponemos nuestra IP, nos aparecerá la carpeta compartida con linux.
+
+Lineas para poner en el archivo si vamos a compartir directorios web y tenemos problemas de acceso---||
+                                                                                                     ||
+force user = root                                                                                    ||
+force group = root                                                                                   ||
+                                                                                                     ||
+------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
+
+NFS SERVER
+
+Sistema que permite a los clientes acceso remoto a sistemas de archivos en la red. 
+Permite el acceso y montaje de sistemas remotos como si fuesen del propio sistema local. 
+
+Intalaciónde NFS Server en Linux------------------------------------------------------------------------------------------------
+                                                                                                                               ||
+sudo apt update && apt dist-upgrade --> Actualizar los servidores                                                              ||
+                                                                                                                               || 
+sudo apt intall -y nfs-kernel-server --> Intalar NFS                                                                           ||
+                                                                                                                               ||
+sudo mkdir -p /mnt/data --> Crear el directorio compartido                                                                     ||
+                                                                                                                               ||
+sudo chown nobody:nongroup /mnt/data --> Cambiar el dueño de la carpeta compartida                                             ||
+                                                                                                                               ||
+sudo chmos 777 /mnt/data --> Dar permisos sobre la carpeta compartida. En este caso todos los permisos a todos los usuarios    ||
+                                                                                                                               ||
+sudo nano /etc/exports --> Modificar el archibo exports para que solo acepte conexiones de nuestros clientes                   ||
+			<Dirección del directorio>   <IP>         <Permisos y  especificaciones>                                           ||
+			/mnt/data                    192.168.1.80(rx, sync, no_subtre_check)                                               ||
+			                                                                                                                   ||
+sudo expoertsfs -a --> Publicar el archivo exports                                                                             || 
+                                                                                                                               ||
+sudo systemctl restart nfs-kernel-server --> Reiniciar el NFS Server para que coja todos los cambios                           ||
+                                                                                                                               ||
+Realizare las correspondientes excepcione en el firewall del servidor para que permite la conexión de los clientes.            ||
+--------------------------------------------------------------------------------------------------------------------------------
+
+Configurar los Clientes---------------------------------------------------------------------------------------------------------
+                                                                                                                               ||
+sudo apt update & apt install nfs-common --> Instalar NFS Client en nuestros nodos                                             ||
+                                                                                                                               ||
+sudo mkdir -p /mnt/cliente1 --> Crear una carpeta local para montar el directorio remoto                                       ||
+                                                                                                                               ||
+sudo mount 192.168.1.83:/mnt/data /mnt/cliente1 --> Montar el directorio remoto en el directorio local que acabamos de crear   ||
+		  | IP y folder remoto	 | folder local |                                                                              ||
+                                                                                                                               ||
+sudo nano /etc/fstab --> Editar el archivo fstab para hacer permanente el montaje del sistema de datos                         ||
+						192.168.1.83:/mnt/data     /mnt/data       nfs      defaults     0      1                              ||
+						<IP y folder remoto>      <folder local> <sistema>  <valores por defecto>                              ||https://www.msn.com/es-es/feed?ocid=winp2fphotkey
+--------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DHCP PROTOCOL
+
+sudo apt-get install dhcp3-server --> Intalar el DHCP server para asignar IP's automáticamente
+
+Configurar el DHCP Server------------------------------------------------------------------------------------
+
+cp /etc/dhcp3/dhcpd.conf /etc/dhcp3/dhcpd.conf.back --> Hacer una copia de backup del archivo de configuración
+
+sudo nano /etc/dhcp3/dhcpd.conf --> Editar el archivo de configuración
+
+	Para el modo IP Pool cambiamos las siguientes lineas-----
+	                                                        ||
+	default-lease-time 600;                                 ||
+	max-lease-time 7200;                                    ||
+	option subnet-mask 255.255.255.0;                       ||
+	option broadcast-address 192.168.1.255;                 ||
+	option routers 192.168.1.1;                             ||
+	option domain-name-servers 192.168.1.9, 192.168.1.10;   ||
+	option domain-name “guatewireless.org”;                 ||
+	subnet 192.168.1.0 netmask 255.255.255.0 {              ||
+	range 192.168.1.10 192.168.1.200;                       ||
+	}                                                       ||
+                                                        	||
+	---------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------	
+DOCKER                                                                                                                            ||
+                                                                                                                                  ||
+docker build -t <nombre de la imagen>:<etiqueta> <ruta del dockerfile(punto si es el directorio actual)>  --> Crear la imagen     ||
+docker images --> para ver las imagenes                                                                                           ||
+docker start <nombre del contenedor> --> iniciar un contenedor                                                                    ||
+docket stop --> Detener un contenedor                                                                                             ||
+docker ps -a --> Ver la lista de todos los contenedores                                                                           ||
+docker rm -f <nombre del contenedor> --> Borrado forzado de un contenedor                                                         ||
+docker rmi <nombre de la imagen> --> Borrar una imagen                                                                            ||
+docker exec -it <nombre del contenedor> bash --> Para entrar en el bash del contenedor                                            ||
+docker logs <nombre del contenedor> --> Para ver el log de un contenedor                                                          ||
+docker inspect <nombre del docker> --> Para ver imagen detallada de un contenedor una imagen                                      ||
+                                                                                                                                  ||
+DOCKER CREATE----------------------------------------------------------------------------------------------------------------------
+docker create --name <nombre personalizado> -p <puertos> imagen --> crear el contenedor                                           ||
+PARA QUE NO SE APAGUE DIRECTAMENTE AL HACER START                                                                                 ||
+docker create -i -t --name <nombre del docker> <nombre de la imagen>                                                              ||
+-p <puerto del host>:<puerto del contenedor> --> para configurar los puertos                                                      ||
+--network <nombre de la network>                                                                                                  ||
+-n --name --> para poner un nombre personalizado al docker                                                                        ||
+-t --> docker en modo terminal                                                                                                    ||
+-i --> docker interactivo                                                                                                         ||
+-ti --> docker en modo terminal interactiva                                                                                       ||
+lsof -i:22 --> listar los procesos que están en el puerto 22                                                                      ||
+                                                                                                                                  ||
+EJEMPLOS                                                                                                                          ||
+docker create -t -i -p 33:22 –network nerwork1 –-name ex3-server ejercicio3-server                                                ||
+docker create -t -i –network network1 –name ex3-client ubuntu:22.04                                                               ||
+-----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  ||
+DOCKER NETWORK                                                                                                                    ||
+docker network create --driver <posible driver> --subnet <IP/submascara> <nombre de la red> --> Crear una red de contenedores     ||
+docker network rm --> Borrar una red de docker                                                                                    ||
+docker network connect <nombre de la red> <nombre del contenedor> --> Conectar un docker a una red                                ||
+docker network disconnect <nombre de la red> <nombre del contenedor> --> Desconectar un docker de una red                         ||
+docker network inspect <nombre de la red> --> Para ver información detallada de una red de docker                                 ||
+-----------------------------------------------------------------------------------------------------------------------------------
+
+SCRIPT AL INICIAR UN DOCKER
+
+docker run -it --rm <nombre de la imagen>

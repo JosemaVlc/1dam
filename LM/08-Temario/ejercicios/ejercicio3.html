@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="marca"></p>
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+ if (this.readyState == 4 && this.status == 200) {
+var miObj = JSON.parse(this.responseText);
+document.getElementById("marca").innerHTML = miObj.coche[0].camioneta.marca;
+console.log()
+ }
+};
+xmlhttp.open("GET", "vehiculos.txt", true);
+xmlhttp.send();
+</script>
+</body>
+</html>

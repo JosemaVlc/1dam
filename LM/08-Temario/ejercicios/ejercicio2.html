@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="titulo"></p>
+<script>
+var txt = '{"titulo":"Días de gloria","duracion":190,"año":1987}'
+var obj = JSON.parse(txt);
+document.getElementById("titulo").innerHTML = obj.titulo;
+</script>
+</body>
+</html>

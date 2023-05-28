@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Datos</h2>
+<p id="ejercicio9"></p>
+<script>
+var miObj = {
+    "nombre":"Jonh Doe",
+    "profesion":"Programador",
+    "edad":25,
+    "lenguajes":["PHP","Javascript","Dart"],
+    "disponibilidadParaViajar":true,
+    "rangoProfesional": {
+        "aniosDeExperiencia": 12,"nivel": "Senior"
+    }
+};   
+delete miObj.edad;
+for (var dato in miObj) {
+    if(dato != "rangoProfesional"){
+        document.getElementById("ejercicio9").innerHTML += miObj[dato] + "<br>";
+    }else{
+        document.getElementById("ejercicio9").innerHTML += miObj.rangoProfesional.aniosDeExperiencia + "<br>" + miObj.rangoProfesional.nivel;
+    }
+}
+</script>
+</body>
+</html>

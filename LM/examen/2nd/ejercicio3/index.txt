@@ -1,0 +1,45 @@
+{
+    "catalogo":[
+        {
+            "libro":{
+                "Titulo":"Cuando los animales sueñan",
+                "Autor":"David M.",
+                "editorial":"Errata natrurae",
+                "Precio":21.50,
+                "edicion": {
+                    "primera":2022,
+                    "segunda":2023
+                },
+                "salida":2022                
+            }            
+        },
+        {
+            "libro":{
+                "Titulo":"Las aventuras de Huckleberry Finn",
+                "Autor":"Mark Twain",
+                "editorial":"Debolsillo",
+                "Precio":46.95,
+                "edicion":{
+                    "primera":2007,
+                    "segunda":2012,
+                    "tercera":2015,
+                    "cuarta":2019                    
+                },
+                "salida":2007
+            }
+        },
+        {
+            "libro":{
+                "Titulo":"La conquiesta del polo norte",
+                "Autor":"Fergus Fleming",
+                "editorial":"Tusquets editores",
+                "Precio":10.40,
+                "edicion":{
+                    "primera":2010,
+                    "segunda":2018
+                },
+                "salida":2010
+            }
+        }
+    ]
+}

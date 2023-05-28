@@ -1,0 +1,199 @@
+POO
+-------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+Herencia --> extends
+Interfaz --> implements
+
+------------------------------------------------------------------------
+
+INTERFAZ
+Clase que recopila una serie de constantes y métodos que deben implementar todas las clases
+que la implementen.
+Las constantes son todas public static y final. (NO HACE FALTA PONERLO)
+Los métodos son todos abstractos. 
+
+public interface <nombre de la interfaz> {
+public static final <nombre de la constante>
+(método) --> <tipo de return> <nombre del método>();
+}
+
+--------------------------------------------------------------------
+
+ABSTRACT
+clase --> métodos abstractos que deben implementar sus herededos
+método --> método no implementado en una clase abstracta
+
+-----------------------------------------------------------------------
+
+STATIC
+variable --> variable de clase
+método --> método que se puede usar sin necesidad de un objeto
+
+------------------------------------------------------------------------
+
+PUBLIC
+variable --> puede usarla cualquier elemento
+método --> puede ser usado desde cualquier lugar
+
+--------------------------------------------------------------------
+
+PROTECTED
+variable --> puede usarse solo desde la clase que la describe y desde sus herederos
+método --> lo mismo que la variable
+
+------------------------------------------------------------------
+
+ENUM
+Método para limitar la cantidad de valores que puede aceptar una variable concreta
+
+enum <nombre de la variable>{
+posibles valores separados por una coma
+}
+
+---------------------------------------------------------
+
+toString
+Método para imprimir una String informativa sobre una clase concreta.
+
+public String toString(){
+retur <String que devuelve>
+}
+
+----------------------------------------------------------
+
+CONSTRUCTOR
+
+public <nombre de la clase>(<posibles variables que reciba el constructor)(){
+this.<variable>=<variable recibida>;
+en este bloque se colocan todas las variables que hagan falta y las actualizaciones de variables
+y los posibles métodos a usar.
+}
+
+------------------------------------------------------------
+
+EXCEPCIONES
+
+throws <nombre de la excepción> --> Expresión en la declaración de un método para que este pueda generar
+	la excepción.
+	
+throw new <nombre de la excepción>("mensaje de la excepción") --> Manera de generar la excepción en el
+	caso de que haya que generarla.
+
+EL BLOQUE TRY-CATCH SE COLOCA DONDE SE QUIERA CAPTURAR LA EXCEPCIÓN	
+try{
+	BLOQUE DE CÓDIGO
+}catch(<tipo de excepcion> <nombre de la excepción>){
+	e.printStackTrace(); --> para imprimir el camino de la excepción
+	sout(e); --> Para imprimir el mensaje de la excepción
+}
+
+ImputMismatchException --> tipo de entrada errónea
+IOException --> posibles errores al leer un archivo o escribir en él
+FileNotFoundException --> Archivo no encontrado
+SQLException --> Problema en una base de datos
+ArrayIndexOutOfBoundsException --> Intentar acceder a una posición que no existe dentro de un array
+ArithmeticException --> Errores en operaciones ariméticas (como dividir entre 0)
+
+---------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+ARCHIVOS
+
+File <nombre del archivo> = new File("ruta del archivo"); --> Para crear un archivo.
+
+File <nombre del archivo> = null; --> Si se quiere crear el archivo en nulo para darle contenido más tarde.
+
+Scanner <nombre del scanner> = new Scanner(<nombre del archivo); --> Para crear un lector de un archivo.
+
+FileWriter <nombre del FileWriter> = new FileWriter(<nombre del archivo en el que se va a escribir)
+
+while (<nombre del Scanner>.hasNext()){ --> para leer línea a línea un archivo
+	sout(<nombre del scanner>.nextLine()); --> para imprimir línea a línea de un archivo
+}
+
+<nombre del escaner>.nextLine().split("caracter con el que se quiera separar");
+
+String <nombre de la string> = <nombre del escaner>.nextLine().substring(valores)
+
+CLASE SUBSTRING()
+(número) --> caracter desde el que comienza la String nueva.
+(num1, num2) -->num1 = primer carácter de la String nueva.
+				num2 = primer carácter que no es cogido en la string nueva.
+
+-----------------------------------------------------------------------------------------------
+
+FileReader --> Clase para leer un archivo.
+			FileReader <nombre> = new FileReader(<nombre del archivo>)
+BufferedReader --> Ampliación de la clase FileReader
+			BufferedReader <nombre> = new BufferedReader(<nombre del FileReader>)
+
+String linea; --> variable necesario para el buffer
+
+while ((linea=<nombre del Buffer>.readLine()) != null) { --> PARA LEER LÍNEA A LÍNEA DE UN ARCHIVO
+	BLOQUE DE CÓDIGO
+}
+
+--------------------------------------------------------------------------------------------------
+
+.getName() --> para recuperar el nombre de un archivo
+.getParent() --> para recuperar el nombre del padre de un archivo
+.getPatch() --> para recuperar la ruta
+.length() --> para ver el tamaño de un archivo en bytes
+.lastModified() --> para ver la fecha de última modificación de un archivo.
+					long <nombre de la variable> = <nombre del archivo>.lastModified()
+					Date <nombre de la variable> = new Date(<nombre de la variable long>); --> Para ver una fecha legible.
+
+--------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+
+CONEXIÓN CON BASES DE DATOS
+
+Conection --> Conexión con la base de datos
+Statement --> Consola para poder hacer una consulta
+PreparedStatement --> Statement preparado con uns consulta previa
+ResultSet --> Ejecución de la consulta
+
+Sintaxis -------------------------------------------
+			variables necesarias:
+				String url = "jdbc:mysql://localhost:3306/<nombre de la base de datos>";
+				String user = <nombre del usuario(root en nuestro caso)>
+				String pass = <contraseña del root de la base de datos>
+				
+Connection <nombre de la conexión> = DriverManager.getConnection(url, user, pass);
+Statement <nombre del statement> = <nombre de la Conecction>.createStatement();
+ResultSet <nombre del ResultSet> = <nombre del statement>.executeQuery("<query>"); --> en caso de un select
+int <filas afectadas> = <nombre del statement>.executeUpdate("<query>"); --> en caso de un update, delete o insert into.
+
+-----------------------------------------------------------------------------------------------------
+
+PREPARED STATEMENT
+
+			variable necesaria:
+				String <nombre de la variable> = "query del tipo que sea poniendo ? dónde se deba meter un dato por el usuario";
+				
+PreparedStatemente <nombre> = <nombre de la conexción>.prepareStatement(<nombre de la variable>);
+
+<nombre del preparedStatement>.setString(num, "cadena a introducir") --> Para meter los datos que antes dejamos con ?
+										El num es el número de interrogante dentro de la query empezando por 1
+										
+ResultSet <nombre> = <nombre del preparedStatement>.executeQuery() --> en caso de un select
+
+int <Filas adectadas> = <nombre del PreparedStatement>.executeUpdate() --> en caso de un update, delete o insert into
+
+ESTE RESULTSET SE RECORRE DEL MISMO MODO QUE EL OTRO. 
+
+---------------------------------------------------------------------------------------------------------
+
+RECORRER UN RESULTSET
+
+while (<nombre del ResultSet>.next()) {
+	<nombre del ResultSet>.getString("<nombre de la columna") --> Para recuperar datos de una columna String
+	<nombre del ResultSet>.getInt("<nombre de la columna") --> Para recuperar datos de una columna Int
+	<nombre del ResultSet>.getDouble("<nombre de la columna") --> Para recuperar datos de una columna Double
+	<nombre del ResultSet>.getDate("<nombre de la columna") --> Para recuperar datos de una columna Date
+}
+
+------------------------------------------------------------------------------------------------------------
+
+

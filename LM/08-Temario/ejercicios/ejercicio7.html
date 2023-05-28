@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Lenguajes</h2>
+<ul id="lenguajes"></ul>
+<h2>Experiencia</h2>
+<p id="anyos"></p>
+<script>
+var miObj = {
+    "nombre":"Jonh Doe",
+    "profesion":"Programador",
+    "edad":25,
+    "lenguajes":["PHP","Javascript","Dart"],
+    "disponibilidadParaViajar":true,
+    "rangoProfesional": {"aniosDeExperiencia": 12,"nivel": "Senior"
+    }
+};    
+for(let i in miObj.lenguajes){
+    document.getElementById("lenguajes").innerHTML += "<li>" + miObj.lenguajes[i];
+}
+document.getElementById("anyos").innerHTML = miObj.rangoProfesional.aniosDeExperiencia + " años de experiencia";
+
+</script>
+</body>
+</html>

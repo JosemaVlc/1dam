@@ -4,21 +4,22 @@
  */
 package prog.ud.pkg11;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
  * @author jmore
  */
-public class ejerciciob07 {
-    public static void main(String[] args) {
+public class ejercicioampliacion {
+    public static void main(String[] args) throws IOException {
         ArrayList <String> alLineas = new ArrayList();
         ArrayList <String> alPalabras = new ArrayList();
         ArrayList <String> alCaracteres = new ArrayList();
@@ -33,11 +34,13 @@ public class ejerciciob07 {
         int archivoAleatorio = random.nextInt(archivos.length);
         
         File archivo = new File("./"+archivos[archivoAleatorio]);
-        
+        FileReader fr = null;
         try {
-            Scanner lectura = new Scanner(archivo);
-            while (lectura.hasNextLine()){
-                String linea = lectura.nextLine();
+            fr = new FileReader(archivo);
+            BufferedReader br = new BufferedReader(fr);
+            
+            String linea;
+            while ((linea=br.readLine())!=null){
                 alLineas.add(linea);
                 
                 String[] palabras =  linea.split(" ");
@@ -47,37 +50,17 @@ public class ejerciciob07 {
                 alCaracteres.addAll(Arrays.asList(caracteres));          
             }
             
-            /*boolean yaEsta = false;
-            
-            for(String i : alPalabras){
-                String palabra = i;
-                int nVeces = 0;
-                for (String k : alRepeticiones){
-                    if (i.equals(k)){
-                        yaEsta = true;
-                    }
-                }
-                if (!yaEsta){                    
-                    for(String j : alPalabras) {
-                        if (i.equals(j)){
-                            nVeces++;
-                        }
-                    }
-                }
-                    
-                }
-                String palabraVeces = palabra + " " + nVeces;
-                
-            }*/
-            
             System.out.println("En el documento " + archivo.getName() + " hay " + alLineas.size() + " lineas, " + alPalabras.size() + " palabras y " + alCaracteres.size() + " caracteres");
-            
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
+        } finally {
+            try{
+                if( null != fr ){
+                    fr.close();
+                }
+            }catch (Exception e2){
+                e2.printStackTrace();
+            }
         }
-        
-    }
-
-    public ejerciciob07() {
     }
 }

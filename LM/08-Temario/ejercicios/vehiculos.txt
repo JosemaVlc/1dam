@@ -1,0 +1,12 @@
+{
+    "coche":[
+        {
+            "camioneta":{                
+                "marca":"ford",
+                "modelo":"focus",
+                "motor":"duratorc 2.0",
+                "vendido":true
+            }
+        }
+    ]
+}
