@@ -1,20 +1,10 @@
 {
-    "version": "0.7",
+    "version": "0.8",
     "data": [
       {
         "id": 1,
         "nombre": "Ejemplo 1",
         "descripcion": "descripcion ejemplo 1"
-      },
-      {
-        "id": 2,
-        "nombre": "Ejemplo 2",
-        "descripcion": "descricion ejemplo 2"
-      },
-      {
-        "id": 3,
-        "nombre": "PTV Telecom",
-        "descripcion": "Compañeros de PTV Telecom"
       },
       {
         "id": 73400901,
