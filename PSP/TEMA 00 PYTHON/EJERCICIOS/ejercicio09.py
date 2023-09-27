@@ -1,0 +1,5 @@
+c = int(input("Cantidad a invertir: "))
+i = int(input("interes anual %: "))
+n = int(input("numero de años: "))
+co = c+((c*i/100)*n)
+print(f"Al pasar los {n} años dispondrá de un capital de {co}€")
