@@ -1,9 +1,8 @@
 package unit01;
 
 import java.io.File;
-import java.util.Date;
 
-public class Exercise04 {
+public class Exercise05 {
 
 	public static void main(String[] args) {
 		// Genero un objeto tipo archivo
@@ -11,10 +10,7 @@ public class Exercise04 {
 		
 		// Si la ruta es un archivo y existe, mira la ultima modificacion, lo formatea y muestra por pantalla.
 		if (fiRuta.exists() && fiRuta.isFile()) {
-			long ultimaModificacion = fiRuta.lastModified();
-			Date fechaUltimaModificacion = new Date(ultimaModificacion);
-			System.out.println(fiRuta.getName()+" - "+fechaUltimaModificacion);
+			System.out.println(fiRuta.getName()+" - "+fiRuta.length()+" bytes, "+(float)fiRuta.length()/1024+" Kb, "+(float)fiRuta.length()/1024/1024+" Mb");
 		}
 	}
 }
-
