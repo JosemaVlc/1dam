@@ -1,22 +1,52 @@
 package unit01;
+import java.io.File;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class GestProducts {
-	public static int scNumeros() {
-		int n = 0;
+	/*Scanner option.*/
+	public static int scOpc(){
+		
+		int n = -1;
+		
+		System.out.print(":/> ");
+		
+		Scanner sc = new Scanner(System.in);
+		if (sc.hasNextInt()) {
+			n = sc.nextInt();
+		}
 		
 		return n;
 	}
 	
-	public static ArrayList<String> productos() {
-		ArrayList<String> product = new ArrayList<String>();
+	public static void addProducts(String stPath, String stName) {
 		
-		return product;
+	}
+	
+	public static void listAll(String stPath, String stName) {
+		
+	}
+	
+	//Borrado del archivo
+	public static void removeAll(String stPath, String stName) {
+		//Se genera el objeto del archivo
+		File fiArchivo = new File(stPath+stName);
+		
+		//Se revisa si existe y si es así se borra y sino, muestra un mensaje de la negativa.
+		if (fiArchivo.exists()) {
+			fiArchivo.delete();
+			System.out.println("The list has been emptied successfully.");
+		} else {
+			System.out.println("The list could not be deleted, maybe it was already empty.");
+		}	
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int p = 0;
+		String stPath = "src/unit01/gestproducts/";
+		String stName = "productslist.txt";
+				
+		int opc = -1;
+		
 		do {
 			System.out.println("""
 					***********************
@@ -28,9 +58,27 @@ public class GestProducts {
 					0. Exit
 					***********************
 					""");
+			opc = scOpc();
 			
-		}while (p == 0);
-		System.out.println("Adios");
+			switch (opc) {
+			case 0:
+				System.out.println("Bye");
+			case 1:
+				addProducts(stPath, stName);
+				break;
+			case 2:
+				listAll(stPath, stName);
+				break;
+			case 3:
+				removeAll(stPath, stName);
+				break;
+			default:
+				System.out.println("Option not selectable");
+				break;
+			}
+			
+		}while (opc != 0);
+		
 
 	}
 
