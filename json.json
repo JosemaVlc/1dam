@@ -1,6 +1,7 @@
 {
     "version": "0.8",
-    "data": [
+    "data": 
+    [
       {
         "id": 618,
         "nombre": "Invitado",
@@ -22,5 +23,5 @@
         "descripcion": "PTV Telecom"
       }
     ]
-  }
+}
   
