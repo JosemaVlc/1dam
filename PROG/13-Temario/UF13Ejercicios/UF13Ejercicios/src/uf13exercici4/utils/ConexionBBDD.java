@@ -19,7 +19,7 @@ public class ConexionBBDD {
     //Creem les variables. Privades i estàtiques.
     private static String url = "jdbc:mysql://localhost:3306/uf13";
     private static String username = "root";
-    private static String password = "";
+    private static String password = "admin";
     private static Connection conection;
 
     /*

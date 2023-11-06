@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="password">contraseña</string>
+    <string name="username">username</string>
+</resources>
