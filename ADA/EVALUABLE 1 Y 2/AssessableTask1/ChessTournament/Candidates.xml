@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Players>
+     <Player>
+          <playerid>EL001</playerid>
+          <playername>JOSEMA</playername>
+          <playercountry>SPAIN</playercountry>
+          <playerscore1>1.0</playerscore1>
+          <playerscore2>1.0</playerscore2>
+          <playerscore3>1.0</playerscore3>
+          <playertotalscore>3.0</playertotalscore>
+     </Player>
+     <Player>
+          <playerid>EL003</playerid>
+          <playername>DIMITRI</playername>
+          <playercountry>RUSSIA</playercountry>
+          <playerscore1>1.0</playerscore1>
+          <playerscore2>1.0</playerscore2>
+          <playerscore3>1.0</playerscore3>
+          <playertotalscore>3.0</playertotalscore>
+     </Player>
+     <Player>
+          <playerid>EL004</playerid>
+          <playername>AMELIE</playername>
+          <playercountry>FRANCE</playercountry>
+          <playerscore1>1.0</playerscore1>
+          <playerscore2>1.0</playerscore2>
+          <playerscore3>1.0</playerscore3>
+          <playertotalscore>3.0</playertotalscore>
+     </Player>
+</Players>

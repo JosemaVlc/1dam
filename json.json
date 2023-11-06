@@ -1,6 +1,7 @@
 {
     "version": "0.8",
-    "data": [
+    "data": 
+    [
       {
         "id": 618,
         "nombre": "Invitado",
@@ -15,7 +16,12 @@
         "id": 52659570,
         "nombre": "Josema M.",
         "descripcion": "PTV Telecom"
+      },
+      {
+        "id": 74887233,
+        "nombre": "Cristina C.",
+        "descripcion": "PTV Telecom"
       }
     ]
-  }
+}
   
