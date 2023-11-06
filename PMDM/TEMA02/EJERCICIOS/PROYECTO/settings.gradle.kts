@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Semena2"
 include(":app")
+include(":app")
  
