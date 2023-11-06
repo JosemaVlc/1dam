@@ -205,7 +205,7 @@ namespace buscaminas
                             // Si la casilla tiene 0 bombas alrededor, descubre las casillas adyacentes
                             if (casilla.bombasAlrededor == 0)
                             {
-                                DescubrirCasillasAdyacentes(casillas, filas, columnas, casilla.Fila, casilla.Columna);
+                                DescubrirCasillasAdyacentes(casillas, filas, columnas, casilla.Fila, casilla.Columna, nBombas);
                             }
                             if (cuadrado.Content == "🏴")
                             {
@@ -296,7 +296,7 @@ namespace buscaminas
             }
         }
 
-        private void DescubrirCasillasAdyacentes(List<Casillas> casillas, int filas, int columnas, int fila, int columna)
+        private void DescubrirCasillasAdyacentes(List<Casillas> casillas, int filas, int columnas, int fila, int columna, int nBombas)
         {
             // Verificar las casillas de alrededor
             for (int i = fila - 1; i <= fila + 1; i++)
@@ -317,6 +317,11 @@ namespace buscaminas
                                 Button cuadrado = gridTablero.Children.Cast<Button>()
                                     .FirstOrDefault(b => Grid.GetRow(b) == casillaAdyacente.Fila && Grid.GetColumn(b) == casillaAdyacente.Columna);
 
+                                if (cuadrado.Content == "🏴")
+                                {
+                                    nBombas++;
+                                    numeroBombas.Text = nBombas.ToString();
+                                }
                                 cuadrado.Background = new SolidColorBrush(Colors.LightBlue);
                                 cuadrado.FontWeight = FontWeights.Bold;
 
@@ -325,13 +330,17 @@ namespace buscaminas
                                     cuadrado.Content = casillaAdyacente.bombasAlrededor.ToString();
                                     SolidColorBrush color = colorNumeros(casillaAdyacente.bombasAlrededor);
                                     cuadrado.Foreground = color;
+                                } else
+                                {
+                                    cuadrado.Content = "";
                                 }
+
                                 cuadrado.IsHitTestVisible = false; // Desactiva la interacción con el botón, pero conserva su apariencia
 
                                 // Si la casilla adyacente tiene 0 bombas alrededor, continúa descubriendo casillas adyacentes
                                 if (casillaAdyacente.bombasAlrededor == 0)
                                 {
-                                    DescubrirCasillasAdyacentes(casillas, filas, columnas, i, j);
+                                    DescubrirCasillasAdyacentes(casillas, filas, columnas, i, j, nBombas);
                                 }
                             }
                         }
