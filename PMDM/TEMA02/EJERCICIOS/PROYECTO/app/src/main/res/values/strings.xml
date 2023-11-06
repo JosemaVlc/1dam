@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Semena2</string>
+    <string name="app_name">Ejercicios Tema 1</string>
+    <string name="firstApp">Esta es mi primera App</string>
+    <string name="moreInfo">MÁS INFO CLICK AQUÍ</string>
+    <string name="clickerApp">Este es mi clicker App</string>
+    <string name="clicker">Clicka aquí!(%d)</string>
+    <string name="clickerInit">Clicka aquí!</string>
+    <string name="desContentAndroid">Robot Android</string>
+    <string name="contentFirstApp">Android es un sistema operativo móvil basado en el núcleo Linux y otros software de código abierto. Fue diseñado para dispositivos móviles con pantalla táctil, como teléfonos inteligentes, tabletas, relojes inteligentes Wear OS, automóviles con otros sistemas a través de Android Auto, al igual los automóviles con el sistema Android Automotive y televisores Android TV.</string>
 </resources>
