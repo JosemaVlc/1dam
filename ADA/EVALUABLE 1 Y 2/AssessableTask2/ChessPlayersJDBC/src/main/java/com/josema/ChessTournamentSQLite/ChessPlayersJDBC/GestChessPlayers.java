@@ -28,6 +28,11 @@ public class GestChessPlayers {
 		String stSQLDataItems = "ID, NAME, COUNTRY, SCORE1, SCORE2, SCORE3";
 		SQLiteOperations.setStSQLDataItems(stSQLDataItems);
 		
+		// Set MongoOperations
+		MongoOperations.setURLMongoDB("mongodb://localhost:27017");
+		MongoOperations.setMongoDBName("ChessPlayers");
+		MongoOperations.setMongoDBCollectionName("players");
+		
 		// loop for the menu until option zero is pressed.
 		do {
 			System.out.println(
@@ -61,7 +66,7 @@ public class GestChessPlayers {
 					break;
 				case 2:					
 					// List all chess players
-					TournamentPlayers.listAllChessPlayersFromSQLite();
+					SQLiteOperations.PrintTable();
 					break;
 				case 3:
 					// Delete data from SQLite3

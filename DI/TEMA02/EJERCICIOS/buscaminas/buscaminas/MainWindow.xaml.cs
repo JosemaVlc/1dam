@@ -1,9 +1,8 @@
-﻿using System.Drawing;
-using System.Reflection;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 
 namespace buscaminas
@@ -14,13 +13,14 @@ namespace buscaminas
     public partial class MainWindow : Window
     {
         // Inicialización de variables globales
-        private int segundosTranscurridos = 0;
-        private DispatcherTimer timer;
-        private List<Casillas> casillas = new List<Casillas>();
-        private int nClicks = 0;
-        private int filas = 9;
-        private int columnas = 9;
-        private int nBombas = 10;
+        private static int segundosTranscurridos = 0;
+        private static DispatcherTimer timer;
+        private static List<Casillas> casillas = new List<Casillas>();
+        private static int nClicks = 0;
+        private static int filas = 9;
+        private static int columnas = 9;
+        private static int nBombas = 10;
+        private static int nBanderas = nBombas;
 
         public MainWindow()
         {
@@ -44,16 +44,12 @@ namespace buscaminas
             timer.Tick += Timer_Tick; // Llama a la función Timer_Tick por cada intervalo
 
             // Reestablece a cero el TextBlock numeroBombas
-            numeroBombas.Text = nBombas.ToString();
+            numeroBombas.Text = nBanderas.ToString();
 
 
             CrearCasillas();
             ColocarBombas();
             ContarBombasAlrededor();
-            if (!reinicio)
-            {
-                DibujarTablero();
-            }
             RellenarTablero();
             HabilitarBotones();
         }
@@ -62,13 +58,14 @@ namespace buscaminas
         private void ResetearTablero(object sender, MouseButtonEventArgs e)
         {
             nClicks = 0;
+            nBanderas = nBombas;
             DetenerReloj();
             ResetearReloj();
             LimpiarTablero();
             PrepararTablero(true);
-            Carita.Background = new SolidColorBrush(Colors.Yellow);
-            CaritaTexto.Text = ":-)";
-            
+            Carita.Source = new BitmapImage(new Uri("./img/smiley.png", UriKind.Relative));
+
+
         }
 
         // Genera las casillas y las añade a la arraylist
@@ -77,7 +74,7 @@ namespace buscaminas
             for (int i = 0; i < filas; i++)
             {
                 for (int j = 0; j < columnas; j++)
-                {                    
+                {
                     Casillas casilla = new Casillas(i, j);
                     casillas.Add(casilla);
                 }
@@ -95,7 +92,8 @@ namespace buscaminas
                 /* Coloca una bomba en una casilla aleatoria, si ya contiene bomba 
                  * intentará colocarla en otra casilla aleatoria, así hasta que encuentre 
                  * una casilla que no tenga bomba*/
-                while (true) { 
+                while (true)
+                {
                     int numeroRandom = random.Next(casillas.Count);
                     Casillas casilla = casillas[numeroRandom];
                     if (casilla.Bomba == false)
@@ -130,55 +128,26 @@ namespace buscaminas
                             }
                         }
                     }
-                }               
+                }
 
                 casilla.bombasAlrededor = bombasAlrededor;
             }
         }
 
-        // Genera el numero de filas y columnas y las añade al gridTablero
-        private void DibujarTablero()
-        {
-            // genera filas
-            for (int i = 0; i < filas; i++)
-            {
-                RowDefinition rowDefinition = new RowDefinition
-                {
-                    Height = new GridLength(1, GridUnitType.Star) // '*' en Height
-                };
-                gridTablero.RowDefinitions.Add(rowDefinition);
-            }
-            // genera columnas
-            for (int i = 0; i < columnas; i++)
-            {
-                ColumnDefinition columnDefinition = new ColumnDefinition
-                {
-                    Width = new GridLength(1, GridUnitType.Star) // '*' en Width
-                };
-                gridTablero.ColumnDefinitions.Add(columnDefinition);
-            }
-        }
-
-
         // Genera y coloca los botones dentro del gridTablero
-        private void RellenarTablero() { 
+        private void RellenarTablero()
+        {
 
             // Recorre las filas y columnas y coloca los botones
             for (int i = 0; i < filas; i++)
             {
                 for (int j = 0; j < columnas; j++)
                 {
-                    
+
                     // Crea un Boton cuadrado por cada posición del gridTablero
                     Button cuadrado = new Button
                     {
-                        Width = 50, // Ancho
-                        Height = 50, // Alto
-                        Background = new SolidColorBrush(Colors.LightGreen), // Fondo verde claro
-                        BorderBrush = new SolidColorBrush(Colors.Black), // Borde color negro
-                        BorderThickness = new Thickness(1), // Grosor del borde 1
-                        HorizontalAlignment = HorizontalAlignment.Center, // Centra horizontalmente
-                        VerticalAlignment = VerticalAlignment.Center, // Centra verticalmente 
+                        Style = (Style)FindResource("EstiloBotonPersonalizado")
                     };
 
                     // Busca la casilla correspondiente a la fila y columna
@@ -196,45 +165,51 @@ namespace buscaminas
             }
         }
 
-        // Función que realiza cuando se pulsa click derecho sobre un botón
+        // Función que realiza cuando se pulsa click izquierdo sobre un botón
         private void ClickIzquierdo(Button cuadrado, Casillas casilla)
         {
+
             // Inicia el contador de segundos cuando se hace el primer clic en el tablero
             if (nClicks == 0)
             {
-                IniciarReloj(); 
+                IniciarReloj();
             }
+
+            // Suma un click
+            nClicks++;
 
             // Si la casilla es tiene una bomba
             if (casilla.Bomba)
-            {                
+            {
                 MostrarBombas(); // Muestra todas las bombas
 
-                // Setea la carita a roja y la pone triste
-                CaritaTexto.Text = ":-("; 
-                Carita.Background = new SolidColorBrush(Colors.Red);
-                
+                // Setea la carita a enfadada
+                Carita.Source = new BitmapImage(new Uri("./img/enfadado.png", UriKind.Relative));
+
                 // El fondo del botón con bomba clicado se pone de color negro
+                Image imgExplotar = cuadrado.Content as Image;
+                imgExplotar = new Image
+                {
+                    Source = new BitmapImage(new Uri("./img/explotar.png", UriKind.Relative)),
+                };
+                cuadrado.Content = imgExplotar;
                 cuadrado.Background = new SolidColorBrush(Colors.Black);
-                
+
                 // Detiene el reloj, bloquea botones y muestra el mensaje de derrota
-                DetenerReloj();
-                BloquearBotones();
-                MessageBox.Show("¡Has perdido!", "Derrota");
+                MostrarDatos(false);
             }
             else
-            {
-                nClicks++;
+            {                
                 casilla.Descubierta = true;
-                if (cuadrado.Content == "🏴")
+                if (cuadrado.Content is Image)
                 {
-                    nBombas++;
-                    numeroBombas.Text = nBombas.ToString();
+                    nBanderas++;
+                    numeroBombas.Text = nBanderas.ToString();
+                    cuadrado.Content = "";
                 }
 
-                cuadrado.Background = new SolidColorBrush(Colors.LightBlue);
+                cuadrado.Style = (Style)FindResource("EstiloBotonAbierto");
                 SolidColorBrush color = ColorNumeros(casilla.bombasAlrededor);
-                cuadrado.FontWeight = FontWeights.Bold;
                 cuadrado.Foreground = color;
 
                 if (casilla.bombasAlrededor != 0)
@@ -248,48 +223,56 @@ namespace buscaminas
                 {
                     DescubrirCasillasAdyacentes(casillas, filas, columnas, casilla.Fila, casilla.Columna, nBombas);
                 }
-                if (cuadrado.Content == "🏴")
+                if (cuadrado.Content is Image)
                 {
-                    nBombas++;
-                    numeroBombas.Text = nBombas.ToString();
+                    nBanderas++;
+                    numeroBombas.Text = nBanderas.ToString();
                 }
 
                 // Verifica la condición de victoria después de cada clic
                 if (VerificarVictoria())
                 {
-                    MostrarVictoria();
+                    MostrarDatos(true);
                 }
             }
         }
 
+        // Función que realiza cuando se pulsa click derecho sobre un botón
         private void ClickDerecho(Button cuadrado, Casillas casilla)
         {
-            if (cuadrado.Content == "🏴")
+            if (cuadrado.Content is Image)
             {
                 cuadrado.Content = "";
-                nBombas++;
-                numeroBombas.Text = nBombas.ToString();
+                nBanderas++;
+                numeroBombas.Text = nBanderas.ToString();
                 casilla.Bandera = false; // Actualiza el estado de la casilla en el ArrayList
             }
             else
             {
                 if (nBombas > 0)
                 {
-                    cuadrado.Content = "🏴";
-                    nBombas--;
-                    numeroBombas.Text = nBombas.ToString();
+                    Image imgBandera = cuadrado.Content as Image;
+                    imgBandera = new Image
+                    {
+                        Source = new BitmapImage(new Uri("./img/bandera.png", UriKind.Relative)),
+                        Width = 35,
+                        Height = 35,
+                    };
+                    cuadrado.Content = imgBandera;
+                    nBanderas--;
+                    numeroBombas.Text = nBanderas.ToString();
                     casilla.Bandera = true; // Actualiza el estado de la casilla en el ArrayList
                 }
                 // Verifica la condición de victoria después de cada clicDerecho
                 if (VerificarVictoria())
                 {
-                    MostrarVictoria();
+                    MostrarDatos(true);
                 }
             }
         }
 
 
-        // Segun el numero de bombas adyacente se pondran de un color u otro.
+        // Segun el numero de bombas adyacente se pondrán de un color u otro.
         private SolidColorBrush ColorNumeros(int numero)
         {
             SolidColorBrush color;
@@ -323,16 +306,37 @@ namespace buscaminas
             // Recorre todas las casillas
             foreach (Casillas casilla in casillas)
             {
+                Button cuadrado = gridTablero.Children.Cast<Button>().FirstOrDefault(b => Grid.GetRow(b) == casilla.Fila && Grid.GetColumn(b) == casilla.Columna);
                 if (casilla.Bomba)
                 {
                     // Busca el primer botón que corresponda a la fila y columna de la casilla concreta
-                    Button cuadrado = gridTablero.Children.Cast<Button>().FirstOrDefault(b => Grid.GetRow(b) == casilla.Fila && Grid.GetColumn(b) == casilla.Columna);
-
-                    // Le introduce los valores correspondiente
-                    cuadrado.Content = "🧨";
-                    cuadrado.FontWeight = FontWeights.Bold;
-                    cuadrado.Foreground = new SolidColorBrush(Colors.Red);
-                    cuadrado.Background = new SolidColorBrush(Colors.Green);
+                    if (cuadrado.Content is not Image)
+                    {
+                        // Le introduce los valores correspondiente
+                        Image imgBomba = cuadrado.Content as Image;
+                        imgBomba = new Image
+                        {
+                            Source = new BitmapImage(new Uri("./img/bomba.png", UriKind.Relative)),
+                            Width = 35,
+                            Height = 35,
+                        };
+                        cuadrado.Content = imgBomba;
+                    }
+                    cuadrado.Style = (Style)FindResource("EstiloBombaCerrada");
+                }
+                else
+                {
+                    if (cuadrado.Content is Image)
+                    {
+                        Image imgEquis = cuadrado.Content as Image;
+                        imgEquis = new Image
+                        {
+                            Source = new BitmapImage(new Uri("./img/equis.png", UriKind.Relative)),
+                            Width = 30,
+                            Height = 30,
+                        };
+                        cuadrado.Content = imgEquis;
+                    }
                 }
             }
         }
@@ -358,20 +362,20 @@ namespace buscaminas
                                 Button cuadrado = gridTablero.Children.Cast<Button>()
                                     .FirstOrDefault(b => Grid.GetRow(b) == casillaAdyacente.Fila && Grid.GetColumn(b) == casillaAdyacente.Columna);
 
-                                if (cuadrado.Content == "🏴")
+                                if (cuadrado.Content is Image)
                                 {
-                                    nBombas++;
-                                    numeroBombas.Text = nBombas.ToString();
+                                    nBanderas++;
+                                    numeroBombas.Text = nBanderas.ToString();
                                 }
-                                cuadrado.Background = new SolidColorBrush(Colors.LightBlue);
-                                cuadrado.FontWeight = FontWeights.Bold;
+                                cuadrado.Style = (Style)FindResource("EstiloBotonAbierto");
 
                                 if (casillaAdyacente.bombasAlrededor != 0)
                                 {
                                     cuadrado.Content = casillaAdyacente.bombasAlrededor.ToString();
                                     SolidColorBrush color = ColorNumeros(casillaAdyacente.bombasAlrededor);
                                     cuadrado.Foreground = color;
-                                } else
+                                }
+                                else
                                 {
                                     cuadrado.Content = "";
                                 }
@@ -403,12 +407,20 @@ namespace buscaminas
             return todasDescubiertas || todasMarcadas;
         }
 
-        private void MostrarVictoria()
+        private void MostrarDatos(bool estado)
         {
             // Muestra un mensaje emergente indicando que has ganado
             BloquearBotones();
             DetenerReloj();
-            MessageBox.Show("¡Has ganado el juego!\n\nHas realizado "+ nClicks +" clicks \nEn "+segundosTranscurridos + " segundos", "Victoria");
+            if(estado)
+            {
+                MessageBox.Show("¡Has ganado el juego!\n\nHas realizado " + nClicks + " clicks \nEn " + segundosTranscurridos + " segundos", "Victoria");
+            }
+            else
+            {
+                MessageBox.Show("¡Has perdido el juego!\n\nHas realizado " + nClicks + " clicks \nEn " + segundosTranscurridos + " segundos", "Derrota");
+            }
+            
         }
 
 
@@ -434,7 +446,7 @@ namespace buscaminas
                 if (element is Button)
                 {
                     Button button = (Button)element;
-                    button.IsHitTestVisible= false; // Desactiva la interacción con el botón, pero conserva su apariencia
+                    button.IsHitTestVisible = false; // Desactiva la interacción con el botón, pero conserva su apariencia
                 }
             }
         }
@@ -473,7 +485,7 @@ namespace buscaminas
         }
         private void ResetearReloj()
         {
-            segundosTranscurridos=0;
+            segundosTranscurridos = 0;
 
             // Actualiza el contenido del Border con los segundos transcurridos
             BorderDerecho.Child = new TextBlock

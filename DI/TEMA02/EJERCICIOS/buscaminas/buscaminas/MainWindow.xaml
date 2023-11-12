@@ -5,12 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:buscaminas"
         mc:Ignorable="d"
-        Title="MainWindow" 
-        Height="680" 
-        Width="500" 
+        Title="Buscaminas" 
+        SizeToContent="WidthAndHeight"
         ResizeMode="NoResize"
-        Background="LightGray"
-        >
+        Background="LightGray">
+    
+    <Window.Icon>
+        <BitmapImage UriSource="./img/bomba.png"/>
+    </Window.Icon>
+
     <Grid x:Name="gridPrincipal">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -24,6 +27,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+
         <Border Grid.Column="0" 
                 Grid.Row="0"
                 CornerRadius="10"
@@ -32,7 +36,7 @@
                 BorderThickness="2"
                 Margin="20">
             <TextBlock x:Name="numeroBombas"
-                       Text="000"
+                       Text="00"
                        FontSize="50"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
@@ -40,24 +44,15 @@
             </TextBlock>
         </Border>
         
-        <Border x:Name="Carita" 
-                Grid.Column="1" 
-                Grid.Row="0"
-                Width="50"
-                Height="50"
-                Background="Yellow"
-                CornerRadius="100"
-                BorderThickness="2"
-                BorderBrush="Black"
-                Margin="0">
-            <TextBlock x:Name="CaritaTexto"
-                       Text=":-)"
-                       FontSize="30"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Center"
-                       >
-            </TextBlock>
-        </Border>
+        <Image x:Name="Carita"
+            Grid.Column="1" 
+            Grid.Row="0"
+            Source="./img/smiley.png"
+            Width="50"
+            Height="50"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+        </Image>
 
         <Border x:Name="BorderDerecho"
                 Grid.Column="2" 
@@ -75,15 +70,39 @@
             </TextBlock>
         </Border>
 
-        <Grid x:Name="gridTablero"
-              Height="450" 
-              Width="450" 
+        <UniformGrid x:Name="gridTablero"
               Grid.Column="0" 
               Grid.Row="1" 
               Grid.ColumnSpan="3" 
               Grid.RowSpan="3" 
               HorizontalAlignment="Center"
               VerticalAlignment="Center">
-        </Grid>
+        </UniformGrid>
     </Grid>
+
+    <Window.Resources>
+        <Style x:Key="EstiloBotonPersonalizado" TargetType="Button">
+            <Setter Property="Background" Value="LightGreen" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="EstiloBombaCerrada" TargetType="Button">
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Background" Value="Green"/>
+        </Style>
+
+        <Style x:Key="EstiloBotonAbierto" TargetType="Button">
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>        
+    </Window.Resources>
+
 </Window>

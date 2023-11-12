@@ -1,6 +1,7 @@
 package com.josema.ChessTournamentSQLite.ChessPlayersJDBC;
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
@@ -12,6 +13,8 @@ import org.bson.Document;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 
 public class TournamentPlayers {
 	
@@ -129,22 +132,58 @@ public class TournamentPlayers {
 			System.out.println("Inserted row in given database, table " + SQLiteOperations.getDBTableName() + objPlayer.toString());
 		};
 	}
-	
-	// Read all players from DB and print in console
-	public static void listAllChessPlayersFromSQLite() {
-		
-		SQLiteOperations.PrintTable();
-	}
-	
-	public static void dumpDataFromSQLiteToMongoDB() {
-		
-	}
 
+    public static ArrayList<PlayersChess> readPlayersToDB_usingJDBC() {
+    	
+        ArrayList<PlayersChess> arInfoPlayers = new ArrayList<PlayersChess>();		
+        
+        /*
+		 * 1st STEP: Connect to database
+		 */
+		Connection cnDB = SQLiteOperations.ConnectToDB();
+		try {
+			Statement staSQLquery = cnDB.createStatement();
+			/*
+			 * 2nd STEP: For every item, into to ArrayList
+			 */
+			//select all players
+			String stSQLSelect = "SELECT " + SQLiteOperations.getStSQLDataItems() + " FROM " + SQLiteOperations.getDBTableName();
+			System.out.println("Executing: " + stSQLSelect);
+			//return all records to the result set
+			ResultSet rsObject = staSQLquery.executeQuery(stSQLSelect);
+			int iNumObject = 0;
+			while (rsObject.next()) {
+				iNumObject++;
+				float[] arScore = new float[3];
+				arScore[0]=rsObject.getFloat("SCORE1");
+				arScore[1]=rsObject.getFloat("SCORE2");
+				arScore[2]=rsObject.getFloat("SCORE3");
+				arInfoPlayers.add(new PlayersChess(rsObject.getString("ID"),rsObject.getString("NAME"), rsObject.getString("COUNTRY"), arScore));
+			}
+			if (iNumObject == 0)
+				System.out.println("No items found on table " + SQLiteOperations.getDBTableName());
+			rsObject.close(); //close the ResultSet
+		} catch (SQLException sqle) {
+			System.out.println("Something was wrong while reading the table " + SQLiteOperations.getDBTableName());
+			sqle.printStackTrace(System.out);
+		}
+		SQLiteOperations.CloseDB(cnDB); //close the connection to the DB
+
+        return arInfoPlayers;
+    }
+	
+    /*
+     * Static method: Import info players from SQLite database and export info players to Mongo database.
+     */
+	public static void dumpDataFromSQLiteToMongoDB() {
+		ArrayList<PlayersChess> arInfoPlayers = readPlayersToDB_usingJDBC();
+		writePlayersToDB_usingMongoDB(arInfoPlayers);
+	}
 
 	/*
 	 * Static method: Creates a DB collection with all the items of the ArrayList
 	 */
-	private static void writePlayersToDB_usingMongoDB( ArrayList<PlayersChess> arInfoPlayers){
+	private static void writePlayersToDB_usingMongoDB(ArrayList<PlayersChess> arInfoPlayers){
 		
 		PlayersChess objPlayer;
 		boolean bDropTableFirst = true;
@@ -158,39 +197,88 @@ public class TournamentPlayers {
 		 */
 		MongoClient cnDB = MongoOperations.connectToBD();
 		try {
-			MongoDatabase mDBFactory = cnDB.getDatabase("ChessPlayers");
-			MongoOperations.CreateCollectionIfNotExists(mDBFactory);
+			MongoDatabase mDBFactory = cnDB.getDatabase(MongoOperations.getMongoDBName());			
+			MongoOperations.CreateCollectionIfNotExists(mDBFactory, bDropTableFirst);
+			
 			/*
-			 * 2nd STEP: For every item, add a row
-			 */
-			Document docProduct;
+			 * 2nd STEP: For every item, add a row.
+			 */		
+			Document docPlayer;
 			Iterator<PlayersChess> itPlayer = arInfoPlayers.iterator();
 			while (itPlayer.hasNext()) {
-				/*
-				 * { "productName" : "1", "productPrice" : "19.99", "productUnits" : "1" }
-				 */
-				objPlayer = (PlayersChess) (itPlayer.next());
+				
+				// add info players to temporal object
+				objPlayer = (PlayersChess)(itPlayer.next());
 				stId = objPlayer.getStId();
 				stName = objPlayer.getStName();
 				stCountry = objPlayer.getStCountry();
-				arScore = objPlayer.getArScore();
+				arScore = objPlayer.getArScore();				
 				
-				docProduct = new Document("_id", stId)
-						.append(DBDOCUMENTNAME + "price", dPrice)
-						.append(DBDOCUMENTNAME + "units", iUnits);
-				System.out.println("Element about to be inserted into the collection: " 
-						+ DBDOCUMENTNAME + " Name (" + stName + ") " 
-						+ DBDOCUMENTNAME + " Price (" + dPrice + ")" 
-						+ DBDOCUMENTNAME + " Units (" + iUnits + ")");
-				mDBFactory.getCollection(DBCOLLECTIONNAME).insertOne(docProduct);
+				// add info to document
+				docPlayer = new Document("_id", stId)
+							.append("name", stName)
+							.append("country", stCountry)
+							.append("score1", arScore[0])
+							.append("score2", arScore[1])
+							.append("score3", arScore[2]);
+				
+				// add info to collection
+				mDBFactory.getCollection(MongoOperations.getMongoDBCollectionName()).insertOne(docPlayer);
 			}
 		} catch (Exception exe) {
 			System.out.println("Something was wrong while populating the collection!");
 			exe.printStackTrace(System.out);
 		}
-		CloseDB(cnDB); //close the connection to the DB
-
+		MongoOperations.CloseDB(cnDB); //close the connection to the DB
+	}
+	/*
+	 * Static Method: Print table with the info Players from Mongo Database
+	 */
 	public static void listAllChessPlayersFromMongoDB() {
-		
+			
+		/*
+		 * 1st STEP: Connect to database
+		 */
+		MongoClient cnDB = MongoOperations.connectToBD();
+		try {
+			MongoDatabase mDBFactory = cnDB.getDatabase(MongoOperations.getMongoDBName());				
+			/*
+			 * 2nd STEP: Check if the collection exists.
+			 */		
+			if (!(MongoOperations.CollectionExists(MongoOperations.getMongoDBCollectionName(),  mDBFactory))) {
+				System.out.println("Collection does not exist");
+				System.out.println("Nothing to list");
+			}
+			else {
+				/*
+				 * 3rd STEP: For every item, print it.
+				 */
+				MongoCollection<Document> mcolProduct = mDBFactory.getCollection(MongoOperations.getMongoDBCollectionName());
+				// Retrieving the documents
+				MongoCursor<Document> mcuProduct = mcolProduct.find().iterator();				
+				int iNumProduct = 0;
+				
+				while (mcuProduct.hasNext()) {
+					iNumProduct++;
+					
+					Document docProduct = mcuProduct.next();
+					System.out.println(MongoOperations.getMongoDBCollectionName()+ " _id: " + (String) docProduct.get("_id"));
+					System.out.println(MongoOperations.getMongoDBCollectionName()+ " Name: " + String.valueOf(docProduct.get("name")));
+					System.out.println(MongoOperations.getMongoDBCollectionName()+ " Country: " + String.valueOf(docProduct.get("country")));
+					System.out.println(MongoOperations.getMongoDBCollectionName()+ " Score 1: " + String.valueOf(docProduct.get("score1")));
+					System.out.println(MongoOperations.getMongoDBCollectionName()+ " Score 2: " + String.valueOf(docProduct.get("score2")));
+					System.out.println(MongoOperations.getMongoDBCollectionName()+ " Score 3: " + String.valueOf(docProduct.get("score3")));
+					System.out.println("");
+				}
+				if (iNumProduct == 0) {
+					System.out.println("No items found on collection " + MongoOperations.getMongoDBCollectionName());
+				}
+				mcuProduct.close();
+			}
+		} catch (Exception exe) {
+			System.out.println("Something was wrong while populating the collection!");
+			exe.printStackTrace(System.out);
+		}
+		MongoOperations.CloseDB(cnDB); //close the connection to the DB
 	}
 }
