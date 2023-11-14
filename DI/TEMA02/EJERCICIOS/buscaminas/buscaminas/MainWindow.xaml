@@ -9,7 +9,7 @@
         SizeToContent="WidthAndHeight"
         ResizeMode="NoResize"
         Background="LightGray">
-    
+
     <Window.Icon>
         <BitmapImage UriSource="./img/bomba.png"/>
     </Window.Icon>
@@ -25,25 +25,26 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
 
         <Border Grid.Column="0" 
-                Grid.Row="0"
-                CornerRadius="10"
-                Background="LightGreen"
-                BorderBrush="Black"
-                BorderThickness="2"
-                Margin="20">
+            Grid.Row="0"
+            CornerRadius="10"
+            Background="LightGreen"
+            BorderBrush="Black"
+            BorderThickness="2"
+            Margin="20">
             <TextBlock x:Name="numeroBombas"
-                       Text="00"
-                       FontSize="50"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Center"
-                       >
+                Text="00"
+                FontSize="50"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                >
             </TextBlock>
         </Border>
-        
+
         <Image x:Name="Carita"
             Grid.Column="1" 
             Grid.Row="0"
@@ -55,29 +56,41 @@
         </Image>
 
         <Border x:Name="BorderDerecho"
-                Grid.Column="2" 
-                Grid.Row="0"
-                CornerRadius="10"
-                Background="LightGreen"
-                Margin="20"
-                BorderBrush="Black"
-                BorderThickness="2">
+            Grid.Column="2" 
+            Grid.Row="0"
+            CornerRadius="10"
+            Background="LightGreen"
+            Margin="20"
+            BorderBrush="Black"
+            BorderThickness="2">
             <TextBlock Text="0"
-                       FontSize="50"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Center"
-                       >
+                FontSize="50"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                >
             </TextBlock>
         </Border>
 
         <UniformGrid x:Name="gridTablero"
-              Grid.Column="0" 
-              Grid.Row="1" 
-              Grid.ColumnSpan="3" 
-              Grid.RowSpan="3" 
-              HorizontalAlignment="Center"
-              VerticalAlignment="Center">
+            Grid.Column="0" 
+            Grid.Row="1" 
+            Grid.ColumnSpan="3" 
+            Grid.RowSpan="3" 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
         </UniformGrid>
+
+        <Border x:Name="BorderNombre"
+            Margin="5"
+            Grid.Column="3" 
+            Grid.Row="4" >
+            <TextBlock x:Name="nombre"
+                Text="@JosemaVLC Computer"
+                FontSize="12"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                />
+        </Border>
     </Grid>
 
     <Window.Resources>
@@ -102,7 +115,7 @@
         <Style x:Key="EstiloBotonAbierto" TargetType="Button">
             <Setter Property="Background" Value="LightBlue"/>
             <Setter Property="FontWeight" Value="Bold" />
-        </Style>        
+        </Style>
     </Window.Resources>
 
 </Window>
