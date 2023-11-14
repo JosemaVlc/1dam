@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    color:rgb(187, 109, 8);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+table{
+    text-align: center;
+    border: double grey 5px;
+}
+
+td{
+    margin: solid white 1px;
+    padding: 5px 40px;
+}
+
+thead tr td {
+    background-color: rgb(51, 185, 91);
+    color:#fff;
+}
+
+tfoot tr td {
+    background-color: rgb(51, 185, 91);
+    color:#fff;
+}
+
+.rojo{
+    background-color: lightcoral;
+    border: red dashed 4px;
+}
