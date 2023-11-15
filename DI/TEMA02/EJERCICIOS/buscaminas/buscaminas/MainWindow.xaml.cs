@@ -249,7 +249,7 @@ namespace buscaminas
             }
             else
             {
-                if (nBombas > 0)
+                if (nBanderas > 0)
                 {
                     Image imgBandera = cuadrado.Content as Image;
                     imgBandera = new Image
@@ -423,8 +423,6 @@ namespace buscaminas
             
         }
 
-
-
         private void HabilitarBotones()
         {
             // Recorre todos los elementos en el grid
@@ -477,7 +475,6 @@ namespace buscaminas
         {
             timer.Start(); // Inicia el DispatcherTimer para contar los segundos
         }
-
 
         private void DetenerReloj()
         {
