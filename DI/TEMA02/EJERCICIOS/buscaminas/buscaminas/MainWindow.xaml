@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:buscaminas"
         mc:Ignorable="d"
         Title="Buscaminas" 
+        WindowStartupLocation="CenterScreen"
         SizeToContent="WidthAndHeight"
         ResizeMode="NoResize"
         Background="LightGray">
