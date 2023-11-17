@@ -66,11 +66,17 @@ class GameActivity : AppCompatActivity() {
     private var correctas = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        // Bloqueo de la vista en vertical
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+
+        // Seteo la vista activity_game
         setContentView(R.layout.activity_game)
 
+        // Enlazo el editText donde el usuario respondera a la pregunta
         respuestaTexto = findViewById(R.id.editTextRespuesta)
 
+        // Instancia del Array de botones que mas tarde se inicializarán
         val arrayButton = arrayOf(
             R.id.btnA, R.id.btnB, R.id.btnC, R.id.btnD, R.id.btnE, R.id.btnF, R.id.btnG, R.id.btnH,
             R.id.btnI, R.id.btnJ, R.id.btnK, R.id.btnL, R.id.btnM, R.id.btnN, R.id.btnNY, R.id.btnO,
@@ -80,6 +86,8 @@ class GameActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         window.setFlags(WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED, WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED)
         setContentView(R.layout.activity_game)
+
+        // bucle for que genera los botones mediante un iterador con el nombre de cada botón
         for ((i, buttonId) in arrayButton.withIndex()){
             val btn = findViewById<Button>(buttonId)
             btn.setOnClickListener {
@@ -88,6 +96,9 @@ class GameActivity : AppCompatActivity() {
             }
         }
 
+        /* boton de codigo secreto que si el numero de respuestas correctas no es 27 lanzara un toast
+         * y si lo es pasará a la vista FinalActivity.
+         */
         val btnCodigoSecreto = findViewById<Button>(R.id.btnCodigo)
         btnCodigoSecreto.setOnClickListener {
             if (correctas != 27){
@@ -102,34 +113,45 @@ class GameActivity : AppCompatActivity() {
         }
     }
 
+    // función pregunta
     private fun pregunta(opc: Int, btn: Button) {
-
+        // setea el textPregunta mostrando la pregunta correspondiente
         val textPregunta = findViewById<TextView>(R.id.textPregunta)
         textPregunta.text = arrayPreguntas[opc]
 
+        // muestra el campo de texto en el que responder.
         val respuestaTexto = findViewById<EditText>(R.id.editTextRespuesta)
         respuestaTexto.isVisible = true
 
+        // enlaza el boton check a layout
         val btnCheck = findViewById<Button>(R.id.btnCheck)
 
+        // setea el mensaje toast que aparecerá si la respuesta es erronea
         val mensaje = "RESPUESTA ERRONEA"
         val duracion = Toast.LENGTH_SHORT  // Puedes usar 'Toast.LENGTH_LONG' para que dure más tiempo
         val toast = Toast.makeText(applicationContext, mensaje, duracion)
 
         /*
-        mirara en la carpeta drawable si existe una imagen con el mismo nombre que la solucion (en minuscula),
-        y si es así la mostrara en el ImageView.
-        */
-        val resourceName = removeAccents(arraySolucion[opc].lowercase())
-        val resourceId = resources.getIdentifier(resourceName, "drawable", packageName)
+         * mirara en la carpeta drawable si existe una imagen con el mismo nombre que la solucion (en minuscula),
+         * y si es así la mostrara en el ImageView.
+         */
+        val resourceName = removeAccents(arraySolucion[opc].lowercase()) // devuelve la string de la solucion en minuscula y sin acentos
+        val resourceId = resources.getIdentifier(resourceName, "drawable", packageName) // devuelve un id de la imagen si existe, si no existe devuelve 0
         val imagenPregunta = findViewById<ImageView>(R.id.imageView)
 
+        // pone la imagen en invisible de forma predeterminada.
         imagenPregunta.isVisible = false
+
+        // si existe la imagen la pone visible
         if (resourceId != 0){
             imagenPregunta.isVisible = true
             imagenPregunta.setImageResource(resourceId)
         }
 
+        /* si el usuario no la ha respondido pone visible y en Enable el btnCheck, ademas setea a
+         * vacio el valor del EditText, si ya esta respondida correctamente recupera la respuesta
+         * del arrayRespuestas y la posición del iterable.
+         */
         if (arrayRespuesta[opc] == ""){
             btnCheck.isVisible = true
             btnCheck.isEnabled = true
@@ -142,34 +164,55 @@ class GameActivity : AppCompatActivity() {
             btnCheck.isEnabled = false
         }
 
+        // evento click sobre btnCheck,
         btnCheck.setOnClickListener{
+
             val respuesta = respuestaTexto.text
+
+            // quita el foco del textEdit ocultando el teclado
             it.hidekeyboard()
+
+            // comparativa entre la respuesta y la solucion en mayusculas, sin espacios y sin acentos
             if (removeAccents(respuesta.toString().uppercase().replace(" ", ""))==removeAccents(arraySolucion[opc])){
+                // crea el media player del sonido correcto e inicia la reproduccion
                 mediaPlayerCorrect = MediaPlayer.create(this, R.raw.correct)
                 mediaPlayerCorrect.start()
+                // Cambia el color de fondo del boton a verde
                 btn.setBackgroundColor(Color.parseColor("#00FF00"))
+                // Cambia el color de texto a negro
                 btn.setTextColor(Color.parseColor("#000000"))
+                // Almacena en respuestas la respuesta del jugador
                 arrayRespuesta[opc] = respuesta.toString().uppercase()
-                textPregunta.text = arrayPreguntas[opc]
+                // Muestra la solucción en la editText
                 respuestaTexto.text = Editable.Factory.getInstance().newEditable(arraySolucion[opc])
+                // Suma una correcta y actualiza el marcador
                 correctas++
                 marcador = findViewById(R.id.marcador)
                 marcador.text = correctas.toString()
+
+                // Bloquea el editText y el btnCheck
                 respuestaTexto.isEnabled = false
                 btnCheck.isEnabled = false
+
+                // espera a que se termine de reproducir
                 mediaPlayerCorrect.setOnCompletionListener { mp ->
                     // El audio ha terminado de reproducirse, ahora puedes liberar el objeto MediaPlayer
                     mp.release()
                 }
             } else{
+                // crea el media player del sonido negativo e inicia la reproduccion
                 mediaPlayerIncorrect = MediaPlayer.create(this, R.raw.negative)
                 mediaPlayerIncorrect.start()
+                // setea el editText a vacio
                 val texto = ""
                 respuestaTexto.text = Editable.Factory.getInstance().newEditable(texto)
+                // Muestra el mensaje de respuesta incorrecta
                 toast.show()
+                // fondo del boton a rojo
                 btn.setBackgroundColor(Color.parseColor("#FF0000"))
+                // letra color negra
                 btn.setTextColor(Color.parseColor("#000000"))
+                // espera que el audio termine para poder cerrar el media player
                 mediaPlayerIncorrect.setOnCompletionListener { mp ->
                     // El audio ha terminado de reproducirse, ahora puedes liberar el objeto MediaPlayer
                     mp.release()
@@ -178,16 +221,18 @@ class GameActivity : AppCompatActivity() {
         }
     }
 
-    // Funcion para esconder el teclado.
+    // Función para esconder el teclado.
     private fun View.hidekeyboard(){
+        // instancia desde el contexto actual el metodo servicio de entrada y lo convierte a InputMethodManager
         val imm = this.context.getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
+        // oculta el teclado
         imm.hideSoftInputFromWindow(windowToken, 0)
     }
 
     // Revisa y devuelve un string sin acentos
     private fun removeAccents(input: String): String {
-        val normalized = Normalizer.normalize(input, Normalizer.Form.NFD)
-        val pattern = "\\p{InCombiningDiacriticalMarks}+".toRegex()
-        return pattern.replace(normalized, "")
+        val normalized = Normalizer.normalize(input, Normalizer.Form.NFD) // Clase que separa en caracteres individuales separando los acentos de su caracter base
+        val pattern = "\\p{InCombiningDiacriticalMarks}+".toRegex() // Crea un patter de diacriticos, el + significa que busque mas de uno y el toRegex() que lo convierta en expresión regular1
+        return pattern.replace(normalized, "") // aplíca el pattern sobre el input normalizado y lo devuelve.
     }
 }
