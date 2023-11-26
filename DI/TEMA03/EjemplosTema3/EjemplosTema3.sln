@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlesCodigoC", "ControlesCodigoC\ControlesCodigoC.csproj", "{AE78639E-6689-4209-B584-B3273A767359}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventosBoton", "EventosBoton\EventosBoton.csproj", "{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfazModerna", "InterfazModerna\InterfazModerna.csproj", "{51B520D5-1804-4B62-BFFE-567609680086}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StyleTriggers", "StyleTriggers\StyleTriggers.csproj", "{CC0097AD-3B54-491D-8127-B03D69355EB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estilos", "Estilos\Estilos.csproj", "{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E031F5DC-850E-4C45-B386-7D7A0E58F493}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE78639E-6689-4209-B584-B3273A767359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE78639E-6689-4209-B584-B3273A767359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE78639E-6689-4209-B584-B3273A767359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE78639E-6689-4209-B584-B3273A767359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B520D5-1804-4B62-BFFE-567609680086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B520D5-1804-4B62-BFFE-567609680086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B520D5-1804-4B62-BFFE-567609680086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B520D5-1804-4B62-BFFE-567609680086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0097AD-3B54-491D-8127-B03D69355EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0097AD-3B54-491D-8127-B03D69355EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0097AD-3B54-491D-8127-B03D69355EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0097AD-3B54-491D-8127-B03D69355EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9F02F5E-9F90-45A7-B72A-F63BABE38944}
+	EndGlobalSection
+EndGlobal

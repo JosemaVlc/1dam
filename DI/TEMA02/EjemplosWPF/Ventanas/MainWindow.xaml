@@ -1,0 +1,14 @@
+﻿<Window x:Class="Ventanas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ventanas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="newWindow" Content="Nueva Ventana" 
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 20 20"
+                Click="newWindow_Click"/>
+    </Grid>
+</Window>

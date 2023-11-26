@@ -1,0 +1,41 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\refint\EventosBoton.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\ref\EventosBoton.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.exe
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.deps.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\bin\Debug\net6.0-windows\EventosBoton.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.g.resources
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\refint\EventosBoton.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\EventosBoton.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\EventosBoton\obj\Debug\net6.0-windows\ref\EventosBoton.dll

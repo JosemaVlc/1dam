@@ -1,0 +1,185 @@
+﻿<Window x:Class="JoseManuelMorenoBolivar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoseManuelMorenoBolivar"
+        mc:Ignorable="d"
+        Title="Examen: Jose Manuel Moreno Bolivar" Height="450" Width="800" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Pulsa con botón secundario para abrir menú contextual"
+                   Margin="10,0,40,0"
+                   VerticalAlignment="Center"
+                   ContextMenu="{DynamicResource botonderecho}"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="2"
+                   Margin="10,0,40,0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Text="Datos del usuario/a"/>
+
+            <Label Grid.Column="2"
+                   Grid.Row="1"
+                   Margin="10,0,10,0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Content="Fecha nacimiento:"/>
+
+            <Label Grid.Row="1"
+                   Margin="10,0,10,0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Content="Nombre:"/>
+
+            <Label Grid.Row="2"
+                   Margin="10,0,10,0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Content="Apellidos:"/>
+
+            <Label Grid.Column="2"
+                   Grid.Row="2"
+                   Margin="10,0,10,0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Content="Foto usuario/a:"/>
+
+            <Image Grid.Column="3"
+                   Grid.Row="2"
+                   Grid.RowSpan="2"
+                   Source="./img/ciri.jpg"
+                   Stretch="Fill"/>
+
+            <TextBox Grid.Row="1"
+                     Grid.Column="1"
+                     Width="150"
+                     Height="25"
+                     HorizontalAlignment="Left"/>
+
+            <TextBox Grid.Row="2"
+                     Grid.Column="1"
+                     Width="150"
+                     Height="25"
+                     HorizontalAlignment="Left"/>
+
+            <DatePicker Grid.Row="1"
+                        Grid.Column="3"
+                        Width="150"
+                        Height="25"
+                        HorizontalAlignment="Left"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Margin="10,0,10,0"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Content="Rango de edad:"/>
+            <StackPanel Orientation="Horizontal"
+                        Grid.Row="1"
+                        HorizontalAlignment="Center">
+                <RadioButton Content="20 a 29 años" VerticalAlignment="Center" Margin="15"/>
+                <RadioButton Content="30 a 39 años" VerticalAlignment="Center" Margin="15"/>
+                <RadioButton Content="40 a 49 años" VerticalAlignment="Center" Margin="15"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical"
+                        Grid.Column="1"
+                        Grid.RowSpan="2"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Stretch">
+                <TextBlock Margin="10,0,10,0"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"
+                           Text="Créditos superados: procesando..."/>
+                <ProgressBar Height="40" 
+                             IsIndeterminate="True"
+                             Margin="10,0,10,0"
+                             VerticalAlignment="Stretch"
+                             Foreground="MediumSpringGreen"/>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="3"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+
+            <Button Content="Cancelar"
+                    Width="70"
+                    Height="25"
+                    Margin="25"
+                    Style="{DynamicResource boton}"/>
+
+            <Button Content="Resetear"
+                    Width="70"
+                    Height="25"                    
+                    Margin="25"
+                    Style="{DynamicResource boton}"/>
+
+            <Button Content="Guardar"
+                    Width="70"
+                    Height="25"
+                    Margin="25"
+                    Style="{DynamicResource boton}"/>
+        </StackPanel>
+    </Grid>
+
+    <Window.Resources>
+        <ContextMenu x:Key="botonderecho">
+            <MenuItem Header="Abrir" InputGestureText="Ctrl + O, Ctrl + A" 
+                      Icon="&#x1F4C2;"/>
+
+            <MenuItem Header="Guardar" InputGestureText="Ctrl + S, Ctrl + G" 
+                      Icon=" &#x1F4BE;"/>
+
+            <Separator/>
+
+            <MenuItem Header="Seleccionar todo" 
+                      IsCheckable="True" 
+                      IsChecked="True"/>
+
+            <Separator/>
+
+            <MenuItem Header="A cerca de" Click="acercaDe"/>
+        </ContextMenu>
+
+        <Style TargetType="Label">
+            <Setter Property="Background" Value="DarkSalmon"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="boton">
+            <Setter Property="Background" Value="BlanchedAlmond"/>
+            <Setter Property="Foreground" Value="Navy"/>
+        </Style>
+    </Window.Resources>
+</Window>

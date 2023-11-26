@@ -1,0 +1,61 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\refint\MenuWithFunctions.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\ref\MenuWithFunctions.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.exe
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.deps.json
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.runtimeconfig.json
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.pdb
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.csproj.AssemblyReference.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions_MarkupCompile.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions_MarkupCompile.lref
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.g.resources
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.AssemblyInfoInputs.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.AssemblyInfo.cs
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.csproj.CoreCompileInputs.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\refint\MenuWithFunctions.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.pdb
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.genruntimeconfig.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\ref\MenuWithFunctions.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.exe
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.deps.json
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\bin\Debug\net6.0-windows\MenuWithFunctions.pdb
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.g.resources
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\refint\MenuWithFunctions.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.pdb
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\MenuWithFunctions.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\MenuContextual\obj\Debug\net6.0-windows\ref\MenuWithFunctions.dll

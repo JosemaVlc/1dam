@@ -1,0 +1,40 @@
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.exe
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.deps.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.runtimeconfig.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.g.resources
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.AssemblyInfoInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.AssemblyInfo.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.csproj.CoreCompileInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\refint\ImageDemo.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.genruntimeconfig.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\ImageDemo\obj\Debug\net6.0-windows\ref\ImageDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\bin\Debug\net6.0-windows\ImageDemo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\refint\ImageDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ImageDemo.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\ImageDemo\obj\Debug\net6.0-windows\ref\ImageDemo.dll

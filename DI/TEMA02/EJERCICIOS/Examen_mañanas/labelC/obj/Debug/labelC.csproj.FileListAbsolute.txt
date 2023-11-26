@@ -1,0 +1,16 @@
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\bin\Debug\labelC.exe.config
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\bin\Debug\labelC.exe
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\bin\Debug\labelC.pdb
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC.csproj.AssemblyReference.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\App.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC.g.resources
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC.Properties.Resources.resources
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC.csproj.GenerateResource.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC.exe
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\labelC.pdb
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\Examen_mañanas\labelC\obj\Debug\App.baml

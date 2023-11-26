@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40677303-57C9-4590-80A9-DBF7063C00F9}|controlesC\\controlesC.csproj|e:\\asignaturas\\di\\tema02\\ejercicios\\josemanuelmorenobolivar\\controlesc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40677303-57C9-4590-80A9-DBF7063C00F9}|controlesC\\controlesC.csproj|solutionrelative:controlesc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82947B7-DB32-46C1-BE1F-1EDE3018F48A}|JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar.csproj|E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\josemanuelmorenobolivar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E82947B7-DB32-46C1-BE1F-1EDE3018F48A}|JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar.csproj|solutionrelative:josemanuelmorenobolivar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82947B7-DB32-46C1-BE1F-1EDE3018F48A}|JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar.csproj|e:\\asignaturas\\di\\tema02\\ejercicios\\josemanuelmorenobolivar\\josemanuelmorenobolivar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E82947B7-DB32-46C1-BE1F-1EDE3018F48A}|JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar.csproj|solutionrelative:josemanuelmorenobolivar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\controlesC\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "controlesC\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\controlesC\\MainWindow.xaml.cs",
+              "RelativeToolTip": "controlesC\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-22T19:37:30.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "JoseManuelMorenoBolivar\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar\\MainWindow.xaml",
+              "RelativeToolTip": "JoseManuelMorenoBolivar\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-22T16:16:05.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "JoseManuelMorenoBolivar\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\JoseManuelMorenoBolivar\\JoseManuelMorenoBolivar\\MainWindow.xaml.cs",
+              "RelativeToolTip": "JoseManuelMorenoBolivar\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-22T16:55:51.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

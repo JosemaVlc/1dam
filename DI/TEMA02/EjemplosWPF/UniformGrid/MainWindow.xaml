@@ -1,0 +1,19 @@
+﻿<Window x:Class="UniformGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniformGrid"
+        mc:Ignorable="d"
+        Title="Uniform Grid" Height="450" Width="800">
+    <Grid>
+        <UniformGrid Rows="2" Columns="3">
+            <Button Content="Botón 1"/>
+            <Button Content="Botón 2"/>
+            <Button Content="Botón 3"/>
+            <Button Content="Botón 4"/>
+            <Button Content="Botón 5"/>
+            <Button Content="Botón 6"/>
+        </UniformGrid>
+    </Grid>
+</Window>

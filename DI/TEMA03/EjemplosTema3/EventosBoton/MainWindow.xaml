@@ -1,0 +1,32 @@
+﻿<Window x:Class="EventosBoton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EventosBoton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <Style x:Key="CasillaAbierta" TargetType="Button">
+            <Setter Property="Background" Value="LightSkyBlue"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" x:Name="botonReinicio" Content="Reiniciar" 
+                Width="60" Height="30"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                Click="botonReinicio_Click"/>
+
+        <UniformGrid Grid.Row="1" Rows="9" Columns="9" x:Name="gameGrid">
+            
+        </UniformGrid>
+    </Grid>
+</Window>

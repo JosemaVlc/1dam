@@ -1,0 +1,38 @@
+﻿<Window x:Class="ImageDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageDemo"
+        mc:Ignorable="d"
+        Title="ImageDemo" Height="150" SizeToContent="Width">
+    <StackPanel Orientation="Horizontal">
+        <Image Source="image/imagedemo.jpg"
+                Stretch="None"
+                Width="100" Height="100" 
+                Margin="10 10 5 10" />
+
+        <Image Source="image/imagedemo.jpg"
+                Stretch="Fill"
+                Width="100" Height="100" 
+                Margin="10 10 5 10" />
+
+        <Image Source="image/imagedemo.jpg"
+                Stretch="Uniform"
+                Width="100" Height="100" 
+                Margin="10 10 5 10" />
+
+        <Image Source="image/imagedemo.jpg"
+                Stretch="UniformToFill"
+                Width="100" Height="100" 
+                Margin="10 10 5 10" />
+        
+        <Image Margin="10 10 5 10">
+            <Image.Source>
+                <BitmapImage UriSource="image/imagedemo.jpg"
+                             Rotation="Rotate90"/>
+            </Image.Source>
+        </Image>
+        
+    </StackPanel>
+</Window>

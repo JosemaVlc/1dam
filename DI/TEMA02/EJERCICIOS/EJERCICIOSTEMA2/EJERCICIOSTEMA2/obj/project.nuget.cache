@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gTY1oEHsxwflN3/JHmNOo8FH43YKgcRl4u6b8PtNZXEHDUl2KEfye9BzEYLhNv6+gyB4TEYv5xcNu2yGpuzDMQ==",
+  "dgSpecHash": "FcPMXwRBPcCU7X9ctOPLMte0l/uN3VSeyRuxATgyLQ8hOaUnW2Oc5U127J8NhXn6eOV6BDtTJVgc5UQ8dbF3tg==",
   "success": true,
   "projectFilePath": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\EJERCICIOSTEMA2\\EJERCICIOSTEMA2\\EJERCICIOSTEMA2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.12\\microsoft.windowsdesktop.app.ref.7.0.12.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.12\\microsoft.netcore.app.ref.7.0.12.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.12\\microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.12\\microsoft.netcore.app.host.win-x64.7.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

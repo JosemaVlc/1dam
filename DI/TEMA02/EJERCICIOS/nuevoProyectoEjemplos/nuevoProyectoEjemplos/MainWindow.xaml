@@ -1,0 +1,65 @@
+﻿<Window x:Class="nuevoProyectoEjemplos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nuevoProyectoEjemplos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Patata" >
+                <Grid>
+                    <Button Content="Hola, que haces?"
+                Click="click_boton"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Horrible">
+                <Grid Background="Tomato"></Grid>
+            </TabItem>
+            <TabItem Header="Supu">
+                <Border>
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0"
+                                                EndPoint="0,1">
+                            <GradientStop Color="Yellow" Offset="0"/>
+                            <GradientStop Color="Red" Offset="0.5"/>
+                            <GradientStop Color="Yellow" Offset="1"/>
+                        </LinearGradientBrush>                            
+                    </Border.Background>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Label Content="Elige una:"/>
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton x:Name="skap" Content="Ska-p" IsChecked="True" Click="funcion2"/>
+                                <RadioButton x:Name="tumadreesputa" Content="Tu madre es puta" Click="funcion2"/>
+                                <RadioButton x:Name="ojetecalor" Content="Ojete calor" Click="funcion2"/>
+                            </StackPanel>                            
+                        </StackPanel>
+                        <TextBlock x:Name="texto" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Background="White">
+                            <TextBlock.Text>
+                                disco 1 -> Ska-p                                
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </Grid>
+                </Border>
+            </TabItem>
+        </TabControl>
+    </Grid>
+    <Window.Resources>
+        <Style x:Key="despuesDeClicar" TargetType="Button">
+            <Setter Property="Background" Value="Blue"/>
+        </Style>
+    </Window.Resources>
+</Window>

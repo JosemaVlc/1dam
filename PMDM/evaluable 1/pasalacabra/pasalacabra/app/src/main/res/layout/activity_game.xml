@@ -425,8 +425,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="170dp"
-            android:layout_height="170dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
             android:visibility="invisible"
             app:srcCompat="@drawable/bolivar"
             app:layout_constraintTop_toBottomOf="@id/textPregunta"

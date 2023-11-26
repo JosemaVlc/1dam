@@ -1,0 +1,138 @@
+﻿<Window x:Class="ComboBoxAndLabel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComboBoxAndLabel"
+        mc:Ignorable="d"
+        Title="ComboBox, Label and ListBox" Height="450" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Orientation="Horizontal"
+            VerticalAlignment="Top">
+            <ComboBox Width="150" Height="26"
+              Margin="10" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Item 1"/>
+                <ComboBoxItem Content="Item 2" IsSelected="True"/>
+                <ComboBoxItem Content="Item 3" />
+                <ComboBoxItem Content="Item 4" />
+            </ComboBox>
+
+            <ComboBox Width="150" Height="26"
+                  Margin="10">
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="10"
+                           Height="10"
+                           Fill="Blue"
+                           Margin="0 0 8 0" />
+                        <TextBlock Text="Blue" />
+                    </StackPanel>
+                </ComboBoxItem>
+
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="10"
+                           Height="10"
+                           Fill="Green"
+                           Margin="0 0 8 0" />
+                        <TextBlock Text="Green" />
+                    </StackPanel>
+                </ComboBoxItem>
+
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="10" 
+                                   Height="10" 
+                                   Fill="Red" 
+                                   Margin="0 0 8 0" />
+                        <TextBlock Text="Red" />
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="10 10 10 20">
+            <Label Content="1. Esto es una etiqueta de prueba"/>
+            <Label Content="2. Etiqueta de prueba con formato de texto"
+                   FontWeight="Bold" Foreground="Purple"
+                   FontStyle="Italic"/>
+            <Label>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Un rectángulo" />
+                    <Rectangle Width="20" Height="20" Fill="Blue" Margin="10 0" />
+                    <TextBlock Text="dentro de una etiqueta de prueba"/>
+                </StackPanel>
+            </Label>
+            <Button x:Name="miBoton" Content="HelloWorld"
+                    Click="miBoton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal"
+                    Margin="10">
+            
+            <StackPanel>
+                <ListBox x:Name="myListBox"
+                         Width="120" Height="85"
+                         Margin="10 10 20 5">
+                    <ListBoxItem Content="Item 1" />
+                    <ListBoxItem Content="Item 2" />
+                    <ListBoxItem Content="Item 3" IsSelected="True" />
+                    <ListBoxItem Content="Item 4" />
+                </ListBox>
+                
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Button Content="+"
+                            Width="20" Height="20"
+                            Margin="0 0 4 0"
+                            Click="OnAddItemClicked" />
+                    <Button Content="-"
+                            Width="20" Height="20"
+                            Margin="0 0 4 0"
+                            Click="OnDeleteItemClicked" />
+                </StackPanel>
+
+                <ListBox Width="150" Margin="20 10 10 10">
+                    <ListBoxItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10"
+                                       Height="10"
+                                       Fill="Red"
+                                       Margin="0 0 8 0" />
+                            <TextBlock Text="Red (#FFFF0000)" />
+                        </StackPanel>
+                    </ListBoxItem>
+                    
+                    <ListBoxItem IsSelected="True">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10"
+                                       Height="10"
+                                       Fill="Green"
+                                       Margin="0 0 8 0" /> 
+                            <TextBlock Text="Green (#FF00FF00)" />
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10"
+                                       Height="10"
+                                       Fill="Blue"
+                                       Margin="0 0 8 0" />
+                            <TextBlock Text="Blue (#FF0000FF)" />
+                        </StackPanel>
+                    </ListBoxItem>
+                </ListBox>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+    
+    
+</Window>

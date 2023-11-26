@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "eQfA0xPOtDok2enT5/223QR7FR9pgqBy2hpU3km1x2xZHO0Rih/9McoqwZ/zzEeqcUHGO9JQzChGxiS9bGSAGQ==",
+  "success": true,
+  "projectFilePath": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\EventosBoton\\EventosBoton.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
