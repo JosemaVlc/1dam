@@ -1,0 +1,4 @@
+La suma de los numeros entre 1 y 2 es: 3
+La suma de los numeros entre 5 y 7 es: 18
+La suma de los numeros entre 3 y 5 es: 12
+La suma de los numeros entre 10 y 14 es: 60

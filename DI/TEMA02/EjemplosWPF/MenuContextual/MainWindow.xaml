@@ -1,0 +1,34 @@
+﻿<Window x:Class="MenuContextual.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuContextual"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Menú Superior -->
+        <Menu Grid.Row="0">
+            <MenuItem Header="Archivo">
+                <MenuItem Header="Abrir" Click="Abrir_Click"/>
+                <MenuItem Header="Guardar" Click="Guardar_Click"/>
+                <MenuItem Header="Salir" Click="Salir_Click"/>
+            </MenuItem>
+            <MenuItem Header="Edición">
+                <MenuItem Header="Deshacer" InputGestureText="Ctrl+Z" Click="Deshacer_Click"/>
+                <MenuItem Header="Rehacer" InputGestureText="Ctrl+Y" Click="Rehacer_Click"/>
+                <Separator/>
+                <MenuItem Header="Cortar" InputGestureText="Ctrl+X" Click="Cortar_Click"/>
+                <MenuItem Header="Copiar" InputGestureText="Ctrl+C" Click="Copiar_Click"/>
+                <MenuItem Header="Pegar" InputGestureText="Ctrl+V" Click="Pegar_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <TextBox x:Name="textBox" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200"/>
+    </Grid>
+</Window>

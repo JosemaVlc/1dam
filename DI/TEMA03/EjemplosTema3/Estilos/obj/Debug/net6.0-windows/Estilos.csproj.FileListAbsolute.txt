@@ -1,0 +1,43 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\App.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\refint\Estilos.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\ref\Estilos.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.exe
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.deps.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\bin\Debug\net6.0-windows\Estilos.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\App.baml
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.g.resources
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\refint\Estilos.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\Estilos.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\Estilos\obj\Debug\net6.0-windows\ref\Estilos.dll

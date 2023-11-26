@@ -1,0 +1,41 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\refint\InterfazModerna.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\ref\InterfazModerna.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.exe
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.deps.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\bin\Debug\net6.0-windows\InterfazModerna.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.g.resources
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\refint\InterfazModerna.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\InterfazModerna.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\InterfazModerna\obj\Debug\net6.0-windows\ref\InterfazModerna.dll

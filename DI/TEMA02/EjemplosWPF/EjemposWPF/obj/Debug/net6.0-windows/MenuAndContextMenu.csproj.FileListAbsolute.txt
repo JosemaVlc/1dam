@@ -1,0 +1,60 @@
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.exe
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.deps.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.runtimeconfig.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.g.resources
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.AssemblyInfoInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.AssemblyInfo.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.csproj.CoreCompileInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\refint\MenuAndContextMenu.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.genruntimeconfig.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\ref\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\refint\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\EjemposWPF\obj\Debug\net6.0-windows\ref\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\bin\Debug\net6.0-windows\MenuAndContextMenu.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\refint\MenuAndContextMenu.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\MenuAndContextMenu.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\EjemposWPF\obj\Debug\net6.0-windows\ref\MenuAndContextMenu.dll

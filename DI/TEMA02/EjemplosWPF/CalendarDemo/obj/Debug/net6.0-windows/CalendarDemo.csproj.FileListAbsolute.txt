@@ -1,0 +1,102 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\refint\CalendarDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\ref\CalendarDemo.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.exe
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.deps.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.runtimeconfig.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.g.resources
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfoInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfo.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.csproj.CoreCompileInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\refint\CalendarDemo.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.genruntimeconfig.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\CalendarDemo\obj\Debug\net6.0-windows\ref\CalendarDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\refint\CalendarDemo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\ref\CalendarDemo.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.exe
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.deps.json
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.runtimeconfig.json
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.pdb
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.csproj.AssemblyReference.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.lref
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.g.resources
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfoInputs.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfo.cs
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.csproj.CoreCompileInputs.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\refint\CalendarDemo.dll
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.pdb
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.genruntimeconfig.cache
+C:\Users\Fran\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\ref\CalendarDemo.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\refint\CalendarDemo.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.pdb
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.exe
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.deps.json
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.dll
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\bin\Debug\net6.0-windows\CalendarDemo.pdb
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.g.resources
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\CalendarDemo.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA02\EjemplosWPF\CalendarDemo\obj\Debug\net6.0-windows\ref\CalendarDemo.dll

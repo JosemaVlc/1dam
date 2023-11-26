@@ -1,0 +1,41 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\refint\StyleTriggers.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\ref\StyleTriggers.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.exe
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.deps.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\bin\Debug\net6.0-windows\StyleTriggers.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.g.resources
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\refint\StyleTriggers.dll
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.pdb
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\StyleTriggers.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA03\EjemplosTema3\StyleTriggers\obj\Debug\net6.0-windows\ref\StyleTriggers.dll

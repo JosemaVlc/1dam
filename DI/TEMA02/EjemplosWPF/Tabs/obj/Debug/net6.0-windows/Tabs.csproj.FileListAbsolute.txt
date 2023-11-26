@@ -1,0 +1,40 @@
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\bin\Debug\net6.0-windows\Tabs.exe
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\bin\Debug\net6.0-windows\Tabs.deps.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\bin\Debug\net6.0-windows\Tabs.runtimeconfig.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\bin\Debug\net6.0-windows\Tabs.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\bin\Debug\net6.0-windows\Tabs.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.g.resources
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.AssemblyInfoInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.AssemblyInfo.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.csproj.CoreCompileInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\refint\Tabs.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\Tabs.genruntimeconfig.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemposWPF\Tabs\obj\Debug\net6.0-windows\ref\Tabs.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\bin\Debug\net6.0-windows\Tabs.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\bin\Debug\net6.0-windows\Tabs.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\bin\Debug\net6.0-windows\Tabs.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\bin\Debug\net6.0-windows\Tabs.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\bin\Debug\net6.0-windows\Tabs.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\refint\Tabs.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\Tabs.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\EjemplosWPF\Tabs\obj\Debug\net6.0-windows\ref\Tabs.dll

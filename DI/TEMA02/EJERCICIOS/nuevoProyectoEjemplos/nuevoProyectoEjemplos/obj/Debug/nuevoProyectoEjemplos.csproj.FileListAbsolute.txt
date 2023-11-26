@@ -1,0 +1,15 @@
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos.csproj.AssemblyReference.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\App.g.cs
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\bin\Debug\nuevoProyectoEjemplos.exe.config
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\bin\Debug\nuevoProyectoEjemplos.exe
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\bin\Debug\nuevoProyectoEjemplos.pdb
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos.g.resources
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos.Properties.Resources.resources
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos.csproj.GenerateResource.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos.exe
+E:\ASIGNATURAS\DI\TEMA02\EJERCICIOS\nuevoProyectoEjemplos\nuevoProyectoEjemplos\obj\Debug\nuevoProyectoEjemplos.pdb

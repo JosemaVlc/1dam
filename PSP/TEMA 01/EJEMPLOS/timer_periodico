@@ -1,0 +1,21 @@
+from threading import Timer
+import time
+
+def tarea_periodica():
+    print("Tarea periódica realizada!")
+    # Reiniciar el temporizador para una ejecución periódica
+
+# Crear un timer que ejecutará la tarea periódica cada 5 segundos
+mi_timer_periodico = Timer(5, tarea_periodica)
+# Iniciar el temporizador periódico
+mi_timer_periodico.start()
+
+# Realizar otras operaciones mientras el temporizador periódico está en ejecución
+for _ in range(3):
+    time.sleep(10)
+    print("Realizando operaciones mientras se espera la próxima ejecución...")
+
+# Detener el temporizador periódico después de 15 segundos (puedes ajustar este tiempo según tus necesidades)
+mi_timer_periodico.cancel()
+
+print("Programa principal terminado")

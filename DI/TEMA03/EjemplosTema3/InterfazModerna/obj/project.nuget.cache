@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YpOTW6YrgwLwAkPzg0385YME3+8BlgsFxWRmAuJ9SXR79Pb2+6u+5niRDjeto+ubNRPJs8yTtPiL9CBEirtFEw==",
+  "success": true,
+  "projectFilePath": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\InterfazModerna\\InterfazModerna.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
