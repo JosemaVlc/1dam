@@ -1,7 +1,4 @@
-import time
 import random
-import os
-
 
 # Imprime el menú
 def imprimir_menu(): 
@@ -13,7 +10,7 @@ def entrada():
     while not opc_valida:
         try:
             opc = int(input("Introduce opción: "))
-            if opc > 0 and opc < 3:
+            if opc >= 0 and opc < 3:
                 opc_valida = True
             else:
                 print("Opción no valida")
@@ -33,7 +30,7 @@ def barajar_cartas():
 
 # Imprime la explicación del juego
 def instrucciones():
-    print("\nBienvenido a memory. \nEste juego consiste en emparejar las cartas. \nHay 6 cartas, así que, al encontrar las 3 parejas habras ganado la partida.\nEn cuantas rondas podras completar el reto?\n")
+    print("\nBienvenido a memory.\n\nEste juego consiste en emparejar las cartas.\nHay 6 cartas, así que, al encontrar las 3 parejas habras ganado la partida.\nEn cuantas rondas podras completar el reto?\n")
 
 # Lleva la partida
 def partida(tapete):
@@ -44,14 +41,16 @@ def partida(tapete):
     
     while seguir_jugando and parejas_encontradas < 3:
         
-        # Verifica que las cartas elegidas no esten levantadas
         elecciones_correctas = False
-        while not elecciones_correctas:
+        while not elecciones_correctas:            
+            # Introduce eleccion de cartas
             print("Es momento de elegir la primera carta")    
             primera_carta = eleccion_carta()
             
             print("Ahora vamos a por la segunda carta")
             segunda_carta = eleccion_carta()
+            
+            #Verifica que las cartas no esten levantadas
             if tapete[primera_carta-1] == "ABIERTA" and tapete[segunda_carta-1] == "ABIERTA":    
                 print(f"Vaya, parece que una de esas cartas ya estaba levantada")
             else:
@@ -81,7 +80,7 @@ def partida(tapete):
     if parejas_encontradas == 3:
         return f"Conseguiste las {parejas_encontradas} parejas en tan solo {rondas} rondas!!"
     else:
-        return f"Vaya, tan solo has encontrado {parejas_encontradas} pareja/s en {rondas} ronda/s"    
+        return f"Tan solo has encontrado {parejas_encontradas} pareja/s en {rondas} ronda/s"    
     
 # Da a elegir la posición de la carta y la retorna verificada.
 def eleccion_carta():
@@ -118,13 +117,12 @@ def continuar():
     return continuar
 
 # Imprimer por pantalla el listado de partidas
-def imprimir_resultados(resultados):
-    if resultados.
-    lista_resultados=f"****************** Selecciona una opción ******************"
-    for i in resultados:
-        lista_resultados += f"\nPartida{i}: {resultados[i]}"
+def imprimir_resultados(resultados):    
+    lista_resultados=f"****************** Lista de partidas ******************"
+    for i, resultado in enumerate(resultados):
+        lista_resultados += f"\nPartida{i+1}: {resultado}"
     lista_resultados += "\n(Fin de listado)"
-    print(lista_resultados)
+    return lista_resultados
             
 if __name__ == "__main__":  
     resultados = []
@@ -140,8 +138,6 @@ if __name__ == "__main__":
             resultados.append(resultado)
             print(resultado)
         elif opc == 2:
-            imprimir_resultados(resultados)
+            print(imprimir_resultados(resultados))
     
     print("(Programa terminado)")
-    
-    
