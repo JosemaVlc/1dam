@@ -50,9 +50,11 @@ def partida(tapete):
             print("Ahora vamos a por la segunda carta")
             segunda_carta = eleccion_carta()
             
-            #Verifica que las cartas no esten levantadas
-            if tapete[primera_carta-1] == "ABIERTA" and tapete[segunda_carta-1] == "ABIERTA":    
+            # Verifica que las cartas no esten levantadas
+            if tapete[primera_carta-1] == "ABIERTA" or tapete[segunda_carta-1] == "ABIERTA":    
                 print(f"Vaya, parece que una de esas cartas ya estaba levantada")
+            elif primera_carta == segunda_carta:
+                print(f"Tienes que elegir dos cartas diferentes, listillo/a")
             else:
                 elecciones_correctas = True
                 
@@ -60,20 +62,20 @@ def partida(tapete):
         rondas += 1      
         print(f"RONDA {rondas}:La primera carta es un {tapete[primera_carta-1]} y la segunda carta un {tapete[segunda_carta-1]}")
         if tapete[primera_carta-1] == tapete[segunda_carta-1]:
-            print("Bien, has encontrado una pareja!") 
+            # Suma 1 pareja a las encontradas
+            parejas_encontradas += 1
+            
+            print(f"Muy bien, has encontrado {parejas_encontradas} pareja/s de 3")             
             
             # Setea ambas cartas a estado "ABIERTA" si son pareja
             tapete[primera_carta-1] = "ABIERTA"
             tapete[segunda_carta-1] = "ABIERTA"    
             
-            # Suma 1 pareja a las encontradas
-            parejas_encontradas += 1
-            
         elif tapete[primera_carta-1] != tapete[segunda_carta-1]:
-            print("Vaya, no son pareja!") 
+            print(f"Vaya, no son pareja! Se vuelven a tapar todas las cartas sin moverlas y empiezas una ronda nueva.\nHas encontrado {parejas_encontradas} pareja/s, recuerda las carta para esta siguiente ronda")
             
         if parejas_encontradas < 3:   
-            seguir_jugando = continuar()  
+            seguir_jugando = continuar()
         else:
             seguir_jugando = False
             
