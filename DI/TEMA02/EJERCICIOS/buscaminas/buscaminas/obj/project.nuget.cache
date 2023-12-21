@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IRMRfs59uVZsFsySqt+k1NFlCpkZlZgYn1vaOgT/yIVD7e/iTzm5hxSHO7JfiiXre3lBd88bEBfFvl3C+cfTxA==",
+  "dgSpecHash": "Zyq8t3gM6cqbBE8NLO6jlKeeueszwOlQHwl2tbQ8VEZDf995zpnYYueQKvOhNV0xa4oKartoB8CVj3YfQHQRXg==",
   "success": true,
-  "projectFilePath": "E:\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\buscaminas\\buscaminas\\buscaminas.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.12\\microsoft.windowsdesktop.app.ref.7.0.12.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.12\\microsoft.netcore.app.ref.7.0.12.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.12\\microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.12\\microsoft.netcore.app.host.win-x64.7.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\PERSONAL\\FP\\ASIGNATURAS\\DI\\TEMA02\\EJERCICIOS\\buscaminas\\buscaminas\\buscaminas.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
