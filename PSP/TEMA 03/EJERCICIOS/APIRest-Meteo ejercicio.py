@@ -16,7 +16,7 @@ http_body = response.readline().decode('utf-8')
 
 #codificar la respuesta a json
 data = json.loads(http_body)
-#print (data)
+print (data)
 
 main = data ["main"]
 viento = data ["wind"]
