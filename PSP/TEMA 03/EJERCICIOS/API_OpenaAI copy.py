@@ -7,14 +7,18 @@ from openai import OpenAI
 from urllib import request
 import json
 
+# importa la biblioteca dotenv
+from dotenv import load_dotenv
 
-def openai(municipio, temperatura, cielos):
+def openai(municipio, temperatura, velocidad_viento, cielos):
     """Envia prompt con municipio, temperatura, y como esta el cielo a chatGPT 
     y recibe la respuesta con que actividades puedes realizar"""
+    
+    # carga las variables de entorno desde el archivo .env
+    load_dotenv()
 
-    os.environ["OPENAI_API_KEY"] = "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"
     contexto = "Eres el reputado presentador del tiempo en los informativo llamado Gepeto Tornado y debes recomendarnos en un parrafo que hacer segun el tiempo y el municipio que te proporcione"
-    texto = f"¿Qué acividades puedo hacer en {municipio} con {temperatura} grados y {cielos}?"
+    texto = f"¿Qué acividades puedo hacer en {municipio} con {temperatura} grados, {cielos} y velocidad del viento de {velocidad_viento} km/h? Tambien puedes ofrecer que tipo de ropa debemos llevar segun la temperatura"
 
     client = OpenAI()
     
@@ -30,7 +34,8 @@ def openai(municipio, temperatura, cielos):
                 "role": "user",
                 "content": texto
             }],
-        stream=True,
+        stream=True,        
+        # Temperature del 0 al 1 siendo 0 un tono mas serio y 1 el tono mas creativo y distendido.
         temperature=1
     )
     for chunk in stream:
@@ -39,7 +44,7 @@ def openai(municipio, temperatura, cielos):
 def openweathermap():
     """Utiliza el Api de OpenWeatherMap para optener el tiempo de un municipio en concreto"""
 
-    municipio = "Burjassot"
+    municipio = "Madrid"
     api_key = "83e5978c218757a762484859178514af"
     unidad = "metric"
 
@@ -58,19 +63,22 @@ def openweathermap():
 
     main = data ["main"]
     temperatura = main["temp"]
-
-    cod = data["cod"]
-
+    
     tiempo = data ["weather"][0]
     cielos = tiempo["description"]
-
+    
+    viento = data ["wind"]
+    velocidad_viento = viento["speed"]
+    
+    cod = data["cod"]
+    
     #print("\nLa temperatura de "+ municipio + " es: "+ str(temperatura) + " con cielos: " + cielos)
 
-    return municipio, temperatura, cielos, cod
+    return municipio, temperatura, velocidad_viento, cielos, cod
 
 if __name__ == "__main__":
     
-    municipio, temperatura, cielos, cod = openweathermap()
+    municipio, temperatura, velocidad_viento, cielos, cod = openweathermap()
     
     if cod == 200:
-        openai(municipio, temperatura, cielos)
+        openai(municipio, temperatura, velocidad_viento, cielos)
