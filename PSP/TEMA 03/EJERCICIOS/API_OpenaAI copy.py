@@ -44,7 +44,7 @@ def openai(municipio, temperatura, velocidad_viento, cielos):
 def openweathermap():
     """Utiliza el Api de OpenWeatherMap para optener el tiempo de un municipio en concreto"""
 
-    municipio = "Madrid"
+    municipio = "Barcelona"
     api_key = "83e5978c218757a762484859178514af"
     unidad = "metric"
 
