@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\adrianillie.jpg" />
+    <None Remove="img\andrespalop.jpg" />
+    <None Remove="img\background.png" />
+    <None Remove="img\escudo.png" />
+    <None Remove="img\escudogranada.jpg" />
+    <None Remove="img\escudovalencia.jpg" />
+    <None Remove="img\escudozaragoza.jpg" />
+    <None Remove="img\icons\borrar_club.png" />
+    <None Remove="img\icons\borrar_jugador.png" />
+    <None Remove="img\icons\crear_jugador.png" />
+    <None Remove="img\icons\jugador_club.png" />
+    <None Remove="img\icons\modificar_club.png" />
+    <None Remove="img\icons\modificar_jugador.png" />
+    <None Remove="img\icons\nuevo_club.png" />
+    <None Remove="img\jugador.png" />
+    <None Remove="img\logo.png" />
+    <None Remove="img\toroacuna.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\adrianillie.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\andrespalop.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\background.png" />
+    <Resource Include="img\escudo.png" />
+    <Resource Include="img\escudogranada.jpg" />
+    <Resource Include="img\escudovalencia.jpg" />
+    <Resource Include="img\escudozaragoza.jpg" />
+    <Resource Include="img\icons\borrar_club.png" />
+    <Resource Include="img\icons\borrar_jugador.png" />
+    <Resource Include="img\icons\crear_jugador.png" />
+    <Resource Include="img\icons\jugador_club.png" />
+    <Resource Include="img\icons\modificar_club.png" />
+    <Resource Include="img\icons\modificar_jugador.png" />
+    <Resource Include="img\icons\nuevo_club.png" />
+    <Resource Include="img\jugador.png" />
+    <Resource Include="img\logo.png" />
+    <Resource Include="img\toroacuna.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
