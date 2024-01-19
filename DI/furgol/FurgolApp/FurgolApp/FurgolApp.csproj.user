@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Asignacion_Club.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nuevo_Equipo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nuevo_Jugador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonalTextBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventana_Equipos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventana_Jugadores.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Asignacion_Club.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Nuevo_Equipo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Nuevo_Jugador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonalTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventana_Equipos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventana_Jugadores.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
