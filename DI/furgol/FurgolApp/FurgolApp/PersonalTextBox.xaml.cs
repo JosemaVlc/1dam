@@ -21,15 +21,17 @@ namespace FurgolApp
     /// </summary>
     public partial class PersonalTextBox : UserControl
     {
+        // Constructor
         public PersonalTextBox()
         {
             DataContext = this;
             InitializeComponent();
         }
 
-
+        // Evento que se dispara cuando una propiedad cambia
         public event PropertyChangedEventHandler? PropertyChanged;
 
+        // Propiedad Etiqueta: la etiqueta asociada al TextBo
         private string etiqueta;
         public string Etiqueta
         {
@@ -45,6 +47,7 @@ namespace FurgolApp
             }
         }
 
+        // Propiedad Dato: el contenido del TextBox
         private string dato;
         public string Dato
         {
@@ -59,6 +62,8 @@ namespace FurgolApp
                 OnPropertyChanged(nameof(Dato));
             }
         }
+
+        // Propiedad LargoMaximo: el límite máximo de longitud del TextBox
         private int largoMaximo;
         public int LargoMaximo
         {
@@ -74,6 +79,7 @@ namespace FurgolApp
             }
         }
 
+        // Propiedad Text: obtiene o establece el texto del TextBox
         public string Text
         {
             get
@@ -84,20 +90,23 @@ namespace FurgolApp
             {
             }
         }
+
+        // limpia el contenido del TextBox
         public void Clear()
         {
             txtInput.Clear();
         }
 
-
+        // Evento Click del botón para limpiar el TextBox
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-            // limpiamos el contenido del textbox
+            // limpia el contenido del textbox
             txtInput.Clear();
-            // ponemos el foco en el textbox
+            // pone el foco en el textbox
             txtInput.Focus();
         }
 
+        // Disparador para cuando cambia una propiedad
         private void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

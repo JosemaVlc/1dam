@@ -21,11 +21,14 @@ namespace FurgolApp
     public partial class Nuevo_Jugador : Window
     {
         Jugador jugador;
+
+        // Constructor para crear un nuevo jugador
         public Nuevo_Jugador()
         {
             InitializeComponent();
-            Fotografia.Source = new BitmapImage(new Uri("/img/jugador.png", UriKind.Relative));
         }
+        
+        // Constructor para editar un jugador existente
         internal Nuevo_Jugador(Jugador jugadorSeleccionado)
         {
             InitializeComponent();
@@ -33,7 +36,7 @@ namespace FurgolApp
             Rellenar_Formulario();
         }
 
-
+        // Método para rellenar el formulario con los datos del jugador existente
         private void Rellenar_Formulario()
         {
             campoNombre.Dato = jugador.Nombre;
@@ -41,9 +44,10 @@ namespace FurgolApp
             campoApodo.Dato = jugador.Apodo;
             campoEdad.Dato = Convert.ToString(jugador.Edad);
             campoNacionalidad.Dato = jugador.Nacionalidad;
-            Fotografia.Source = jugador.Imagen;
+            Fotografia.Imagen = jugador.Imagen;
         }
 
+        // Evento para el botón Cancelar
         private void Cerrar_Click(object sender, RoutedEventArgs e)
         {
             Ventana_Jugadores ventanaJugadores = new Ventana_Jugadores();
@@ -51,20 +55,25 @@ namespace FurgolApp
             Close();
         }
 
+        // Evento para el botón Limpiar.
         private void Limpiar_Click(Object sender, RoutedEventArgs e)
         {
+            // Limpia los campos de texto y restablece la imagen predeterminada
             campoNombre.Clear();
             campoApellidos.Clear();
             campoApodo.Clear();
             campoEdad.Clear();
             campoNacionalidad.Clear();
-            // Borra la fotografia
-            Fotografia.Source = new BitmapImage(new Uri("/img/jugador.png", UriKind.Relative));
+            Fotografia.Imagen = null;
         }
 
+        // Evento para el botón Guardar
         private void Guardar_Click(Object sender, RoutedEventArgs e)
         {
+            // Almacena mensaje de error
             String textoError = "";
+
+            // Valida los campos
             if (string.IsNullOrEmpty(campoNombre.Text))
             {
                 textoError += "* Falta cumplimentar campo nombre\n";
@@ -86,6 +95,7 @@ namespace FurgolApp
                 textoError += "* Falta cumplimentar campo Nacionalidad\n";
             }
 
+            // Muestra el mensaje de error almacenado.
             if (!string.IsNullOrEmpty(textoError))
             {
                 MessageBox.Show("No se puede guardar por los siguientes motivos:\n\n" + textoError, "Error");
@@ -94,27 +104,32 @@ namespace FurgolApp
             {
                 if (jugador != null)
                 {
+                    // Si se está editando un equipo se almacenan los campos
                     jugador.Nombre = campoNombre.Text;
                     jugador.Apellidos = campoApellidos.Text;
                     jugador.Apodo = campoApodo.Text;
                     jugador.Edad = int.Parse(campoEdad.Text);
                     jugador.Nacionalidad = campoNacionalidad.Text;
-                    jugador.Imagen = Fotografia.Source as BitmapImage;
+                    jugador.Imagen = Fotografia.Imagen as BitmapImage;
                 }
                 else 
                 {
-                    Jugador nuevoJugador = new Jugador(campoNombre.Text, campoApellidos.Text, campoApodo.Text, int.Parse(campoEdad.Text), campoNacionalidad.Text, Fotografia.Source as BitmapImage);                
+                    // Si es un nuevo equipo, crea el objeto
+                    Jugador nuevoJugador = new Jugador(campoNombre.Text, campoApellidos.Text, campoApodo.Text, int.Parse(campoEdad.Text), campoNacionalidad.Text, Fotografia.Imagen as BitmapImage);                
                 }
 
                 // Crea Instancia a ventanaJugadores
                 Ventana_Jugadores ventanaJugadores = new Ventana_Jugadores();
+
                 // Mostrar la ventana Jugadores
                 ventanaJugadores.Show();
+
                 // Cerrar esta ventana
                 Close();                
             }
         }
 
+        // Evento para el botón seleccionar fotografía
         private void Seleccionar_Fotografia_Click(object sender, RoutedEventArgs e)
         {
             // Abre el cuadro de diálogo de archivo
@@ -126,13 +141,15 @@ namespace FurgolApp
                 // Obtiene la ruta del archivo seleccionado
                 string rutaImagen = openFileDialog.FileName;
                 // La incrusta en la imagen fotografía.
-                Fotografia.Source = new BitmapImage(new Uri(rutaImagen));
+                Fotografia.Imagen = new BitmapImage(new Uri(rutaImagen));
             }
         }
+
+        // Evento para el botón de limpiar fotografía
         private void Limpiar_Fotografia_Click(Object sender, RoutedEventArgs e)
         {
-            // Borra la fotografia
-            Fotografia.Source = new BitmapImage(new Uri("/img/jugador.png", UriKind.Relative));
+            // Restablece la imagen predeterminada
+            Fotografia.Imagen = null;
         }
 
     }

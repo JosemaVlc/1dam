@@ -1,41 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".StartActivity">
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/fondo"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-    </RelativeLayout>
+    android:id="@+id/activity_start"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".StartActivity"
+    android:background="@color/greenbgStartActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="295dp"
-        android:layout_height="290dp"
-        android:layout_marginBottom="100dp"
-        android:contentDescription="@string/caras"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/logopasalacabra"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@id/textBoda"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/caras"
-        tools:ignore="ImageContrastCheck" />
+        />
+
+
+    <EditText
+        android:id="@+id/editTextCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@color/white"
+        android:hint="@string/btnCodigoNovios"
+        android:autofillHints="@string/respuesta"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintBottom_toTopOf="@id/btnStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/textBoda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintBottom_toTopOf="@id/btnStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnEnlazar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:textSize="15sp"
+        android:text="@string/enlace"
+        app:layout_constraintTop_toBottomOf="@id/editTextCodigo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <Button
         android:id="@+id/btnStart"
-        android:layout_width="296dp"
-        android:layout_height="80dp"
-        android:textSize="40sp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="200dp"
+        android:textSize="20sp"
         android:text="@string/start"
-        app:layout_constraintTop_toBottomOf="@id/imageView2"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/textBoda"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btnVinculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:text="@string/desvincular"
+        android:background="#00000000"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/btnStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

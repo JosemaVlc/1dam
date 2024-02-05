@@ -20,12 +20,14 @@ namespace FurgolApp
     /// </summary>
     public partial class Ventana_Jugadores : Window
     {
+        // Constructor de la ventana
         public Ventana_Jugadores()
         {
             InitializeComponent();
             vistaJugadores.ItemsSource = Jugador.getJugadores();
         }
 
+        // Evento para el botón Volver
         private void Volver_Click(object sender, RoutedEventArgs e)
         {
             // Instancia a ventana Jugadores
@@ -35,6 +37,8 @@ namespace FurgolApp
             // Cierra ventana
             Close();
         }
+
+        // Evento para el botón Crear Jugador
         private void Crear_Click(object sender, RoutedEventArgs e)
         {
             // Instancia a ventana Jugadores
@@ -44,6 +48,8 @@ namespace FurgolApp
             // Cierra ventana
             Close();
         }
+
+        // Evento para el botón Modificar Jugador
         private void Modificar_Click(object sender, RoutedEventArgs e)
         {
             // Obtiene el jugador seleccionado
@@ -58,6 +64,8 @@ namespace FurgolApp
                 Close();
             }
         }
+
+        // Evento para el botón Asociar Jugador a Equipo
         private void jugadorClub_Click(object sender, RoutedEventArgs e)
         {
             // Obtiene el jugador seleccionado
@@ -75,6 +83,7 @@ namespace FurgolApp
             }
         }
 
+        // Evento para el botón Borrar
         private void Borrar_Click(object sender, RoutedEventArgs e)
         {
             // Obtiene el jugador seleccionado

@@ -11,6 +11,18 @@ def cliente(socket_atiende, addr_cliente):
         print("Fin de conversación con: ",addr_cliente)
         socket_atiende.close()
         
+# Funcion para enviar información al servidor
+def enviar_a_cliente(conexion, mensaje):
+    conexion.sendall(str(mensaje).encode()) # Envia el mensaje en binario.
+
+# Funcion para recibir información desde el servidor.        
+def recibir_del_cliente(conexion):    
+    # Bloquea y esperas que el servidor nos conteste
+    data = conexion.recv(1024) 
+    
+    # Retorna la contestacion del servidor
+    return data.decode()
+        
 # Lleva el menu del juego de la parte servidor
 def control_menu(addr_cliente, socket_atiende):
     
@@ -19,24 +31,24 @@ def control_menu(addr_cliente, socket_atiende):
     
     while control:
         
-        socket_atiende.sendall(menu().encode()) # Envia al cliente el menú            
+        enviar_a_cliente(socket_atiende, menu()) # Envia al cliente el menú         
         
-        opc = socket_atiende.recv(1024) # Esperando la opcion que elije el usuario en el cliente        
-        print(f'El cliente {addr_cliente} ha elegido la opcion: {opc.decode()}') # Opción recibida, la imprime en terminal servidor
+        opc = recibir_del_cliente(socket_atiende) # Esperando la opcion que elije el usuario en el cliente        
+        print(f'El cliente {addr_cliente} ha elegido la opcion: {opc}') # Opción recibida, la imprime en terminal servidor
 
-        if opc.decode() == "0":                                                 # Si la opción elegida por el usuario es 0,
+        if opc == "0":                                                 # Si la opción elegida por el usuario es 0,
             control = False                                                     # Cambia la variable de control a False
-            socket_atiende.sendall(b"Adios")                                    # Envia a cliente mensaje de salida
+            enviar_a_cliente(socket_atiende, "Adios")                           # Envia a cliente mensaje de salida
             print("Usuario decidió dejar de jugar")                             # Imprime mensaje en terminal servidor
 
-        elif opc.decode() == "1":                                               # Si la opción elegida por el usuario es 1, 
+        elif opc == "1":                                               # Si la opción elegida por el usuario es 1, 
             instrucciones()                                                     # Envia al cliente las instrucciones             
             tapete = barajar_cartas(socket_atiende)                             # Baraja las cartas y retorna un tapete de juego
             resultado = partida(socket_atiende, addr_cliente, tapete)           # Lleva la partida y devuelve el resultado
             resultados.append(resultado)                                        # Añade resultado al listado de resultados
             
-        elif opc.decode() == "2":                                               # Si la opción elegida por el usuario es 2,
-            socket_atiende.sendall(imprimir_resultados(resultados).encode())    # Envia al cliente los resultados de la sesión
+        elif opc == "2":                                               # Si la opción elegida por el usuario es 2,
+            enviar_a_cliente(socket_atiende, imprimir_resultados(resultados))   # Envia al cliente los resultados de la sesión
             socket_atiende.recv(1024)                                           # Espera confirmación de recibo
 
 # Retorna el menú al cliente
@@ -45,15 +57,15 @@ def menu():
             
 # Envia las instrucciones del juego y espera confirmación de recibo
 def instrucciones():
-    socket_atiende.sendall(b"\nBienvenido a memory.\n\nEste juego consiste en emparejar las cartas.\nHay 6 cartas, asi que, al encontrar las 3 parejas habras ganado la partida.\nEn cuantas rondas podras completar el reto?")
-    socket_atiende.recv(1024)
+    enviar_a_cliente(socket_atiende, "\nBienvenido a memory.\n\nEste juego consiste en emparejar las cartas.\nHay 6 cartas, asi que, al encontrar las 3 parejas habras ganado la partida.\nEn cuantas rondas podras completar el reto?")
+    recibir_del_cliente(socket_atiende)
     
 # baraja las cartas y devuelve el tapete de juego   
 def barajar_cartas(socket_atiende):
     cartas = ["GATO","GATO","LEON","LEON","ELEFANTE","ELEFANTE"]    # Inicializa lista de cartas
     random.shuffle(cartas)                                          # Realiza del random
-    socket_atiende.sendall(b"Se han barajado las cartas")           # Envia el mensaje de barajado de cartas
-    socket_atiende.recv(1024)                                       # Espera confirmación de recibo
+    enviar_a_cliente(socket_atiende, "Se han barajado las cartas")  # Envia el mensaje de barajado de cartas
+    recibir_del_cliente(socket_atiende)                                       # Espera confirmación de recibo
     
     return cartas
 
@@ -72,28 +84,28 @@ def partida(socket_atiende, addr_cliente, tapete):
         # Mientras elecciones_correctas sea False seguira preguntando que cartas quiere escoger el usuario
         while not elecciones_correctas:            
             # Eleccion de primera carta
-            socket_atiende.sendall(b"\nEs momento de elegir la primera carta")  # Envia mensaje al cliente
-            primera_carta = int(socket_atiende.recv(1024).decode())             # Espera respuesta y almacena en primera_carta
+            enviar_a_cliente(socket_atiende, "\nEs momento de elegir la primera carta") # Envia mensaje al cliente
+            primera_carta = int(recibir_del_cliente(socket_atiende))                     # Espera respuesta y almacena en primera_carta
             
             # Imprime mensaje en el servidor para llevar el seguimiento.
             print(f"El jugador {addr_cliente} ha elegido como segunda carta la posición {primera_carta} que es {tapete[primera_carta-1]}")
             
-            # Eleccion de segunda_carta            
-            socket_atiende.sendall(b"Ahora vamos a por la segunda carta")       # Envia mensaje al cliente
-            segunda_carta = int(socket_atiende.recv(1024).decode())             # Espera respuesta y almacena en segunda_carta
+            # Eleccion de segunda_carta    
+            enviar_a_cliente(socket_atiende, "Ahora vamos a por la segunda carta")      # Envia mensaje al cliente
+            segunda_carta = int(recibir_del_cliente(socket_atiende))                     # Espera respuesta y almacena en segunda_carta
             
             # Imprime mensaje en el servidor para llevar el seguimiento.
             print(f"El jugador {addr_cliente} ha elegido como segunda carta la posición {segunda_carta} que es {tapete[segunda_carta-1]}")
             
             # Verifica que las cartas son elegibles            
-            if tapete[primera_carta-1] == "ABIERTA" or tapete[segunda_carta-1] == "ABIERTA":                # Si primera_carta o segunda carta esta abierta anteriormente:
-                socket_atiende.sendall(b"False;Vaya, parece que una de esas cartas ya estaba levantada")    # Envia al cliente que es una de las dos no es elegible con False y separado por ; el mensaje a mostrar.
-            elif primera_carta == segunda_carta:                                                            # Si la primera y la segunda carta es la misma:
-                socket_atiende.sendall(b"False;Tienes que elegir dos cartas diferentes, listillo/a")        # Envia al cliente que no es elegible con el False y separado con ; el mensaje a mostrar.
-            else:                                                                                           # Sinó significara que son elegibles y:
-                socket_atiende.sendall(b"True;")                                                            # Envia al cliente un True; para llevar el control de envios y recibos de mensajes
-                elecciones_correctas = True                                                                 # Pasa a True la variable de control para que termine el bucle
-            socket_atiende.recv(1024)                                                                       # Espera confirmación de recibo del mensaje enviado segun si es o no elegible.
+            if tapete[primera_carta-1] == "ABIERTA" or tapete[segunda_carta-1] == "ABIERTA":                        # Si primera_carta o segunda carta esta abierta anteriormente:
+                enviar_a_cliente(socket_atiende, "False;Vaya, parece que una de esas cartas ya estaba levantada")   # Envia al cliente que es una de las dos no es elegible con False y separado por ; el mensaje a mostrar.
+            elif primera_carta == segunda_carta:                                                                    # Si la primera y la segunda carta es la misma:
+                enviar_a_cliente(socket_atiende, "False;Tienes que elegir dos cartas diferentes, listillo/a")       # Envia al cliente que no es elegible con el False y separado con ; el mensaje a mostrar.
+            else:                                                                                                   # Sinó significara que son elegibles y:
+                enviar_a_cliente(socket_atiende, "True;")                                                           # Envia al cliente un True; para llevar el control de envios y recibos de mensajes
+                elecciones_correctas = True                                                                         # Pasa a True la variable de control para que termine el bucle
+            recibir_del_cliente(socket_atiende)                                                                     # Espera confirmación de recibo del mensaje enviado segun si es o no elegible.
                      
         # Imprime resultado de la ronda  
         info_ronda = f"\nRONDA {rondas+1}:La primera carta es un {tapete[primera_carta-1]} y la segunda carta un {tapete[segunda_carta-1]}\n" # Inicializa variable con el mensaje
@@ -113,10 +125,10 @@ def partida(socket_atiende, addr_cliente, tapete):
             print("El jugador falló")                                                           # Imprime en el servidor que falló para llevar el control de forma visual
             
         info_ronda += f";{str(parejas_encontradas)}"    # Añade a la variable info_ronda ; y parejas_encontradas
-        socket_atiende.sendall(info_ronda.encode())     # Envia info_ronda al cliente
+        enviar_a_cliente(socket_atiende, info_ronda)    # Envia info_ronda al cliente
         
         # Espera que se le devuelva si el jugador continua jugando
-        if socket_atiende.recv(1024).decode() == "False":        # Si el jugador devuelve que no quiere seguir jugando:
+        if recibir_del_cliente(socket_atiende) == "False":        # Si el jugador devuelve que no quiere seguir jugando:
             seguir_jugando = False                               # Cambia la variable seguir_jugando a False para que el bucle pare.
     
     # Verifica si ha encontrado las 3 parejas        
@@ -131,9 +143,9 @@ def partida(socket_atiende, addr_cliente, tapete):
         print("El jugador perdió la partida")                                                                               # Imprime en servidor que el jugador perdio la partida
 
     # Envia info_partida al cliente.
-    socket_atiende.sendall(info_partida.encode()) 
+    enviar_a_cliente(socket_atiende, info_partida) 
     # Espera confirmación de recibo
-    socket_atiende.recv(1024)  
+    recibir_del_cliente(socket_atiende) 
     
     # Retorna el resultado de la partida.
     return resultado

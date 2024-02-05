@@ -16,6 +16,9 @@
     <Compile Update="Nuevo_Jugador.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PersonalImage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PersonalTextBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,6 +40,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Nuevo_Jugador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonalImage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PersonalTextBox.xaml">

@@ -32,3 +32,6 @@ E:\ASIGNATURAS\DI\furgol\FurgolApp\FurgolApp\obj\Debug\net8.0-windows\refint\Fur
 E:\ASIGNATURAS\DI\furgol\FurgolApp\FurgolApp\obj\Debug\net8.0-windows\FurgolApp.pdb
 E:\ASIGNATURAS\DI\furgol\FurgolApp\FurgolApp\obj\Debug\net8.0-windows\FurgolApp.genruntimeconfig.cache
 E:\ASIGNATURAS\DI\furgol\FurgolApp\FurgolApp\obj\Debug\net8.0-windows\ref\FurgolApp.dll
+E:\ASIGNATURAS\DI\furgol\FurgolApp\FurgolApp\obj\Debug\net8.0-windows\App.baml
+E:\ASIGNATURAS\DI\furgol\FurgolApp\FurgolApp\obj\Debug\net8.0-windows\PersonalImage.g.cs
+E:\ASIGNATURAS\DI\furgol\FurgolApp\FurgolApp\obj\Debug\net8.0-windows\PersonalImage.baml

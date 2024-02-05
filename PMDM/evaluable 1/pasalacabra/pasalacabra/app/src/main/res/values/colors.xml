@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="greenbgStartActivity">#8FBC8F</color>
+    <color name="greenbgGameActivity">#978FBC8F</color>
+    <color name="pink">#FFB6C1</color>
 </resources>

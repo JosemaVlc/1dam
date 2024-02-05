@@ -6,13 +6,16 @@
              xmlns:local="clr-namespace:FurgolApp"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="375">
+    
+    <!-- Contenedor principal -->
     <Grid Height="28"
           Margin="0 0 0 5">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="125"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        
+
+        <!-- TextBlock para la etiqueta -->
         <TextBlock x:Name="tbEtiqueta"
                    Grid.Column="0"
                    Background="#1da6ca"
@@ -20,7 +23,8 @@
                    FontFamily="Microsoft Yi Baiti"
                    TextAlignment="Right"
                    Text="{Binding Etiqueta}"/>
-
+        
+        <!-- TextBox para el input de datos -->
         <TextBox x:Name="txtInput"
                    Text="{Binding Dato}"
                    MaxLength="{Binding LargoMaximo}"
@@ -29,7 +33,8 @@
                    FontSize="25"
                    FontFamily="Microsoft Yi Baiti"
                    TextAlignment="Left"/>
-        
+
+        <!-- Botón para limpiar el contenido del TextBox -->
         <Button x:Name="btnClear"  
                 Grid.Column="1"
                 Content="X" Width="30" 

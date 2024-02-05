@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".FinalActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/fondo"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/greenbgGameActivity"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -21,37 +22,26 @@
             android:layout_height="wrap_content"
             android:text="@string/ENHORABUENA"
             android:textSize="46sp"
-            android:textColor="@color/design_default_color_background"
-            android:background="@color/design_default_color_error"
+            android:textColor="@color/black"
+            android:background="@color/greenbgStartActivity"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
             android:paddingTop="60dp"
-            app:layout_constraintTop_toTopOf="parent"
-            />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/codigo"
-            android:contentDescription="@string/codigosecreto"
-            app:layout_constraintTop_toBottomOf="@id/textView"
-            app:layout_constraintBottom_toTopOf="@id/textView1"
             />
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textoCliente"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/design_default_color_error"
-            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:background="@color/greenbgStartActivity"
+            android:fontFamily="sans-serif"
             android:gravity="center"
-            android:text="@string/mensaje"
-            android:textColor="@color/design_default_color_background"
-            android:textSize="46sp"
-            android:paddingBottom="60dp"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            android:padding="15dp"
+            />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
