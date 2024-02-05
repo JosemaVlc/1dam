@@ -4,6 +4,106 @@
              xmlns:local="clr-namespace:FurgolApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        
+        <!-- estilo para los botones-->
+        <Style TargetType="TextBlock" x:Key="Hover">
+            <Setter Property="Background" Value="#1da6ca"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontFamily" Value="Freestyle Script"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightGray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- estilo para los botones cuadrados -->
+        <Style TargetType="Border" x:Key="EstiloBotonCuadrado">
+            <Setter Property="Background" Value="#1da6ca"/>
+            <Setter Property="Width" Value="65"/>
+            <Setter Property="Height" Value="65"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0 0 10 10"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightGray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- estilo para los botones cuadrados bloqueados en Jugadores -->
+        <Style BasedOn="{StaticResource EstiloBotonCuadrado}" TargetType="Border" x:Key="EstiloBotonCuadradoBlockJugadores">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding SelectedItem, ElementName=vistaJugadores}" Value="{x:Null}">
+                    <Setter Property="Background" Value="LightGray"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        
+        <!-- estilo para los botones cuadrados bloqueados en Equipos -->
+        <Style BasedOn="{StaticResource EstiloBotonCuadrado}" TargetType="Border" x:Key="EstiloBotonCuadradoBlockEquipos">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding SelectedItem, ElementName=vistaEquipos}" Value="{x:Null}">
+                    <Setter Property="Background" Value="LightGray"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+
+        <!-- estilo para todos los bloques de texto que se alinean a la derecha -->
+        <Style TargetType="TextBlock" x:Key="EstiloTextoDerecha">
+            <Setter Property="Background" Value="#1da6ca"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="FontFamily" Value="Microsoft Yi Baiti"/>
+            <Setter Property="TextAlignment" Value="Right"/>
+            <Setter Property="Margin" Value="0 0 0 5"/>
+            <Setter Property="Padding" Value="0 0 0 5"/>
+            <Setter Property="Width" Value="125"/>
+            
+            <!-- De los que se alinean a la derecha en la ventana equipos y jugadores se mostraran de diferente tamaño -->
+            <Style.Triggers>
+                <Trigger Property="Tag" Value="info">
+                    <Setter Property="FontSize" Value="22"/>
+                    <Setter Property="Width" Value="Auto"/>
+                    <Setter Property="Padding" Value="0"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- estilo para todos los bloques de texto que se alinean a la izquierda -->
+        <Style TargetType="TextBlock" x:Key="EstiloTextoIzquierda">
+            <Setter Property="Background" Value="#FF49ACC7"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="FontFamily" Value="Microsoft Yi Baiti"/>
+            <Setter Property="TextAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="10 0 0 0"/>
+            <Setter Property="Margin" Value="0 0 0 5"/>
+        </Style>
+        
+        <!-- estilo para los ListBox -->
+        <Style TargetType="ListBox">
+            <Setter Property="Margin" Value="20 0 20 0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Height" Value="280"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="520"/>
+            <Setter Property="FontFamily" Value="Microsoft Yi Baiti"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        
+        <!-- estilo imagen jugadores y escudos ventana listas-->
+        <Style TargetType="Image" x:Key="imagenes">
+            <Setter Property="Width" Value="180"/>
+            <Setter Property="Height" Value="188"/>
+            <Setter Property="Margin" Value="10 20 20 50"/>
+            <Setter Property="Stretch" Value="UniformToFill"/>
+            <Setter Property="StretchDirection" Value="Both"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        </Style>
     </Application.Resources>
 </Application>

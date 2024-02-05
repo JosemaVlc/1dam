@@ -1,0 +1,37 @@
+Audrey Tang
+
+Audrey Tang Feng (Isla de Taiwán, 18 de abril de 1981), es una referente mundial en software libre y programación. Desde el 1 de octubre de 2016 forma parte del ejecutivo taiwanés como Ministra Digital sin cartera, con la misión de ayudar a resolver problemas basándose en la tecnología y el software libre. Es la primera ministra transgénero del mundo. 
+
+https://es.wikipedia.org/wiki/Audrey_Tang
+
+Biografía
+Con un cociente intelectual de 180, Tang tuvo dificultades para adaptarse a la educación formal desde su infancia, por lo que es autodidacta. Con apenas seis años leía literatura clásica en varios idiomas. A los ocho encontró un libro de programación y le interesó especialmente la parte lógica y matemática pero no tenía ordenador por lo que dibujó las teclas en un papel y lo simuló para escribir lo que habría producido la máquina, explica Tang sobre sus inicios.
+
+Hija de periodistas (Tang Kuang-hua y Lee Ya-ching) que trabajaron en el periódico local China Times, a los 10 años se traslada junto a su padre y su hermano a Alemania.
+
+"Aprendí programación sin una máquina. Es muy educativo: la programación se convirtió en ese momento en una forma de pensar", asegura Tang. A los pocos años sus padres le compraron un ordenador de verdad. Unos meses más tarde escribió su primer programa: un juego educativo para su hermano pequeño.
+
+Las posibilidades de formarse gracias a Internet -explicó su padre- permitieron éste avance sin salir de Taiwán.
+
+Aprendió el lenguaje de programación Perl con sólo 12 años. A los 15 desarrolló un buscador de canciones en chino mandarín y tres años después lo vendió.
+
+A los 16 años fundó su propia empresa. A los 19 años trabajó en Silicon Valley como consultora de Apple en California. A los 24, en 2005, asumió una identidad de género femenina, cambiando sus nombres de nacimiento en inglés y en chino. Tang no se considera transgénero sino post-género, alguien que va más allá de las convenciones sociales de sexo y géneros.
+
+A los 33 años Audrey Tang anunció su "retiro" para dedicar su tiempo a proyectos de bienestar público de Internet, tales como la plataforma g0v.tw, y la promoción de la plataforma vtaiwan.
+Software libre y datos abiertos.
+
+Creció entre exiliados chinos de la revuelta de Tiananmen.1​ Se define como una ‘hacker cívica’ y ‘anarquista conservadora’, alguien -dice- “que resuelve problemas de forma creativa, apoyándose en la tecnología y que además aspira a conservar la anarquía de la red, una utopía que he experimentado durante dos décadas”.
+
+Tang fue conocida por liderar el proyecto Pugs, un esfuerzo conjunto de las comunidades de los lenguajes Haskell y Perl para implementar el lenguaje Perl 6; también por sus colaboraciones en la internacionalización y localización de varios proyectos de software libre, incluyendo SVK, Request Tracker y Slash.​ Por otro lado ha traducido varios libros relacionados con código abierto al chino tradicional. En CPAN, Tang inició más de 100 proyectos entre 2001 y 2006, incluyendo el popular Perl Archive Toolkit (PAR), un sistema multiplataforma desarrollado para Perl 5.
+
+Por otro lado Tang ha colaborado en la introducción de plataformas como Uber o Airbnb y apuesta por un gobierno abierto que haga accesible los bancos de datos a la ciudadanía.
+
+
+
+Compromiso social y político
+
+La primera vez que Tang participó en acciones antigubernamentales fue en 2012, después de que el gobierno de Taiwán lanzara un vídeo sobre una reforma económica denigrante para la ciudadanía. En respuesta, ella y un grupo de hackers amigos decidieron publicar los datos del presupuesto del gobierno en una web clara, legible y bonita indexada en g0v.tw.
+
+En 2014, durante el Movimiento Girasol en Taiwán, una protesta estudiantil contra la firma de un tratado comercial con China, Tang pasó del código al activismo digital. Durante la ocupación del parlamento taiwanés, instaló cables, cámaras y altavoces creando una infraestructura para transmitir los hechos en directo. Siempre declaró que no se consideraba una rebelde ni se iba a posicionar y que luchaba por la transparencia y por promover la libertad de expresión. "La mayoría de las tecnologías que hemos desplegado en Taiwán fueron neutrales, iban destinadas a animar a la gente a hablar, teníamos un código muy fuerte de neutralidad", declara Tang.
+
+En agosto de 2016 se anunció que formaría parte del gobierno de Lin Chuan como Ministra Digital sin cartera. Y es la primera ministra transgénero y post-género del mundo. Tang tiene la misión de hacer el gobierno más transparente y transformar Taiwán en la Silicon Valley asiática a base de software libre y sin perder de vista la participación cívica y los derechos digitales de la ciudadanía. 

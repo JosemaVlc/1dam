@@ -14,7 +14,7 @@ namespace FurgolApp
         private static bool inicializado = false;
         private static ObservableCollection<Jugador> listaJugadores = new ObservableCollection<Jugador>();
 
-        // Variables
+        // Variables de instancia
         public string Nombre { get; set; }
         public string Apellidos { get; set;}
         public string Apodo { get; set;}
@@ -28,6 +28,7 @@ namespace FurgolApp
         CONSTRUCTORES
         -----------------------------------*/
 
+        // Constructor para un jugador con equipo y dorsal
         public Jugador(string nombre, string apellidos, string apodo, int edad, int dorsal, string nacionalidad, string equipo, BitmapImage imagen)
         {
             this.Nombre = nombre;
@@ -39,8 +40,11 @@ namespace FurgolApp
             this.Equipo = equipo;
             this.Imagen = imagen;
 
+            // Agrega el jugador a la ObservableCollection de jugadores
             listaJugadores.Add(this);
         }
+
+        // Constructor para un jugador sin equipo ni dorsal
         public Jugador(string nombre, string apellidos, string apodo, int edad, string nacionalidad, BitmapImage imagen)
         {
             this.Nombre = nombre;
@@ -50,6 +54,7 @@ namespace FurgolApp
             this.Nacionalidad = nacionalidad;
             this.Imagen = imagen;
 
+            // Agrega el jugador a la ObservableCollection de jugadores
             listaJugadores.Add(this);
         }
 
@@ -57,10 +62,13 @@ namespace FurgolApp
         GETTERS
         -----------------------------------*/
 
+        // Getter para saber si se ha poblado lista de jugadores
         public static bool getInicializado()
         {
             return inicializado;
         }
+
+        // Getter para obtener la lista de jugadores
         public static ObservableCollection<Jugador> getJugadores()
         {
             return listaJugadores;
@@ -70,13 +78,16 @@ namespace FurgolApp
         SETTERS
         -----------------------------------*/
 
-        public static void setBorrar(Jugador jugador_a_borrar)
-        {
-            listaJugadores.Remove(jugador_a_borrar);
-        }
+        // Setter para establecer el estado de la lista de jugadores(poblada o no).
         public static void setInicializado(bool estado)
         {
             inicializado = estado;
+        }
+
+        // Setter para borrar un jugador de la lista
+        public static void setBorrar(Jugador jugador_a_borrar)
+        {
+            listaJugadores.Remove(jugador_a_borrar);
         }
     }
 }

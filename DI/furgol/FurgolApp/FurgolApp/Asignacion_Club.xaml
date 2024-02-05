@@ -11,75 +11,66 @@
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None"
         >
-    <Window.Resources>
-        <!-- estilo para los botones -->
-        <Style TargetType="TextBlock" x:Key="EstiloBoton">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="FontSize" Value="30"/>
-            <Setter Property="FontFamily" Value="Freestyle Script"/>
-            <Setter Property="Width" Value="100"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="LightGray"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <!-- estilo para todos los bloques de texto que se alinean a la derecha -->
-        <Style TargetType="TextBlock" x:Key="EstiloTextoDerecha">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="FontSize" Value="25"/>
-            <Setter Property="FontFamily" Value="Microsoft Yi Baiti"/>
-            <Setter Property="TextAlignment" Value="Right"/>
-            <Setter Property="Margin" Value="0 0 0 5"/>
-            <Setter Property="Width" Value="125"/>
-            <Setter Property="Padding" Value="0 0 0 5"/>
-        </Style>
-    </Window.Resources>
-
-    <Grid>
-        <Grid.Background>
+    <!-- Contenedor principal -->
+    <StackPanel>
+        
+        <!-- Fondo del StackPanel -->
+        <StackPanel.Background>
             <ImageBrush ImageSource="/img/background.png"                        
-                        Stretch="UniformToFill"/>
-        </Grid.Background>
-        <StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Guardar" 
-                   Style="{StaticResource EstiloBoton}" 
-                   HorizontalAlignment="Left" 
-                   Margin="20 50 0 30"
-                   MouseLeftButtonDown="Guardar_Click"/>
+                    Stretch="UniformToFill"/>
+        </StackPanel.Background>
 
-                <TextBlock Text="Cancelar" 
-                   Style="{StaticResource EstiloBoton}" 
-                   HorizontalAlignment="Left" 
-                   Margin="20 50 0 30" 
-                   MouseLeftButtonDown="Cerrar_Click"/>
+        <!-- StackPanel horizontal para botones Guardar, 
+        Cancelar y Limpiar -->
+        <StackPanel Orientation="Horizontal">
 
-                <TextBlock Text="Limpiar" 
-                   Style="{StaticResource EstiloBoton}" 
-                   HorizontalAlignment="Left" 
-                   Margin="20 50 0 30" 
-                   MouseLeftButtonDown="Limpiar_Click"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" 
-                        Margin="20 0 20 0">
-                <TextBlock Text="Equipo:"
-                           Style="{StaticResource EstiloTextoDerecha}"/>
-                <ComboBox x:Name="itemBox" 
-                          DisplayMemberPath="Nombre"
-                          Width="500"
-                          Margin="0 0 0 5"
-                          FontFamily="Microsoft Yi Baiti"
-                          FontSize="25"
-                          Background="#1da6ca"/>
-            </StackPanel>
-            
-            <local:PersonalTextBox x:Name="campoDorsal"
-                                   Etiqueta="Dorsal:"
-                                   Margin="20 0 450 0"
-                                   LargoMaximo="2"/>
+            <!-- Botón "Guardar" con estilo Hover -->
+            <TextBlock Text="Guardar" 
+                Style="{StaticResource Hover}" 
+                Width="100"
+                Margin="20 50 0 30"
+                MouseLeftButtonDown="Guardar_Click"/>
+
+            <!-- Botón "Cancelar" con estilo Hover -->
+            <TextBlock Text="Cancelar" 
+                Style="{StaticResource Hover}" 
+                Width="100" 
+                Margin="20 50 0 30" 
+                MouseLeftButtonDown="Cerrar_Click"/>
+
+            <!-- Botón "Limpiar" con estilo Hover -->
+            <TextBlock Text="Limpiar" 
+                Style="{StaticResource Hover}" 
+                Width="100"
+                Margin="20 50 0 30" 
+                MouseLeftButtonDown="Limpiar_Click"/>
         </StackPanel>
-    </Grid>
+
+        <!-- StackPanel horizontal para etiqueta de equipo 
+        y ComboBox -->
+        <StackPanel Orientation="Horizontal" 
+                    Margin="20 0 20 0">
+            
+            <!-- Etiqueta "Equipo:" con estilo específico 
+            (EstiloTextoDerecha) -->
+            <TextBlock Text="Equipo:"
+                        Style="{StaticResource EstiloTextoDerecha}"/>
+            
+            <!-- ComboBox para seleccionar un equipo -->
+            <ComboBox x:Name="itemBox" 
+                        DisplayMemberPath="Nombre"
+                        Width="500"
+                        Margin="0 0 0 5"
+                        FontFamily="Microsoft Yi Baiti"
+                        FontSize="25"
+                        Background="#1da6ca"/>
+        </StackPanel>
+
+        <!-- Custom control "PersonalTextBox" 
+        llamado "campoDorsal" para ingresar el dorsal -->
+        <local:PersonalTextBox x:Name="campoDorsal"
+                                Etiqueta="Dorsal:"
+                                Margin="20 0 450 0"
+                                LargoMaximo="2"/>
+    </StackPanel>
 </Window>

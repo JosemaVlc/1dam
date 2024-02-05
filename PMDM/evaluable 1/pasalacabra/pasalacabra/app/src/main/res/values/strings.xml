@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">PASALACABRA</string>
+    <string name="enlace">ENLAZAR</string>
     <string name="start">COMENZAR</string>
+    <string name="desvincular">Desvincular</string>
     <string name="btnA">A</string>
     <string name="btnB">B</string>
     <string name="btnC">C</string>
@@ -28,9 +30,10 @@
     <string name="btnX">X</string>
     <string name="btnY">Y</string>
     <string name="btnZ">Z</string>
+    <string name="btnCodigoNovios">Inserta Codigo de Boda!</string>
     <string name="btnCheck">CHECK</string>
-    <string name="btnCodigo">CODIGO SECRETO</string>
-    <string name="textPregunta">Contesta correctamente todas las letras y consigue el codigo secreto para abrir la caja fuerte.</string>
+    <string name="btnCodigo">VER MENSAJE</string>
+    <string name="textPregunta">Contesta correctamente todas las letras y consigue leer el mensaje.</string>
     <string name="respuesta">Responde aquí!</string>
     <string name="fondo">fondo!</string>
     <string name="textoMarcador">Marcador:</string>

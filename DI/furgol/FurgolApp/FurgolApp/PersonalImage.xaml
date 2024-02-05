@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="FurgolApp.PersonalImage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FurgolApp"
+             mc:Ignorable="d" 
+             d:DesignHeight="188" d:DesignWidth="180">
+    <UserControl.Resources>
+        <Style TargetType="Image">
+            <Setter Property="Stretch" Value="UniformToFill"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="10 20 20 0">
+        <Grid Width="188"
+                Height="188"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center">
+            
+            <!-- Imagen con predeterminada -->
+            <Image x:Name="ImagenFondo"
+                   Source="{Binding ImagenPredeterminada}"/>
+            
+            <!-- Imagen añadida por el usuario que tapa la
+            predeterminada y le da un filtro de desenfoque -->
+            <Image Source="{Binding Imagen}">
+                <Image.Effect>
+                    <BlurEffect Radius="10"/>
+                </Image.Effect>
+            </Image>
+
+            <!-- Imagen añadida por el usuario que tapa la
+            predeterminada y la de desenfocada, pero este vez 
+            con un Stretch Uniform en vez de UniformToFill-->
+            <Image Source="{Binding Imagen}"
+                   Stretch="Uniform"/>
+        </Grid> 
+    </Grid>
+</UserControl>

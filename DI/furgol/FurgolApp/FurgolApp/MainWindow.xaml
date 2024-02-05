@@ -12,46 +12,45 @@
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None"
     >
-    <Window.Resources>
-        <Style TargetType="TextBlock">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="FontSize" Value="30"/>
-            <Setter Property="FontFamily" Value="Freestyle Script"/>
-            <Setter Property="Width" Value="350"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="LightGray"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
-    <Grid>
-        <Grid.Background>
+    <!-- Contenedor principal -->
+    <StackPanel>
+        <!-- Fondo del StackPanel -->
+        <StackPanel.Background>
             <ImageBrush ImageSource="/img/background.png"                        
                         Stretch="UniformToFill"/>
-        </Grid.Background>
+        </StackPanel.Background>
+
+        <!-- Imagen del logo -->
+        <Image Source="/img/logo.png" 
+                Width="500" 
+                Height="500"/>
         
-        <StackPanel>
-            <Image Source="/img/logo.png" 
-                   Width="500" 
-                   Height="500"/>
-            
-            <TextBlock Text="Administrar Jugadores"  
-                       Margin="3" 
-                       MouseLeftButtonDown="Ventana_Jugadores_Click"/>
-            
-            <TextBlock Text="Administrar Equipos" 
-                       Margin="3" 
-                       MouseLeftButtonDown="Ventana_Equipos_Click"/>
-            
-            <TextBlock Text="Acerca de" 
-                       Margin="30" 
-                       MouseLeftButtonDown="Acerca_de_Click"/>
-            
-            <TextBlock Text="Salir" 
-                       Margin="3"   
-                       MouseLeftButtonDown="Salir_Click"/>
-        </StackPanel>
-    </Grid>
+        <!-- TextBlock para "Administrar Jugadores" con estilo Hover -->
+        <TextBlock Text="Administrar Jugadores"
+                    Style="{StaticResource Hover}"
+                    Width="350"
+                    Margin="3" 
+                    MouseLeftButtonDown="Ventana_Jugadores_Click"/>
+
+        <!-- TextBlock para "Administrar Equipos" con estilo Hover -->
+        <TextBlock Text="Administrar Equipos" 
+                    Style="{StaticResource Hover}"
+                    Width="350"
+                    Margin="3" 
+                    MouseLeftButtonDown="Ventana_Equipos_Click"/>
+
+        <!-- TextBlock para "Acerca de" con estilo Hover -->
+        <TextBlock Text="Acerca de" 
+                    Style="{StaticResource Hover}"
+                    Width="350"
+                    Margin="30" 
+                    MouseLeftButtonDown="Acerca_de_Click"/>
+
+        <!-- TextBlock para "Salir" con estilo Hover -->
+        <TextBlock Text="Salir" 
+                    Style="{StaticResource Hover}"
+                    Width="350"
+                    Margin="3"   
+                    MouseLeftButtonDown="Salir_Click"/>
+    </StackPanel>
 </Window>

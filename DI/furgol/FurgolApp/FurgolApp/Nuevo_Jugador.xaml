@@ -11,103 +11,100 @@
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None">
-    <Window.Resources>
-        <!-- estilo para los botones -->
-        <Style TargetType="TextBlock" x:Key="EstiloBoton">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="FontSize" Value="30"/>
-            <Setter Property="FontFamily" Value="Freestyle Script"/>
-            <Setter Property="Width" Value="100"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="LightGray"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
 
-    <Grid>
-        <Grid.Background>
+
+    <!-- Contenedor principal -->
+    <StackPanel>
+
+        <!-- Fondo del StackPanel -->
+        <StackPanel.Background>
             <ImageBrush ImageSource="/img/background.png"                        
-                        Stretch="UniformToFill"/>
-        </Grid.Background>
+                    Stretch="UniformToFill"/>
+        </StackPanel.Background>
 
-        <StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Guardar" 
-                           Style="{StaticResource EstiloBoton}" 
-                           HorizontalAlignment="Left" 
-                           Margin="20 50 0 30"
-                           MouseLeftButtonDown="Guardar_Click"/>
+        <!-- StackPanel para los botones de Guardar, Cancelar y Limpiar -->
+        <StackPanel Orientation="Horizontal">
 
-                <TextBlock Text="Cancelar" 
-                           Style="{StaticResource EstiloBoton}" 
-                           HorizontalAlignment="Left" 
-                           Margin="20 50 0 30" 
-                           MouseLeftButtonDown="Cerrar_Click"/>
-                
-                <TextBlock Text="Limpiar" 
-                           Style="{StaticResource EstiloBoton}" 
-                           HorizontalAlignment="Left" 
-                           Margin="20 50 0 30" 
-                           MouseLeftButtonDown="Limpiar_Click"/>
-                
+            <!-- Botón "Guardar" con estilo Hover -->
+            <TextBlock Text="Guardar" 
+                       Style="{StaticResource Hover}" 
+                       Width="100"
+                       Margin="20 50 0 30"
+                       MouseLeftButtonDown="Guardar_Click"/>
+
+            <!-- Botón "Cancelar" con estilo Hover -->
+            <TextBlock Text="Cancelar" 
+                       Style="{StaticResource Hover}" 
+                       Width="100"
+                       Margin="20 50 0 30" 
+                       MouseLeftButtonDown="Cerrar_Click"/>
+
+            <!-- Botón "Limpiar" con estilo Hover -->
+            <TextBlock Text="Limpiar" 
+                       Style="{StaticResource Hover}" 
+                       Width="100"
+                       Margin="20 50 0 30" 
+                       MouseLeftButtonDown="Limpiar_Click"/>
+        </StackPanel>
+
+        <!-- Grid para organizar elementos -->
+        <Grid>
+            <!-- Disposición de las columnas -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Disposición de las filas -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- StackPanel para los CustomControls -->
+            <StackPanel Grid.Column="0" 
+                        Margin="20 20 0 0">
+                <local:PersonalTextBox Etiqueta="Nombre:"
+                                        x:Name="campoNombre"/>
+                <local:PersonalTextBox Etiqueta="Apellidos:"
+                                        x:Name="campoApellidos"/>
+                <local:PersonalTextBox Etiqueta="Apodo:"
+                                        x:Name="campoApodo"/>
+                <local:PersonalTextBox Etiqueta="Edad:"
+                                        x:Name="campoEdad"
+                                        LargoMaximo="2"/>
+                <local:PersonalTextBox Etiqueta="Nacionalidad:"
+                                        x:Name="campoNacionalidad"/>
             </StackPanel>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="auto"/>
-                </Grid.ColumnDefinitions>
 
+            <!-- Grid para la imagen y los botones -->
+            <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="300"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
                 </Grid.RowDefinitions>
 
-                <StackPanel Grid.Column="0" 
-                            Margin="20 20 0 0">
-                    <local:PersonalTextBox Etiqueta="Nombre:"
-                                           x:Name="campoNombre"/>
-                    <local:PersonalTextBox Etiqueta="Apellidos:"
-                                           x:Name="campoApellidos"/>
-                    <local:PersonalTextBox Etiqueta="Apodo:"
-                                           x:Name="campoApodo"/>
-                    <local:PersonalTextBox Etiqueta="Edad:"
-                                           x:Name="campoEdad"
-                                           LargoMaximo="2"/>
-                    <local:PersonalTextBox Etiqueta="Nacionalidad:"
-                                           x:Name="campoNacionalidad"/>
-                </StackPanel>
+                <!-- Imagen con UserControl -->
+                <local:PersonalImage x:Name ="Fotografia"
+                                     ImagenPredeterminada="./img/jugador.png"
+                                     Grid.Row="0"/>
 
-                
-                <Grid Grid.Column="1"
-                            Width="180"     
-                            Margin="10 20 20 50">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="188"/>
-                        <RowDefinition Height="20"/>
-                        <RowDefinition Height="20"/>
-                    </Grid.RowDefinitions>
-                    
-                    <Image x:Name="Fotografia"                           
-                           Grid.Row="0"
-                           Width="180"
-                           Height="185"
-                           Stretch="UniformToFill"/>
-                    
-                    <Button x:Name="Insertar_Foto"
-                            Grid.Row="1"
-                            Content="Añadir Fotografia"
-                            Click="Seleccionar_Fotografia_Click"/>
-                    
-                    <Button x:Name="Limpiar_Foto"
-                            Grid.Row="2"
-                            Content="Limpiar Fotografia"
-                            Click="Limpiar_Fotografia_Click"/>
+                <!-- Botón para seleccionar una imagen -->                    
+                <Button x:Name="Insertar_Foto"
+                        Margin="10 0 20 0"
+                        Grid.Row="1"
+                        Content="Añadir Fotografia"
+                        Click="Seleccionar_Fotografia_Click"/>
 
-                </Grid>
+                <!-- Botón para quitar la imagen -->
+                <Button x:Name="Limpiar_Foto"
+                        Margin="10 0 20 0"
+                        Grid.Row="2"
+                        Content="Limpiar Fotografia"
+                        Click="Limpiar_Fotografia_Click"/>
+
             </Grid>
-        </StackPanel>
-    </Grid>
+        </Grid>
+    </StackPanel>
 </Window>

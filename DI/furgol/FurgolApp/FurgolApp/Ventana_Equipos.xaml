@@ -11,156 +11,103 @@
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None">
-    <Window.Resources>
-        <!-- estilo para los botones -->
-        <Style TargetType="TextBlock" x:Key="EstiloBoton">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="FontSize" Value="30"/>
-            <Setter Property="FontFamily" Value="Freestyle Script"/>
-            <Setter Property="Width" Value="100"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="LightGray"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
+    <!-- Contenedor principal -->
+    <StackPanel>
 
-        <!-- estilo para los botones cuadrados -->
-        <Style TargetType="Border" x:Key="EstiloBotonCuadrado">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="Width" Value="65"/>
-            <Setter Property="Height" Value="65"/>
-            <Setter Property="HorizontalAlignment" Value="Center"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Margin" Value="0 0 10 10"/>
-            <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="BorderThickness" Value="2"/>
-            <Setter Property="CornerRadius" Value="10"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="LightGray"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <!-- estilo para todos los bloques de texto que se alinean a la derecha -->
-        <Style TargetType="TextBlock" x:Key="EstiloTextoDerecha">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="FontSize" Value="22"/>
-            <Setter Property="FontFamily" Value="Microsoft Yi Baiti"/>
-            <Setter Property="TextAlignment" Value="Right"/>
-            <Setter Property="Margin" Value="0 0 0 5"/>
-        </Style>
-
-        <!-- estilo para todos los bloques de texto que se alinean a la izquierda -->
-        <Style TargetType="TextBlock" x:Key="EstiloTextoIzquierda">
-            <Setter Property="Background" Value="#FF49ACC7"/>
-            <Setter Property="FontSize" Value="22"/>
-            <Setter Property="FontFamily" Value="Microsoft Yi Baiti"/>
-            <Setter Property="TextAlignment" Value="Left"/>
-            <Setter Property="Padding" Value="10 0 0 0"/>
-            <Setter Property="Margin" Value="0 0 0 5"/>
-            <Setter Property="Margin" Value="0 0 0 5"/>
-        </Style>
-    </Window.Resources>
-
-    <Grid>
-        <Grid.Background>
+        <!-- Fondo del StackPanel -->
+        <StackPanel.Background>
             <ImageBrush ImageSource="/img/background.png"                        
                         Stretch="UniformToFill"/>
-        </Grid.Background>
+        </StackPanel.Background>
 
-        <StackPanel>
-            <TextBlock Text="Volver" 
-                       Style="{StaticResource EstiloBoton}" 
-                       HorizontalAlignment="Left" 
+        <!-- Botón "Volver" con estilo Hover -->
+        <TextBlock Text="Volver" 
+                       Style="{StaticResource Hover}"
+                       HorizontalAlignment="Left"
+                       Width="100"
                        Margin="20 50 0 30" 
                        MouseLeftButtonDown="Volver_Click"/>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="125"/>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="2*"/>
-                </Grid.ColumnDefinitions>
 
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="300"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="300"/>
-                </Grid.RowDefinitions>
+        <!-- Grid para organizar elementos -->
+        <Grid>            
+            <!-- Disposición de las columnas -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="125"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0" 
-                            Margin="20 20 0 0">
-                    <TextBlock Text="Nombre:"
-                               Style="{StaticResource EstiloTextoDerecha}"/>
-                    <TextBlock Text="Estadio:"
-                               Style="{StaticResource EstiloTextoDerecha}"/>
-                    <TextBlock Text="Fundado:"
-                               Style="{StaticResource EstiloTextoDerecha}"/>
-                </StackPanel>
+            <!-- Disposición de las filas -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="300"/>
+            </Grid.RowDefinitions>
 
-                <StackPanel Grid.Column="1" 
-                            Margin="0 20 0 20">
-                    <TextBlock Style="{StaticResource EstiloTextoIzquierda}"
-                               x:Name="campoNombre" 
-                               Text="{Binding ElementName=vistaEquipos, Path=SelectedItem.Nombre}"/>
-                    <TextBlock Style="{StaticResource EstiloTextoIzquierda}"
-                               x:Name="campoEstadio" 
-                               Text="{Binding ElementName=vistaEquipos, Path=SelectedItem.Estadio}"/>
-                    <TextBlock Style="{StaticResource EstiloTextoIzquierda}"
-                               x:Name="campoFundacion" 
-                               Text="{Binding ElementName=vistaEquipos, Path=SelectedItem.Fundacion}"/>
-                </StackPanel>
+            <!-- StackPanel para los TextBlock -->
+            <StackPanel Grid.Column="0" 
+                        Margin="20 20 0 0">
+                <TextBlock Tag="info"
+                           Text="Nombre:"
+                           Style="{StaticResource EstiloTextoDerecha}"/>
+                <TextBlock Tag="info"
+                           Text="Estadio:"
+                           Style="{StaticResource EstiloTextoDerecha}"/>
+                <TextBlock Tag="info"
+                           Text="Fundado:"
+                           Style="{StaticResource EstiloTextoDerecha}"/>
+            </StackPanel>
 
-                <Image Source=".\img\escudo.png"
-                       Grid.Column="2"
-                       Width="180"
-                       Height="188"
-                       Margin="10 20 20 50"
-                       Stretch="UniformToFill"
-                       VerticalAlignment="Top"/>
+            <!-- StackPanel para los TextBlock de la información -->
+            <StackPanel Grid.Column="1" 
+                        Margin="0 20 0 20">
+                <TextBlock Style="{StaticResource EstiloTextoIzquierda}"
+                            x:Name="campoNombre" 
+                            Text="{Binding ElementName=vistaEquipos, Path=SelectedItem.Nombre}"/>
+                <TextBlock Style="{StaticResource EstiloTextoIzquierda}"
+                            x:Name="campoEstadio" 
+                            Text="{Binding ElementName=vistaEquipos, Path=SelectedItem.Estadio}"/>
+                <TextBlock Style="{StaticResource EstiloTextoIzquierda}"
+                            x:Name="campoFundacion" 
+                            Text="{Binding ElementName=vistaEquipos, Path=SelectedItem.Fundacion}"/>
+            </StackPanel>
 
-                <Image Source="{Binding ElementName=vistaEquipos, Path=SelectedItem.Escudo, FallbackValue=.\img\escudo.png}"
-                       Grid.Column="2"
-                       Width="180"
-                       Height="188"
-                       Margin="10 20 20 50"
-                       Stretch="UniformToFill"
-                       VerticalAlignment="Top"/>
+            <!-- Imagen con UserControl -->
+            <local:PersonalImage ImagenPredeterminada="./img/escudo.png"
+                                 Imagen="{Binding ElementName=vistaEquipos, 
+                                                  Path=SelectedItem.Escudo}"
+                                 Grid.Column="2"/>
 
-                <StackPanel Orientation="Horizontal" 
-                            Grid.Row="1"
-                            Grid.ColumnSpan="3"
-                            Margin="20 0 0 0">
-                    <Border Style="{StaticResource EstiloBotonCuadrado}"
-                            MouseLeftButtonDown="Crear_Click">
-                        <Image Source="/img/icons/nuevo_club.png"/>
-                    </Border>
-                    <Border Style="{StaticResource EstiloBotonCuadrado}"
-                            MouseLeftButtonDown="Modificar_Click">
-                        <Image Source="/img/icons/modificar_club.png"/>
-                    </Border>
-                    <Border Style="{StaticResource EstiloBotonCuadrado}"
-                            MouseLeftButtonDown="Borrar_Click">
-                        <Image Source="/img/icons/borrar_club.png"/>
-                    </Border>
-                </StackPanel>
+            <!-- StackPanel que contiene los tres botones (Crear, editar y borrar) -->
+            <StackPanel Orientation="Horizontal" 
+                        Grid.Row="1"
+                        Grid.ColumnSpan="3"
+                        Margin="20 0 0 0">
+                
+                <!-- Boton Crear -->
+                <Border Style="{StaticResource EstiloBotonCuadrado}"
+                        MouseLeftButtonDown="Crear_Click">
+                    <Image Source="/img/icons/nuevo_club.png"/>
+                </Border>
+                
+                <!-- Boton Editar -->
+                <Border Style="{StaticResource EstiloBotonCuadradoBlockEquipos}"
+                        MouseLeftButtonDown="Modificar_Click">
+                    <Image Source="/img/icons/modificar_club.png"/>
+                </Border>
 
-                <ListBox x:Name="vistaEquipos"
-                         Grid.Row="2" 
-                         Grid.ColumnSpan="3"
-                         Margin="20 0 20 0"                           
-                         HorizontalAlignment="Center" 
-                         Height="280" 
-                         VerticalAlignment="Top" 
-                         Width="520"  
-                         DisplayMemberPath="Nombre" 
-                         FontFamily="Microsoft Yi Baiti"
-                         FontSize="20"/>
-            </Grid>
-
-        </StackPanel>
-
-    </Grid>
+                <!-- Boton Borrar -->
+                <Border Style="{StaticResource EstiloBotonCuadradoBlockEquipos}"
+                        MouseLeftButtonDown="Borrar_Click">
+                    <Image Source="/img/icons/borrar_club.png"/>
+                </Border>
+            </StackPanel>
+            
+            <!-- ListBox que contendrá los equipos existentes -->
+            <ListBox x:Name="vistaEquipos"
+                        Grid.Row="2" 
+                        Grid.ColumnSpan="3"
+                        DisplayMemberPath="Nombre"/>
+        </Grid>
+    </StackPanel>
 </Window>

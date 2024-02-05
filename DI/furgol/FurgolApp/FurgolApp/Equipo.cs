@@ -14,7 +14,7 @@ namespace FurgolApp
         private static bool inicializado = false;
         private static ObservableCollection<Equipo> listaEquipos = new ObservableCollection<Equipo>();
 
-        // Variables de clase
+        // Variables de instancia
         public string Nombre { get; set; }
         public string Estadio { get; set; }
         public int Fundacion { get; set; }
@@ -24,12 +24,14 @@ namespace FurgolApp
         CONSTRUCTORES
         -----------------------------------*/
 
+        // Constructor de la clase Equipo
         public Equipo(string nombre, string estadio, int fundacion, BitmapImage escudo){
             Nombre = nombre;
             Estadio = estadio;
             Fundacion = fundacion;
             Escudo = escudo;
 
+            // Almacena equipo en la ObservableCollection
             listaEquipos.Add(this);
         }
 
@@ -37,10 +39,13 @@ namespace FurgolApp
         GETTERS
         -----------------------------------*/
 
+        // Getter para saber si se ha poblado lista de equipos
         public static bool getEstado()
         {
             return inicializado;
         }
+
+        // Getter para obtener la lista de equipos
         public static ObservableCollection<Equipo> getEquipos()
         {
             return listaEquipos;
@@ -50,10 +55,13 @@ namespace FurgolApp
         SETTERS
         -----------------------------------*/
 
+        // Setter para establecer el estado de la lista de equipos(poblada o no).
         public static void setEstado(bool estado)
         {
             inicializado = estado;
         }
+
+        // Setter para borrar un equipo de la lista
         public static void setBorrar(Equipo equipo_a_borrar)
         {
             listaEquipos.Remove(equipo_a_borrar);

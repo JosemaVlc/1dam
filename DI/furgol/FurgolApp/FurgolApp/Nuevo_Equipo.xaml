@@ -11,98 +11,95 @@
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None">
-    <Window.Resources>
-        <!-- estilo para los botones -->
-        <Style TargetType="TextBlock" x:Key="EstiloBoton">
-            <Setter Property="Background" Value="#1da6ca"/>
-            <Setter Property="FontSize" Value="30"/>
-            <Setter Property="FontFamily" Value="Freestyle Script"/>
-            <Setter Property="Width" Value="100"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="LightGray"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
 
-    <Grid>
-        <Grid.Background>
+    <!-- Contenedor principal -->
+    <StackPanel>
+        
+        <!-- Fondo de la ventana -->
+        <StackPanel.Background>
             <ImageBrush ImageSource="/img/background.png"/>
-        </Grid.Background>
+        </StackPanel.Background>
 
-        <StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Guardar" 
-                           Style="{StaticResource EstiloBoton}" 
-                           HorizontalAlignment="Left" 
-                           Margin="20 50 0 30"
-                           MouseLeftButtonDown="Guardar_Click"/>
+        <!-- StackPanel para los botones de Guardar, Cancelar y Limpiar -->
+        <StackPanel Orientation="Horizontal">
 
-                <TextBlock Text="Cancelar" 
-                           Style="{StaticResource EstiloBoton}" 
-                           HorizontalAlignment="Left" 
-                           Margin="20 50 0 30" 
-                           MouseLeftButtonDown="Cerrar_Click"/>
+            <!-- Botón "Guardar" con estilo Hover -->
+            <TextBlock Text="Guardar" 
+                        Style="{StaticResource Hover}" 
+                        Width="100"
+                        Margin="20 50 0 30"
+                        MouseLeftButtonDown="Guardar_Click"/>
 
-                <TextBlock Text="Limpiar" 
-                           Style="{StaticResource EstiloBoton}" 
-                           HorizontalAlignment="Left" 
-                           Margin="20 50 0 30" 
-                           MouseLeftButtonDown="Limpiar_Click"/>
+            <!-- Botón "Cancelar" con estilo Hover -->
+            <TextBlock Text="Cancelar" 
+                        Style="{StaticResource Hover}" 
+                        Width="100"
+                        Margin="20 50 0 30" 
+                        MouseLeftButtonDown="Cerrar_Click"/>
 
+            <!-- Botón "Limpiar" con estilo Hover -->
+            <TextBlock Text="Limpiar" 
+                        Style="{StaticResource Hover}" 
+                        Width="100"
+                        Margin="20 50 0 30" 
+                        MouseLeftButtonDown="Limpiar_Click"/>
+        </StackPanel>
+        
+        <!-- Grid para organizar elementos -->
+        <Grid>
+            <!-- Disposición de las columnas -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Disposición de las filas -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- StackPanel para los CustomControls -->
+            <StackPanel Grid.Column="0" 
+                        Margin="20 20 0 0">
+                
+                <local:PersonalTextBox Etiqueta="Nombre:"
+                                        x:Name="campoNombre"/>               
+                <local:PersonalTextBox Etiqueta="Estadio:"
+                                        x:Name="campoEstadio"/>
+                <local:PersonalTextBox Etiqueta="Fundacion:"
+                                        x:Name="campoFundacion"
+                                        LargoMaximo="4"/>
             </StackPanel>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="auto"/>
-                </Grid.ColumnDefinitions>
 
+            <!-- Grid para la imagen del escudo y los botones -->
+            <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="300"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
                 </Grid.RowDefinitions>
 
-                <StackPanel Grid.Column="0" 
-                            Margin="20 20 0 0">
-                    <local:PersonalTextBox Etiqueta="Nombre:"
-                                           x:Name="campoNombre"/>
-                    <local:PersonalTextBox Etiqueta="Estadio:"
-                                           x:Name="campoEstadio"/>
-                    <local:PersonalTextBox Etiqueta="Fundacion:"
-                                           x:Name="campoFundacion"
-                                           LargoMaximo="4"/>
-                </StackPanel>
+                <!-- Imagen con UserControl -->
+                <local:PersonalImage x:Name ="Escudo"
+                                     ImagenPredeterminada="./img/escudo.png"
+                                     Grid.Row="0"/>
 
+                <!-- Botón para seleccionar un escudo -->
+                <Button x:Name="Insertar_Escudo"
+                        Grid.Row="1"
+                        Content="Añadir Escudo"
+                        Click="Seleccionar_Escudo_Click"
+                        Margin="10 0 20 0"/>
 
-                <Grid Grid.Column="1"
-                            Width="180"     
-                            Margin="10 20 20 50">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="188"/>
-                        <RowDefinition Height="20"/>
-                        <RowDefinition Height="20"/>
-                    </Grid.RowDefinitions>
+                <!-- Botón para quitar el escudo -->
+                <Button x:Name="Limpiar_Escudo"
+                        Grid.Row="2"
+                        Content="Quitar Escudo"
+                        Click="Limpiar_Escudo_Click"
+                        Margin="10 0 20 0"/>
 
-                    <Image x:Name="Escudo"                           
-                           Grid.Row="0"
-                           Width="180"
-                           Height="185"
-                           Stretch="UniformToFill"/>
-
-                    <Button x:Name="Insertar_Escudo"
-                            Grid.Row="1"
-                            Content="Añadir Escudo"
-                            Click="Seleccionar_Escudo_Click"/>
-
-                    <Button x:Name="Limpiar_Escudo"
-                            Grid.Row="2"
-                            Content="Quitar Escudo"
-                            Click="Limpiar_Escudo_Click"/>
-
-                </Grid>
             </Grid>
-        </StackPanel>
-    </Grid>
+        </Grid>
+    </StackPanel>
 </Window>
