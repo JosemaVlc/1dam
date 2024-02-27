@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    font-family: 16px;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.titulo {
+    width: 100%;
+    background-color: #535353;
+    border-top-right-radius: 15px;
+}
+
+.titulo h1{
+    color: white;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 30px;
+    padding: 25px;
+}
+
+form,
+section {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+form input{
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.np{
+    width: 35%;
+}
+
+.dir {
+    width: 61%;
+}
+
+form button{
+    padding: 10px 60px;
+    background-color: #535353;
+    color: white;
+    border-radius: 10px;
+}
+
+section h2{
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section span{
+    color: red;
+    text-decoration: underline;
+
+}
+
+section p{
+    padding: 20px;
+}
+
+footer{
+    border-top: 2px solid black;
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer p{
+    margin: 10px 0;
+}
