@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YqrlIH79uBiTycJc/+gmMJB6636qi138N+lq7PaT8OChvc8LS4S2rOVwxOF2+PXa+d0oLfggmCS4+1pHz/e8lg==",
+  "dgSpecHash": "6eTwDRuj1q7LFOQHgqgOGm/4VD/+fi3sj2XYKSb5mWO1Bd7wNklb6F2S3l0ZIGw0P0W+VUBbEU1M0orR1vgDaw==",
   "success": true,
   "projectFilePath": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\ControlesCodigoC\\ControlesCodigoC.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

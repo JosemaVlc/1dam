@@ -12,10 +12,10 @@ def cliente(socket_atiende, addr_cliente):
     
     with socket_atiende:        
         print(f"Conexión exitosa con el cliente. {addr_cliente}")        
-        
-        #Recive la clave publica del usuario
-        received__key = socket_atiende.recv(2048)
-        recipient_key = RSA.import_key(received__key)
+         
+        #leemos la clave publica del cliente
+        fichero_path = Path(__file__).parent / "publica_usuario_A.pem"
+        recipient_key = RSA.import_key(open(fichero_path).read()) 
         
         control_menu(addr_cliente, socket_atiende, recipient_key)                     
         print("Fin de conversación con: ",addr_cliente)        
@@ -222,7 +222,7 @@ if __name__ == '__main__':
     
     #leemos la clave privada del servidor
     fichero_path = Path(__file__).parent / "privada_servidor.pem"
-    private_key = RSA.import_key(open(fichero_path).read()) 
+    private_key = RSA.import_key(open(fichero_path).read())
     
     # IP y el puerto del servidor
     HOST = '127.0.0.1'  # La IP del servidor

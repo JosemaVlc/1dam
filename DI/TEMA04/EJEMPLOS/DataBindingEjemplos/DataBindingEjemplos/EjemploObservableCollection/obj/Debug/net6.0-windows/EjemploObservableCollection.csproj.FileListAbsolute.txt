@@ -1,0 +1,61 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\refint\EjemploObservableCollection.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\ref\EjemploObservableCollection.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.exe
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.deps.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.runtimeconfig.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.g.resources
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.AssemblyInfoInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.AssemblyInfo.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.csproj.CoreCompileInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\refint\EjemploObservableCollection.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.genruntimeconfig.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\ref\EjemploObservableCollection.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.exe
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.deps.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\bin\Debug\net6.0-windows\EjemploObservableCollection.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\refint\EjemploObservableCollection.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\EjemploObservableCollection.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\EjemploObservableCollection\obj\Debug\net6.0-windows\ref\EjemploObservableCollection.dll

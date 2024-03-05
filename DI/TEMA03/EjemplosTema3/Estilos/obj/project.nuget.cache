@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "trgVnVIZzX2zMYFmbBi2jX6Bx4/iIejXfryG/vQ4cX6l1YcRt/2m9qyigj+jHJW8aOz48b9HGnCXzPSeLJ2+TA==",
+  "dgSpecHash": "O5q427hRdmibGVzeeVZZBESMH4ISvYFMJVLIMrRt5Ac914h5+uVHfAOi3Qik7TGp7I+F5NUTsppke3lbPdRuSA==",
   "success": true,
   "projectFilePath": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\Estilos\\Estilos.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

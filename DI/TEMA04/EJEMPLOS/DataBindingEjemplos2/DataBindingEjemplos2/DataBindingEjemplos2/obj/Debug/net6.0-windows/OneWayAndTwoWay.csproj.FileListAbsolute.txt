@@ -1,0 +1,41 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\refint\OneWayAndTwoWay.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\ref\OneWayAndTwoWay.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.exe
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.deps.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\OneWayAndTwoWay.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\refint\OneWayAndTwoWay.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\OneWayAndTwoWay.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\ref\OneWayAndTwoWay.dll

@@ -1,0 +1,41 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\refint\DataGridSort.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\ref\DataGridSort.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.exe
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.deps.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\bin\Debug\net6.0-windows\DataGridSort.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\refint\DataGridSort.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\DataGridSort.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\DataGridSort\obj\Debug\net6.0-windows\ref\DataGridSort.dll

@@ -1,0 +1,15 @@
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\bin\Debug\elbindeotwoways.exe.config
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\bin\Debug\elbindeotwoways.exe
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\bin\Debug\elbindeotwoways.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways.csproj.AssemblyReference.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways.Properties.Resources.resources
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways.csproj.GenerateResource.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways.exe
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeotwoways\obj\Debug\elbindeotwoways.pdb

@@ -1,0 +1,15 @@
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\bin\Debug\elbindeo.exe.config
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\bin\Debug\elbindeo.exe
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\bin\Debug\elbindeo.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeooneway.csproj.AssemblyReference.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeo_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeo_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeo.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeo.Properties.Resources.resources
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeooneway.csproj.GenerateResource.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeooneway.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeo.exe
+E:\ASIGNATURAS\DI\TEMA04\EJERCICIOS\Binding\elbindeo\elbindeo\obj\Debug\elbindeo.pdb

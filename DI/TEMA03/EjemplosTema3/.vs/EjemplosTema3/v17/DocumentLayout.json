@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51B520D5-1804-4B62-BFFE-567609680086}|InterfazModerna\\InterfazModerna.csproj|e:\\asignaturas\\di\\tema03\\ejemplostema3\\interfazmoderna\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{51B520D5-1804-4B62-BFFE-567609680086}|InterfazModerna\\InterfazModerna.csproj|solutionrelative:interfazmoderna\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}|EventosBoton\\EventosBoton.csproj|e:\\asignaturas\\di\\tema03\\ejemplostema3\\eventosboton\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}|EventosBoton\\EventosBoton.csproj|solutionrelative:eventosboton\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}|EventosBoton\\EventosBoton.csproj|e:\\asignaturas\\di\\tema03\\ejemplostema3\\eventosboton\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCB38D2-EDDB-4C6D-A9B9-04D0EDADF7CE}|EventosBoton\\EventosBoton.csproj|solutionrelative:eventosboton\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}|Estilos\\Estilos.csproj|e:\\asignaturas\\di\\tema03\\ejemplostema3\\estilos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}|Estilos\\Estilos.csproj|solutionrelative:estilos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE78639E-6689-4209-B584-B3273A767359}|ControlesCodigoC\\ControlesCodigoC.csproj|e:\\asignaturas\\di\\tema03\\ejemplostema3\\controlescodigoc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE78639E-6689-4209-B584-B3273A767359}|ControlesCodigoC\\ControlesCodigoC.csproj|solutionrelative:controlescodigoc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE78639E-6689-4209-B584-B3273A767359}|ControlesCodigoC\\ControlesCodigoC.csproj|e:\\asignaturas\\di\\tema03\\ejemplostema3\\controlescodigoc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE78639E-6689-4209-B584-B3273A767359}|ControlesCodigoC\\ControlesCodigoC.csproj|solutionrelative:controlescodigoc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}|Estilos\\Estilos.csproj|e:\\asignaturas\\di\\tema03\\ejemplostema3\\estilos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D719BCE-8CCC-4467-BFA7-2504FEB24FF1}|Estilos\\Estilos.csproj|solutionrelative:estilos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\InterfazModerna\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "InterfazModerna\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\InterfazModerna\\MainWindow.xaml",
+              "RelativeToolTip": "InterfazModerna\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-22T09:24:16.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\ControlesCodigoC\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ControlesCodigoC\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\ControlesCodigoC\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ControlesCodigoC\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-22T09:14:12.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\EventosBoton\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EventosBoton\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\EventosBoton\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EventosBoton\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwE0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-22T08:14:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\EventosBoton\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EventosBoton\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\EventosBoton\\MainWindow.xaml",
+              "RelativeToolTip": "EventosBoton\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-22T08:13:07.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\ControlesCodigoC\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ControlesCodigoC\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\ControlesCodigoC\\MainWindow.xaml",
+              "RelativeToolTip": "ControlesCodigoC\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-22T09:14:05.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\Estilos\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Estilos\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\Estilos\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Estilos\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-22T09:06:38.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\Estilos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Estilos\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\Estilos\\MainWindow.xaml",
+              "RelativeToolTip": "Estilos\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-22T09:06:35.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

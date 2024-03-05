@@ -1,0 +1,20 @@
+﻿<Window x:Class="JoseManuelMorenoBolivar_segunda_eva.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoseManuelMorenoBolivar_segunda_eva"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500">
+    <Window.Resources>
+        <Style TargetType="local:UserControl1">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Text="Cambio de Moneda" FontSize="30" HorizontalAlignment="Center" Margin="50"/>
+        <local:UserControl1 LabelTextEntrada="EUR" LabelTextSalida="GBP" LabelTextTasa="0.85"/>
+        <local:UserControl1 LabelTextEntrada="EUR" LabelTextSalida="USD" LabelTextTasa="1.13"/>
+        <local:UserControl1 LabelTextEntrada="EUR" LabelTextSalida="TRY" LabelTextTasa="9.53"/>
+    </StackPanel>
+</Window>

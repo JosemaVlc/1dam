@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\personaltextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\personaltextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\asignacion_club.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\asignacion_club.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\asignacion_club.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\asignacion_club.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\nuevo_jugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\nuevo_jugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\nuevo_equipo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\nuevo_equipo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\nuevo_equipo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\nuevo_equipo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\nuevo_jugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\nuevo_jugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\ventana_equipos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\ventana_equipos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\asignacion_club.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\asignacion_club.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\personaltextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\personaltextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\ventana_jugadores.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +33,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\ventana_jugadores.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\ventana_jugadores.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\ventana_equipos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\ventana_equipos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\nuevo_equipo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\nuevo_equipo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|e:\\asignaturas\\di\\furgol\\furgolapp\\furgolapp\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8227251B-64E7-45FD-BBCD-4034870A61A4}|FurgolApp\\FurgolApp.csproj|solutionrelative:furgolapp\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,20 +69,50 @@
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FurgolApp\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\MainWindow.xaml",
+              "RelativeToolTip": "FurgolApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-17T12:16:54.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FurgolApp\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FurgolApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T09:38:16.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\App.xaml",
+              "RelativeDocumentMoniker": "FurgolApp\\App.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\App.xaml",
+              "RelativeToolTip": "FurgolApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-17T12:15:59.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PersonalTextBox.xaml",
               "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\PersonalTextBox.xaml",
               "RelativeDocumentMoniker": "FurgolApp\\PersonalTextBox.xaml",
               "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\PersonalTextBox.xaml",
               "RelativeToolTip": "FurgolApp\\PersonalTextBox.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-05T08:57:17.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-05T08:57:17.459Z"
             },
             {
               "$type": "Document",
@@ -94,18 +128,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Asignacion_Club.xaml.cs",
-              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Asignacion_Club.xaml.cs",
-              "RelativeDocumentMoniker": "FurgolApp\\Asignacion_Club.xaml.cs",
-              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Asignacion_Club.xaml.cs",
-              "RelativeToolTip": "FurgolApp\\Asignacion_Club.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowDEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-04T10:06:50.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Nuevo_Jugador.xaml",
               "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Nuevo_Jugador.xaml",
               "RelativeDocumentMoniker": "FurgolApp\\Nuevo_Jugador.xaml",
@@ -116,26 +138,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Nuevo_Equipo.xaml.cs",
               "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Nuevo_Equipo.xaml.cs",
               "RelativeDocumentMoniker": "FurgolApp\\Nuevo_Equipo.xaml.cs",
               "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Nuevo_Equipo.xaml.cs",
               "RelativeToolTip": "FurgolApp\\Nuevo_Equipo.xaml.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAiwIIAAABvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-04T10:06:26.763Z"
+              "WhenOpened": "2024-02-04T10:06:26.763Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Nuevo_Equipo.xaml",
-              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Nuevo_Equipo.xaml",
-              "RelativeDocumentMoniker": "FurgolApp\\Nuevo_Equipo.xaml",
-              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Nuevo_Equipo.xaml",
-              "RelativeToolTip": "FurgolApp\\Nuevo_Equipo.xaml",
+              "DocumentIndex": 7,
+              "Title": "Ventana_Jugadores.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml",
+              "RelativeDocumentMoniker": "FurgolApp\\Ventana_Jugadores.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml",
+              "RelativeToolTip": "FurgolApp\\Ventana_Jugadores.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-04T10:06:17.091Z"
+              "WhenOpened": "2024-02-04T09:26:57.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ventana_Jugadores.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml.cs",
+              "RelativeDocumentMoniker": "FurgolApp\\Ventana_Jugadores.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml.cs",
+              "RelativeToolTip": "FurgolApp\\Ventana_Jugadores.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwFUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T09:27:00.555Z"
             },
             {
               "$type": "Document",
@@ -150,44 +185,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "FurgolApp\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "FurgolApp\\MainWindow.xaml.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwCkAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-04T09:38:16.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Jugador.cs",
-              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Jugador.cs",
-              "RelativeDocumentMoniker": "FurgolApp\\Jugador.cs",
-              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Jugador.cs",
-              "RelativeToolTip": "FurgolApp\\Jugador.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA5wB8AAAB3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-04T09:36:52.879Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Ventana_Jugadores.xaml.cs",
-              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml.cs",
-              "RelativeDocumentMoniker": "FurgolApp\\Ventana_Jugadores.xaml.cs",
-              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml.cs",
-              "RelativeToolTip": "FurgolApp\\Ventana_Jugadores.xaml.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAcwBsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-04T09:27:00.555Z"
+              "Title": "Nuevo_Equipo.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Nuevo_Equipo.xaml",
+              "RelativeDocumentMoniker": "FurgolApp\\Nuevo_Equipo.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Nuevo_Equipo.xaml",
+              "RelativeToolTip": "FurgolApp\\Nuevo_Equipo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-04T10:06:17.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Equipo.cs",
               "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Equipo.cs",
               "RelativeDocumentMoniker": "FurgolApp\\Equipo.cs",
@@ -199,14 +208,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ventana_Jugadores.xaml",
-              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml",
-              "RelativeDocumentMoniker": "FurgolApp\\Ventana_Jugadores.xaml",
-              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Ventana_Jugadores.xaml",
-              "RelativeToolTip": "FurgolApp\\Ventana_Jugadores.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-04T09:26:57.934Z"
+              "DocumentIndex": 12,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Jugador.cs",
+              "RelativeDocumentMoniker": "FurgolApp\\Jugador.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\furgol\\FurgolApp\\FurgolApp\\Jugador.cs",
+              "RelativeToolTip": "FurgolApp\\Jugador.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wB8AAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T09:36:52.879Z"
             }
           ]
         }

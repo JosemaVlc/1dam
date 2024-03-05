@@ -150,13 +150,8 @@ if __name__ == '__main__':
     fichero_path = Path(__file__).parent / "privada_usuario_A.pem"
     private_key = RSA.import_key(open(fichero_path).read()) 
     
-    #leemos la clave publica del usuario_A
-    fichero_path = Path(__file__).parent / "privada_usuario_A.pem"
-    public_key = RSA.import_key(open(fichero_path, 'rb').read()) 
-    
     conexion = conexion_cliente() # Conecta al cliente con el servidor.
-    conexion.sendall(public_key.export_key()) # Envia clave publica del usuario al servidor.
-    
+        
     menu = True # Variable de control
     
     # Mientras menu sea True seguirá el bucle.

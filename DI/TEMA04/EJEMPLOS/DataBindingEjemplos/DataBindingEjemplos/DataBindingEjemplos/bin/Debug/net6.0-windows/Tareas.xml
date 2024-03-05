@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTarea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tarea>
+    <Titulo>cortar cesped</Titulo>
+    <Descripcion>cortar</Descripcion>
+  </Tarea>
+  <Tarea>
+    <Titulo>regar</Titulo>
+    <Descripcion>regar plantas</Descripcion>
+  </Tarea>
+</ArrayOfTarea>

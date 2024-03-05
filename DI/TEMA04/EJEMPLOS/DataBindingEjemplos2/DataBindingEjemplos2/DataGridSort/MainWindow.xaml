@@ -1,0 +1,54 @@
+﻿<Window x:Class="DataGridSort.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridSort"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="h_ola">
+                <MenuItem Header="pepe" IsCheckable="True" IsChecked="True"/>
+                <MenuItem Header="Gu_ardar" InputGestureText="Ctrl + g" />
+                <Separator/>
+                <MenuItem Header="Supu"/>
+            </MenuItem>
+            <MenuItem Header="caracola"/>
+            <MenuItem Header="patata"/>
+            <MenuItem Header="caca"/>
+        </Menu>
+        <TextBlock Grid.Row="0"
+           Text="Pulsa con botón secundario para abrir menú contextual">
+            <TextBlock.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Abrir"
+                      Icon="&#x1F4C2;"
+                      InputGestureText="Ctrl + O, Ctrl + A"/>
+                    <MenuItem Header="Guardar"
+                      Icon="&#x1F4BE;"
+                      InputGestureText="Ctrl + S, Ctrl + G"/>
+                    <Separator/>
+                    <MenuItem Header="Seleccionar todo"
+                      IsChecked="True"
+                      IsCheckable="True"/>
+                    <Separator/>
+                </ContextMenu>
+            </TextBlock.ContextMenu>
+        </TextBlock>
+        <DataGrid x:Name="dataGrid"
+              AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="EMP ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="Department" Binding="{Binding Department}" SortDirection="Descending"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <CheckBox x:Name="sortByDepartment"
+              Content="Sort by Department" 
+              HorizontalAlignment="Right"
+              Margin="10"
+              Click="OnSortByDepartment"/>
+    </StackPanel>
+</Window>

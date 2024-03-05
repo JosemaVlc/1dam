@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonCustomControl", "ButtonCustomControl\ButtonCustomControl.csproj", "{634CC13A-FC4E-4B1B-A395-0CC93752F624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{634CC13A-FC4E-4B1B-A395-0CC93752F624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634CC13A-FC4E-4B1B-A395-0CC93752F624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634CC13A-FC4E-4B1B-A395-0CC93752F624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634CC13A-FC4E-4B1B-A395-0CC93752F624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5227EDBC-1134-425C-B4BF-4AFE63650CDE}
+	EndGlobalSection
+EndGlobal

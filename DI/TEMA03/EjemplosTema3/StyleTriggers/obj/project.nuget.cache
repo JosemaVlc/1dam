@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gMZ6l/juZ+wtaD4nlUiWG3Xerb3ovgCmcPie666+DAQ9ZlDYHiK+2JDnB/uKIM3l6p2NnYc/lNKtzeiE2qhLFw==",
+  "dgSpecHash": "/ZyPyCl2x92mqHAcjsLTcroiL7/CaogkYe3fLbAxZCGGvv/JdhQChV74gUV0Z3pET4M5dMriKpABs/dqQCHTxw==",
   "success": true,
   "projectFilePath": "E:\\ASIGNATURAS\\DI\\TEMA03\\EjemplosTema3\\StyleTriggers\\StyleTriggers.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\jmore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,24 @@
+﻿<Window x:Class="INotifyPropertyChange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INotifyPropertyChange"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" 
+                   Margin="0,81,0,0" 
+                   TextWrapping="Wrap" 
+                   Text="{Binding CambiaTexto}" 
+                   VerticalAlignment="Top" 
+                   Height="31" Width="341"/>
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="230,142,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="{Binding CambiaTexto, UpdateSourceTrigger=PropertyChanged}" 
+                 VerticalAlignment="Top" 
+                 Width="285" Height="29"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+E:\ASIGNATURAS\DI\TEMA05\EJERCICIOS\otro\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

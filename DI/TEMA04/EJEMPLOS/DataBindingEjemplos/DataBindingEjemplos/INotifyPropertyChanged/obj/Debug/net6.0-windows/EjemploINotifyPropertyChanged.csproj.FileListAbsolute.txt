@@ -1,0 +1,4 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\INotifyPropertyChanged\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\INotifyPropertyChanged\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\INotifyPropertyChanged\obj\Debug\net6.0-windows\EjemploINotifyPropertyChanged_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\INotifyPropertyChanged\obj\Debug\net6.0-windows\EjemploINotifyPropertyChanged_MarkupCompile.lref

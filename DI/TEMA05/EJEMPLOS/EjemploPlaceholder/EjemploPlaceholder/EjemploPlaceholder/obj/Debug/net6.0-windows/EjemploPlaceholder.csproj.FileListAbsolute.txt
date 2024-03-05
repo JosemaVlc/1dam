@@ -1,0 +1,56 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\ClearableTextBox.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\ClearableTextBox.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\refint\EjemploPlaceholder.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\ref\EjemploPlaceholder.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\ClearableTextBox.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\refint\EjemploPlaceholder.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\UD05.ControlesPersonalizados\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.pdb
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.exe
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.deps.json
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.dll
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\bin\Debug\net6.0-windows\EjemploPlaceholder.pdb
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\ClearableTextBox.g.cs
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\ClearableTextBox.baml
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.g.resources
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.dll
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\refint\EjemploPlaceholder.dll
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.pdb
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\EjemploPlaceholder.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA05\EJEMPLOS\EjemploPlaceholder\EjemploPlaceholder\EjemploPlaceholder\obj\Debug\net6.0-windows\ref\EjemploPlaceholder.dll

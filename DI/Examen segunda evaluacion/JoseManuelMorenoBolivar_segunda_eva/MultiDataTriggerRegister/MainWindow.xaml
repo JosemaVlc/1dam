@@ -1,0 +1,31 @@
+﻿<Window x:Class="MultiDataTriggerRegister.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiDataTriggerRegister"
+        mc:Ignorable="d"
+        Title="Multi Data Trigger" Height="140" Width="400">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Content" Value="Register"/>
+            <Setter Property="IsEnabled" Value="False"/>
+            <Style.Triggers>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding ElementName=chkLicense, Path=IsChecked}" Value="True"/>
+                        <Condition Binding="{Binding ElementName=chkTerm, Path=IsChecked}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter Property="IsEnabled"  Value="True"/>
+                </MultiDataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <StackPanel HorizontalAlignment="Center" Margin="20">
+            <CheckBox Name="chkLicense" Content="Yes, I accept license agreement" HorizontalAlignment="Left"/>
+            <CheckBox Name="chkTerm" Content="Yes, I accept Terms and Conditions" HorizontalAlignment="Left"/>
+        </StackPanel>
+        <Button Width="70" Height="20"/>
+    </StackPanel>
+</Window>

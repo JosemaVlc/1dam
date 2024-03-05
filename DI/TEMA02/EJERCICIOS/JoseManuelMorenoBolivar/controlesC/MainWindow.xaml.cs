@@ -32,7 +32,7 @@ namespace controlesC
                     boton.Content = i;
                     boton.Style = (Style)FindResource("botonUniformGrid");
                     boton.MouseRightButtonDown += cambioColor;
-                    contenedorBotones.Children.Add(boton);
+                    contenedorBotones.Children.Add(boton);                    
                 }
             }
         }

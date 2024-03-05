@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="EjemploPlaceholder.ClearableTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EjemploPlaceholder"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="250">
+    <Grid Background="White">
+        <TextBox x:Name="txtInput"
+             FontSize="16" FontWeight="Light" Background="Transparent"
+             VerticalContentAlignment="Center" TextChanged="txtInput_TextChanged"/>
+        <TextBlock x:Name="tbPlaceholder"
+               FontSize="16" FontWeight="Light" Foreground="LightGray"
+               Text="{Binding Placeholder}"
+               VerticalAlignment="Center" Margin="5,0,0,0"
+                   Panel.ZIndex="-1"/>
+        <Button x:Name="btnClear"  
+                Content="X" Width="30" HorizontalAlignment="Right"
+                Background="Transparent" Foreground="LightGray" BorderThickness="0"
+                Click="btnClear_Click"/>
+    </Grid>
+</UserControl>

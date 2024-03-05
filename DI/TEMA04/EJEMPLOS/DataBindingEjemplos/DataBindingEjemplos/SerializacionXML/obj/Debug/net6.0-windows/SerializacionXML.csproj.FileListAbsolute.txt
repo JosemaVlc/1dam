@@ -1,0 +1,41 @@
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.exe
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.deps.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.runtimeconfig.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.g.resources
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.AssemblyInfoInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.AssemblyInfo.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.csproj.CoreCompileInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\refint\SerializacionXML.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.genruntimeconfig.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\ref\SerializacionXML.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.exe
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.deps.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\bin\Debug\net6.0-windows\SerializacionXML.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\refint\SerializacionXML.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\SerializacionXML.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos\DataBindingEjemplos\SerializacionXML\obj\Debug\net6.0-windows\ref\SerializacionXML.dll

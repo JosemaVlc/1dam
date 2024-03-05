@@ -1,0 +1,40 @@
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.exe
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.deps.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.runtimeconfig.json
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2_MarkupCompile.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2_MarkupCompile.lref
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.g.resources
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.AssemblyInfoInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.AssemblyInfo.cs
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.csproj.CoreCompileInputs.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\refint\DataBindingEjemplos2.dll
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.pdb
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.genruntimeconfig.cache
+C:\Users\cabina\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\ref\DataBindingEjemplos2.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\bin\Debug\net6.0-windows\DataBindingEjemplos2.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\refint\DataBindingEjemplos2.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\DataBindingEjemplos2.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\DataBindingEjemplos2\obj\Debug\net6.0-windows\ref\DataBindingEjemplos2.dll

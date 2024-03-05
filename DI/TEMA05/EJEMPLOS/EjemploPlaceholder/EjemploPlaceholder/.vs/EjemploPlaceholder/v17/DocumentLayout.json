@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|e:\\asignaturas\\di\\tema05\\ejemplos\\ejemploplaceholder\\ejemploplaceholder\\ejemploplaceholder\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|solutionrelative:ejemploplaceholder\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|e:\\asignaturas\\di\\tema05\\ejemplos\\ejemploplaceholder\\ejemploplaceholder\\ejemploplaceholder\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|solutionrelative:ejemploplaceholder\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|e:\\asignaturas\\di\\tema05\\ejemplos\\ejemploplaceholder\\ejemploplaceholder\\ejemploplaceholder\\clearabletextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|solutionrelative:ejemploplaceholder\\clearabletextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|e:\\asignaturas\\di\\tema05\\ejemplos\\ejemploplaceholder\\ejemploplaceholder\\ejemploplaceholder\\clearabletextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{45D551AF-3834-42AC-B329-47E691279B58}|EjemploPlaceholder\\EjemploPlaceholder.csproj|solutionrelative:ejemploplaceholder\\clearabletextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EjemploPlaceholder\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EjemploPlaceholder\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:54:36.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClearableTextBox.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\ClearableTextBox.xaml.cs",
+              "RelativeDocumentMoniker": "EjemploPlaceholder\\ClearableTextBox.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\ClearableTextBox.xaml.cs",
+              "RelativeToolTip": "EjemploPlaceholder\\ClearableTextBox.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:30:30.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClearableTextBox.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\ClearableTextBox.xaml",
+              "RelativeDocumentMoniker": "EjemploPlaceholder\\ClearableTextBox.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\ClearableTextBox.xaml",
+              "RelativeToolTip": "EjemploPlaceholder\\ClearableTextBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-21T08:30:30.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EjemploPlaceholder\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA05\\EJEMPLOS\\EjemploPlaceholder\\EjemploPlaceholder\\EjemploPlaceholder\\MainWindow.xaml",
+              "RelativeToolTip": "EjemploPlaceholder\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-21T08:30:30.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

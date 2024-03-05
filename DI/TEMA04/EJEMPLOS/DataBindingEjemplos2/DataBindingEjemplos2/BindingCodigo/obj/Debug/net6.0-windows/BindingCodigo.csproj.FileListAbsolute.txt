@@ -1,0 +1,41 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\refint\BindingCodigo.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\ref\BindingCodigo.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.exe
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.deps.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\bin\Debug\net6.0-windows\BindingCodigo.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\refint\BindingCodigo.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\BindingCodigo.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\BindingCodigo\obj\Debug\net6.0-windows\ref\BindingCodigo.dll

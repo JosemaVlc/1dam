@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2924BD22-BE6B-481B-B109-4DC7925CA887}|SerializacionXML\\SerializacionXML.csproj|e:\\asignaturas\\di\\tema04\\ejemplos\\databindingejemplos\\databindingejemplos\\serializacionxml\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2924BD22-BE6B-481B-B109-4DC7925CA887}|SerializacionXML\\SerializacionXML.csproj|solutionrelative:serializacionxml\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2924BD22-BE6B-481B-B109-4DC7925CA887}|SerializacionXML\\SerializacionXML.csproj|e:\\asignaturas\\di\\tema04\\ejemplos\\databindingejemplos\\databindingejemplos\\serializacionxml\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2924BD22-BE6B-481B-B109-4DC7925CA887}|SerializacionXML\\SerializacionXML.csproj|solutionrelative:serializacionxml\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E87CE092-9932-40C9-BB6D-95A97D2ABB31}|DataBindingEjemplos\\DataBindingEjemplos.csproj|e:\\asignaturas\\di\\tema04\\ejemplos\\databindingejemplos\\databindingejemplos\\databindingejemplos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E87CE092-9932-40C9-BB6D-95A97D2ABB31}|DataBindingEjemplos\\DataBindingEjemplos.csproj|solutionrelative:databindingejemplos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E87CE092-9932-40C9-BB6D-95A97D2ABB31}|DataBindingEjemplos\\DataBindingEjemplos.csproj|e:\\asignaturas\\di\\tema04\\ejemplos\\databindingejemplos\\databindingejemplos\\databindingejemplos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E87CE092-9932-40C9-BB6D-95A97D2ABB31}|DataBindingEjemplos\\DataBindingEjemplos.csproj|solutionrelative:databindingejemplos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\SerializacionXML\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SerializacionXML\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\SerializacionXML\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SerializacionXML\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:20:41.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\SerializacionXML\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SerializacionXML\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\SerializacionXML\\MainWindow.xaml",
+              "RelativeToolTip": "SerializacionXML\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-21T09:20:38.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\DataBindingEjemplos\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataBindingEjemplos\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\DataBindingEjemplos\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataBindingEjemplos\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T13:03:57.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\DataBindingEjemplos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DataBindingEjemplos\\MainWindow.xaml",
+              "ToolTip": "E:\\ASIGNATURAS\\DI\\TEMA04\\EJEMPLOS\\DataBindingEjemplos\\DataBindingEjemplos\\DataBindingEjemplos\\MainWindow.xaml",
+              "RelativeToolTip": "DataBindingEjemplos\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-20T13:03:54.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

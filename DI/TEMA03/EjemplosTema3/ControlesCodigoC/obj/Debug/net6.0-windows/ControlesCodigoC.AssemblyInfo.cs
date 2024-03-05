@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControlesCodigoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c24fe7f61d90dbbf697e2d8e71ceb39f94f0dd1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControlesCodigoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControlesCodigoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

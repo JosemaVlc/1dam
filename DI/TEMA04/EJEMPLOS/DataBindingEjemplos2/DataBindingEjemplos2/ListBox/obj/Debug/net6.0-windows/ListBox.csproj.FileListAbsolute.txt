@@ -1,0 +1,41 @@
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.exe
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.deps.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.runtimeconfig.json
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\App.g.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox_MarkupCompile.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox_MarkupCompile.lref
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.g.resources
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.AssemblyInfoInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.AssemblyInfo.cs
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.csproj.CoreCompileInputs.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\refint\ListBox.dll
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.pdb
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.genruntimeconfig.cache
+E:\Archivos de programa\OneDrive - Conselleria d'Educació\Materiales Fran\Curso 23-24\DI - 2 DAM\repos\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ref\ListBox.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.exe
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.deps.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.runtimeconfig.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\bin\Debug\net6.0-windows\ListBox.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\App.g.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox_MarkupCompile.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox_MarkupCompile.lref
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\MainWindow.baml
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.g.resources
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.AssemblyInfoInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.AssemblyInfo.cs
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.csproj.CoreCompileInputs.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.sourcelink.json
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\refint\ListBox.dll
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.pdb
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ListBox.genruntimeconfig.cache
+E:\ASIGNATURAS\DI\TEMA04\EJEMPLOS\DataBindingEjemplos2\DataBindingEjemplos2\ListBox\obj\Debug\net6.0-windows\ref\ListBox.dll
