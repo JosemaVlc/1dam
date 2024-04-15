@@ -9,7 +9,7 @@ public class Main {
 		
 		// loop for the menu until option zero is pressed.
 		do {
-			System.out.println("""					
+                        System.out.println("""					
 					*****
 					MENU
 					*****

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+body{
+    background-color: grey;
+    height: 100%;
+}
+header > div{
+    margin: 0px auto;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+header > div > img{
+    padding-top: 5px;
+    padding-left: 120px;
+    float: left;
+}
+header > div > h1{
+    margin: 0px 100px;
+}
+form{
+    margin: 0px auto;
+    width: 710px;
+    text-align: center;
+}
+form > label {
+    font-family:  'League Gothic', sans-serif, Tahoma, Geneva;
+    width: 400px;
+    text-align: center;
+}
+p{
+    font-family:  'League Gothic', sans-serif, Tahoma, Geneva;
+}
+form > input {
+    text-align: center;
+    width: 710px;   
+    background-color: grey; 
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+.copias{
+    width: 50px;
+
+}
+.boton{
+    background-image: radial-gradient(circle closest-side at center, #272727, #5a5a5a);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
